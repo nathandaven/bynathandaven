@@ -23,10 +23,8 @@ export default async function Post({ params }: Params) {
     <main>
       {/* <Alert preview={post.preview} /> */}
       <Wrapper metadata={post}>
-        {/* <article className="mb-32"> */}
         {/* <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} author={post.author} /> */}
         <PostBody content={content} />
-        {/* </article> */}
       </Wrapper>
     </main>
   );

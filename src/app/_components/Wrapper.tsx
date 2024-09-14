@@ -26,7 +26,7 @@ export const Wrapper: FunctionComponent<PropsWithChildren> = ({ children, classN
         </a>
       </p>
       <div className="flex flex-row">
-        <article className="prose prose-gray dark:prose-invert prose-h1:text-5xl mx-auto mb-10 w-full max-w-none border-spacing-1 border border-black p-3 pb-5 leading-6 dark:border-gray-200">
+        <article className="prose prose-gray mx-auto mb-10 w-full max-w-none border-spacing-1 border border-black p-3 pb-5 leading-6 dark:prose-invert prose-h1:text-5xl dark:border-gray-200">
           {/* Tag Generation */}
           {metadata?.tags && metadata?.tags.length > 0 ? (
             <>
