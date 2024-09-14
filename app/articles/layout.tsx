@@ -8,14 +8,14 @@ export default async function Layout({ children }: { children: React.ReactNode }
   const slug = headers().get("x-next-article-slug") as string;
   const article = await getArticleBySlug(slug);
   const { metadata } = article;
-  const image = metadata.image;
+  const thumbnail = metadata.thumbnail;
 
   return (
     <Wrapper metadata={metadata}>
       {/* {image && (
         <div className="flex max-h-[60vh] justify-center">
           <Image
-            src={image}
+            src={thumbnail}
             alt={String(metadata.title)}
             width={1200}
             height={630}
@@ -23,7 +23,7 @@ export default async function Layout({ children }: { children: React.ReactNode }
           />
         </div>
       )} */}
-      
+
       {/* <ArticleInfo article={article} className="" /> */}
       {children}
     </Wrapper>
