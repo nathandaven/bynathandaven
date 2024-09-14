@@ -11,8 +11,8 @@ const config: Config = {
     /* Annoying workaround for variable font weights... */
     fontFamily: {
       sans: ["Inter", "ui-sans-serif", "system-ui"],
-      serif: ["ui-serif", "Georgia"],
-      mono: ["ui-monospace", "SFMono-Regular"],
+      /* serif: ["ui-serif", "Georgia"], */
+      /* mono: ["ui-monospace", "SFMono-Regular"], */
       "display-light": [
         "Inter, sans-serif",
         {

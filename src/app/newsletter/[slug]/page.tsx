@@ -8,6 +8,7 @@ import Container from "@/app/_components/container";
 import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
 import { PostHeader } from "@/app/_components/post-header";
+import { Wrapper } from "@/app/_components/Wrapper";
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
@@ -20,19 +21,13 @@ export default async function Post({ params }: Params) {
 
   return (
     <main>
-      <Alert preview={post.preview} />
-      <Container>
-        <Header />
-        <article className="mb-32">
-          <PostHeader
-            title={post.title}
-            coverImage={post.coverImage}
-            date={post.date}
-            author={post.author}
-          />
-          <PostBody content={content} />
-        </article>
-      </Container>
+      {/* <Alert preview={post.preview} /> */}
+      <Wrapper metadata={post}>
+        {/* <article className="mb-32"> */}
+        {/* <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} author={post.author} /> */}
+        <PostBody content={content} />
+        {/* </article> */}
+      </Wrapper>
     </main>
   );
 }
@@ -56,7 +51,7 @@ export function generateMetadata({ params }: Params): Metadata {
     title,
     openGraph: {
       title,
-      images: [post.ogImage.url],
+      images: [post.ogImage?.url ?? ""],
     },
   };
 }

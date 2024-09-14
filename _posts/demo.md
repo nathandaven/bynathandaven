@@ -1,18 +1,22 @@
 ---
-title: "What Happened to Downtown Atlanta?"
-slug: "what-happened-to-downtown-atlanta"
-description: "A short MDX blog post."
-tags:
-  - "Transportation"
-  - "Atlanta"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/demo/thumb.png"
-date: "2020-03-16T05:35:07.322Z"
+title: What Happened to Downtown Atlanta?
+slug: what-happened-to-downtown-atlanta
+description: A short MDX blog post.
+coverImage: /assets/blog/demo/thumb.png
+date: 2024-09-14T04:45:29.175Z
 author:
-  name: JJ Kasper
-  picture: "/assets/blog/authors/nathan.jpeg"
+  name: Nathan Davenport
+  picture: /assets/blog/authors/nathan.jpeg
 ogImage:
-  url: "/assets/blog/demo/thumb.png"
+  url: /assets/blog/demo/thumb.png
+keywords:
+  - atlanta
+  - transportation
+tags:
+  - atlanta
+  - transportation
+categories:
+  - atlanta
 ---
 
 ![Thumbnail Example](/assets/blog/demo/thumb.png)

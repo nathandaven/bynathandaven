@@ -19,6 +19,7 @@
     "remark-html": "^16.0.1"
   },
   "devDependencies": {
+    "@next/third-parties": "^14.2.3",
     "@tailwindcss/typography": "^0.5.15",
     "@types/node": "^22.5.5",
     "@types/react": "^18.3.3",

@@ -94,5 +94,6 @@
       "path": "[[workspace]]/_posts"
     }
   ],
-  "frontMatter.git.enabled": true
+  "frontMatter.git.enabled": true,
+  "frontMatter.framework.startCommand": "yarn dev"
 }
