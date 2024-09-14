@@ -8,37 +8,56 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-      colors: {
-        "accent-1": "#FAFAFA",
-        "accent-2": "#EAEAEA",
-        "accent-7": "#333",
-        success: "#0070f3",
-        cyan: "#79FFE1",
-      },
-      spacing: {
-        28: "7rem",
-      },
-      letterSpacing: {
-        tighter: "-.04em",
-      },
-      fontSize: {
-        "5xl": "2.5rem",
-        "6xl": "2.75rem",
-        "7xl": "4.5rem",
-        "8xl": "6.25rem",
-      },
-      boxShadow: {
-        sm: "0 5px 10px rgba(0, 0, 0, 0.12)",
-        md: "0 8px 30px rgba(0, 0, 0, 0.12)",
-      },
+    /* Annoying workaround for variable font weights... */
+    fontFamily: {
+      sans: ["Inter", "ui-sans-serif", "system-ui"],
+      serif: ["ui-serif", "Georgia"],
+      mono: ["ui-monospace", "SFMono-Regular"],
+      "display-light": [
+        "Inter, sans-serif",
+        {
+          fontVariationSettings: '"wght" 300',
+        },
+      ],
+      "display-normal": [
+        "Inter, sans-serif",
+        {
+          fontVariationSettings: '"wght" 400',
+        },
+      ],
+      "display-medium": [
+        "Inter, sans-serif",
+        {
+          fontVariationSettings: '"wght" 500',
+        },
+      ],
+      "display-semibold": [
+        "Inter, sans-serif",
+        {
+          fontVariationSettings: '"wght" 600',
+        },
+      ],
+      "display-bold": [
+        "Inter, sans-serif",
+        {
+          fontVariationSettings: '"wght" 700',
+        },
+      ],
+      "display-extrabold": [
+        "Inter, sans-serif",
+        {
+          fontVariationSettings: '"wght" 800',
+        },
+      ],
+      "display-black": [
+        "Inter, sans-serif",
+        {
+          fontVariationSettings: '"wght" 900',
+        },
+      ],
     },
+    extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
 export default config;
