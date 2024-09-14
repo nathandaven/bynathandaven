@@ -1,10 +1,13 @@
 import AllArticles from "components/AllArticles";
+import { Meta } from "components/Meta";
+import { Wrapper } from "components/Wrapper";
 
 export default async function Page() {
   return (
-    <div className="m-4 sm:m-8">
-      <h1 className="mb-20 text-center text-4xl font-bold">All Articles:</h1>
+    <Wrapper>
+
+<Meta />
       <AllArticles />
-    </div>
+    </Wrapper>
   );
 }

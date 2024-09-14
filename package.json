@@ -12,8 +12,13 @@
     "prettify": "prettier --write ."
   },
   "dependencies": {
+    "@fontsource/inter": "^5.1.0",
     "@mdx-js/loader": "^3.0.1",
     "@next/mdx": "^14.2.11",
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
+    "clsx": "^2.1.1",
+    "eslint": "^9.10.0",
     "eslint-config-next": "^14.2.11",
     "next": "^14.2.11",
     "react": "^18.3.1",
@@ -21,9 +26,11 @@
     "react-syntax-highlighter": "^15.5.0",
     "reading-time": "^1.5.0",
     "sharp": "^0.33.5",
-    "simple-functional-loader": "^1.2.1"
+    "simple-functional-loader": "^1.2.1",
+    "tailwind-merge": "^2.5.2"
   },
   "devDependencies": {
+    "@next/third-parties": "^14.2.3",
     "@tailwindcss/typography": "^0.5.15",
     "@types/mdx": "^2.0.13",
     "@types/node": "22.5.4",

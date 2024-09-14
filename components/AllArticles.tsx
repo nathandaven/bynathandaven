@@ -17,13 +17,13 @@ export default async function AllArticles() {
           <Link
             key={title}
             href={"/articles/" + article.slug}
-            className="flex flex-col overflow-hidden rounded shadow-lg transition-shadow duration-200 hover:shadow-xl"
+            className="flex border-spacing-1 flex-col overflow-hidden rounded border border-black no-underline"
           >
             {metadata.image && <Image className="h-48 w-full object-cover" src={metadata.image} alt={title} />}
             <div className="px-6 py-4">
               <ArticleInfo article={article} className="-mt-2 mb-2 text-xs" />
-              <div className="mb-2 text-xl font-bold">{title}</div>
-              <p className="text-base text-gray-700">{metadata.description}</p>
+              <div className="">{title}</div>
+              <p className="">{metadata.description}</p>
             </div>
           </Link>
         );
