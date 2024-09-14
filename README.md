@@ -1,6 +1,6 @@
 ## Nathan Davenport Homepage
 
-Remaking my personal portfolio site. 
+Remaking my personal portfolio site.
 
 ### Goals:
 
@@ -37,4 +37,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Email: [nathandaven@gmail.com](mailto:nathandaven@gmail.com)
 
 # Special Thanks
-https://github.com/beeinger/next-mdx-blog for assistance with the mdx implementation 
+
+Vercel [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript
+
+# Notes
+
+`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
