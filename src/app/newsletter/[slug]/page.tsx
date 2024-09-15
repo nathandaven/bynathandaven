@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
-import { CMS_NAME } from "@/lib/constants";
 import markdownToHtml from "@/lib/markdownToHtml";
-import { PostBody } from "@/app/_components/post-body";
-import { PostHeader } from "@/app/_components/post-header";
-import { Wrapper } from "@/app/_components/Wrapper";
+import { PostBody } from "@/app/_components/ArticleBody";
+import { Comments } from "@/app/_components/Comments";
+import { Container } from "@/app/_components/Container";
+import { Article } from "@/app/_components/Article";
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
@@ -19,10 +19,18 @@ export default async function Post({ params }: Params) {
   return (
     <main>
       {/* <Alert preview={post.preview} /> */}
-      <Wrapper metadata={post}>
-        {/* <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} author={post.author} /> */}
-        <PostBody content={content} />
-      </Wrapper>
+      <Container title="Newsletter">
+        <Article metadata={post}>
+          {/* <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} author={post.author} /> */}
+          <PostBody content={content} />
+          <Comments
+            className="mt-10 w-full border border-b-0 border-l-0 border-r-0 border-black"
+            pageId={params.slug ?? ""}
+            pageTitle={params.slug ?? ""}
+            pageUrl={params.slug ? "http://localhost:3000/newsletter/" + params.slug + "/" : "http://localhost:3000/"}
+          />
+        </Article>
+      </Container>
     </main>
   );
 }
@@ -40,7 +48,7 @@ export function generateMetadata({ params }: Params): Metadata {
     return notFound();
   }
 
-  const title = `${post.title} | Next.js Blog Example with ${CMS_NAME}`;
+  const title = `${post.title} | Newsletter by Nathan Davenport`;
 
   return {
     title,

@@ -1,4 +1,5 @@
 import React, { FunctionComponent, ReactNode } from "react";
+import cn from "classnames";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -11,8 +12,10 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
   return (
     <div
       className={
-        /* "m-5 border border-black border-spacing-1" */ "mx-auto flex max-w-3xl space-y-2" /* border border-l-0 border-y-0 border-black border-spacing-1 */ +
-        className
+        /* "m-5 border border-black border-spacing-1" */ cn(
+          className,
+          "mx-auto flex max-w-3xl space-y-2",
+        ) /* border border-l-0 border-y-0 border-black border-spacing-1 */
       }
     >
       <ul className="">
