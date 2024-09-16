@@ -1,14 +1,12 @@
 ---
-title: What happened to Downtown Atlanta?
-slug: what-happened-to-downtown-atlanta
+title: Sample Article
+slug: sample-article
 description: A short MDX blog post.
-coverImage: /assets/blog/demo/thumb.png
+coverImage: /assets/articles/demo/moon.jpg
 date: 2024-09-14T04:45:29.175Z
 author:
   name: Nathan Davenport
-  picture: /assets/blog/authors/nathan.jpeg
-ogImage:
-  url: /assets/blog/demo/thumb.png
+  picture: /assets/authors/nathan.jpeg
 keywords:
   - atlanta
   - transportation
@@ -17,9 +15,10 @@ tags:
   - transportation
 categories:
   - atlanta
+fmContentType: article
 ---
 
-![Thumbnail Example](/assets/blog/demo/thumb.png)
+![Thumbnail Example](/assets/articles/demo/thumb.png)
 
 Ea Lorem consectetur aliquip quis qui aute. Nisi aliqua nulla dolore pariatur nostrud commodo. Consequat ullamco consequat eu esse reprehenderit elit consectetur commodo velit magna. Fugiat dolor consequat esse. Proident laborum quis ex cillum. Non ad adipisicing elit enim proident. Deserunt consequat culpa nostrud proident sint excepteur aute.
 

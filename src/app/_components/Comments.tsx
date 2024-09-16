@@ -1,6 +1,6 @@
 "use client";
 import { getAllPosts } from "@/lib/api";
-import React, { FunctionComponent, ReactNode } from "react";
+import React, { FunctionComponent, ReactNode, useEffect, useState } from "react";
 import { ReactCusdis } from "react-cusdis";
 import commentsStyles from "./Comments.module.css";
 
@@ -8,27 +8,35 @@ import commentsStyles from "./Comments.module.css";
 type PropsWithChildren<P = unknown> = P & {
   children?: ReactNode;
   className?: string;
+  appId: string;
   pageId: string;
   pageTitle: string;
   pageUrl: string;
 };
 
 // exporting component with OPTIONAL children
-export const Comments: FunctionComponent<PropsWithChildren> = ({ className, pageId, pageTitle, pageUrl }) => {
+const Comments: FunctionComponent<PropsWithChildren> = ({ className, appId, pageId, pageTitle, pageUrl }) => {
   return (
-    <div id={pageId} className={"" + className}>
-      <h2>Comments</h2>
-      <ReactCusdis
-        style={commentsStyles}
-        attrs={{
-          host: "https://cusdis.com",
-          appId: process.env.CUSDIS_APP_ID ?? "",
-          pageId: pageId,
-          pageTitle: pageTitle,
-          pageUrl: pageUrl,
-          theme: "auto",
-        }}
-      />
-    </div>
+    appId &&
+    pageId &&
+    pageTitle &&
+    pageUrl && (
+      <div id={pageId} className={"" + className}>
+        <h2>Comments</h2>
+        <ReactCusdis
+          style={commentsStyles}
+          attrs={{
+            host: "https://cusdis.com",
+            appId: appId,
+            pageId: pageId,
+            pageTitle: pageTitle,
+            pageUrl: pageUrl,
+            theme: "auto",
+          }}
+        />
+      </div>
+    )
   );
 };
+
+export default Comments;

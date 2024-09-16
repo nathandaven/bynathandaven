@@ -1,14 +1,20 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllPosts, getPostBySlug } from "@/lib/api";
+import { getAllPosts, getPostBySlug, getPostDirByType } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { PostBody } from "@/app/_components/ArticleBody";
-import { Comments } from "@/app/_components/Comments";
 import { Container } from "@/app/_components/Container";
 import { Article } from "@/app/_components/Article";
 
+// Load client side comments
+import dynamic from "next/dynamic";
+const Comments = dynamic(() => import("@/app/_components/Comments"), {
+  ssr: false,
+  loading: () => <p>Loading...</p>,
+});
+
 export default async function Post({ params }: Params) {
-  const post = getPostBySlug(params.slug);
+  const post = getPostBySlug(params.slug, getPostDirByType(params.type));
 
   if (!post) {
     return notFound();
@@ -19,16 +25,21 @@ export default async function Post({ params }: Params) {
   return (
     <main>
       {/* <Alert preview={post.preview} /> */}
-      <Container title="Newsletter">
+      <Container title={params.type}>
         <Article metadata={post}>
           {/* <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} author={post.author} /> */}
           <PostBody content={content} />
-          <Comments
-            className="mt-10 w-full border border-b-0 border-l-0 border-r-0 border-black"
-            pageId={params.slug ?? ""}
-            pageTitle={params.slug ?? ""}
-            pageUrl={params.slug ? "http://localhost:3000/newsletter/" + params.slug + "/" : "http://localhost:3000/"}
-          />
+          {params.type != "general" && (
+            <Comments
+              className="mt-10 w-full border border-b-0 border-l-0 border-r-0 border-black"
+              appId={process.env.CUSDIS_APP_ID_SECRET ?? ""}
+              pageId={params.slug ?? ""}
+              pageTitle={params.slug ?? ""}
+              pageUrl={
+                params.slug ? "http://localhost:3000/" + params.type + params.slug + "/" : "http://localhost:3000/"
+              }
+            />
+          )}
         </Article>
       </Container>
     </main>
@@ -38,11 +49,12 @@ export default async function Post({ params }: Params) {
 type Params = {
   params: {
     slug: string;
+    type: string;
   };
 };
 
 export function generateMetadata({ params }: Params): Metadata {
-  const post = getPostBySlug(params.slug);
+  const post = getPostBySlug(params.slug, getPostDirByType(params.type));
 
   if (!post) {
     return notFound();
@@ -54,7 +66,7 @@ export function generateMetadata({ params }: Params): Metadata {
     title,
     openGraph: {
       title,
-      images: [post.ogImage?.url ?? ""],
+      images: [post.coverImage ?? ""], // move back to ogImage { url: ""}
     },
   };
 }
@@ -62,7 +74,10 @@ export function generateMetadata({ params }: Params): Metadata {
 export async function generateStaticParams() {
   const posts = getAllPosts();
 
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+  return posts.map((post) => {
+    return {
+      slug: post.slug,
+      type: post.fmContentType,
+    };
+  });
 }

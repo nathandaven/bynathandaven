@@ -1,18 +1,18 @@
 import { type Author } from "./author";
+import { ContentTypeEnum } from "./contentType";
 
 export type Post = {
-  slug?: string;
-  title?: string;
-  date?: string;
-  coverImage?: string;
-  author?: Author;
-  excerpt?: string;
-  ogImage?: {
-    url?: string;
-  };
-  content?: string;
-  preview?: boolean;
+  // Required
+  slug: string;
+  title: string;
+  date: string;
+  coverImage: string;
+  fmContentType: ContentTypeEnum;
+  author: Author;
+  content: string;
+  // Optional
   tags?: string[];
   keywords?: string[];
   categories?: string[];
+  excerpt?: string;
 };

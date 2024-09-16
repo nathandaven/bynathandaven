@@ -19,11 +19,14 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
       }
     >
       <ul className="">
-        <a href="newsletter/demo" className="mb-2 mr-2">
+        <a href="/" className="mb-2 mr-2">
           Newsletter
         </a>
         <a href="/" className="mx-2 my-2">
           Albums
+        </a>
+        <a href="/" className="mx-2 my-2">
+          Services
         </a>
         <a href="/" className="mx-2 my-2">
           Press

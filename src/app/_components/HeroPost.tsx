@@ -22,12 +22,12 @@ export function HeroPost({ title, coverImage, date, excerpt, author, contentType
   return (
     <section className={classNames("", className)}>
       <div className="">
-        <CoverImage title={title} src={coverImage} slug={slug} />
+        <CoverImage title={title} src={coverImage} slug={slug} type={contentType} />
       </div>
       <div className="mt-2 flex justify-between gap-x-2">
         <div className="">
           <h3 className="bold my-0">
-            <a href={`/newsletter/${slug}`} className="text-bold my-0 py-0 no-underline">
+            <a href={`/${contentType}/${slug}`} className="text-bold my-0 py-0 no-underline">
               <b>{title}</b>
               <i className="ml-1 text-sm font-normal">{contentType}</i>
             </a>

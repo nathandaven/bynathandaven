@@ -2,36 +2,57 @@
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
   "frontMatter.taxonomy.contentTypes": [
     {
-      "name": "default",
+      "name": "article",
       "pageBundle": false,
       "previewPath": null,
       "fields": [
         {
-          "title": "Title",
-          "name": "title",
-          "type": "string"
+          "title": "Hero Metadata",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
         },
         {
-          "title": "Description",
-          "name": "description",
-          "type": "string"
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Slug",
+          "name": "slug",
+          "type": "slug",
+          "default": "{{slug}}",
+          "required": true
         },
         {
           "title": "Publishing date",
           "name": "date",
           "type": "datetime",
           "default": "{{now}}",
-          "isPublishDate": true
+          "isPublishDate": true,
+          "required": true
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
+          "title": "Cover Image",
+          "name": "coverImage",
+          "type": "image",
+          "required": true,
+          "default": "/assets/default-thumbnail-light.png"
+        },
+        {
+          "title": "Detailed Metadata",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
         },
         {
           "title": "Is in draft",
           "name": "draft",
           "type": "draft"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
         },
         {
           "title": "Tags",
@@ -44,43 +65,355 @@
           "type": "categories"
         },
         {
-          "title": "excerpt",
+          "title": "Excerpt",
           "name": "excerpt",
           "type": "string"
-        },
-        {
-          "title": "coverImage",
-          "name": "coverImage",
-          "type": "image"
         },
         {
           "title": "author",
           "name": "author",
           "type": "fields",
+          "hidden": true,
           "fields": [
             {
               "title": "name",
               "name": "name",
-              "type": "string"
+              "type": "string",
+              "default": "Nathan Davenport"
             },
             {
               "title": "picture",
               "name": "picture",
-              "type": "string"
+              "type": "string",
+              "default": "/assets/authors/nathan.jpeg"
             }
           ]
         },
         {
-          "title": "ogImage",
-          "name": "ogImage",
+          "title": "Article Data",
+          "name": "sectionTitleWithDescription",
+          "description": "Linked videos and articles and Article specific metadata",
+          "type": "heading"
+        },
+        {
+          "title": "Excerpt",
+          "name": "excerpt",
+          "type": "string"
+        },
+        {
+          "title": "Linked Video",
+          "name": "linkedVideo",
+          "type": "contentRelationship",
+          "contentTypeName": "video"
+        },
+        {
+          "title": "Linked Album",
+          "name": "linkedAlbum",
+          "type": "contentRelationship",
+          "contentTypeName": "album"
+        }
+      ]
+    },
+    {
+      "name": "general",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Hero Metadata",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Slug",
+          "name": "slug",
+          "type": "slug",
+          "default": "{{slug}}",
+          "required": true
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "required": true
+        },
+        {
+          "title": "Cover Image",
+          "name": "coverImage",
+          "type": "image",
+          "required": true,
+          "default": "/assets/default-thumbnail-light.png"
+        },
+        {
+          "title": "Detailed Metadata",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "Excerpt",
+          "name": "excerpt",
+          "type": "string"
+        },
+        {
+          "title": "author",
+          "name": "author",
           "type": "fields",
+          "hidden": true,
           "fields": [
             {
-              "title": "url",
-              "name": "url",
-              "type": "string"
+              "title": "name",
+              "name": "name",
+              "type": "string",
+              "default": "Nathan Davenport"
+            },
+            {
+              "title": "picture",
+              "name": "picture",
+              "type": "string",
+              "default": "/assets/authors/nathan.jpeg"
             }
           ]
+        },
+        {
+          "title": "Article Data",
+          "name": "sectionTitleWithDescription",
+          "description": "Linked videos and articles and Article specific metadata",
+          "type": "heading"
+        },
+        {
+          "title": "Excerpt",
+          "name": "excerpt",
+          "type": "string"
+        },
+        {
+          "title": "Linked Video",
+          "name": "linkedVideo",
+          "type": "contentRelationship",
+          "contentTypeName": "video"
+        },
+        {
+          "title": "Linked Album",
+          "name": "linkedAlbum",
+          "type": "contentRelationship",
+          "contentTypeName": "album"
+        }
+      ]
+    },
+    {
+      "name": "album",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Hero Metadata",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Slug",
+          "name": "slug",
+          "type": "slug",
+          "default": "{{slug}}",
+          "required": true
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "required": true
+        },
+        {
+          "title": "Cover Image",
+          "name": "coverImage",
+          "type": "image",
+          "required": true,
+          "default": "/assets/default-thumbnail-light.png"
+        },
+        {
+          "title": "Detailed Metadata",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "fields",
+          "hidden": true,
+          "fields": [
+            {
+              "title": "name",
+              "name": "name",
+              "type": "string",
+              "default": "Nathan Davenport"
+            },
+            {
+              "title": "picture",
+              "name": "picture",
+              "type": "string",
+              "default": "/assets/authors/nathan.jpeg"
+            }
+          ]
+        },
+        {
+          "title": "Album Data",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
+        },
+        {
+          "title": "Path to Photo Album Folder",
+          "name": "albumPath",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "video",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Hero Metadata",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string",
+          "required": true
+        },
+        {
+          "title": "Slug",
+          "name": "slug",
+          "type": "slug",
+          "default": "{{slug}}",
+          "required": true
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true,
+          "required": true
+        },
+        {
+          "title": "Cover Image",
+          "name": "coverImage",
+          "type": "image",
+          "required": true
+          /* "default": "/assets/default-thumbnail-light.png" */
+        },
+        {
+          "title": "Detailed Metadata",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "fields",
+          "hidden": true,
+          "fields": [
+            {
+              "title": "name",
+              "name": "name",
+              "type": "string",
+              "default": "Nathan Davenport"
+            },
+            {
+              "title": "picture",
+              "name": "picture",
+              "type": "string",
+              "default": "/assets/authors/nathan.jpeg"
+            }
+          ]
+        },
+        {
+          "title": "Video Data",
+          "name": "sectionTitleWithoutDescription",
+          "type": "heading"
+        },
+        {
+          "title": "YouTube Link",
+          "name": "youtubeLink",
+          "type": "string"
         }
       ]
     }
@@ -90,10 +423,27 @@
   "frontMatter.preview.host": "http://localhost:3000",
   "frontMatter.content.pageFolders": [
     {
-      "title": "Posts",
-      "path": "[[workspace]]/_posts"
+      "title": "Albums",
+      "path": "[[workspace]]/_CONTENT_/album",
+      "contentTypes": ["album"]
+    },
+    {
+      "title": "Articles",
+      "path": "[[workspace]]/_CONTENT_/article",
+      "contentTypes": ["article"]
+    },
+    {
+      "title": "General",
+      "path": "[[workspace]]/_CONTENT_/general",
+      "contentTypes": ["general"]
+    },
+    {
+      "title": "Videos",
+      "path": "[[workspace]]/_CONTENT_/video",
+      "contentTypes": ["video"]
     }
   ],
   "frontMatter.git.enabled": true,
-  "frontMatter.framework.startCommand": "yarn dev"
+  "frontMatter.framework.startCommand": "yarn dev",
+  "frontMatter.website.host": "nathandaven.com"
 }
