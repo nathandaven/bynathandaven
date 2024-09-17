@@ -1,12 +1,13 @@
 import { type Author } from "./author";
 import { ContentTypeEnum } from "./contentType";
+import { Photo } from "./photo";
 
 export type Post = {
   // Required
   slug: string;
   title: string;
   date: string;
-  coverImage: string;
+  preview: string;
   fmContentType: ContentTypeEnum;
   author: Author;
   content: string;
@@ -15,4 +16,7 @@ export type Post = {
   keywords?: string[];
   categories?: string[];
   excerpt?: string;
+  // Album
+  albumPath?: string;
+  photoList?: Photo[];
 };

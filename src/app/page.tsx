@@ -6,7 +6,6 @@ import { parseISO, format } from "date-fns";
 import { Container } from "./_components/Container";
 import { Article } from "./_components/Article";
 import { ContentTypeEnum } from "@/interfaces/contentType";
-import { TextFit } from "./_components/TextFit";
 import { revalidatePath } from "next/cache";
 import HeaderSVG from "./_components/HeaderSVG";
 import MoreStories from "./_components/MoreStories";
@@ -29,7 +28,7 @@ export default function Index() {
       <SpeedInsights />
       <Container fullWidth={true}>
         <Article fullWidth={true} className="">
-          <HeaderSVG className={"hidden lg:block"} />
+          <HeaderSVG className={"color dark hidden lg:block"} />
           <HeaderSVGName className={"hidden max-lg:block"} />
           <p className="align mb-0 mt-0 hidden pb-0 pt-0 text-justify max-lg:block">
             Photographer, videographer, and software engineer located in Atlanta, Georgia. Passionate about visual
@@ -55,7 +54,7 @@ export default function Index() {
           {/* <HeroPost
             className="mb-10"
             title={heroPost.title ?? ""}
-            coverImage={heroPost.coverImage ?? ""}
+            preview={heroPost.preview ?? ""}
             date={heroPost.date ?? ""}
             author={heroPost.author ?? {}}
             slug={heroPost.slug ?? ""}

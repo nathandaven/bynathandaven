@@ -1,10 +1,13 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.alignFilename": true,
+  "frontMatter.dashboard.openOnStart": true,
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "article",
       "pageBundle": false,
-      "previewPath": null,
+      "previewPath": "/article",
+      "filePrefix": "",
       "fields": [
         {
           "title": "Hero Metadata",
@@ -33,11 +36,16 @@
           "required": true
         },
         {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
+        },
+        {
           "title": "Cover Image",
-          "name": "coverImage",
+          "name": "preview",
           "type": "image",
-          "required": true,
-          "default": "/assets/default-thumbnail-light.png"
+          "required": true
         },
         {
           "title": "Detailed Metadata",
@@ -117,7 +125,8 @@
     {
       "name": "general",
       "pageBundle": false,
-      "previewPath": null,
+      "previewPath": "/general",
+      "filePrefix": "",
       "fields": [
         {
           "title": "Hero Metadata",
@@ -133,9 +142,7 @@
         {
           "title": "Slug",
           "name": "slug",
-          "type": "slug",
-          "default": "{{slug}}",
-          "required": true
+          "type": "slug"
         },
         {
           "title": "Publishing date",
@@ -146,11 +153,16 @@
           "required": true
         },
         {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
+        },
+        {
           "title": "Cover Image",
-          "name": "coverImage",
+          "name": "preview",
           "type": "image",
-          "required": true,
-          "default": "/assets/default-thumbnail-light.png"
+          "required": true
         },
         {
           "title": "Detailed Metadata",
@@ -230,7 +242,8 @@
     {
       "name": "album",
       "pageBundle": false,
-      "previewPath": null,
+      "previewPath": "/album",
+      "filePrefix": "",
       "fields": [
         {
           "title": "Hero Metadata",
@@ -247,8 +260,7 @@
           "title": "Slug",
           "name": "slug",
           "type": "slug",
-          "default": "{{slug}}",
-          "required": true
+          "default": "{{slug}}"
         },
         {
           "title": "Publishing date",
@@ -259,11 +271,16 @@
           "required": true
         },
         {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
+        },
+        {
           "title": "Cover Image",
-          "name": "coverImage",
+          "name": "preview",
           "type": "image",
-          "required": true,
-          "default": "/assets/default-thumbnail-light.png"
+          "required": true
         },
         {
           "title": "Detailed Metadata",
@@ -325,7 +342,7 @@
     {
       "name": "video",
       "pageBundle": false,
-      "previewPath": null,
+      "previewPath": "/video",
       "fields": [
         {
           "title": "Hero Metadata",
@@ -342,8 +359,7 @@
           "title": "Slug",
           "name": "slug",
           "type": "slug",
-          "default": "{{slug}}",
-          "required": true
+          "default": "{{slug}}"
         },
         {
           "title": "Publishing date",
@@ -354,11 +370,16 @@
           "required": true
         },
         {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
+        },
+        {
           "title": "Cover Image",
-          "name": "coverImage",
+          "name": "preview",
           "type": "image",
           "required": true
-          /* "default": "/assets/default-thumbnail-light.png" */
         },
         {
           "title": "Detailed Metadata",

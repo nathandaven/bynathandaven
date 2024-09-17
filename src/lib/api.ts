@@ -1,7 +1,9 @@
+import { ContentTypeEnum } from "@/interfaces/contentType";
+import { Photo } from "@/interfaces/photo";
 import { Post } from "@/interfaces/post";
 import fs from "fs";
 import matter from "gray-matter";
-import { join } from "path";
+import path, { join } from "path";
 
 const contentDirectory = join(process.cwd(), "_CONTENT_");
 
@@ -36,7 +38,13 @@ export function getPostBySlug(slug: string, dir: string) {
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  return { ...data, slug: realSlug, content } as Post;
+  const post = { ...data, slug: realSlug, content } as Post;
+
+  if (post.fmContentType.toString() == "album") {
+    post.photoList = parseAlbumPhotos(post);
+  }
+
+  return post;
 }
 
 export function getAllPosts(): Post[] {
@@ -55,4 +63,32 @@ export function getAllPosts(): Post[] {
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
 
   return allPosts;
+}
+
+export function parseAlbumPhotos(post: Post): Photo[] {
+  if (!post.albumPath && !post.slug) {
+    return [];
+  }
+  const albumDir = join(process.cwd(), "public/assets/albums/" + (post.albumPath ?? post.slug));
+
+  const album: Photo[] = [] as Photo[];
+
+  fs.readdirSync(albumDir).forEach((image) => {
+    const filepath = path.resolve(albumDir, image);
+    const acceptedExtensions: string[] = [".jpg", ".jpeg", ".png", ".gif", ".tiff", ".webm"];
+    const ext = path.parse(filepath).ext.toLowerCase();
+
+    // Filter accepted extensions
+    if (acceptedExtensions.includes(ext)) {
+      const photo: Photo = {
+        relativePath: "/assets/albums/" + post.albumPath + "/" + image,
+        filename: filepath ?? "",
+        album: albumDir ?? "",
+        caption: "",
+      };
+
+      album.push(photo);
+    }
+  });
+  return album;
 }

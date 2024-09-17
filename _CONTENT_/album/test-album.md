@@ -1,9 +1,9 @@
 ---
 sectionTitleWithoutDescription: ""
-title: about
-slug: "about"
-date: 2024-09-16T20:34:46.382Z
-preview: /assets/default-thumbnail-light.png
+title: Test Album
+slug: test-album
+date: 2024-09-16T19:25:55.955Z
+preview: /assets/articles/demo/img1.png
 draft: true
 description: ""
 tags: []
@@ -13,7 +13,8 @@ author:
   name: Nathan Davenport
   picture: /assets/authors/nathan.jpeg
 sectionTitleWithDescription: ""
-linkedVideo: ""
-linkedAlbum: ""
-fmContentType: general
+albumPath: "test-album"
+fmContentType: album
 ---
+
+This is a test photo album.

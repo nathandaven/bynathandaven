@@ -42,7 +42,7 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={cn(inter.className, "tracking-tighter")}>
+      <body className={cn(inter.className, "bg-[#f2f1ea] tracking-tighter dark:bg-[#0f0e0e]")}>
         <div className="min-h-screen">{children}</div>
         {/* <Footer /> */}
       </body>

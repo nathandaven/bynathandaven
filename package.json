@@ -15,14 +15,16 @@
     "date-fns": "^4.0.0-beta.1",
     "gray-matter": "^4.0.3",
     "next": "latest",
-    "polyton-react-textfit": "^1.1.2",
+    "prop-types": "^15.8.1",
     "react": "^18.3.1",
     "react-cusdis": "^2.1.3",
     "react-dom": "^18.3.1",
     "react-plock": "^3.2.0",
     "react-responsive-masonry": "2.1.7",
     "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "sharp": "^0.33.5",
+    "yet-another-react-lightbox": "^3.21.5"
   },
   "devDependencies": {
     "@next/third-parties": "^14.2.3",

@@ -2,7 +2,7 @@
 title: Sample Article
 slug: sample-article
 description: A short MDX blog post.
-coverImage: /assets/articles/demo/moon.jpg
+preview: /assets/articles/demo/moon.jpg
 date: 2024-09-14T04:45:29.175Z
 author:
   name: Nathan Davenport

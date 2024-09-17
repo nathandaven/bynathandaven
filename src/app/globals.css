@@ -2,14 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --background: #f2f1ea;
-}
+} */
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  /*   :root {
     --background: #0f0e0e;
-  }
+  } */
 
   html {
     color-scheme: dark;
@@ -20,7 +20,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background: var(--background);
+  /* background: var(--background); */
   /*  letter-spacing: -0.03rem */ /* -0.8px */
 }
 
@@ -30,6 +30,18 @@ a {
   cursor: pointer;
 }
 
-/* a:hover {
-  font-weight: bold;
-} */
+/* Lightbox Plugin Style Overrides*/
+
+.yarl__container {
+  background-color: #0f0e0e !important;
+}
+
+.yarl__button {
+  color: rgba(242, 241, 234, 0.25) !important;
+  transition: all !important;
+  transition-duration: 15ms !important;
+  filter: unset !important;
+}
+.yarl__button:hover {
+  color: rgba(242, 241, 234, 0.5) !important;
+}

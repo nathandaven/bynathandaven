@@ -2,7 +2,7 @@
 title: What happened to Downtown Atlanta?
 slug: what-happened-to-downtown-atlanta
 description: A short MDX blog post.
-coverImage: /assets/articles/demo/thumb.png
+preview: /assets/articles/demo/thumb.png
 date: 2024-09-14T04:45:29.175Z
 author:
   name: Nathan Davenport

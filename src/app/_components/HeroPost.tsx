@@ -1,5 +1,5 @@
 import Avatar from "@/app/_components/Avatar";
-import CoverImage from "@/app/_components/CoverImage";
+import PreviewImage from "@/app/_components/PreviewImage";
 import { type Author } from "@/interfaces/author";
 import Link from "next/link";
 import DateFormatter from "./date-formatter";
@@ -9,7 +9,7 @@ import { Button } from "./Button";
 
 type Props = {
   title: string;
-  coverImage: string;
+  preview: string;
   date: string;
   excerpt: string;
   author: Author;
@@ -18,11 +18,11 @@ type Props = {
   className?: string;
 };
 
-export function HeroPost({ title, coverImage, date, excerpt, author, contentType, slug, className }: Props) {
+export function HeroPost({ title, preview, date, excerpt, author, contentType, slug, className }: Props) {
   return (
     <section className={classNames("", className)}>
       <div className="">
-        <CoverImage title={title} src={coverImage} slug={slug} type={contentType} />
+        <PreviewImage title={title} src={preview} slug={slug} type={contentType} />
       </div>
       <div className="mt-2 flex justify-between gap-x-2">
         <div className="">

@@ -15,7 +15,7 @@ const loadingB = (
     <HeroPost
       key={"Loading"}
       title={"Loading"}
-      coverImage={"/assets/articles/demo/loading.png"}
+      preview={"/assets/articles/demo/loading.png"}
       date={"2024-09-14T04:45:29.175Z"}
       author={{ name: "Loading" }}
       slug={""}
@@ -48,7 +48,7 @@ function MoreStories({ posts, className }: Props) {
             <HeroPost
               key={post.slug}
               title={post.title ?? ""}
-              coverImage={post.coverImage ?? ""}
+              preview={post.preview ?? ""}
               date={post.date ?? ""}
               author={post.author ?? {}}
               slug={post.slug ?? ""}

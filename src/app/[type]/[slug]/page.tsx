@@ -8,9 +8,24 @@ import { Article } from "@/app/_components/Article";
 
 // Load client side comments
 import dynamic from "next/dynamic";
+import classNames from "classnames";
+
+const PhotoGrid = dynamic(() => import("@/app/_components/PhotoGrid"), {
+  ssr: false,
+  loading: () => (
+    <div key="test" className="align-center min-h-screen w-full text-center transition-all duration-75">
+      Loading...
+    </div>
+  ),
+});
+
 const Comments = dynamic(() => import("@/app/_components/Comments"), {
   ssr: false,
-  loading: () => <p>Loading...</p>,
+  loading: () => (
+    <div key="test" className="align-center min-h-screen w-full text-center transition-all duration-75">
+      Loading...
+    </div>
+  ),
 });
 
 export default async function Post({ params }: Params) {
@@ -25,13 +40,18 @@ export default async function Post({ params }: Params) {
   return (
     <main>
       {/* <Alert preview={post.preview} /> */}
-      <Container title={params.type}>
-        <Article metadata={post}>
-          {/* <PostHeader title={post.title} coverImage={post.coverImage} date={post.date} author={post.author} /> */}
+      <Container
+        title={params.type}
+        fullWidth={params.type == "album" ? true : false}
+        className={params.type == "album" ? "max-w-[150rem]" : ""}
+      >
+        <Article metadata={post} fullWidth={params.type == "album" ? true : false}>
           <PostBody content={content} />
+          {params.type == "album" && <PhotoGrid post={post} />}
+          {/* <PostHeader title={post.title} preview={post.preview} date={post.date} author={post.author} /> */}
           {params.type != "general" && (
             <Comments
-              className="mt-10 w-full border border-b-0 border-l-0 border-r-0 border-black"
+              className="mt-10 w-full border border-b-0 border-l-0 border-r-0 border-black dark:border-white"
               appId={process.env.CUSDIS_APP_ID_SECRET ?? ""}
               pageId={params.slug ?? ""}
               pageTitle={params.slug ?? ""}
@@ -66,7 +86,7 @@ export function generateMetadata({ params }: Params): Metadata {
     title,
     openGraph: {
       title,
-      images: [post.coverImage ?? ""], // move back to ogImage { url: ""}
+      images: [post.preview ?? ""], // move back to ogImage { url: ""}
     },
   };
 }

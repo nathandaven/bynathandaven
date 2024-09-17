@@ -2,7 +2,7 @@
 title: Is this future self-driving?
 slug: what-happened-to-downtown-atlanta
 description: What's the deal with self driving cars?
-coverImage: /assets/articles/demo/selfdriving.jpg
+preview: /assets/articles/demo/selfdriving.jpg
 date: 2024-09-14T04:45:29.175Z
 author:
   name: Nathan Davenport
@@ -15,7 +15,6 @@ tags:
   - transportation
 categories:
   - atlanta
-preview: null
 draft: false
 fmContentType: video
 ---

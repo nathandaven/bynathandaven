@@ -1,11 +1,12 @@
 ---
 sectionTitleWithoutDescription: ""
-title: Test Album
-slug: test-album
-date: 2024-09-16T19:25:55.955Z
-coverImage: /assets/articles/demo/img1.png
+title: test
+slug: test
+date: 2024-09-17T02:30:57.148Z
+lastmod: 2024-09-17T02:30:57.148Z
+preview: ""
 draft: true
-description: ""
+description: test
 tags: []
 categories: []
 excerpt: ""
@@ -13,6 +14,10 @@ author:
   name: Nathan Davenport
   picture: /assets/authors/nathan.jpeg
 sectionTitleWithDescription: ""
-albumPath: ""
-fmContentType: album
+linkedVideo: ""
+linkedAlbum: ""
+fmContentType: article
 ---
+
+asdasd
+asdasd
