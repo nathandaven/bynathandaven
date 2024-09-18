@@ -38,7 +38,9 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
         </p>
         <div className="flex flex-row">
           <div className="rotate-180 space-y-3 text-right text-xl [writing-mode:vertical-lr]">
-            <b className="text-xl">{title}</b> by Nathan Davenport
+            <a href="/">
+              <b className="text-xl">{title}</b> by Nathan Davenport
+            </a>
           </div>
           {children}
           {/* Sideways Nav */}
