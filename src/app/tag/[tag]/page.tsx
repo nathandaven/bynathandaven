@@ -26,7 +26,7 @@ export default function Tag({ params }: Params) {
   return (
     <main>
       <Container title={"Tags"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="min-h-[95vh]">
+        <Article metadata={TitlePost} className="">
           <List listItems={posts} showThumbnails={false} className="" />
         </Article>
       </Container>

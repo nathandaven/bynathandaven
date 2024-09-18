@@ -26,7 +26,7 @@ export default function Gallery() {
   return (
     <main>
       <Container title={"Gallery"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="min-h-[95vh]">
+        <Article metadata={TitlePost} className="">
           <List listItems={posts} showThumbnails={true} className={"grid grid-cols-2 gap-2"} />
         </Article>
       </Container>

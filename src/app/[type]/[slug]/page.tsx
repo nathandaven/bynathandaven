@@ -46,7 +46,7 @@ export default async function Post({ params }: Params) {
         fullWidth={params.type == "album" ? true : false}
         className={params.type == "album" ? "max-w-[150rem]" : ""}
       >
-        <Article metadata={post} fullWidth={params.type == "album" ? true : false} className="min-h-[95vh]">
+        <Article metadata={post} fullWidth={params.type == "album" ? true : false} className="">
           <PostBody content={content} />
           {params.type == "album" && <PhotoGrid post={post} />}
           {/* <PostHeader title={post.title} preview={post.preview} date={post.date} author={post.author} /> */}

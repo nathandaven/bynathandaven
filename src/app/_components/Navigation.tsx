@@ -10,7 +10,7 @@ type PropsWithChildren<P = unknown> = P & {
 // exporting component with OPTIONAL children
 export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, className }) => {
   return (
-    <div
+    <ul
       className={
         /* "m-5 border border-black border-spacing-1" */ cn(
           className,
@@ -35,6 +35,6 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
           About
         </a>
       </ul>
-    </div>
+    </ul>
   );
 };

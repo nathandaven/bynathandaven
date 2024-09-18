@@ -27,7 +27,7 @@ export default function Index() {
     <main>
       <SpeedInsights />
       <Container fullWidth={true}>
-        <Article fullWidth={true} className="min-h-[95vh]">
+        <Article fullWidth={true} className="">
           <HeaderSVG className={"color dark hidden lg:block"} />
           <HeaderSVGName className={"hidden max-lg:block"} />
           <p className="align mb-0 mt-0 hidden pb-0 pt-0 text-justify max-lg:block">

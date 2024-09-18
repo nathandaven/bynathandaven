@@ -44,7 +44,7 @@ export default function Tags() {
   return (
     <main>
       <Container title={"Tags"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="min-h-[95vh]">
+        <Article metadata={TitlePost} className="">
           <div className="mt-2 grid grid-cols-1 gap-4 pt-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6">
             {tags.sort().map((tag, key) => {
               return (

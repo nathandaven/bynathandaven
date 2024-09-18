@@ -7,7 +7,7 @@ import { Container } from "../_components/Container";
 export default function PageTemplate() {
   return (
     <main>
-      <Container title={"Newsletter"} fullWidth={false} className={"min-h-[95vh]"}>
+      <Container title={"Newsletter"} fullWidth={false} className={""}>
         <Article /* metadata={post} */></Article>
       </Container>
     </main>

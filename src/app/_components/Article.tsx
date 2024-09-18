@@ -5,6 +5,7 @@ import cn from "classnames";
 import { Post } from "@/interfaces/post";
 import DateFormatter from "./date-formatter";
 import { Button } from "./Button";
+import classNames from "classnames";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -24,8 +25,9 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
 }) => {
   return (
     <article
-      className={cn(
-        "prose prose-gray mx-auto mb-2 w-full max-w-none border-spacing-1 border border-black p-5 pb-5 leading-6 dark:prose-invert prose-h1:text-5xl dark:border-gray-200 " /* md:prose-lg */ +
+      className={classNames(
+        "prose prose-gray mx-auto mb-2 min-h-[calc(100svh-6rem)] w-[calc(100%-3.5rem)] max-w-none border-spacing-1 border border-black p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-4rem)] sm:w-full dark:border-gray-200 " +
+          " " /* md:prose-lg */ +
           (fullWidth ? "" : "md:px-20 md:pt-10"),
         className,
       )}

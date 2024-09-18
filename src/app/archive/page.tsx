@@ -39,7 +39,7 @@ export default function Archive() {
   return (
     <main>
       <Container title={"Archive"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="min-h-[95vh]">
+        <Article metadata={TitlePost} className="">
           <div className="mt-2 grid grid-cols-1 gap-4 pt-2 md:grid-cols-2">
             {years
               .sort()

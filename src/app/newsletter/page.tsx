@@ -30,7 +30,7 @@ export default function Newsletter() {
   return (
     <main>
       <Container title={"Newsletter"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="min-h-[95vh]">
+        <Article metadata={TitlePost} className="">
           <List listItems={posts} showThumbnails={false} />
         </Article>
       </Container>
