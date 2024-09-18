@@ -3,15 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "concurrently \"next dev\" \"tsx ./watcher.ts\" --kill-others",
+    "devOld": "next",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
     "@fontsource/inter": "^5.1.0",
+    "@types/ws": "^8.5.12",
     "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.10",
     "classnames": "^2.5.1",
+    "concurrently": "^9.0.1",
     "date-fns": "^4.0.0-beta.1",
     "gray-matter": "^4.0.3",
     "next": "latest",
@@ -24,6 +27,8 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "sharp": "^0.33.5",
+    "tsx": "^4.19.1",
+    "ws": "^8.18.0",
     "yet-another-react-lightbox": "^3.21.5"
   },
   "devDependencies": {

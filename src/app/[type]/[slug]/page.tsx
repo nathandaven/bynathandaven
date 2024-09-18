@@ -9,11 +9,12 @@ import { Article } from "@/app/_components/Article";
 // Load client side comments
 import dynamic from "next/dynamic";
 import classNames from "classnames";
+import { DOMAIN } from "@/lib/constants";
 
 const PhotoGrid = dynamic(() => import("@/app/_components/PhotoGrid"), {
   ssr: false,
   loading: () => (
-    <div key="test" className="align-center min-h-screen w-full text-center transition-all duration-75">
+    <div key="test" className="align-center w-full text-center transition-all duration-75">
       Loading...
     </div>
   ),
@@ -22,14 +23,14 @@ const PhotoGrid = dynamic(() => import("@/app/_components/PhotoGrid"), {
 const Comments = dynamic(() => import("@/app/_components/Comments"), {
   ssr: false,
   loading: () => (
-    <div key="test" className="align-center min-h-screen w-full text-center transition-all duration-75">
+    <div key="test" className="align-center w-full text-center transition-all duration-75">
       Loading...
     </div>
   ),
 });
 
 export default async function Post({ params }: Params) {
-  const post = getPostBySlug(params.slug, getPostDirByType(params.type));
+  const post = getPostBySlug(params.slug, getPostDirByType(params.type ?? "general"));
 
   if (!post) {
     return notFound();
@@ -45,7 +46,7 @@ export default async function Post({ params }: Params) {
         fullWidth={params.type == "album" ? true : false}
         className={params.type == "album" ? "max-w-[150rem]" : ""}
       >
-        <Article metadata={post} fullWidth={params.type == "album" ? true : false}>
+        <Article metadata={post} fullWidth={params.type == "album" ? true : false} className="min-h-[95vh]">
           <PostBody content={content} />
           {params.type == "album" && <PhotoGrid post={post} />}
           {/* <PostHeader title={post.title} preview={post.preview} date={post.date} author={post.author} /> */}
@@ -55,9 +56,7 @@ export default async function Post({ params }: Params) {
               appId={process.env.CUSDIS_APP_ID_SECRET ?? ""}
               pageId={params.slug ?? ""}
               pageTitle={params.slug ?? ""}
-              pageUrl={
-                params.slug ? "http://localhost:3000/" + params.type + params.slug + "/" : "http://localhost:3000/"
-              }
+              pageUrl={params.slug ? DOMAIN + params.type + "/" + params.slug + "/" : DOMAIN}
             />
           )}
         </Article>
@@ -68,13 +67,13 @@ export default async function Post({ params }: Params) {
 
 type Params = {
   params: {
+    type?: string;
     slug: string;
-    type: string;
   };
 };
 
 export function generateMetadata({ params }: Params): Metadata {
-  const post = getPostBySlug(params.slug, getPostDirByType(params.type));
+  const post = getPostBySlug(params.slug, getPostDirByType(params.type || "general"));
 
   if (!post) {
     return notFound();

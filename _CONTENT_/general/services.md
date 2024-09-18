@@ -1,12 +1,12 @@
 ---
 sectionTitleWithoutDescription: ""
-title: test
-slug: test
-date: 2024-09-17T02:30:57.148Z
-lastmod: 2024-09-17T02:30:57.148Z
+title: Services
+slug: ""
+date: 2024-09-17T16:44:37.457Z
+lastmod: 2024-09-17T16:44:37.457Z
 preview: ""
 draft: true
-description: test
+description: ""
 tags: []
 categories: []
 excerpt: ""
@@ -16,8 +16,5 @@ author:
 sectionTitleWithDescription: ""
 linkedVideo: ""
 linkedAlbum: ""
-fmContentType: article
+fmContentType: general
 ---
-
-asdasd
-asdasd

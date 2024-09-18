@@ -5,15 +5,13 @@ import fs from "fs";
 import matter from "gray-matter";
 import path, { join } from "path";
 
-const contentDirectory = join(process.cwd(), "_CONTENT_");
-
 const articleDirectory = join(process.cwd(), "_CONTENT_/article");
 const albumDirectory = join(process.cwd(), "_CONTENT_/album");
 const generalDirectory = join(process.cwd(), "_CONTENT_/general");
 const videoDirectory = join(process.cwd(), "_CONTENT_/video");
 
 export function getPostSlugs(dir: string) {
-  return fs.readdirSync(dir);
+  return fs.readdirSync(dir, { withFileTypes: true });
 }
 
 export function getPostDirByType(type: string): string {
@@ -40,7 +38,7 @@ export function getPostBySlug(slug: string, dir: string) {
 
   const post = { ...data, slug: realSlug, content } as Post;
 
-  if (post.fmContentType.toString() == "album") {
+  if (post?.fmContentType && post.fmContentType == ("album" as ContentTypeEnum)) {
     post.photoList = parseAlbumPhotos(post);
   }
 
@@ -48,10 +46,18 @@ export function getPostBySlug(slug: string, dir: string) {
 }
 
 export function getAllPosts(): Post[] {
-  const articleSlugs = getPostSlugs(articleDirectory);
-  const albumSlugs = getPostSlugs(albumDirectory);
-  const generalSlugs = getPostSlugs(generalDirectory);
-  const videoSlugs = getPostSlugs(videoDirectory);
+  const articleSlugs = getPostSlugs(articleDirectory)
+    .filter((dirent) => dirent.isFile())
+    .map((dirent) => dirent.name);
+  const albumSlugs = getPostSlugs(albumDirectory)
+    .filter((dirent) => dirent.isFile())
+    .map((dirent) => dirent.name);
+  const generalSlugs = getPostSlugs(generalDirectory)
+    .filter((dirent) => dirent.isFile())
+    .map((dirent) => dirent.name);
+  const videoSlugs = getPostSlugs(videoDirectory)
+    .filter((dirent) => dirent.isFile())
+    .map((dirent) => dirent.name);
 
   const articlePosts = articleSlugs.map((slug) => getPostBySlug(slug, articleDirectory));
   const albumPosts = albumSlugs.map((slug) => getPostBySlug(slug, albumDirectory));

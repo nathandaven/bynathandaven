@@ -11,6 +11,7 @@ export type Post = {
   fmContentType: ContentTypeEnum;
   author: Author;
   content: string;
+  description?: string;
   // Optional
   tags?: string[];
   keywords?: string[];

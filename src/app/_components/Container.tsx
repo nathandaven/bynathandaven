@@ -6,6 +6,7 @@ import { Navigation } from "./Navigation";
 import cn from "classnames";
 import { Post } from "@/interfaces/post";
 import DateFormatter from "./date-formatter";
+import { Footer } from "./Footer";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -25,7 +26,12 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
   title = "Home",
 }) => {
   return (
-    <div className={cn((fullWidth ? "max-w-[90rem]" : "max-w-6xl") + " mx-auto pl-7 pr-0 antialiased", className)}>
+    <div
+      className={cn(
+        (fullWidth ? "max-w-[90rem]" : "max-w-6xl") + " " + "mx-auto min-h-[95vh] pl-7 pr-0 antialiased",
+        className,
+      )}
+    >
       <Meta />
       {/* <Navigation /> */}
       <p className="dark:text-white">
@@ -51,6 +57,7 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
           <Navigation className="sticky top-0" />
         </ul>
       </div>
+      <Footer className="pr-7" />
     </div>
   );
 };

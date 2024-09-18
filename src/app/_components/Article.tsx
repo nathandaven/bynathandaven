@@ -4,6 +4,7 @@ import "@fontsource/inter";
 import cn from "classnames";
 import { Post } from "@/interfaces/post";
 import DateFormatter from "./date-formatter";
+import { Button } from "./Button";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -18,13 +19,13 @@ type PropsWithChildren<P = unknown> = P & {
 export const Article: FunctionComponent<PropsWithChildren> = ({
   children,
   className,
-  metadata = {},
+  metadata = {} as Post,
   fullWidth = false,
 }) => {
   return (
     <article
       className={cn(
-        "prose prose-gray mx-auto mb-10 w-full max-w-none border-spacing-1 border border-black p-5 pb-5 leading-6 dark:prose-invert prose-h1:text-5xl dark:border-gray-200 " /* md:prose-lg */ +
+        "prose prose-gray mx-auto mb-2 w-full max-w-none border-spacing-1 border border-black p-5 pb-5 leading-6 dark:prose-invert prose-h1:text-5xl dark:border-gray-200 " /* md:prose-lg */ +
           (fullWidth ? "" : "md:px-20 md:pt-10"),
         className,
       )}
@@ -32,18 +33,12 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
       {/* Tag Generation */}
       {metadata?.tags && metadata?.tags.length > 0 ? (
         <>
-          <div className="mb-4 w-60 pr-5 pt-5 no-underline">
+          <div className="mb-4 flex w-60 gap-x-2 pr-5 pt-5 no-underline">
             {metadata?.tags.map((tag, key) => (
-              <span key={key}>
-                {key > 0 ? (
-                  <span className="cursor-default" key={key}>
-                    {" > "}
-                  </span>
-                ) : (
-                  <></>
-                )}
-                <a className="font-normal no-underline">{tag}</a>
-              </span>
+              <Button key={key} href={"/tag/" + tag} sizeSmall={true} className="no-underline">
+                {"#"}
+                {tag}
+              </Button>
             ))}
           </div>
         </>
@@ -51,9 +46,9 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
         <></>
       )}
       {/* Title Generation */}
-      {metadata?.title && metadata?.title.toString().length > 0 ? (
+      {metadata?.title && metadata?.title.length > 0 ? (
         <>
-          <h1 className="my-2">{metadata?.title.toString()}</h1>
+          <h1 className="my-2">{metadata?.title}</h1>
         </>
       ) : (
         <></>

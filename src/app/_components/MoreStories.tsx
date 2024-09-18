@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import classNames from "classnames";
 
 const loadingA = (
-  <div key="test" className="align-center min-h-screen w-full text-center transition-all duration-75">
+  <div key="test" className="align-center w-full text-center transition-all duration-75">
     Loading...
   </div>
 );
@@ -43,7 +43,7 @@ function MoreStories({ posts, className }: Props) {
       {/* <div className="mb-10 grid grid-cols-1 gap-x-6 gap-y-2 md:grid-cols-[55%_auto]"> */}
       <ResponsiveGridA className="">
         {posts
-          .filter((post) => post.fmContentType.toString() != "general")
+          .filter((post) => post.fmContentType != ("general" as ContentTypeEnum))
           .map((post) => (
             <HeroPost
               key={post.slug}

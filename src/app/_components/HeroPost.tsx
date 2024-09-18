@@ -4,7 +4,7 @@ import { type Author } from "@/interfaces/author";
 import Link from "next/link";
 import DateFormatter from "./date-formatter";
 import classNames from "classnames";
-import { ContentType } from "@/interfaces/contentType";
+import { ContentType, ContentTypeEnum } from "@/interfaces/contentType";
 import { Button } from "./Button";
 
 type Props = {

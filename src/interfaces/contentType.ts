@@ -1,8 +1,9 @@
 export enum ContentTypeEnum {
-  ALBUM = "Album",
-  ARTICLE = "Article",
-  VIDEO = "Video",
-  GENERAL = "General",
+  ALBUM = "album",
+  ARTICLE = "article",
+  VIDEO = "video",
+  GENERAL = "general",
+  TAG = "tag",
 }
 
 export type ContentType = ContentTypeEnum;

@@ -7,14 +7,18 @@ type PropsWithChildren<P = unknown> = P & {
   children?: ReactNode;
   className?: string;
   href: string;
+  sizeSmall?: boolean;
 };
 
 // exporting component with OPTIONAL children
-export const Button: FunctionComponent<PropsWithChildren> = ({ children, className, href }) => {
+export const Button: FunctionComponent<PropsWithChildren> = ({ children, className, href, sizeSmall }) => {
   return (
     <a
       className={classNames(
-        "cursor-pointer rounded-3xl border border-black px-4 py-1 font-display-medium transition-shadow duration-100 hover:shadow-lg dark:border-white",
+        classNames(
+          "cursor-pointer rounded-3xl border border-black font-display-medium transition-colors hover:bg-[#E1DFD3] dark:border-white dark:hover:bg-slate-800",
+          sizeSmall ? "px-1.5 py-0.5 text-xs" : "px-4 py-1",
+        ),
         className,
       )}
       href={href}
