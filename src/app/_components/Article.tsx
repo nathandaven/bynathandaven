@@ -12,7 +12,6 @@ type PropsWithChildren<P = unknown> = P & {
   children?: ReactNode;
   className?: string;
   metadata?: Post;
-  twoColumnLayout?: boolean;
   fullWidth?: boolean;
 };
 
@@ -23,11 +22,13 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
   metadata = {} as Post,
   fullWidth = false,
 }) => {
+  /* "prose prose-gray mx-auto mb-2 h-full min-h-[calc(100svh-6rem)] w-[calc(100%-3.5rem)] max-w-none border-spacing-1 border border-black p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-4rem)] sm:w-full dark:border-gray-200" */
+  /* (fullWidth ? "" : "md:px-20 md:pt-10") */
   return (
     <article
       className={classNames(
-        "prose prose-gray mx-auto mb-2 min-h-[calc(100svh-6rem)] w-[calc(100%-3.5rem)] max-w-none border-spacing-1 border border-black p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-4rem)] sm:w-full dark:border-gray-200 " +
-          " " /* md:prose-lg */ +
+        "prose prose-gray mb-2 h-full min-h-[calc(100svh-6rem)] w-full max-w-none border-spacing-1 border border-black p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-4rem)] sm:w-full dark:border-gray-200" +
+          " " +
           (fullWidth ? "" : "md:px-20 md:pt-10"),
         className,
       )}

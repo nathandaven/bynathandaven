@@ -49,6 +49,7 @@ export default function Tags() {
             {tags.sort().map((tag, key) => {
               return (
                 <Button href={"/tag/" + tag} key={key} className="w-fit">
+                  {"#"}
                   {tag}
                 </Button>
               );

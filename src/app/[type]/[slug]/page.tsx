@@ -10,6 +10,10 @@ import { Article } from "@/app/_components/Article";
 import dynamic from "next/dynamic";
 import classNames from "classnames";
 import { DOMAIN } from "@/lib/constants";
+import { VideoComponent } from "@/app/_components/Video";
+import { Button } from "@/app/_components/Button";
+import SubstackCustom from "@/app/_components/SubstackCustom";
+import { Substack } from "@/app/_components/Substack";
 
 const PhotoGrid = dynamic(() => import("@/app/_components/PhotoGrid"), {
   ssr: false,
@@ -45,19 +49,46 @@ export default async function Post({ params }: Params) {
         title={params.type}
         fullWidth={params.type == "album" ? true : false}
         className={params.type == "album" ? "max-w-[150rem]" : ""}
+        twoColumnLayout={false}
+        secondCol={<></>}
       >
         <Article metadata={post} fullWidth={params.type == "album" ? true : false} className="">
+          {params.type == "video" && post.youtubeEmbedCode && post.youtubeEmbedCode.length > 0 && (
+            <>
+              <VideoComponent post={post} />
+              <div className="mb-0 flex justify-center pb-0">
+                <a
+                  href={`https://www.youtube.com/watch?v=${post.youtubeEmbedCode}`}
+                  className="border-none text-right text-xs no-underline opacity-75"
+                  target="_blank"
+                >
+                  via YouTube
+                </a>
+              </div>
+            </>
+          )}
+          {/* Markdown Post Content */}
           <PostBody content={content} />
+          {/* Album Grid */}
           {params.type == "album" && <PhotoGrid post={post} />}
-          {/* <PostHeader title={post.title} preview={post.preview} date={post.date} author={post.author} /> */}
+          {/* Disable for general type */}
           {params.type != "general" && (
-            <Comments
-              className="mt-10 w-full border border-b-0 border-l-0 border-r-0 border-black dark:border-white"
-              appId={process.env.CUSDIS_APP_ID_SECRET ?? ""}
-              pageId={params.slug ?? ""}
-              pageTitle={params.slug ?? ""}
-              pageUrl={params.slug ? DOMAIN + params.type + "/" + params.slug + "/" : DOMAIN}
-            />
+            <>
+              {/* Subscribe Section */}
+              <Substack className="mt-10 border border-b-0 border-l-0 border-r-0 border-black dark:border-white" />
+              {/* Comments Section */}
+              <div
+                className={"mt-10 w-full gap-8 border border-b-0 border-l-0 border-r-0 border-black dark:border-white"}
+              >
+                <Comments
+                  className="w-full"
+                  appId={process.env.CUSDIS_APP_ID_SECRET ?? ""}
+                  pageId={params.slug ?? ""}
+                  pageTitle={params.slug ?? ""}
+                  pageUrl={params.slug ? DOMAIN + params.type + "/" + params.slug + "/" : DOMAIN}
+                />
+              </div>
+            </>
           )}
         </Article>
       </Container>

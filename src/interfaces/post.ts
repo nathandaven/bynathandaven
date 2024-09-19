@@ -20,4 +20,6 @@ export type Post = {
   // Album
   albumPath?: string;
   photoList?: Photo[];
+  // Video
+  youtubeEmbedCode?: string;
 };

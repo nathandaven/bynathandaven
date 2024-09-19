@@ -14,6 +14,7 @@ type PropsWithChildren<P = unknown> = P & {
   children?: ReactNode;
   className?: string;
   twoColumnLayout?: boolean;
+  secondCol?: ReactNode;
   fullWidth?: boolean;
   title?: string;
 };
@@ -23,6 +24,7 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
   children,
   className,
   twoColumnLayout = false,
+  secondCol,
   fullWidth = false,
   title = "Home",
 }) => {
@@ -37,23 +39,26 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
           </a>
         </p>
         <div className="flex flex-row">
-          <div className="rotate-180 space-y-3 text-right text-xl [writing-mode:vertical-lr]">
+          <div className="invisible rotate-180 space-y-3 text-right text-xl [writing-mode:vertical-lr]">
             <a href="/">
               <b className="text-xl">{title}</b> by Nathan Davenport
             </a>
           </div>
-          {children}
-          {/* Sideways Nav */}
-          {twoColumnLayout ? (
-            <div className="">
-              <article className="prose prose-gray mx-auto mb-10 w-full max-w-none border-spacing-1 border border-black p-3 pb-5 leading-6 dark:prose-invert prose-h1:text-5xl dark:border-gray-200">
-                <h2>test</h2>
-                <p>test</p>
-              </article>
-            </div>
-          ) : (
-            <></>
-          )}
+          <div className="flex w-[calc(100%-3.5rem)] flex-col sm:flex-row">
+            {/* Sideways Nav */}
+            {twoColumnLayout ? (
+              <>
+                <div className="sm:w-3/4">{children}</div>
+                <div className="h-full w-full basis-1/4 sm:w-1/4">
+                  <article className="prose prose-gray mx-auto mb-2 h-full min-h-fit max-w-none border border-l border-t-0 border-black p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-4rem)] sm:w-full sm:border-l-0 sm:border-t md:pt-10 dark:border-gray-200">
+                    {secondCol}
+                  </article>
+                </div>
+              </>
+            ) : (
+              <>{children}</>
+            )}
+          </div>
           <div className="space-y-3 text-xl [writing-mode:vertical-lr]">
             <Navigation className="" />
           </div>

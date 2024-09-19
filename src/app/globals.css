@@ -15,18 +15,16 @@
   }
 }
 
-/* :root {
-  --background: #f2f1ea;
-} */
-
-@media (prefers-color-scheme: dark) {
-  /*   :root {
-    --background: #0f0e0e;
-  } */
-
-  html {
-    color-scheme: dark;
-  }
+root {
+  /* CSS HEX */
+  /* https://coolors.co/f2f1ea-dedcd3-6a7062-925e78-0f0e0e */
+  --primary-light: #f2f1ea;
+  --secondary-light: #dedcd3;
+  --primary-dark: #0f0e0e;
+  --secondary-dark: #1b1919;
+  --green: #6a7062ff;
+  --red: #925e78ff;
+  --purple: #3f334dff;
 }
 
 * {
@@ -57,4 +55,56 @@ a {
 }
 .yarl__button:hover {
   color: rgba(242, 241, 234, 0.5) !important;
+}
+
+@keyframes marqueeScroll {
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* .marquee {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+} */
+
+#custom-substack-embed {
+  font-family: "Inter" !important;
+  text-align: center !important;
+}
+
+#custom-substack-embed button {
+  font-family: "Inter" !important;
+  cursor: pointer !important;
+  background-color: #f2f1ea !important;
+  border: #0f0e0e !important;
+}
+#custom-substack-embed button:hover {
+  font-family: "Inter" !important;
+  cursor: pointer !important;
+  background-color: #dedcd3 !important;
+}
+#custom-substack-embed p {
+  font-family: "Inter" !important;
+  text-align: center;
+  margin-top: none !important;
+  padding-bottom: 0.75rem;
+  /* color: #ff7e7e; */
+  color: #0f0e0e;
+  font-weight: bold;
+  /* background-color: #0f0e0e !important; */
+}
+
+@media (prefers-color-scheme: dark) {
+  /*   :root {
+    --background: #0f0e0e;
+  } */
+  #custom-substack-embed form {
+    font-family: "Inter" !important;
+  }
+
+  html {
+    color-scheme: dark;
+  }
 }

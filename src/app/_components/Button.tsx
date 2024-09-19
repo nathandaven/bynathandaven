@@ -8,12 +8,20 @@ type PropsWithChildren<P = unknown> = P & {
   className?: string;
   href: string;
   sizeSmall?: boolean;
+  newTab?: boolean;
 };
 
 // exporting component with OPTIONAL children
-export const Button: FunctionComponent<PropsWithChildren> = ({ children, className, href, sizeSmall }) => {
+export const Button: FunctionComponent<PropsWithChildren> = ({
+  children,
+  className,
+  href,
+  sizeSmall = false,
+  newTab = false,
+}) => {
   return (
     <a
+      target={newTab ? "_blank" : undefined}
       className={classNames(
         classNames(
           "cursor-pointer rounded-3xl border border-black font-display-medium transition-colors hover:bg-[#E1DFD3] dark:border-white dark:hover:bg-slate-800",

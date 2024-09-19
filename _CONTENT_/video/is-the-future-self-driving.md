@@ -18,9 +18,8 @@ categories:
   - atlanta
 draft: false
 fmContentType: video
+youtubeEmbedCode: "3xG1zYkZpUE"
 ---
-
-![Thumbnail Example](/assets/articles/demo/selfdriving.jpg)
 
 ## intro
 
@@ -48,6 +47,7 @@ Legal enforcements of crumple zones, seatbelts, airbag technologies, smart crash
 
 Prolific figures like this guy (Elon Musk) have touted promises of self driving technology as early as 2017, though software updates in Tesla Electric vehicles, learning how to drive by selling affordable electric cars and compiling data through it's owners.
 
+![Thumbnail Example](/assets/articles/demo/selfdriving.jpg)
 Even when the vehicle slams into oncoming traffic at 70 mph. OR when the car drives itself onto tram tracks. Or when the vehicle is faced with the frightening challenge of a bollard or a tram track.
 
 There are 6 levels of autonomous vehicle technologies recognized by the US Government, ranging from level 0 being no driving technologies at all, to level 5, full self driving automation, without a steering wheel being present at all.

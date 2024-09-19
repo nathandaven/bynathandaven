@@ -6,6 +6,8 @@ import { List } from "../_components/List";
 import { getAllPosts } from "@/lib/api";
 import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
+import SubstackCustom from "../_components/SubstackCustom";
+import { Substack } from "../_components/Substack";
 
 // exporting component with OPTIONAL children
 export default function Newsletter() {
@@ -32,6 +34,7 @@ export default function Newsletter() {
       <Container title={"Newsletter"} fullWidth={false} className={""}>
         <Article metadata={TitlePost} className="">
           <List listItems={posts} showThumbnails={false} />
+          <Substack className="my-5" />
         </Article>
       </Container>
     </main>

@@ -37,17 +37,17 @@ export function HeroPost({ title, preview, date, excerpt, author, contentType, s
           </div>
         </div>
         <div className="flex h-fit gap-x-2 text-right">
-          <Button
+          {/* <Button
             href="/"
             className="w-full bg-gray-200 transition-shadow hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
           >
             Text 1
-          </Button>
+          </Button> */}
           <Button
-            href="/"
+            href={`/${contentType}/${slug}`}
             className="w-full bg-gray-200 transition-shadow hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600"
           >
-            Text 2
+            {contentType == ContentTypeEnum.ALBUM ? "View" : contentType == ContentTypeEnum.VIDEO ? "Watch" : "Read"}
           </Button>
         </div>
       </div>

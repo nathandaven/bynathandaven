@@ -12,7 +12,7 @@ type PropsWithChildren<P = unknown> = P & {
 export const Footer: FunctionComponent<PropsWithChildren> = ({ children, className }) => {
   return (
     <footer
-      className={classNames(className, "mb-5 mt-0 flex flex-row justify-between pt-0 text-xs dark:text-gray-300")}
+      className={classNames(className, "mb-3 mt-0 flex flex-row justify-between pt-0 text-xs dark:text-gray-300")}
     >
       <div className="justify-start text-left">
         <ul className="align-left leading-1 flex w-full max-w-[30rem] flex-wrap justify-start gap-x-2 pr-10 text-start dark:text-gray-300">
@@ -22,32 +22,48 @@ export const Footer: FunctionComponent<PropsWithChildren> = ({ children, classNa
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
             <Link href="/tags">tags</Link>
           </li>
-          <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
+          <li className="cursor-default text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
             -
           </li>
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
-            <a href="https://instagram.com/nathandaven">instagram</a>
+            <a target="_blank" href="https://instagram.com/nathandaven">
+              instagram
+            </a>
           </li>
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
-            <a href="https://youtube.com/@nathandaven">youtube</a>
+            <a target="_blank" href="https://youtube.com/@nathandaven">
+              youtube
+            </a>
           </li>
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
-            <a href="https://twitter.com/nathandaven">twitter</a>
+            <a target="_blank" href="https://twitter.com/nathandaven">
+              twitter
+            </a>
           </li>
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
-            <a href="https://linkedin.com/in/nathandaven">linkedin</a>
+            <a target="_blank" href="https://linkedin.com/in/nathandaven">
+              linkedin
+            </a>
           </li>
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
-            <a href="https://tiktok.com/@nathandaven">tiktok</a>
+            <a target="_blank" href="https://tiktok.com/@nathandaven">
+              tiktok
+            </a>
           </li>
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
-            <a href="https://github.com/nathandaven">github</a>
+            <a target="_blank" href="https://github.com/nathandaven">
+              github
+            </a>
           </li>
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
-            <a href="https://nathandaven.substack.com/">substack</a>
+            <a target="_blank" href="https://nathandaven.substack.com/">
+              substack
+            </a>
           </li>
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
-            <a href="mailto:nathan@nathandaven.com">email</a>
+            <a target="_blank" href="mailto:nathan@nathandaven.com">
+              email
+            </a>
           </li>
         </ul>
       </div>
