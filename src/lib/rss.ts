@@ -29,13 +29,15 @@ export default function generateRssFeed(allPosts: Post[]) {
         url: `${site_url}/${post.fmContentType}/${post.slug}`,
         date: post.date,
         author: post.author.name,
-        enclosure: {
-          url: `${site_url}${post.preview}`,
-        },
       };
+      item.enclosure = post.preview
+        ? {
+            url: `${site_url}${post.preview}`,
+          }
+        : undefined;
       feed.item(item);
     });
 
   // Write the RSS feed to a file as XML.
-  fs.writeFileSync(join(process.cwd(), "public/rss.xml"), feed.xml({ indent: true }));
+  fs.writeFileSync(join(process.cwd(), "public/feed.xml"), feed.xml({ indent: true }));
 }

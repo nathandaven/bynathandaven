@@ -9,9 +9,9 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Sep 2024 17:29:10 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Sep 2024 19:42:25 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Sep 2024 17:29:10 GMT</pubDate>
+        <pubDate>Fri, 20 Sep 2024 19:42:25 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024 Nathan Davenport]]></copyright>
         <item>
             <title><![CDATA[Test Album]]></title>
