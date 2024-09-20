@@ -5,6 +5,7 @@ import cn from "classnames";
 
 import "./globals.css";
 import AutoRefresh from "./_components/AutoRefresh";
+import classNames from "classnames";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -44,9 +45,13 @@ export default function RootLayout({
           <meta charSet="utf-8" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
         </head>
-        <body className={cn(inter.className, "scrollbar-hide bg-[#f2f1ea] tracking-tighter dark:bg-[#0f0e0e]")}>
-          <div className="">{children}</div>
-          {/* <Footer /> */}
+        <body
+          /* className="fixed left-0 top-0 -z-50 block h-svh w-svw" */ className={classNames(
+            inter.className,
+            "scrollbar-hide scroll-smooth bg-[#f1f0e9] tracking-tighter dark:bg-[#0f0e0e]",
+          )}
+        >
+          {children}
         </body>
       </html>
     </AutoRefresh>

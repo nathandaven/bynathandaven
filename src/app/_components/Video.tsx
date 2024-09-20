@@ -15,7 +15,7 @@ export const VideoComponent: FunctionComponent<PropsWithChildren> = ({ className
     <div className={classNames("aspect-w-16 aspect-h-9 mb-2 mt-4 w-full", className)}>
       <Suspense fallback={<p>Loading video...</p>}>
         <iframe
-          className="z-50 border border-black dark:border-white"
+          className="z-20 border border-black dark:border-white"
           width="560"
           height="315"
           src={`https://www.youtube.com/embed/${post.youtubeEmbedCode}`}

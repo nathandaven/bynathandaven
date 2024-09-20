@@ -12,20 +12,23 @@ type PropsWithChildren<P = unknown> = P & {
 export const Footer: FunctionComponent<PropsWithChildren> = ({ children, className }) => {
   return (
     <footer
-      className={classNames(className, "mb-3 mt-0 flex flex-row justify-between pt-0 text-xs dark:text-gray-300")}
+      className={classNames(
+        className,
+        "mt-0 flex justify-between py-6 pt-3 text-lg sm:mb-3 sm:flex-row sm:text-xs md:py-0 dark:text-gray-300",
+      )}
     >
       <div className="justify-start text-left">
-        <ul className="align-left leading-1 flex w-full max-w-[30rem] flex-wrap justify-start gap-x-2 pr-10 text-start dark:text-gray-300">
+        <ul className="align-left leading-1 flex w-full max-w-[30rem] flex-col flex-wrap justify-start gap-x-2 pr-10 text-start sm:flex-row dark:text-gray-300">
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
             <Link href="/archive">archive</Link>
           </li>
           <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
             <Link href="/tags">tags</Link>
           </li>
-          <li className="cursor-default text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
+          <li className="hidden cursor-default text-gray-700 transition-colors duration-75 hover:text-black sm:block dark:text-gray-300 dark:hover:text-white">
             -
           </li>
-          <li className="text-gray-700 transition-colors duration-75 hover:text-black dark:text-gray-300 dark:hover:text-white">
+          <li className="pt-2 text-gray-700 transition-colors duration-75 hover:text-black sm:pt-0 dark:text-gray-300 dark:hover:text-white">
             <a target="_blank" href="https://instagram.com/nathandaven">
               instagram
             </a>
@@ -69,8 +72,8 @@ export const Footer: FunctionComponent<PropsWithChildren> = ({ children, classNa
       </div>
       {/* <div className="w-96 text-center">Made with love by Nathan Davenport</div> */}
       {/* <div className="text-center"></div> */}
-      <div className="leading-1 max-w-96 cursor-default justify-end text-right text-gray-700 dark:text-gray-300">
-        <span>© 2024 Nathan Davenport</span>
+      <div className="leading-1 flex max-w-96 cursor-default flex-col justify-end text-right text-gray-700 sm:h-fit sm:flex-none dark:text-gray-300">
+        © 2024 Nathan Davenport
       </div>
     </footer>
   );

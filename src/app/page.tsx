@@ -16,6 +16,7 @@ import MarqueeText from "react-marquee-text";
 import { Navigation } from "./_components/Navigation";
 import { Substack } from "./_components/Substack";
 import dynamic from "next/dynamic";
+import ThreeJS from "./_components/three.js/ThreeJS";
 
 const SubstackCustom = dynamic(() => import("@/app/_components/SubstackCustom"), {
   ssr: false,
@@ -35,7 +36,7 @@ export default function Index() {
     <main>
       <SpeedInsights />
       <Container fullWidth={true}>
-        <Article fullWidth={true} className="">
+        <Article fullWidth={true} className="md:p-10">
           <HeaderSVG className={"color dark hidden lg:block"} />
           <HeaderSVGName className={"hidden max-lg:block"} />
           <p className="align mb-0 mt-0 hidden cursor-default pb-0 pt-0 text-justify max-lg:block">
@@ -43,9 +44,9 @@ export default function Index() {
             mediums, cities and general urbanism, and making things. See below for my recent projects of various
             mediums.
           </p>
-          <MarqueeText className="text-4xl" treshold={0.1}>
+          {/* <MarqueeText className="text-4xl" treshold={0.1}>
             Photography Videography Software Development
-          </MarqueeText>
+          </MarqueeText> */}
           {/* <Intro /> */}
           {/* <div className="flex flex-col gap-x-20 text-justify md:flex-row">
             <h1 className="spacing space-y-0 bg-transparent font-normal">
