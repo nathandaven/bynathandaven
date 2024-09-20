@@ -30,7 +30,7 @@ export default async function generateRssFeed(allPosts: Post[]) {
         date: post.date,
         author: post.author.name,
         enclosure: {
-          url: `${site_url}/public${post.preview}`,
+          url: `${site_url}${post.preview}`,
         },
       };
       feed.item(item);

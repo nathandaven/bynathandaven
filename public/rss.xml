@@ -9,9 +9,9 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Sep 2024 17:22:54 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Sep 2024 17:24:29 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Sep 2024 17:22:54 GMT</pubDate>
+        <pubDate>Fri, 20 Sep 2024 17:24:29 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024 Nathan Davenport]]></copyright>
         <item>
             <title><![CDATA[Test Album]]></title>
@@ -19,7 +19,7 @@
             <guid isPermaLink="true">http://localhost:3000/album/test-album</guid>
             <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
             <pubDate>Mon, 16 Sep 2024 19:25:55 GMT</pubDate>
-            <enclosure url="http://localhost:3000/public/assets/articles/demo/img1.png" length="0" type="image/png"/>
+            <enclosure url="http://localhost:3000/assets/articles/demo/img1.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Sample Article]]></title>
@@ -28,7 +28,7 @@
             <guid isPermaLink="true">http://localhost:3000/article/demo4</guid>
             <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
             <pubDate>Sat, 14 Sep 2024 04:45:29 GMT</pubDate>
-            <enclosure url="http://localhost:3000/public/assets/articles/demo/moon.jpg" length="0" type="image/jpeg"/>
+            <enclosure url="http://localhost:3000/assets/articles/demo/moon.jpg" length="0" type="image/jpeg"/>
         </item>
         <item>
             <title><![CDATA[What happened to Downtown Atlanta?]]></title>
@@ -37,7 +37,7 @@
             <guid isPermaLink="true">http://localhost:3000/video/what-happened-to-downtown-atlanta</guid>
             <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
             <pubDate>Sat, 14 Sep 2024 04:45:29 GMT</pubDate>
-            <enclosure url="http://localhost:3000/public/assets/articles/demo/thumb.png" length="0" type="image/png"/>
+            <enclosure url="http://localhost:3000/assets/articles/demo/thumb.png" length="0" type="image/png"/>
         </item>
         <item>
             <title><![CDATA[Is this future self-driving?]]></title>
@@ -46,7 +46,7 @@
             <guid isPermaLink="true">http://localhost:3000/video/is-the-future-self-driving</guid>
             <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
             <pubDate>Tue, 10 Sep 2024 04:45:29 GMT</pubDate>
-            <enclosure url="http://localhost:3000/public/assets/articles/demo/selfdriving.jpg" length="0" type="image/jpeg"/>
+            <enclosure url="http://localhost:3000/assets/articles/demo/selfdriving.jpg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>
