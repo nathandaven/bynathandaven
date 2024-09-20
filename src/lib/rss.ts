@@ -25,7 +25,7 @@ export default async function generateRssFeed(allPosts: Post[]) {
     .map((post) => {
       const item: ItemOptions = {
         title: post.title ?? "",
-        description: post.description ?? "",
+        description: post.excerpt ?? post.description ?? "",
         url: `${site_url}/${post.fmContentType}/${post.slug}`,
         date: post.date,
         author: post.author.name,
