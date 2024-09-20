@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Nathan Davenport | RSS Feed]]></title>
+        <description><![CDATA[All of Nathan Davenport's articles, videos, and photography in one place.]]></description>
+        <link>http://localhost:3000</link>
+        <image>
+            <url>http://localhost:3000/favicon/logo192.png</url>
+            <title>Nathan Davenport | RSS Feed</title>
+            <link>http://localhost:3000</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Fri, 20 Sep 2024 16:37:28 GMT</lastBuildDate>
+        <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Fri, 20 Sep 2024 16:37:28 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2024 Nathan Davenport]]></copyright>
+        <item>
+            <title><![CDATA[Test Album]]></title>
+            <link>http://localhost:3000/album/test-album</link>
+            <guid isPermaLink="true">http://localhost:3000/album/test-album</guid>
+            <pubDate>Mon, 16 Sep 2024 19:25:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sample Article]]></title>
+            <description><![CDATA[A short MDX blog post.]]></description>
+            <link>http://localhost:3000/article/demo4</link>
+            <guid isPermaLink="true">http://localhost:3000/article/demo4</guid>
+            <pubDate>Sat, 14 Sep 2024 04:45:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What happened to Downtown Atlanta?]]></title>
+            <description><![CDATA[A short MDX blog post.]]></description>
+            <link>http://localhost:3000/video/what-happened-to-downtown-atlanta</link>
+            <guid isPermaLink="true">http://localhost:3000/video/what-happened-to-downtown-atlanta</guid>
+            <pubDate>Sat, 14 Sep 2024 04:45:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Is this future self-driving?]]></title>
+            <description><![CDATA[What's the deal with self driving cars?]]></description>
+            <link>http://localhost:3000/video/is-the-future-self-driving</link>
+            <guid isPermaLink="true">http://localhost:3000/video/is-the-future-self-driving</guid>
+            <pubDate>Tue, 10 Sep 2024 04:45:29 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

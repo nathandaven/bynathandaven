@@ -2,10 +2,6 @@ import React, { FunctionComponent, ReactNode, useEffect } from "react";
 
 import "@fontsource/inter";
 import { Meta } from "./Meta";
-import { Navigation } from "./Navigation";
-import cn from "classnames";
-import { Post } from "@/interfaces/post";
-import DateFormatter from "./date-formatter";
 import { Footer } from "./Footer";
 import classNames from "classnames";
 import { MobileMenu } from "./MobileMenu";

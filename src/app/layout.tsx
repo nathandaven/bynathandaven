@@ -30,11 +30,10 @@ export default function RootLayout({
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-          <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#000000" />
+          <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#f1f0e9" />
           <link rel="shortcut icon" href="/favicon/favicon.ico" />
-          <meta name="msapplication-TileColor" content="#000000" />
+          <meta name="msapplication-TileColor" content="#f1f0e9" />
           <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
-          <meta name="theme-color" content="#000" />
           <meta name="twitter:title" content={"Nathan Davenport's Portfolio"} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta
@@ -44,6 +43,8 @@ export default function RootLayout({
           <meta name="robots" content="index, follow" />
           <meta charSet="utf-8" />
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+          <meta name="theme-color" content="#f1f0e9" media="(prefers-color-scheme: light)" />
+          <meta name="theme-color" content="#0f0e0e" media="(prefers-color-scheme: dark)" />
         </head>
         <body
           /* className="fixed left-0 top-0 -z-50 block h-svh w-svw" */ className={classNames(

@@ -73,7 +73,7 @@ export const Footer: FunctionComponent<PropsWithChildren> = ({ children, classNa
       {/* <div className="w-96 text-center">Made with love by Nathan Davenport</div> */}
       {/* <div className="text-center"></div> */}
       <div className="leading-1 flex max-w-96 cursor-default flex-col justify-end text-right text-gray-700 sm:h-fit sm:flex-none dark:text-gray-300">
-        © 2024 Nathan Davenport
+        © {new Date().getFullYear()} Nathan Davenport
       </div>
     </footer>
   );

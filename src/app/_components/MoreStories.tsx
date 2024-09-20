@@ -10,22 +10,6 @@ const loadingA = (
   </div>
 );
 
-const loadingB = (
-  <div className="mt-0 grid grid-cols-1 gap-x-6 gap-y-2 pt-0 md:grid-cols-2">
-    <HeroPost
-      key={"Loading"}
-      title={"Loading"}
-      preview={"/assets/articles/demo/loading.png"}
-      date={"2024-09-14T04:45:29.175Z"}
-      author={{ name: "Loading" }}
-      slug={""}
-      excerpt={"Loading"}
-      contentType={ContentTypeEnum.ARTICLE}
-      className="h-fit"
-    />
-  </div>
-);
-
 import dynamic from "next/dynamic";
 const ResponsiveGridA = dynamic(() => import("@/app/_components/ResponsiveGrid"), {
   ssr: false,
