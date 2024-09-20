@@ -9,10 +9,16 @@
             <link>http://localhost:3000</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Sep 2024 20:08:46 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Sep 2024 21:01:32 GMT</lastBuildDate>
         <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Fri, 20 Sep 2024 20:08:46 GMT</pubDate>
+        <pubDate>Fri, 20 Sep 2024 21:01:32 GMT</pubDate>
         <copyright><![CDATA[All rights reserved 2024 Nathan Davenport]]></copyright>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <guid isPermaLink="false">No title</guid>
+            <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
+            <pubDate>Fri, 20 Sep 2024 21:01:32 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Test Album]]></title>
             <link>http://localhost:3000/album/test-album</link>
@@ -22,31 +28,67 @@
             <enclosure url="http://localhost:3000/assets/articles/demo/img1.png" length="0" type="image/png"/>
         </item>
         <item>
-            <title><![CDATA[Sample Article]]></title>
-            <description><![CDATA[A short MDX blog post.]]></description>
-            <link>http://localhost:3000/article/demo4</link>
-            <guid isPermaLink="true">http://localhost:3000/article/demo4</guid>
-            <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
-            <pubDate>Sat, 14 Sep 2024 04:45:29 GMT</pubDate>
-            <enclosure url="http://localhost:3000/assets/articles/demo/moon.jpg" length="0" type="image/jpeg"/>
-        </item>
-        <item>
-            <title><![CDATA[What happened to Downtown Atlanta?]]></title>
-            <description><![CDATA[A short MDX blog post.]]></description>
-            <link>http://localhost:3000/video/what-happened-to-downtown-atlanta</link>
-            <guid isPermaLink="true">http://localhost:3000/video/what-happened-to-downtown-atlanta</guid>
-            <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
-            <pubDate>Sat, 14 Sep 2024 04:45:29 GMT</pubDate>
-            <enclosure url="http://localhost:3000/assets/articles/demo/thumb.png" length="0" type="image/png"/>
-        </item>
-        <item>
-            <title><![CDATA[Is this future self-driving?]]></title>
-            <description><![CDATA[What's the deal with self driving cars?]]></description>
+            <title><![CDATA[Are self-driving cars solving the wrong problem?]]></title>
+            <description><![CDATA[Self-driving tech offered by Tesla, Waymo, and others are impressive but what are they solving? Let's discuss if self-driving technologies will fix traffic.]]></description>
             <link>http://localhost:3000/video/is-the-future-self-driving</link>
             <guid isPermaLink="true">http://localhost:3000/video/is-the-future-self-driving</guid>
             <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
-            <pubDate>Tue, 10 Sep 2024 04:45:29 GMT</pubDate>
-            <enclosure url="http://localhost:3000/assets/articles/demo/selfdriving.jpg" length="0" type="image/jpeg"/>
+            <pubDate>Mon, 01 Jul 2024 10:47:36 GMT</pubDate>
+            <enclosure url="http://localhost:3000/assets/videos/what’s-rail-atlanta-beltline.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Is Atlanta Full?]]></title>
+            <description><![CDATA[Digging deep into the history of zoning policy in Atlanta, the Missing Middle, and the current state of zoning & housing policy reform.]]></description>
+            <link>http://localhost:3000/video/is-atlanta-full</link>
+            <guid isPermaLink="true">http://localhost:3000/video/is-atlanta-full</guid>
+            <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
+            <pubDate>Mon, 15 Apr 2024 17:23:37 GMT</pubDate>
+            <enclosure url="http://localhost:3000/assets/videos/what’s-rail-atlanta-beltline.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[The Food Hall Epidemic]]></title>
+            <description><![CDATA[Are food halls problematic? Are they killing our cities? Are they great for small business? New video out now!]]></description>
+            <link>http://localhost:3000/video/the-food-hall-epidemic</link>
+            <guid isPermaLink="true">http://localhost:3000/video/the-food-hall-epidemic</guid>
+            <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
+            <pubDate>Fri, 09 Feb 2024 10:14:59 GMT</pubDate>
+            <enclosure url="http://localhost:3000/assets/videos/what’s-rail-atlanta-beltline.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Is it time to bring passenger rail back to Atlanta?]]></title>
+            <description><![CDATA[Diving into the historical demise of passenger rail in the US, and examining a regional rail proposal for the Atlanta Metro by Caleb Stubbs, ATL Trains.]]></description>
+            <link>http://localhost:3000/video/passenger-rail-atlanta</link>
+            <guid isPermaLink="true">http://localhost:3000/video/passenger-rail-atlanta</guid>
+            <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
+            <pubDate>Mon, 08 Jan 2024 16:23:21 GMT</pubDate>
+            <enclosure url="http://localhost:3000/assets/videos/what’s-rail-atlanta-beltline.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[Atlanta’s Parking (Housing) Crisis]]></title>
+            <description><![CDATA[We're building way too much parking, it's an epidemic. Why is this an issue and what's going on to address it?]]></description>
+            <link>http://localhost:3000/video/atlantas-parking-housing-crisis</link>
+            <guid isPermaLink="true">http://localhost:3000/video/atlantas-parking-housing-crisis</guid>
+            <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
+            <pubDate>Fri, 01 Dec 2023 16:45:00 GMT</pubDate>
+            <enclosure url="http://localhost:3000/assets/videos/what’s-rail-atlanta-beltline.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[What’s going on with rail on the Atlanta Beltline?]]></title>
+            <description><![CDATA[Atlanta hasn’t seen a new rail project since the 2000s — MARTA is to finally build the first segment of rail on the Beltline as originally envisioned, by 2028. ]]></description>
+            <link>http://localhost:3000/video/whats-rail-atlanta-beltline</link>
+            <guid isPermaLink="true">http://localhost:3000/video/whats-rail-atlanta-beltline</guid>
+            <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
+            <pubDate>Wed, 08 Nov 2023 20:49:00 GMT</pubDate>
+            <enclosure url="http://localhost:3000/assets/videos/what’s-rail-atlanta-beltline.jpg" length="0" type="image/jpeg"/>
+        </item>
+        <item>
+            <title><![CDATA[What Happened to Downtown Atlanta?]]></title>
+            <description><![CDATA[Downtown Atlanta was once a vibrant city center - now it's a hollow shell of it's former self. What caused it to be this way?]]></description>
+            <link>http://localhost:3000/video/what-happened-to-downtown-atlanta</link>
+            <guid isPermaLink="true">http://localhost:3000/video/what-happened-to-downtown-atlanta</guid>
+            <dc:creator><![CDATA[Nathan Davenport]]></dc:creator>
+            <pubDate>Sun, 22 Oct 2023 16:04:00 GMT</pubDate>
+            <enclosure url="http://localhost:3000/assets/videos/what’s-rail-atlanta-beltline.jpg" length="0" type="image/jpeg"/>
         </item>
     </channel>
 </rss>

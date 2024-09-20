@@ -52,7 +52,10 @@ export default function Archive() {
                       <List
                         listItems={posts.filter(
                           (post) =>
-                            format(post.date, "yyyy") === year && post.fmContentType !== ContentTypeEnum.GENERAL,
+                            post.date &&
+                            post.fmContentType &&
+                            format(post?.date, "yyyy") === year &&
+                            post.fmContentType !== ContentTypeEnum.GENERAL,
                         )}
                         showThumbnails={false}
                       />

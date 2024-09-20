@@ -12,6 +12,7 @@ export type Post = {
   author: Author;
   content: string;
   description?: string;
+  draft: boolean;
   // Optional
   tags?: string[];
   keywords?: string[];

@@ -16,6 +16,7 @@ tags:
 categories:
   - atlanta
 fmContentType: article
+draft: true
 ---
 
 ![Thumbnail Example](/assets/articles/demo/thumb.png)

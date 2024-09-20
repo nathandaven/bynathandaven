@@ -1,0 +1,368 @@
+---
+sectionTitleWithoutDescription: ""
+title: Is Atlanta Full?
+slug: is-atlanta-full
+date: 2024-04-15T17:23:37.197Z
+lastmod: 2024-09-20T20:28:23.197Z
+preview: /assets/videos/what’s-rail-atlanta-beltline.jpg
+draft: false
+description: "Digging deep into the history of zoning policy in Atlanta, the Missing Middle, and the current state of zoning & housing policy reform."
+tags:
+  - atlanta
+  - housing
+  - zoning
+categories: []
+author:
+  name: Nathan Davenport
+  picture: /assets/authors/nathan.jpeg
+youtubeLink: ""
+fmContentType: video
+---
+
+## Is Atlanta full? The ultimate breakdown of Atlanta's Growth Plan
+
+Is Atlanta full? It definitely feels that way when you're driving down the connector on a typical afternoon. When everyone is a car, it looks real full, real fast!
+
+The reality is, most of Atlanta just looks like, this. Atlanta's one of the lowest density metro areas in the United States. On Wikipedia's list of Urban places, [Atlanta ranks at ](https://daringivens.medium.com/atlanta-ranks-143rd-in-population-density-among-u-s-cities-thats-not-good-f9f9412caf0a)_[143rd](https://daringivens.medium.com/atlanta-ranks-143rd-in-population-density-among-u-s-cities-thats-not-good-f9f9412caf0a)!_
+
+67% of our region strictly devoted to single family homes. For a metro area that just cracked the 6th most populous in the US, at over 6 million people, that's shockingly inefficient!
+
+The truth is, all of this is by design. In today's video, we're going to explore _how all this_ low density development contributes to an expensive city, and see why Atlanta has got a lot of room to grow, if we let it!
+
+Thanks for reading! Subscribe for free to receive new posts and support my work.
+
+Subscribe
+
+## **Growing Pains: Cost of Living, Private Equity, and Inequitable Growth**
+
+Atlanta is a rapidly growing city, whether we like it our not. Atlanta's metro area just broke news for becoming the 6th most populated metro area in the United States, hopping over Washington DC and Philadelphia in 2024 census estimates.
+
+And while Atlanta continues to put on population as it sprawls outwards, luckily, the city center is growing as well. We've seen population increase as a stead uptick over the past decade, seeing an increase of nearly 100,000 since 2010.
+
+Whatever it is, people are moving here, and it doesn't seem to be slowing down. Whether it's the weather, the people, or the wings, Atlanta's got a lot to offer as the capital of the South. And the thing is, people gotta have a place to live, whether they grew up here or not.
+
+Our main problem is: suburban growth OTP is still out pacing growth in the city ITP, which has long lasting impacts on everyone. Growth in the suburbs through suburban, greenfield development means more traffic, more pollution, more environmental destruction, and even more strain on public infrastructure and funds.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ae96fe7-bb9a-4b3e-81ed-563d1f57cac9_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1ae96fe7-bb9a-4b3e-81ed-563d1f57cac9_1920x1080.png)via [33n Atlanta Regional Commission](https://33n.atlantaregional.com/friday-factday/a-decade-of-change-population-and-demographics-in-metro-atlanta)
+
+According to Atlanta Department of City Planning's ["Atlanta City Design,"](https://72b006f2.flowpaper.com/ACDSecondPrintFINAL180820/#page=1) dense, equitable growth can have numerous benefits, such as making public transportation more viable and more frequent, improve land use and making it easier to operate spaces like neighborhood stores and restaurants, and in general make Atlanta a more people oriented city.
+
+**Remember, you're not stuck in traffic, you** _ **are**_ **traffic!** The way we house and transport people really does matter at a macro scale.
+
+### **Build build build**
+
+Luckily, Atlanta has not been afraid to answer this growth by building new housing.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25ecf78a-4fe0-408b-b828-df05c34f3662_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F25ecf78a-4fe0-408b-b828-df05c34f3662_1920x1080.png)via [Apartments List](https://www.apartmentlist.com/research/which-metros-are-permitting-new-homes-the-fastest)
+
+According to the US census, Fulton county itself built 14,000 units in 2022, with the majority of those units being multifamily. And the metro as a whole approved more multifamily permits than it has in 30 years, permitting 21,000 multifamily across the metro.
+
+### **Skyrocketing housing prices**
+
+But is it enough? All answers point to no, as everyone is starting to feel the pressure. Rents and mortgages are going up like their no ones business, according to Rent Cafe's 2019 averages, average rent has increased 65% from 2010 to 2019.
+
+And with The Atlanta Regional Commission projecting the metro area to balloon up to 9 million people by 2050, its only gonna keep growing. Imagine traffic then!
+
+According to the city of Atlanta's Equitable Housing Needs Study, while Atlanta built ~17,513 new units between 2010 and 2018.
+
+**That's only about 57% of the units needed at <$1,000/month to keep up with the population growth. ([Atlanta City Design](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d))**
+
+The reality is, only 20% of those units were were affordable to those under 45k a year, which covers nearly 45% of the Atlanta population.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda9803de-d148-45b4-9b6c-b4ef906a346b_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fda9803de-d148-45b4-9b6c-b4ef906a346b_1920x1080.png)via [Atlanta City Design: Housing](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d)
+
+What that adds up to is, nearly 47% of all Atlanta residents spending **more** than 30% of their income on rent, according to Atlanta's Department of City Planning and the US Census. Thats a 16% increase between 2010 and 2018. What a time to be alive!
+
+### **Private equity in the housing market**
+
+To make matters worse, with such a red hot housing market, billions of dollars in wall street backed private speculation have entered the Atlanta metro.
+
+Per an investigation by the New York Times, ["The American Dream for Rent,"](https://www.ajc.com/american-dream/investor-owned-houses-atlanta/) the news outlet revealed that tens of thousands of single family homes are being bought and held by massive private equity firms, that intend to simply extract wealth by constricting housing supply.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67bfcdfc-99ff-464f-8a51-e2939139916d_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67bfcdfc-99ff-464f-8a51-e2939139916d_1920x1080.png)via [American Dream for Rent, AJC](https://www.ajc.com/american-dream/investor-owned-houses-atlanta/)
+
+Nearly 65,000 single family homes have been purchased and operated as rentals in Metro Atlanta, mostly in lower income or non-white areas of the metro. They will proceed to make offers on any property listed for under 500,000, swooping in before any real individuals can even see the listing
+
+These are 65,000 units taken off the market, and held in a strangle by private equity firms, that hold on to properties and put an even tighter stranglehold on the housing market. The American Dream is up for rent, for better or worse.
+
+### **Inequitable Growth: Affordable Housing and the effects of Gentrification**
+
+One of the most pressing issues of all this inequitable growth is the unfortunate fact: **non-white, people of color are disproportionately more affected than white people in our current housing market**.
+
+As prices creep up, it becomes more and more attractive to profiteers and investors to swoop in, and take advantage of lower income neighborhoods, and displace it's residents for profit. IE: gentrification.
+
+That's why affordable housing programs, and other housing stabilization methods, are so important, as cost of living increases and this process continues. Current Mayor Andre Dickens [campaign promise](https://www.atlantaga.gov/government/mayor-s-office/moving-atlanta-forward-agenda/quality-housing-for-everyone) was to bring 20,000 new affordable housing units by 2030, and claims to already be at 40% progress since October 2023.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0cf7925-1f80-4e24-b2d9-60cba27be573_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0cf7925-1f80-4e24-b2d9-60cba27be573_1920x1080.png)via [City of Atlanta](https://www.atlantaga.gov/government/mayor-s-office/moving-atlanta-forward-agenda/quality-housing-for-everyone)
+
+The thing is, progress is moving slow, especially considering that this goal post was set in 2026 by former Mayor Bottoms, and moved to 2030 by Mayor Dickens.
+
+As this pressure increases, and the city continues to fail to meet housing price demands, we will continue to see growth in the outer ring suburbs, causing our issues to only worsen.
+
+### **The Housing Supply Problem**
+
+All of these factors are part of one large equation: Atlanta has a housing supply problem. Most large cities in the United States right now are experiencing a greater influx of residents than they can build housing. For example, Atlanta has added 3,500 more households than it did new housing units from 2010-2018, per the Atlanta Department of City Planning
+
+Remember high school econ? Housing affordability can be dumbed down to simple supply and demand. A healthy housing market will have elastic supply, which is when supply keeps up with housing demand.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f017dec-66c4-4dda-8393-186c126a18a1_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f017dec-66c4-4dda-8393-186c126a18a1_1920x1080.png)via [Atlanta City Design: Housing](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d)
+
+But here in a housing crisis, we're seeing inelastic supply, leading to a major supply shortage, and a major increase in housing prices. This effect, along with the general trend of inflation and increasing cost of living, as brought us to all the previously mentioned effects.
+
+This is where housing density comes in. Atlanta is one of the least densely populated metro areas in the United States, while also simultaneously being the 6th most populous. The math doesn't add up yeah? How did we end up here?
+
+## **Groundwork: Zoning, Redlining, and the Missing Middle**
+
+Now, that's all a lot to take in. But now we need to understand.. why is housing such a difficult issue to tackle?
+
+The truth is, all of these aspects is by design, and is a symptom one aspect of our local political system: **zoning codes**.
+
+To get to the bottom of this, first,, we gotta lay some groundwork.
+
+### **Defining zoning**
+
+Zoning codes have had an insane effect on the ways our cities are built. Before zoning codes, cities were built fairly organically.
+
+If you owned a piece of land you could kind of do anything you wanted with it. You could build a shop on the ground floor, and live in the apartments above.
+
+However, as industrialization came along, early city planners in the US started to realize that pollution spewing factories destroying their workers health next door maybe wasn't the best idea.
+
+So, "single use" zoning codes were born, which created rules to determine that a certain piece of property could only be used for one type of use, such as residential, commercial, or industrial.
+
+These eventually grew to be extremely complicated in the modern world, restricting factors like density, parking requirements, and more. Older blocks were usually grandfathered in, which is why places like Downtowns are a bit of a freak of nature under modern zoning codes.
+
+### **Origins as racial boundaries**
+
+Zoning was also created as a means of segregation, used to lock in wealthy, white, single family neighborhoods, and separate dense, lower income, non-white communities.
+
+The first zoning code in Atlanta was very explicit in this separation: R-1 White Districts for single family neighborhoods, and R-2 Colored districts for multifamily neighborhoods. After a Supreme Court ruling in 1917, these named were renamed to R-1 Dwelling Housings, and R-2 Apartment Houses.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4cd66871-e39f-403a-967b-9e37b3a8ff51_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4cd66871-e39f-403a-967b-9e37b3a8ff51_1920x1080.png)via [Atlanta City Design: Housing](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d)
+
+This set the foundation for today's "historical" single family neighborhoods, with many of these originally R-1 zoned areas still persisting to this day.
+
+### **Redlining and Urban Renewal**
+
+However, this wasn't the end of it. After World War II, in Atlanta and many cities across the US, the federal government started giving out housing loans to incentivize the growth of the single family house and the American Dream.
+
+Non-white and immigrant neighborhoods were "red-lined" to prevent these communities from being able to afford housing loans during this period, which prevented many non-white families from being able to participate in the American Dream.
+
+Per the University of Richmond's "Mapping Inequality," this language was very explicit, marking these areas as "hazardous" literally citing black or immigrant populations as primary remarks, along with vehicular traffic and "crime".
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ba5831c-b0fb-4cbd-bfc5-b517a33beb5a_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2ba5831c-b0fb-4cbd-bfc5-b517a33beb5a_1920x1080.png)via [Mapping Inequality: Atlanta](https://dsl.richmond.edu/panorama/redlining/map/GA/Atlanta/context#loc=10/33.7534/-84.3563)
+
+Unsurprisingly, these areas became prime targets for later urban renewal, and most have been razed for numerous projects such as our urban freeway system, Freedom Parkway and the Carter Center, Fulton County Stadium, and the Georgia Dome.
+
+Today, 86% of these red-lined neighborhoods either no longer exist, or still are predominantly low income. Atlanta's redlined areas fared way worse than most other cities, sitting higher than the national average of 64%.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d946da9-2fd4-42b8-8bb8-d402fababba3_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7d946da9-2fd4-42b8-8bb8-d402fababba3_1920x1080.png)via [Atlanta City Design: Housing](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d)
+
+### **The Missing Middle**
+
+The effect of R-1 and R-2 zoning is the loss of so called Missing Middle Housing -- housing types that exist in between single family, detached housing, and high density housing. Zoning codes in the early 1900s basically eliminated flexible housing types, making it illegal to build anything else.
+
+So for example, since 1950, the total number of buildings between 2-4 families dropped from 20% share of housing stock, to just 10%.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb08ff37d-4e16-4244-ab21-761fc4457eba_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb08ff37d-4e16-4244-ab21-761fc4457eba_1920x1080.png)via [Atlanta City Design: Housing](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d)
+
+What's interesting is that most Americans may not even realize that there are many other options when it comes to housing.
+
+The "Missing Middle" is exactly what it sounds like: housing types between the single family home, and the high density multifamily.
+
+For example, townhomes and row houses can house many more people than a single family house.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F217114f5-cc76-4c9e-8333-986e6ae69877_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F217114f5-cc76-4c9e-8333-986e6ae69877_1920x1080.png)Rowhouses (Midtown, Atlanta)
+
+Or this Duplex. Or this triplex. Rising up to even this Quadplex or Multiplex. It can get even denser too. Housing types like courtyard apartments, can offer gentle density without being too intense.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F994069e2-ef99-41ce-be00-018b37eaf426_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F994069e2-ef99-41ce-be00-018b37eaf426_1920x1080.png)Typical Atlanta Quadplex (Midtown, Atlanta)
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ac1915a-f4ea-4cc9-8ab9-a0028de7a9a9_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ac1915a-f4ea-4cc9-8ab9-a0028de7a9a9_1920x1080.png)Smaller Apartment Building (Home Park, Atlanta)
+
+A great example is The Atlanta Quadplex was once an extremely popular building type a century ago. It allowed homeowners to build 4 units on one property, one unit to live in, and three to rent out. It was an affordable purchase to make from Sears at the time, a time where it was easy to build a home!
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0cefc07-d94b-4309-acbe-09d66e94965e_1000x690.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0cefc07-d94b-4309-acbe-09d66e94965e_1000x690.png)Sears Ad for an Atlanta Quadplex
+
+Today, it's practically illegal to build in most areas due to strict, single use residential zoning, without getting special permission and regulations changed.
+
+## **Smart Growth: Atlanta's Plan A, Zoning Reform, and ATL Zoning 2.0**
+
+So that's how we got here. Zoning restrictions created in the early 1900s, have limited our growth in ways that will continue to be unsustainable, and now Atlanta today is half as dense as it was nearly a century ago.
+
+### _ **Atlanta City Design**_ **and Plan A's role in the City's Charter**
+
+Luckily, the City of Atlanta is very aware of all of this history. Much of this video is informed by research compiled by Atlanta's Department of City Planning.
+
+The Atlanta Department of City Planning created _The Atlanta City Design_ , a published growth plan for the city to follow over the decades, and was accepted into the city's charter in 2017. This was translated into "Plan A," an actionable set of zoning policy goals that will inform future zoning policy reform.
+
+### **Basic Ideas of** _ **Atlanta City Design**_
+
+The _Atlanta City Design_ covered a broad range of topics, touching on many things already discussed in this video. Read the book for free online [here](https://72b006f2.flowpaper.com/ACDSecondPrintFINAL180820/#page=1).
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6294526-1f6c-4fde-a906-6860ac1789fa_1696x980.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb6294526-1f6c-4fde-a906-6860ac1789fa_1696x980.png)Atlanta City Design, print version. Read it for free online [here](https://72b006f2.flowpaper.com/ACDSecondPrintFINAL180820/#page=1).
+
+But toward's the end, the book recommends several primary constraints for the city: the distinction between Growth areas and Conservation areas, a focus on connectivity, and the idea of protecting naturing and encouraging people in nature.
+
+1.  **Growth and Conservation Areas**
+
+Growth areas cluster around existing nodes of density, which covers most of the region within the Beltline, such as Downtown, Midtown, and most in town urban neighborhoods. These growth areas also "flow outward" along major corridors, tracking outside of the city to form clusters of density that can easily accommodate more population and create town centers and transit nodes.
+
+Conservation areas are about areas that don't really need to accommodate density, either to to historical significance, productive use to the city, or are suburban and distant enough from the core that they don't need to accommodate density. Some people will prefer a suburban or rural way of life, and luckily, there's plenty of the metro that can accommodate these desires.
+
+2.  **Connectivity**
+
+Ideally, these major corridors are envisioned along existing or newly created mass transit lines, or bikeways. They introduce this idea of "Hashtag BRT," which focuses BRT lines radiating out in between existing MARTA lines, allowing for healthy growth along these corridors, alongside other transit projects.
+
+This primary theme of aligning "Density with Transit," allows for equitable and effective growth that doesn't increase pollution and traffic!
+
+3.  **Nature**
+
+And lastly, a last major point is protect nature and encouraging people in nature. Contrary to popular belief, dense urban areas are much better for the environment than continued suburban sprawl.
+
+Atlanta's nickname is a "city in the trees," and the _Atlanta City Design_ hopes to increase public spaces, public art, small park space, and create several new large park spaces within the city limits.
+
+So this is all great and all, but all this was written in 2017, and lets be frank: a lot has changed since 2017. The actual city zoning code hasn't been updated in 40 years, and "Plan A" is essentially a "plan within a plan" per the Atlanta Civic Circle.
+
+### **Zoning reform on the ground & ATL Zoning 2.0**
+
+This is all a bit confusing, but ultimately, The Atlanta City Design and currently developing Plan A directly informs the ultimate zoning reform bill, branded by the city as _ATL Zoning 2.0._
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ee47423-a5ab-460c-a6f1-081b9eec1854_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ee47423-a5ab-460c-a6f1-081b9eec1854_1920x1080.png) _Atlanta City Design: Housing_ , can be found [here](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d).
+
+It can be hard to visualize what this reform could actually look like on the ground once implemented as policy. In 2021, The Department of City Planning laid out lots of useful information on what reform _can_ look like, through the online resource \_[Atlanta City Design: Housing](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d) , \_one of the primary sources for this video.
+
+1.  **Legalizing Missing Middle Housing, densifying growth areas, and enabling neighborhood businesses**
+
+The first step is ending single family zoning, across the board, and allowing density within growth areas and growth corridors. The good news is, per Atlanta Civic Circle, the city is looking to do just that and legalize missing middle housing, which will broadly legalize housing types such as duplexes, quadplexes, and basement apartments.
+
+According to the Department of City Planning, 11,500 new units could be created if only _15%_ of current single family properties added a second unit.
+
+2.  **Enable neighborhood scaled, walk to commercial**
+
+Additionally, loosening zoning requirements can also make it easy to operate neighborhood scaled businesses. Some of the most beloved areas of the city are commercial strips that originated around streetcar stops, like Little 5 Points, Virginia Highland, and East Atlanta Village, that would be impossible to build today under existing zoning conditions.
+
+Embracing moderate density and town centers within the growth areas can make it easier to support small scale walk to commercial spaces, such as coffee shops, restaurants, and small scale grocery stores.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89bc14f5-4e85-42b2-b7a5-d885f0f20ab1_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89bc14f5-4e85-42b2-b7a5-d885f0f20ab1_1920x1080.png)
+
+3.  **Legalizing Accessory Dwelling Units**
+
+The second step is legalizing Accessory Dwelling Units across the board. Also known as ADU's, these allow property owners to construct accessory buildings on their properties, often in the front yard, back yard, or other innovative additions.
+
+This is done by subdividing properties into multiple. Corner lots are easy, you can just cut the lot in half, and both properties have street access.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f316687-7269-4f4e-b84d-c0ccbb636ac0_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1f316687-7269-4f4e-b84d-c0ccbb636ac0_1920x1080.png)
+
+But on standard single access lots, the most common approach is to allow flag lots, which are flag shaped lots that allow for street access from behind an existing house
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F137442d0-1def-4931-95f1-685ea77e869e_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F137442d0-1def-4931-95f1-685ea77e869e_1920x1080.png)
+
+This is already allowed for duplexes in the city. And certain neighborhoods already allow for ADU construction, but rules are fragmented. Standardization of ADU allowance and incentives is a no brainer.
+
+4.  **Legalizing moderate density within a 1/2 mile of MARTA rail stations**
+
+The best place to build higher densities is near mass transit. And the simplest way to achieve this is to increase incentives to construct transit oriented development, or TOD's.
+
+Most Atlanta MARTA stations are surrounded by seas of parking lots, and are mostly underused, and MARTA is currently pushing for development of these lots at key stations, the most recent being the Edgewood side of Edgewood/Candler Park station, and up next is the Indian Creek TOD hub.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb384d070-2c23-4fc1-88fc-8847710fbbee_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb384d070-2c23-4fc1-88fc-8847710fbbee_1920x1080.png)
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2dd563f0-92e6-45ae-a177-01d79d73dfda_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2dd563f0-92e6-45ae-a177-01d79d73dfda_1920x1080.png)Edgewood TOD with Spoke Apartments, Quill Apartments, via Google Earth
+
+5.  **Ending parking minimums implementing maximums**
+
+Parking minimums famously force developers to provide an excess of parking in new constructions. Luckily, Atlanta is fairly progressive when it comes to parking reform, where parking minimums are removed from Downtown, Midtown, near MARTA stations, and most recently, along the entirety of the Beltline
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17eb4f4b-a7cc-4d73-976e-fcda84fa75e3_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17eb4f4b-a7cc-4d73-976e-fcda84fa75e3_1920x1080.png)High Capacity Transit zones overlaid with the Beltline Overlay
+
+But, developers still build a lot of parking. We need to implement stricter maximums to keep these down.
+
+6. **Lowering minimum lot size requirements**
+
+Lot size requirements force properties have lots of a certain size, often larger than they should be, forcibly keeping density low and increasing costs. Seeing a theme here? These lots make it generally more difficulty to build more compact housing. Allowing the subdivision of existing lots to build things such as ADU's, is just another no brainer
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde0eb781-5a35-4f49-9b25-91735899b008_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde0eb781-5a35-4f49-9b25-91735899b008_1920x1080.png)
+
+7.  **Increasing affordable housing stock and distribution**
+
+Atlanta is very much still a tale of two cities, and incentivizing affordable housing across the board is one of the best ways to minimize the effects of gentrification and displacement, while also growing at the same time. Georgia state law forbids any kind of rent control or affordable housing enforcement, so unfortunately all the city of Atlanta can do is _encourage_ affordable housing through tax credits and incentives.
+
+For example, the Beltline currently uses its Beltline District to force development of affordable housing units in every project built, since 2018. This is covered by the Beltline Tax Allocation district to subsidize these units, and is the reason we've seen so much affordable housing construction on the Southside and Westside Beltline.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb15d0158-3d52-406f-aaef-09371bae8ffc_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb15d0158-3d52-406f-aaef-09371bae8ffc_1920x1080.png)via [Atlanta City Design: Housing](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d)
+
+8. The Department of City Planning also recommends expanding is the Urban Enterprise Zone Program (UEZ). This program, created in 1980's requires 20% of units to be affordable housing for 10 years, in order to earn a property tax abatement. This program is outdated and only includes some of the lowest income parts of the city, and could be expanded as a vehicle to create a more equitable distribution of affordable housing throughout the city's districts.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9eb4e642-ffa9-4cd8-9b69-68ce20bd6eee_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9eb4e642-ffa9-4cd8-9b69-68ce20bd6eee_1920x1080.png)via [Atlanta City Design: Housing](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d)
+
+9.  **Leveraging publicly owned land for new innovating housing solutions**
+
+Lastly, as of 2019, the City of Atlanta public agencies own 259 vacant properties that total to 363 acres of land, all within the designated Growth Areas.
+
+For example, Mayor Dickens authorized the construction of [Melody Bloodsworth](https://www.axios.com/local/atlanta/2024/01/29/atlanta-homelessness-housing), an transitional housing project made of 40 shipping container units at the publicly owned 184 Forsyth St property last year.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb2fe84f-fe5c-4def-ad52-986c64989ae2_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbb2fe84f-fe5c-4def-ad52-986c64989ae2_1920x1080.png)via [Atlanta City Design: Housing](https://storymaps.arcgis.com/stories/e91c43ad299a4634add2bed4cf2eca9d)
+
+These are ample locations for affordable housing, and could be used as a type of subsidy to easily build affordable housing in high cost areas.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe63ba2d-5e6d-4b26-9e06-6a09a0fe41ab_1140x641.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffe63ba2d-5e6d-4b26-9e06-6a09a0fe41ab_1140x641.jpeg)The Melody, 184 Forsyth St, via [11Alive](https://www.11alive.com/article/news/local/atlanta-opens-rapid-housing-site/85-b142c8da-d92a-47a4-aa9c-df6349c57d28)
+
+**The ultimate takeaway of ATL Zoning 2.0 is that these changes will make it easier to build housing, which will allow housing construction to match demand, and make the city more affordable for everyone.**
+
+#### **Roadblocks (NIMBYs)**
+
+A major barrier is property owners within the neighborhoods, who have a major incentive to keep housing supply low, and constrict density to keep their property values high.
+
+Obviously, changing long time existing laws that majorly benefit these property owners proves to be.. difficult, especially when many of them have such an influence in the political system.
+
+These people work within their local planning units to strike down development projects, rezoning proposals, and generally hold back neighborhoods all in the name of protecting property values.
+
+These people are called "NIMBYs," which stands for "Not in my back yard."
+
+We can see a great example of this here in Little Five Points. Behind me, in this _never used parking lot,_ a 5 over 1 apartment building was blocked by Candler Park residents.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d64312a-723e-412d-a278-8c37f27f853d_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9d64312a-723e-412d-a278-8c37f27f853d_1920x1080.png)
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b3bee1f-36a1-4b21-98de-b594cf43c345_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b3bee1f-36a1-4b21-98de-b594cf43c345_1920x1080.png)via [Urbanize Atlanta](https://atlanta.urbanize.city/post/little-five-points-development-neighbors-concerned)
+
+It's fine, this Figo food truck in the middle of a parking lot is the neighborhood character I prefer anyways.
+
+#### **It's a great time to get involved: Plan A and CDP**
+
+State law requires Georgia cities to update their Comprehensive Development Plans every five years, which includes Atlanta’s Plan A. Now, the city is working on the 5 year update to "Plan A," which is now referred to as the "Comprehensive Development Plan," or CDP for short.
+
+Luckily, now is a fantastic time to get involved as the city is in the public engagement phase of the CDP. This CDP is one of the major references for ATL Zoning 2.0, and will majorly inform the overall decisions made for zoning reform. This means that this is the best place to have an impact, as there are be lots of NIMBY's fighting against this.
+
+I'll put several of the next upcoming open houses and popups happening soon on screen:
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49b52206-06d8-45c3-967e-24abe4c286a8_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49b52206-06d8-45c3-967e-24abe4c286a8_1920x1080.png)See [AtlantaForAll.com](http://AtlantaForAll.com) for more up to date info.
+
+There’s also online surveys to fill out to engage remotely, available at [AtlantaForAll.com](http://AtlantaForAll.com).
+
+Another great Option is to get involved with your neighborhood planning unit. Many city neighborhoods have was called "Neighborhood Planning Units," or NPU's, which are extremely influential in the political process and local zoning policy
+
+There are usually weekly or monthly meetings for these, and they're a great way to fight for urban amenities and missing middle density in your area. Almost all cities have some sort of political process that allows you to get involved and make your voice heard!
+
+## **Takeaway**
+
+The main thing to takeaway from this video, is that housing affordability is _directly_ related to the suburban lifestyle we've cultivated here in Atlanta. It's fine to want a suburban lifestyle, but lets keep the suburbs in the suburbs, and encourage a dense, transit connected city, in the growth areas that can support it.
+
+Ultimately, It's time to break away from the propaganda that is the stereotypical postwar American Dream. Which is, the classic, single family starter home. Legalizing more types of housing will bring back the American Dream into the modern age.
+
+I'll conclude with an example. Austin, Texas, all memes aside, has been building housing _like crazy._ And I mean seriously, look at this chart.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde3b99dc-d33a-4a50-a8e6-cc8397a77bf4_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde3b99dc-d33a-4a50-a8e6-cc8397a77bf4_1920x1080.png)via[ Kut News](https://www.kut.org/austin/2024-02-29/construction-boomed-in-austin-and-rents-went-down-now-some-builders-are-dismantling-the-cranes)
+
+And guess what? Austin's _average rents are actually going down._ Let that sink in. Over the past year, Austin has abolished parking minimums and single family housing restrictions, legalizing up to three units on every property. It's almost poetic.
+
+[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3874cd5-32dd-4cc9-895d-f29b220bd9d0_1920x1080.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd3874cd5-32dd-4cc9-895d-f29b220bd9d0_1920x1080.png)via [Apartment List](https://www.apartmentlist.com/rent-report/tx/austin#)
+
+Any city can do this, and if Atlanta does the same, we can grow into an equitable city for all people. Except, Cybertruck owners. Those guys can stay in Austin.
+
+Big thanks to the Atlanta Department of City Planning for much of this information, they were a great resource for everything in this video! If you're interested in Plan A or ATL Zoning 2.0, please see [AtlantaForAll.com](atlantaforall.com) and [ATLZoning.com](atlzoning.com).
+
+Thanks for watching, and I'll see y'all next time :)
+
+Thanks for reading! Subscribe for free to receive new posts and support my work.
+
+Subscribe
