@@ -1,12 +1,13 @@
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Post } from "@/interfaces/post";
 import fs from "fs";
-import RSS from "rss";
+import { join } from "path";
+import RSS, { FeedOptions, ItemOptions } from "rss";
 
 export default async function generateRssFeed(allPosts: Post[]) {
   const site_url = process.env.NODE_ENV === "production" ? "https://nathandaven.com" : "http://localhost:3000";
 
-  const feedOptions = {
+  const feedOptions: FeedOptions = {
     title: "Nathan Davenport | RSS Feed",
     description: "All of Nathan Davenport's articles, videos, and photography in one place.",
     site_url: site_url,
@@ -22,14 +23,19 @@ export default async function generateRssFeed(allPosts: Post[]) {
   allPosts
     .filter((post) => post.fmContentType != ("general" as ContentTypeEnum))
     .map((post) => {
-      feed.item({
-        title: post.title,
-        description: post.description,
+      const item: ItemOptions = {
+        title: post.title ?? "",
+        description: post.description ?? "",
         url: `${site_url}/${post.fmContentType}/${post.slug}`,
         date: post.date,
-      });
+        author: post.author.name,
+        enclosure: {
+          url: `${site_url}/public${post.preview}`,
+        },
+      };
+      feed.item(item);
     });
 
   // Write the RSS feed to a file as XML.
-  fs.writeFileSync("./public/rss.xml", feed.xml({ indent: true }));
+  fs.writeFileSync(join(process.cwd(), "public/rss.xml"), feed.xml({ indent: true }));
 }

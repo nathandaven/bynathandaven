@@ -803,6 +803,11 @@
     "@types/prop-types" "*"
     csstype "^3.0.2"
 
+"@types/rss@^0.0.32":
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/@types/rss/-/rss-0.0.32.tgz#19de5179a8160455c2f46a7699391ebacd4853cc"
+  integrity sha512-2oKNqKyUY4RSdvl5eZR1n2Q9yvw3XTe3mQHsFPn9alaNBxfPnbXBtGP8R0SV8pK1PrVnLul0zx7izbm5/gF5Qw==
+
 "@types/stats.js@*":
   version "0.17.3"
   resolved "https://registry.yarnpkg.com/@types/stats.js/-/stats.js-0.17.3.tgz#705446e12ce0fad618557dd88236f51148b7a935"
