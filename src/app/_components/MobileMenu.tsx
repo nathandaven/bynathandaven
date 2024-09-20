@@ -19,7 +19,7 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
     <>
       <nav
         className={classNames(
-          "sticky top-0 z-50 overscroll-contain border border-x-0 border-t-0 border-black bg-[#f1f0e9] px-5 md:px-0 dark:border-white dark:bg-[#0f0e0e]" /* "mx-7" */,
+          "sticky top-0 z-50 overscroll-contain border border-x-0 border-t-0 border-black bg-[#f1f0e9] px-5 transition-all duration-300 md:px-0 dark:border-white dark:bg-[#0f0e0e]" /* "mx-7" */,
           menuOpened ? "border-black" : "mt-4",
         )}
       >
@@ -47,8 +47,8 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
 
         <div
           className={classNames(
-            "flex flex-col justify-between transition-all duration-150 sm:hidden",
-            menuOpened ? "visible h-[calc(100dvh-2rem)] opacity-100" : "invisible h-0 opacity-0",
+            "flex flex-col justify-between transition-all duration-75 sm:hidden",
+            menuOpened ? "visible min-h-[calc(100dvh-2rem)] opacity-100" : "invisible h-0 min-h-0 opacity-0",
           )}
         >
           <Navigation mobile={true} className={"gap-x-2"}></Navigation>

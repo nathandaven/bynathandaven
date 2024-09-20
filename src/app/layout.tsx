@@ -42,7 +42,7 @@ export default function RootLayout({
           />
           <meta name="robots" content="index, follow" />
           <meta charSet="utf-8" />
-          <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+          <link rel="alternate" title="Nathan Davenport | RSS Feed" type="application/rss+xml" href="/feed.xml" />
           <meta name="theme-color" content="#f1f0e9" media="(prefers-color-scheme: light)" />
           <meta name="theme-color" content="#0f0e0e" media="(prefers-color-scheme: dark)" />
         </head>

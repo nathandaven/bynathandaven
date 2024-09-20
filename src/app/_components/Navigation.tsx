@@ -16,7 +16,9 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
       className={
         /* "m-5 border border-black border-spacing-1" */ cn(
           className,
-          mobile ? "flex flex-col gap-y-4 py-4 text-5xl" : "mx-auto mb-0 flex h-fit max-w-3xl space-y-2 pb-0",
+          mobile
+            ? "xs:text-5xl xs:gap-y-4 xs:py-4 flex flex-col gap-y-1 py-1 text-3xl"
+            : "mx-auto mb-0 flex h-fit max-w-3xl space-y-2 pb-0",
         ) /* border border-l-0 border-y-0 border-black border-spacing-1 */
       }
     >
