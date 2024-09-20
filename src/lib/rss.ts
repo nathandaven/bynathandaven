@@ -4,7 +4,7 @@ import fs from "fs";
 import { join } from "path";
 import RSS, { FeedOptions, ItemOptions } from "rss";
 
-export default async function generateRssFeed(allPosts: Post[]) {
+export default function generateRssFeed(allPosts: Post[]) {
   const site_url = process.env.NODE_ENV === "production" ? "https://nathandaven.com" : "http://localhost:3000";
 
   const feedOptions: FeedOptions = {
