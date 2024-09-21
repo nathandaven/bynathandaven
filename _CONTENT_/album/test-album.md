@@ -11,7 +11,7 @@ categories: []
 excerpt: ""
 author:
   name: Nathan Davenport
-  picture: /assets/authors/nathan.jpeg
+  picture: /assets/authors/nathan.jpg
 sectionTitleWithDescription: ""
 albumPath: "test-album"
 fmContentType: album

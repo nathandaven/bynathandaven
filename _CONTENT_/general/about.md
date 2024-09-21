@@ -4,7 +4,7 @@ title: About
 slug: about
 date: 2024-09-17T16:45:19.899Z
 lastmod: 2024-09-17T16:45:19.899Z
-preview: /assets/authors/nathan.jpeg
+preview: /assets/authors/nathan.jpg
 draft: true
 description: About Nathan Davenport
 tags: []
@@ -12,7 +12,7 @@ categories: []
 excerpt: ""
 author:
   name: Nathan Davenport
-  picture: /assets/authors/nathan.jpeg
+  picture: /assets/authors/nathan.jpg
 sectionTitleWithDescription: ""
 linkedVideo: ""
 linkedAlbum: ""

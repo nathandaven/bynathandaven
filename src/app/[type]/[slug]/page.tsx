@@ -46,7 +46,9 @@ export default async function Post({ params }: Params) {
     <main>
       {/* <Alert preview={post.preview} /> */}
       <Container
-        title={params.type}
+        title={
+          params.type && params.type.length > 0 ? params.type?.charAt(0).toUpperCase() + params?.type.slice(1) : ""
+        }
         fullWidth={params.type == "album" ? true : false}
         className={params.type == "album" ? "max-w-[150rem]" : ""}
         twoColumnLayout={false}

@@ -4,7 +4,7 @@ title: The Food Hall Epidemic
 slug: the-food-hall-epidemic
 date: 2024-02-09T10:14:59.000Z
 lastmod: 2024-09-20T20:28:23.197Z
-preview: /assets/videos/what’s-rail-atlanta-beltline.jpg
+preview: /assets/video/the-food-hall-epidemic/thumb.jpg
 draft: false
 description: "Are food halls problematic? Are they killing our cities? Are they great for small business? New video out now!"
 tags:
@@ -13,8 +13,8 @@ tags:
 categories: []
 author:
   name: Nathan Davenport
-  picture: /assets/authors/nathan.jpeg
-youtubeLink: ""
+  picture: /assets/authors/nathan.jpg
+youtubeEmbedCode: "9XQh9-Kvpjs"
 fmContentType: video
 ---
 
@@ -22,7 +22,7 @@ fmContentType: video
 
 Food halls. The breeding ground for corporate lunches and pretentious family outings.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc81b4757-3bae-4021-a5b3-9d2b238fca35_3840x2160.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc81b4757-3bae-4021-a5b3-9d2b238fca35_3840x2160.png)
+![](/assets/video/the-food-hall-epidemic/2Fc81b4757-3bae-4021-a5b3-9d2b238fca35_3840x2160.png)
 
 It seems like these places are just everywhere, and more popular than ever. Since 2015, the number of food halls across the US has increased from a mere 70 in 2015, to a mouthwatering 400 in 2020 across the country.
 
@@ -32,11 +32,11 @@ I've been wondering: why the hell are these establishments so popular? Could the
 
 So what is a food hall?
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb4dee33-d1b9-48de-8536-408f33b1d9d6_3840x2160.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb4dee33-d1b9-48de-8536-408f33b1d9d6_3840x2160.png)
+![](/assets/video/the-food-hall-epidemic/2Ffb4dee33-d1b9-48de-8536-408f33b1d9d6_3840x2160.png)
 
 These places are full of restaurants, clothing stores, small businesses, bars, and shops.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fac0b6604-c543-4a3f-86fc-58e796416c6c_3840x2160.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fac0b6604-c543-4a3f-86fc-58e796416c6c_3840x2160.png)
+![](/assets/video/the-food-hall-epidemic/2Fac0b6604-c543-4a3f-86fc-58e796416c6c_3840x2160.png)
 
 ### The death of the American Mall
 
@@ -44,7 +44,7 @@ Now, food halls aint nothing new. The modern food hall is loosely based on the c
 
 But American cities, this concept was dumbed down to fit in your decaying local mall, your dingy high school, or your whitewashed company food hall.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2606b0aa-151c-4ab5-be92-dcc465276019_3840x2160.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2606b0aa-151c-4ab5-be92-dcc465276019_3840x2160.png) _Typical American Mall_
+![](/assets/video/the-food-hall-epidemic/2F2606b0aa-151c-4ab5-be92-dcc465276019_3840x2160.png) _Typical American Mall_
 
 Today’s modern food hall is different breed. The premise is the same: bring together restaurants in a large communal dining area. The twist: all businesses are locally owned, small business.
 
@@ -74,7 +74,7 @@ But in itself - this is the problem.
 
 Here’s Atlanta’ Sweet Auburn Municipal Market, which is a rarity these days. Its the only permanent farmer’s market type location that still exists in the city, and has been around since 1923.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75dc7c7e-b6b1-461e-9228-3b1b57298b01_3840x2160.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F75dc7c7e-b6b1-461e-9228-3b1b57298b01_3840x2160.png)Sweet Auburn Municipal Market, Atlanta GA
+![](/assets/video/the-food-hall-epidemic/2F75dc7c7e-b6b1-461e-9228-3b1b57298b01_3840x2160.png)Sweet Auburn Municipal Market, Atlanta GA
 
 This place is great because its community organized, small business operated, and a non profit. Its genuinely a place that contributes to the resident of the city.
 
@@ -82,7 +82,7 @@ How? Let’s check it out.
 
 Look, instead of expensive restaurants and instagrammable retail, they’re selling groceries, fresh produce, fish, meats, and more.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91fa9a5f-a666-4d45-aac7-87cec41fe20e_3840x2160.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91fa9a5f-a666-4d45-aac7-87cec41fe20e_3840x2160.png)
+![](/assets/video/the-food-hall-epidemic/2F91fa9a5f-a666-4d45-aac7-87cec41fe20e_3840x2160.png)
 
 This is such a contrast to modern food halls. These places are designed like, well, malls.
 
@@ -94,7 +94,7 @@ This might be fine in suburbia, which the mall model was originally for, but in 
 
 See, lets look at Edgewood Ave.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45e4dc32-4b2e-4f5c-a56d-967d2ce21bd6_3840x2160.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F45e4dc32-4b2e-4f5c-a56d-967d2ce21bd6_3840x2160.png)Edgewood Avenue (Sweet Auburn, Atlanta)
+![](/assets/video/the-food-hall-epidemic/2F45e4dc32-4b2e-4f5c-a56d-967d2ce21bd6_3840x2160.png)Edgewood Avenue (Sweet Auburn, Atlanta)
 
 It's starting to feel like every local business we love and cherish is disappearing by the minute.
 
@@ -104,7 +104,7 @@ Just this past month, we saw multitudes of long standing businesses close here: 
 
 See, The Beltline runs through Edgewood Avenue right here, tapping away foot traffic to ever growing Krog Street Market, a food hall that opened a decade ago in 2014.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7dac1f78-a791-4b4b-bb03-d08b0134d5f9_2862x1642.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7dac1f78-a791-4b4b-bb03-d08b0134d5f9_2862x1642.png)Eastside Beltline and Krog ~~Street Market~~ _District_ intersecting Edgewood Ave
+![](/assets/video/the-food-hall-epidemic/2F7dac1f78-a791-4b4b-bb03-d08b0134d5f9_2862x1642.png)Eastside Beltline and Krog ~~Street Market~~ _District_ intersecting Edgewood Ave
 
 I don't think this is a coincidence. The Beltline has driven up property values throughout this area, and Krog Street Market is a driving force of this appraisal.
 
@@ -124,11 +124,11 @@ But on the other hand. Krog Street District and the Beltline have completely zap
 
 Now don't get me wrong, I'm not a NIMBY. Places like Krog and Ponce are bringing lots of density to the city that is much needed. But I do think it's worth realizing that _these places don't work in a vacuum._
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdda3491b-4a5b-494c-a9cd-4d3699fcdd96_3840x2160.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdda3491b-4a5b-494c-a9cd-4d3699fcdd96_3840x2160.png) Ponce City Market, 2024
+![](/assets/video/the-food-hall-epidemic/2Fdda3491b-4a5b-494c-a9cd-4d3699fcdd96_3840x2160.png) Ponce City Market, 2024
 
 Ponce City Market in particular is infamous for not being property taxed adequately for most of its existence. Yes, you heard that right, Jamestown's entire operation had its property taxes froze at 2014 levels up until 2020, while the property’s valuation rose to over a _billion dollars_.[2](https://nathandaven.substack.com/p/the-food-hall-epidemic#footnote-2-141507698)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0433531d-55f3-48cc-9f32-23fd0339b320_3840x2160.png)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0433531d-55f3-48cc-9f32-23fd0339b320_3840x2160.png)
+![](/assets/video/the-food-hall-epidemic/2F0433531d-55f3-48cc-9f32-23fd0339b320_3840x2160.png)
 
 Like, it's a ridiculous number, amounting to only around a **quarter million a year** , when it should’ve been nearly **20 million**.
 
@@ -148,14 +148,6 @@ We have got to start asking -- who are these places for?
 I did this one a little bit differently than my other ones, so let me know what you think! I'm trying to keep it from getting stale.
 
 Thanks for reading.
-
----
-
-Subscribe
-
-[Leave a comment](https://nathandaven.substack.com/p/the-food-hall-epidemic/comments)
-
-[Share](https://nathandaven.substack.com/p/the-food-hall-epidemic?utm_source=substack&utm_medium=email&utm_content=share&action=share)
 
 [1](https://nathandaven.substack.com/p/the-food-hall-epidemic#footnote-anchor-1-141507698)
 

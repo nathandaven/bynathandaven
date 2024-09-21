@@ -4,7 +4,7 @@ title: What Happened to Downtown Atlanta?
 slug: what-happened-to-downtown-atlanta
 date: 2023-10-22T16:04:00.00Z
 lastmod: 2024-09-20T20:28:23.197Z
-preview: /assets/videos/what’s-rail-atlanta-beltline.jpg
+preview: /assets/video/what-happened-to-downtown-atlanta/thumb.jpg
 draft: false
 description: "Downtown Atlanta was once a vibrant city center - now it's a hollow shell of it's former self. What caused it to be this way?"
 tags:
@@ -12,8 +12,8 @@ tags:
 categories: []
 author:
   name: Nathan Davenport
-  picture: /assets/authors/nathan.jpeg
-youtubeLink: ""
+  picture: /assets/authors/nathan.jpg
+youtubeEmbedCode: "exu0iZD37dg"
 fmContentType: video
 ---
 
@@ -29,7 +29,7 @@ But if you’re the type who likes to walk around your cities, you might start t
 
 Downtown today, the Downtown marketed towards tourists and travelers, is centrally a business, attraction district. Not many people live here permanently. The city starts to feel actively more hostile the later in the day you go.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52d34a42-cb4d-4f22-8975-ca55743768fa_2580x1446.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52d34a42-cb4d-4f22-8975-ca55743768fa_2580x1446.jpeg)
+![](/assets/video/what-happened-to-downtown-atlanta/2F52d34a42-cb4d-4f22-8975-ca55743768fa_2580x1446.jpg)
 
 Case in point, Olympic Centennial Park closes at sun fall, and bans the entrance of any soul who dares enjoy themselves in the center of Downtown. Back to your hotel room you go! Try not to get hit while crossing the street!
 
@@ -47,25 +47,25 @@ Other city’s downtowns make Atlanta look, well to put it bluntly, embarrassing
 
 But look at Chicago’s downtown,
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4d77a26-a38f-4e3c-ad24-7ad294e7d1c4_2580x1446.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4d77a26-a38f-4e3c-ad24-7ad294e7d1c4_2580x1446.jpeg)_via “Let’s Go Somewhere New” -[youtube.com](https://www.youtube.com/watch?v=bzR_D0BZK2A)_
+![](/assets/video/what-happened-to-downtown-atlanta/2Fe4d77a26-a38f-4e3c-ad24-7ad294e7d1c4_2580x1446.jpg)_via “Let’s Go Somewhere New” -[youtube.com](https://www.youtube.com/watch?v=bzR_D0BZK2A)_
 
 or Seattle’s Pike Place Market,
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F741e0f99-6b70-473d-9f68-3f42caf9bac9_2580x1446.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F741e0f99-6b70-473d-9f68-3f42caf9bac9_2580x1446.jpeg)_via “Sound Wayz” -[youtube.com](https://www.youtube.com/watch?v=oMvPK9_BG40)_
+![](/assets/video/what-happened-to-downtown-atlanta/2F741e0f99-6b70-473d-9f68-3f42caf9bac9_2580x1446.jpg)_via “Sound Wayz” -[youtube.com](https://www.youtube.com/watch?v=oMvPK9_BG40)_
 
 or even Savannah, Georgia.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1fc7962-7f3a-4a63-848e-4a35ff3d6d0a_2580x1446.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc1fc7962-7f3a-4a63-848e-4a35ff3d6d0a_2580x1446.jpeg)_via “Travel USA” -[youtube.com](https://www.youtube.com/watch?v=RjwdwLeb6pk) _
+![](/assets/video/what-happened-to-downtown-atlanta/2Fc1fc7962-7f3a-4a63-848e-4a35ff3d6d0a_2580x1446.jpg)_via “Travel USA” -[youtube.com](https://www.youtube.com/watch?v=RjwdwLeb6pk) _
 
 These places are vibrant, full of nightlife, and full of pedestrian activity.
 
 They’ve got housing, shops, restaurants, bars, breweries, cafes, and much more all packed into these spaces. These places are places where people actually live, and spend time in. It’s a community even.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01ba5ce1-b8e2-46ec-966c-3b3ed0c61b24_2580x1446.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F01ba5ce1-b8e2-46ec-966c-3b3ed0c61b24_2580x1446.jpeg)Fairlie-Poplar District, Downtown Atlanta
+![](/assets/video/what-happened-to-downtown-atlanta/2F01ba5ce1-b8e2-46ec-966c-3b3ed0c61b24_2580x1446.jpg)Fairlie-Poplar District, Downtown Atlanta
 
 That’s not to say Atlanta doesn’t have these things in historic Downtown. The Fairlie-Poplar district is the best place to find this kind of thing.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff90943fd-7c23-4787-9c0a-c29e3d7bc9e4_2580x1446.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff90943fd-7c23-4787-9c0a-c29e3d7bc9e4_2580x1446.jpeg)Broad Street Boardwalk, Downtown Atlanta
+![](/assets/video/what-happened-to-downtown-atlanta/2Ff90943fd-7c23-4787-9c0a-c29e3d7bc9e4_2580x1446.jpg)Broad Street Boardwalk, Downtown Atlanta
 
 Broad Street Boardwalk is frankly beautiful, and the historic core of small city blocks here makes it really enjoyable to walk around.
 
@@ -91,11 +91,11 @@ See, people were pretty desperate to get out of cities. After the the Industrial
 
 Looking at population trends over the past several decades, we can really see how intensely the suburban and exurban counties of the Atlanta Metro Region have grown in comparison to the city of Atlanta. [1](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-1-138682285)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7bc30488-ce37-410a-a7c4-8e7caaf99b11_3840x2160.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7bc30488-ce37-410a-a7c4-8e7caaf99b11_3840x2160.jpeg) _Adapted from[Population Estimates for the Atlanta Region: Another Steady Year of Growth (2016)](http://www.documents.atlantaregional.com/snapshots/PopulationEstimates2016Snapshot.pdf)_
+![](/assets/video/what-happened-to-downtown-atlanta/2F7bc30488-ce37-410a-a7c4-8e7caaf99b11_3840x2160.jpg) _Adapted from[Population Estimates for the Atlanta Region: Another Steady Year of Growth (2016)](http://www.documents.atlantaregional.com/snapshots/PopulationEstimates2016Snapshot.pdf)_
 
 This is commonly refereed to as **white flight** , due to mostly only white people having the means to leave the city economically, especially in the South. But as time went on, the black middle class also quickly left Atlanta as well, leading to a mass exodus of population from Atlanta proper to newly formed, suburban communities. The construction of the interstate system helped facilitate this too, allowing for easy travel to the city from these suburban enclaves.[2](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-2-138682285)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa60c04f1-a304-41dd-85b6-a0c7b8f93b9f_2404x1400.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa60c04f1-a304-41dd-85b6-a0c7b8f93b9f_2404x1400.jpeg) _American Suburb - Image from video by David McBee -[pexels.com](https://www.pexels.com/video/drone-footage-of-a-neighborhood-5031099/)_
+![](/assets/video/what-happened-to-downtown-atlanta/2Fa60c04f1-a304-41dd-85b6-a0c7b8f93b9f_2404x1400.jpg) _American Suburb - Image from video by David McBee -[pexels.com](https://www.pexels.com/video/drone-footage-of-a-neighborhood-5031099/)_
 
 Unfortunately, this has an immensely negative effect on urban areas of the time, and Atlanta suffered quite greatly. People needed road space to drive their cars, they needed parking to store their cars, and they especially needed a reason to drive into their city.
 
@@ -105,25 +105,25 @@ So, as the suburbs grew and grew, city leaders and developers began to think of 
 
 After some further research, I began to read about the " **Disneyification** " of Downtown Atlanta, and how architecture of the time slowly but surely "modernized" the format of the city.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7ff2f64-a104-4d0e-bd55-f8656ba1db65_2396x1466.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7ff2f64-a104-4d0e-bd55-f8656ba1db65_2396x1466.jpeg)
+![](/assets/video/what-happened-to-downtown-atlanta/2Fd7ff2f64-a104-4d0e-bd55-f8656ba1db65_2396x1466.jpg)
 
 Architects of the time began to think of how to create this " **New Downtown** " of their dreams. And lucky for one man, he was given unrelented power over the second half of the century to do just that: **John Portman**.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4f7b196-c015-4eae-84f0-77bd209c1c04_2396x1452.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4f7b196-c015-4eae-84f0-77bd209c1c04_2396x1452.jpeg)via Google Earth
+![](/assets/video/what-happened-to-downtown-atlanta/2Fa4f7b196-c015-4eae-84f0-77bd209c1c04_2396x1452.jpg)via Google Earth
 
 This infamous name is responsible for mega projects such as Peachtree Center, America's Mart, and the Marriot marquee. Famous for his large, stunning atrium, sprawling sky bridges that soared high above the streets, and cold, daunting constructions that kept the undesirables out, and the people within.
 
 Projects such as these refactored the center of the city away from the historic center, Five Points, to this newly proclaimed " **New Downtown** " for the future. The problem was, these projects were absolutely horrible for street life, creating massive, uninviting walls of concrete,
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe96482aa-3cc5-4f76-8161-c1d09eeccc0d_2396x1452.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe96482aa-3cc5-4f76-8161-c1d09eeccc0d_2396x1452.jpeg)
+![](/assets/video/what-happened-to-downtown-atlanta/2Fe96482aa-3cc5-4f76-8161-c1d09eeccc0d_2396x1452.jpg)
 
 loading bays,
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13e30295-f53e-4d83-ade8-c21ed9f299cf_2396x1452.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13e30295-f53e-4d83-ade8-c21ed9f299cf_2396x1452.jpeg)
+![](/assets/video/what-happened-to-downtown-atlanta/2F13e30295-f53e-4d83-ade8-c21ed9f299cf_2396x1452.jpg)
 
 and parking,
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F064d35ab-25f3-4f0e-beab-03a6a1800500_2396x1452.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F064d35ab-25f3-4f0e-beab-03a6a1800500_2396x1452.jpeg)
+![](/assets/video/what-happened-to-downtown-atlanta/2F064d35ab-25f3-4f0e-beab-03a6a1800500_2396x1452.jpg)
 
 that made it downright hostile to be outside of his structures.
 
@@ -139,7 +139,7 @@ So clearly, this kind of architecture was taking over city blocks one by one, tr
 
 But the real reason for Downtown's weariness? well…. people thought its unsafe. You’ll get shot, you’ll get mugged, you’ll get your car broken into.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9933d34e-fb74-4393-b48f-2fdd8aa34aa4_2312x1400.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9933d34e-fb74-4393-b48f-2fdd8aa34aa4_2312x1400.jpeg)
+![](/assets/video/what-happened-to-downtown-atlanta/2F9933d34e-fb74-4393-b48f-2fdd8aa34aa4_2312x1400.jpg)
 
 The more I read on this topic, the more I realized that this is only part of the very pervasive ideology tying this all together. And unfortunately, you can probably guess what it is.
 
@@ -147,7 +147,7 @@ The more I read on this topic, the more I realized that this is only part of the
 
 The most common thing people will tell you when you ask about downtown is safety — which more specifically, almost always means the homeless population. Decades and decades of systemic racism and disinvestment in our cities created a Downtown that, to this day, primarily exists to keep undesirable populations away from suburban enclaves outside the city.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa477272e-4876-45c4-ba93-0cdb52652e66_2404x1400.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa477272e-4876-45c4-ba93-0cdb52652e66_2404x1400.jpeg)
+![](/assets/video/what-happened-to-downtown-atlanta/2Fa477272e-4876-45c4-ba93-0cdb52652e66_2404x1400.jpg)
 
 To see how the city feels about this demographic of people in our city, look no further than the 1996 Atlanta Olympic Games.
 
@@ -155,17 +155,17 @@ To see how the city feels about this demographic of people in our city, look no 
 
 The Olympics cemented this ideal. In 1992, Atlanta won it's bid for the International Olympic Games in 1996. This was a revelation for the city, and especially transformed Downtown in a short amount of time, for better or worse.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5908ad7d-07da-4cbc-bba4-fa3bf772ff71_2580x1446.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5908ad7d-07da-4cbc-bba4-fa3bf772ff71_2580x1446.jpeg) _via Google Earth_
+![](/assets/video/what-happened-to-downtown-atlanta/2F5908ad7d-07da-4cbc-bba4-fa3bf772ff71_2580x1446.jpg) _via Google Earth_
 
 The city began large construction projects, one of the most prominent being Centennial Olympic Park. This park spanned many city blocks, and created a massive new plaza in order to host the Olympics.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08ea0e35-ffca-4cfb-91ff-edef1a1fe890_2312x1400.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08ea0e35-ffca-4cfb-91ff-edef1a1fe890_2312x1400.jpeg)_Centennial Olympic Park, Downtown Atlanta_
+![](/assets/video/what-happened-to-downtown-atlanta/2F08ea0e35-ffca-4cfb-91ff-edef1a1fe890_2312x1400.jpg)_Centennial Olympic Park, Downtown Atlanta_
 
 The areas were formerly abandoned and industrial uses, but advocates at the time protested its construction since it slated one of the largest Atlanta homeless shelters to be destroyed. And, the beds in this shelter were never replaced.
 
 Initial city plans hoped to revitalize many of the streets of Downtown, beautifying blocks, making pedestrian facilities safer, and more. However, what ended up happening was a so called “cooridor plan,” that strictly invested only in corridors between Olympic events and desirable destinations, for example, between Peachtree Center and Centennial Olympic Park.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcddfcc10-ccc0-49c1-9136-7397fc8aa91b_2580x1488.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcddfcc10-ccc0-49c1-9136-7397fc8aa91b_2580x1488.jpeg)_Illustrating the “Cooridor Plan," using Google Earth_
+![](/assets/video/what-happened-to-downtown-atlanta/2Fcddfcc10-ccc0-49c1-9136-7397fc8aa91b_2580x1488.jpg)_Illustrating the “Cooridor Plan," using Google Earth_
 
 And now for the fact that I find extremely astonishing. The city began to change its wording of people in the city — it began to use the terminology of “users.” No longer were people downtown residents or even people, they were simply “users” of the space, those that the city hoped would spend money in commercialized Downtown. This began to be reflected in signage across downtown, directing people through its defined corridors and areas of interest. [4](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-4-138682285)
 
@@ -177,7 +177,7 @@ So once the Olympics rolled in 1996, Fulton County quietly footed a one way bus 
 
 On top of that, The city demolished the last of Atlanta’s public housing projects during this period: Techwood Homes and Clark Howell Homes, home to over 1600 families, forcing relocation of most far away from the area.[7](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-7-138682285)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23799f5c-7cfc-40bd-a4ca-f768c210e65c_525x374.webp)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F23799f5c-7cfc-40bd-a4ca-f768c210e65c_525x374.webp)Image by Eddie Richardson, via [medium.com](https://medium.com/@eddierich360/history-of-the-olympic-legacy-program-in-atlanta-georgia-44e47354a97b)
+![](/assets/video/what-happened-to-downtown-atlanta/2F23799f5c-7cfc-40bd-a4ca-f768c210e65c_525x374.webp)Image by Eddie Richardson, via [medium.com](https://medium.com/@eddierich360/history-of-the-olympic-legacy-program-in-atlanta-georgia-44e47354a97b)
 
 The Olympics transformed Downtown almost as quickly as the previous decades of suburbanization — they were staging a TV show,[8](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-8-138682285) they made it look good for the cameras, but in the end, Downtown was changed forever.
 
@@ -203,7 +203,7 @@ With future construction projects on the horizon, theres a real possibility of D
 
 For example, The Gulch, the massive array of road viaducts west of downtown, is seeing rapid development of high density residential and commercial spaces as of today.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee8a680c-aa0b-46fa-94cd-66ed4adb442f_2396x1452.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee8a680c-aa0b-46fa-94cd-66ed4adb442f_2396x1452.jpeg)The Gulch and Mercedes Benz, 2023
+![](/assets/video/what-happened-to-downtown-atlanta/2Fee8a680c-aa0b-46fa-94cd-66ed4adb442f_2396x1452.jpg)The Gulch and Mercedes Benz, 2023
 
 **Centennial Yards** will reconnect Castleberry Hill with South Downtown, and looks to be one of the best projects we’ve seen in the city in a long time.
 
@@ -211,7 +211,7 @@ The **Eastside Streetcar Extension** could bring thousands of new people into Do
 
 **Underground Atlanta** is seeing _another_ resurgence, with many new bars, clubs, and event spaces opening in its creepy underbelly.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d0b01fa-61cd-40ac-a817-a39b658699bb_2396x1452.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d0b01fa-61cd-40ac-a817-a39b658699bb_2396x1452.jpeg)Underground Atlanta, 2023
+![](/assets/video/what-happened-to-downtown-atlanta/2F8d0b01fa-61cd-40ac-a817-a39b658699bb_2396x1452.jpg)Underground Atlanta, 2023
 
 All in all, there’s a lot of hope for Downtown, and while many locals have craved a new resurgence for the district, it looks like there is promise on the horizon. (despite the recent forclosure of Hotel Row redevelopment, [via Urbanize Atlanta](https://atlanta.urbanize.city/post/newport-selling-south-downtown-all-buildings-development))[9](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-9-138682285)
 
@@ -220,16 +220,6 @@ All in all, there’s a lot of hope for Downtown, and while many locals have cra
 In cities across the world, the Downtown’s are what define and make a city what it is; culturally and economically.
 
 At the end of the day, understanding the histories of our cities and spaces is the best way to push for greater; and I think we can push for better Downtown spaces, in Atlanta and across the globe, that everyone can love.
-
----
-
-[Leave a comment](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta/comments)
-
-Subscribe
-
-[Share](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta?utm_source=substack&utm_medium=email&utm_content=share&action=share)
-
----
 
 # References
 

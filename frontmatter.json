@@ -94,7 +94,7 @@
               "title": "picture",
               "name": "picture",
               "type": "string",
-              "default": "/assets/authors/nathan.jpeg"
+              "default": "/assets/authors/nathan.jpg"
             }
           ]
         },
@@ -211,7 +211,7 @@
               "title": "picture",
               "name": "picture",
               "type": "string",
-              "default": "/assets/authors/nathan.jpeg"
+              "default": "/assets/authors/nathan.jpg"
             }
           ]
         },
@@ -324,7 +324,7 @@
               "title": "picture",
               "name": "picture",
               "type": "string",
-              "default": "/assets/authors/nathan.jpeg"
+              "default": "/assets/authors/nathan.jpg"
             }
           ]
         },
@@ -423,7 +423,7 @@
               "title": "picture",
               "name": "picture",
               "type": "string",
-              "default": "/assets/authors/nathan.jpeg"
+              "default": "/assets/authors/nathan.jpg"
             }
           ]
         },
@@ -433,8 +433,8 @@
           "type": "heading"
         },
         {
-          "title": "YouTube Link",
-          "name": "youtubeLink",
+          "title": "YouTube Embed Code",
+          "name": "youtubeEmbedCode",
           "type": "string"
         }
       ]

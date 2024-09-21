@@ -4,7 +4,7 @@ title: Atlanta’s Parking (Housing) Crisis
 slug: atlantas-parking-housing-crisis
 date: 2023-12-01T16:45:00.000Z
 lastmod: 2024-09-20T20:28:23.197Z
-preview: /assets/videos/what’s-rail-atlanta-beltline.jpg
+preview: /assets/video/atlantas-parking-housing-crisis/thumb.jpg
 draft: false
 description: "We're building way too much parking, it's an epidemic. Why is this an issue and what's going on to address it?"
 tags:
@@ -14,8 +14,8 @@ tags:
 categories: []
 author:
   name: Nathan Davenport
-  picture: /assets/authors/nathan.jpeg
-youtubeLink: ""
+  picture: /assets/authors/nathan.jpg
+youtubeEmbedCode: "dz0xmQi6U6s"
 fmContentType: video
 ---
 
@@ -33,23 +33,23 @@ What’s the problem with parking? It takes up a ton of space, that could otherw
 
 Let’s walk around Midtown Atlanta, the booming urban district of new, modern apartment buildings. Let me introduce: the parking podium.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72ffa157-a1c4-44c7-9ef3-03008331ee80_1659x924.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F72ffa157-a1c4-44c7-9ef3-03008331ee80_1659x924.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F72ffa157-a1c4-44c7-9ef3-03008331ee80_1659x924.jpg)
 
 Hundred of units, on top of… 100s of cars. You see it everywhere.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ba63b1c-ce54-42c3-b4f9-a2af32fcf62a_1659x924.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0ba63b1c-ce54-42c3-b4f9-a2af32fcf62a_1659x924.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F0ba63b1c-ce54-42c3-b4f9-a2af32fcf62a_1659x924.jpg)
 
 Here, apartments, over stories of cars.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63f6c006-52ad-4297-8ec8-76e6978c4775_1659x924.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63f6c006-52ad-4297-8ec8-76e6978c4775_1659x924.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F63f6c006-52ad-4297-8ec8-76e6978c4775_1659x924.jpg)
 
 Here, apartments on top of stories of cars.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05224b3f-0ea9-4a98-9c96-f6c0eefae55b_1659x924.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05224b3f-0ea9-4a98-9c96-f6c0eefae55b_1659x924.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F05224b3f-0ea9-4a98-9c96-f6c0eefae55b_1659x924.jpg)
 
 Here, condos over… you guessed it. More stories of cars.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fafece5a5-91c0-489c-9088-dc4fa91e9259_1659x924.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fafece5a5-91c0-489c-9088-dc4fa91e9259_1659x924.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2Fafece5a5-91c0-489c-9088-dc4fa91e9259_1659x924.jpg)
 
 Once you see it, you can’t unsee it. It’s an.. epidemic.
 
@@ -59,7 +59,7 @@ That’s when I started to research, and realize, that this problem goes way dee
 
 ## Background
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb700aca6-6180-4d6f-8eb2-1aa95dbddbc3_1024x667.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb700aca6-6180-4d6f-8eb2-1aa95dbddbc3_1024x667.jpeg)Downtown Atlanta circa 1929 _(via[Digital Library of Georgia, USG](https://dlg.usg.edu/record/gsu_ajc_6689?canvas=0&x=1489&y=1031&w=3195))_
+![](/assets/video/atlantas-parking-housing-crisis/2Fb700aca6-6180-4d6f-8eb2-1aa95dbddbc3_1024x667.jpg)Downtown Atlanta circa 1929 _(via[Digital Library of Georgia, USG](https://dlg.usg.edu/record/gsu_ajc_6689?canvas=0&x=1489&y=1031&w=3195))_
 
 Atlanta wasn’t always full of parking. Over the past century, our political leaders have reshaped the city for the automobile. Cars, cars, and more cars. Atlanta was jam packed full of em by the 1950s.[1](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-1-139320180)[2](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-2-139320180)
 
@@ -77,7 +77,7 @@ So walking around Atlanta, you really start to notice. Parking is everywhere.
 
 You might think the answer is simple: repeal minimum parking laws, and problem solved! There’s a nationwide movement pushing for such reform, which is a super important first step. This removes the baked in requirement for parking, which stalls small business, eats away at city financials, and just flat out looks ugly.[4](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-4-139320180)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff237c5dd-90b1-4c00-84ad-c4c82bcbb905_1920x1081.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff237c5dd-90b1-4c00-84ad-c4c82bcbb905_1920x1081.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2Ff237c5dd-90b1-4c00-84ad-c4c82bcbb905_1920x1081.jpg)
 
 But as much as activists might yell this in your face online, parking minimums aren’t the silver bullet. For a long time now, Midtown Atlanta has had zero parking minimums.[5](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-5-139320180) So does Downtown. Or actually in any area of Atlanta within a .5 mile radius of a MARTA train station. [6](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-6-139320180)[7](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-7-139320180)
 
@@ -89,13 +89,13 @@ The best thing we can do to keep housing prices down is actually quite simple: b
 
 You might notice the sheer number of luxury apartments going up. This isn’t just an Atlanta thing, its happening in cities across North America. These developers almost always fill out that maximum parking requirement, or request even higher, but why when they don’t need to?
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff046f30f-cd1b-4663-a964-358636b6fedc_1920x1080.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff046f30f-cd1b-4663-a964-358636b6fedc_1920x1080.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2Ff046f30f-cd1b-4663-a964-358636b6fedc_1920x1080.jpg)
 
 In Atlanta, within the high capacity transit district, the maximum parking values are currently at 1.25 spaces for 1 bedroom units, and 2 spaces for multi-bedroom units.[8](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-8-139320180)
 
 Lets look at an example. 736 Peachtree Street is currently under construction in Midtown by Austin, Texas based developer LV Collective.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F892deafb-a36a-4e41-931d-144c577cdf34_1920x1080.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F892deafb-a36a-4e41-931d-144c577cdf34_1920x1080.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F892deafb-a36a-4e41-931d-144c577cdf34_1920x1080.jpg)
 
 This development will have 29 stories and 374 units, ranging from one to three-bedroom options. For these 374 units, they are building six floors of parking, with 418 spaces guaranteed for residents. That’s 20% of the building!
 
@@ -111,23 +111,23 @@ Really, all this car storage just incentivizes people to drive. Cars have hundre
 
 Across the board, if parking is provided, its rolled into the cost you pay. This is true at a Walmart, and this is true at a luxury apartment complex. The developer is exporting this cost of parking to someone, and it’s usually the renter.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89faf613-8684-4b9c-960f-cc010adc4126_1920x1080.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89faf613-8684-4b9c-960f-cc010adc4126_1920x1080.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F89faf613-8684-4b9c-960f-cc010adc4126_1920x1080.jpg)
 
 On average, including an above ground parking structure increases rental rents by ~$200 in Atlanta, pretty close to the national average of ~$225.[10](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-10-139320180) Now that's a lot of money! That’s $2,400 a year burden on the renter, not including whatever carport fees you usually have to pay as well.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F646bb1b5-3c48-46b8-a226-7b184ac5074a_1920x1080.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F646bb1b5-3c48-46b8-a226-7b184ac5074a_1920x1080.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F646bb1b5-3c48-46b8-a226-7b184ac5074a_1920x1080.jpg)
 
 But across the board, Atlanta is one of the cheaper cities to build parking in. Looking at 2022’s parking construction rates, we see that Atlanta sits at $25,473 per stall.[11](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-11-139320180) It's so easy for developers to choose parking over units - it's a relative bargain versus other cities
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5edfe665-2225-4fab-bc8a-f0e39dc5d8ce_1920x1080.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5edfe665-2225-4fab-bc8a-f0e39dc5d8ce_1920x1080.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F5edfe665-2225-4fab-bc8a-f0e39dc5d8ce_1920x1080.jpg)
 
 This is for standardized parking designs, ie, the “Texas Doughnut,” or completely separated parking decks.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8739bdc3-4e18-424e-bd4d-571167d1fa3f_1920x1080.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8739bdc3-4e18-424e-bd4d-571167d1fa3f_1920x1080.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F8739bdc3-4e18-424e-bd4d-571167d1fa3f_1920x1080.jpg)
 
 Rents get even higher once you start talking about custom parking podium designs like we see in Midtown, or especially underground parking.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe57407d1-c036-4131-8ae8-d1994098fbf0_1920x1080.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe57407d1-c036-4131-8ae8-d1994098fbf0_1920x1080.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2Fe57407d1-c036-4131-8ae8-d1994098fbf0_1920x1080.jpg)
 
 Underground parking has it’s benefits — it minimizes the negative effects of parking podiums by bringing residents and retail back down near street level. often times, underground projects contain less parking than their above ground counterparts. [12](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-12-139320180)
 
@@ -141,7 +141,7 @@ The reason we’re seeing all this parking is a bit of a catch-22 situation. Rea
 
 Banks therefore still only approve projects that include parking — luxury level projects. At the luxury level, the construction of parking is less significant. They are simply able to make more money with less units, more parking, and higher rents.[13](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-13-139320180)
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F609d0f78-bb1d-4009-b18b-b3fa2c9a5208_1920x1080.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F609d0f78-bb1d-4009-b18b-b3fa2c9a5208_1920x1080.jpeg)
+![](/assets/video/atlantas-parking-housing-crisis/2F609d0f78-bb1d-4009-b18b-b3fa2c9a5208_1920x1080.jpg)
 
 It's a massive cycle of the old Atlanta status quo. Admittedly, I was a bit disappointed coming to this conclusion. Seriously, they built all this parking is just because they wanted to??
 
@@ -157,7 +157,7 @@ Luckily, we already have reduced parking requirements on affordable housing deve
 
 These buildings will stand for decades. Its setting a precedent that for many decades, residents of Atlanta’s urban core will continue to drive. But we need to be more forward thinking when it comes to our urban environments.
 
-[![](https://substackcdn.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49b50925-597c-498f-b6e4-5fa23e2597a5_786x1088.jpeg)](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F49b50925-597c-498f-b6e4-5fa23e2597a5_786x1088.jpeg)506 West Residential proposed in Austin, Texas _(via[austin.towers.net](https://austin.towers.net/inside-the-506-west-residential-towers-incredible-retrofittable-parking-garage/))_
+![](/assets/video/atlantas-parking-housing-crisis/2F49b50925-597c-498f-b6e4-5fa23e2597a5_786x1088.jpg)506 West Residential proposed in Austin, Texas _(via[austin.towers.net](https://austin.towers.net/inside-the-506-west-residential-towers-incredible-retrofittable-parking-garage/))_
 
 There’s actually a good example of forward thinking in Austin Texas, that we need more in our city. This developer is building a complex with a parking podium that can actually be converted easily to housing in the future. [17](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-17-139320180)[18](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis#footnote-18-139320180)
 
@@ -171,20 +171,6 @@ The solution isn’t no parking — its just less. Reducing parking does numbers
 - **NPU meeting on December 7 or 14, 2023** \- See [here](https://x.com/HowEPhil/status/1729273340139823416?s=20) for details
 
 - **Contact your city council** and get involved with the Parking Reform Network in your local area. See [www.parkingreform.org](http://parkingreform.com) to see status in your region.
-
-Thanks for reading Nathan Davenport! Subscribe for free to receive new posts and support my work.
-
-Subscribe
-
----
-
-[Leave a comment](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis/comments)
-
-Subscribe
-
-[Share](https://nathandaven.substack.com/p/atlantas-parking-housing-crisis?utm_source=substack&utm_medium=email&utm_content=share&action=share)
-
----
 
 # References
 
