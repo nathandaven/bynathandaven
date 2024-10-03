@@ -20,9 +20,15 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
     if (menuOpened) {
       document.body.classList.add("overflow-y-hidden");
       document.body.classList.add("relative");
+      document.body.addEventListener("touchmove", function (e) {
+        e.preventDefault();
+      });
     } else {
       document.body.classList.remove("overflow-y-hidden");
       document.body.classList.remove("relative");
+      document.body.removeEventListener("touchmove", function (e) {
+        e.preventDefault();
+      });
     }
   }, [menuOpened]);
 
