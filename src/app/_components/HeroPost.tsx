@@ -2,10 +2,10 @@ import Avatar from "@/app/_components/Avatar";
 import PreviewImage from "@/app/_components/PreviewImage";
 import { type Author } from "@/interfaces/author";
 import Link from "next/link";
-import DateFormatter from "./date-formatter";
+import DateFormatter from "@/app/_components/date-formatter";
 import classNames from "classnames";
 import { ContentType, ContentTypeEnum } from "@/interfaces/contentType";
-import { Button } from "./Button";
+import { Button } from "@/app/_components/Button";
 
 type Props = {
   title: string;

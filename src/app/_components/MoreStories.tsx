@@ -1,7 +1,6 @@
 import { Post } from "@/interfaces/post";
-import { HeroPost } from "./HeroPost";
+import { HeroPost } from "@/app/_components/HeroPost";
 import { ContentTypeEnum } from "@/interfaces/contentType";
-import { useState, useEffect } from "react";
 import classNames from "classnames";
 
 const loadingA = (

@@ -2,7 +2,6 @@
 import classNames from "classnames";
 import React, { FunctionComponent, ReactNode, useEffect, useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import { Button } from "./Button";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {

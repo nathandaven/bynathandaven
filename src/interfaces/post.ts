@@ -1,6 +1,6 @@
-import { type Author } from "./author";
-import { ContentTypeEnum } from "./contentType";
-import { Photo } from "./photo";
+import { type Author } from "@/interfaces/author";
+import { ContentTypeEnum } from "@/interfaces/contentType";
+import { Photo } from "@/interfaces/photo";
 
 export type Post = {
   // Required

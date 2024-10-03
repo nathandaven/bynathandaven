@@ -2,7 +2,7 @@
 import { getAllPosts } from "@/lib/api";
 import React, { FunctionComponent, ReactNode, useEffect, useState } from "react";
 import { ReactCusdis } from "react-cusdis";
-import commentsStyles from "./Comments.module.css";
+import commentsStyles from "@/app/_components/Comments.module.css";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {

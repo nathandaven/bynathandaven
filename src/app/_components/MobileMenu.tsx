@@ -1,9 +1,9 @@
 "use client";
 import classNames from "classnames";
 import React, { FunctionComponent, ReactNode, useEffect, useState } from "react";
-import { Navigation } from "./Navigation";
-import { Footer } from "./Footer";
 import { LIGHT_COLOR_SECONDARY } from "@/lib/constants";
+import { Navigation } from "@/app/_components/Navigation";
+import { Footer } from "@/app/_components/Footer";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {

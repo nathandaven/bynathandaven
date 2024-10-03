@@ -1,12 +1,12 @@
 import { getAllPosts } from "@/lib/api";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Container } from "./_components/Container";
-import { Article } from "./_components/Article";
+import { Container } from "@/app/_components/Container";
+import { Article } from "@/app/_components/Article";
 import { revalidatePath } from "next/cache";
-import HeaderSVG from "./_components/HeaderSVG";
-import MoreStories from "./_components/MoreStories";
-import HeaderSVGName from "./_components/HeaderSVGName";
+import HeaderSVG from "@/app/_components/HeaderSVG";
+import MoreStories from "@/app/_components/MoreStories";
+import HeaderSVGName from "@/app/_components/HeaderSVGName";
 import dynamic from "next/dynamic";
 import generateRssFeed from "@/lib/rss";
 

@@ -1,8 +1,8 @@
 "use client";
 
 import classNames from "classnames";
-import React, { FunctionComponent, ReactNode, useEffect } from "react";
-import ResponsiveGridA from "./ResponsiveGrid";
+import React, { FunctionComponent, ReactNode } from "react";
+import ResponsiveGridA from "@/app/_components/ResponsiveGrid";
 import Image from "next/image";
 import { Post } from "@/interfaces/post";
 import Lightbox, { SlideImage } from "yet-another-react-lightbox";
@@ -11,7 +11,7 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 // client side comp
 
 import dynamic from "next/dynamic";
-import NextJsImage from "./NextJsImage";
+import NextJsImage from "@/app/_components/NextJsImage";
 const LightboxComponent = dynamic(() => import("@/app/_components/LightboxComponent"), {
   ssr: false,
 });
@@ -40,7 +40,7 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
           <Image
             src={photo.relativePath}
             className={classNames(
-              "border-dark-primary dark:border-light-primary m-0 w-full border-spacing-1 border p-0 shadow-sm transition-shadow duration-200 hover:shadow-lg",
+              "m-0 w-full border-spacing-1 border border-dark-primary p-0 shadow-sm transition-shadow duration-200 hover:shadow-lg dark:border-light-primary",
               className,
             )}
             width={1300}

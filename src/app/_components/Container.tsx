@@ -1,9 +1,9 @@
 import React, { FunctionComponent, ReactNode, useEffect } from "react";
 
 import "@fontsource/inter";
-import { Footer } from "./Footer";
+import { Footer } from "@/app/_components/Footer";
 import classNames from "classnames";
-import { MobileMenu } from "./MobileMenu";
+import { MobileMenu } from "@/app/_components/MobileMenu";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {

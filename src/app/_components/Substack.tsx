@@ -1,7 +1,7 @@
 import { Post } from "@/interfaces/post";
 import classNames from "classnames";
 import React, { FunctionComponent, ReactNode, Suspense } from "react";
-import SubstackCustom from "./SubstackCustom";
+import SubstackCustom from "@/app/_components/SubstackCustom";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -18,7 +18,7 @@ export const Substack: FunctionComponent<PropsWithChildren> = ({ className, text
         <h3 className="align text-center">{text ?? "For more, consider subscribing to my newsletter via Substack:"}</h3>
         <div className="flex justify-center">
           <Suspense fallback={<p>Loading Substack...</p>}>
-            <SubstackCustom className="border-dark-primary h-fit max-w-96 border shadow-2xl dark:shadow-none dark:invert" />
+            <SubstackCustom className="h-fit max-w-96 border border-dark-primary shadow-2xl dark:shadow-none dark:invert" />
           </Suspense>
         </div>
       </div>

@@ -1,8 +1,7 @@
 import { Post } from "@/interfaces/post";
 import classNames from "classnames";
 import React, { FunctionComponent, ReactNode } from "react";
-import { ListItem } from "./ListItem";
-import { HeroPost } from "./HeroPost";
+import { ListItem } from "@/app/_components/ListItem";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {

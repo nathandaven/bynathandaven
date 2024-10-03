@@ -1,10 +1,10 @@
 import { Post } from "@/interfaces/post";
 import classNames from "classnames";
 import React, { FunctionComponent, ReactNode } from "react";
-import DateFormatter from "./date-formatter";
-import { Button } from "./Button";
+import DateFormatter from "@/app/_components/date-formatter";
+import { Button } from "@/app/_components/Button";
 import Link from "next/link";
-import PreviewImage from "./PreviewImage";
+import PreviewImage from "@/app/_components/PreviewImage";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {

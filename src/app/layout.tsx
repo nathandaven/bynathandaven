@@ -3,13 +3,14 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
 
-import "./globals.css";
-import AutoRefresh from "./_components/AutoRefresh";
+import "@/app/globals.css";
+import AutoRefresh from "@/app/_components/AutoRefresh";
 import classNames from "classnames";
 import Script from "next/script";
 import React from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -74,6 +75,7 @@ export default function RootLayout({
             <>
               <SpeedInsights />
               {children}
+              <Analytics />
               <GoogleAnalytics gaId="G-X1XTCSK8DT" />
             </>
           ) : (

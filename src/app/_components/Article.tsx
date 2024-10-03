@@ -3,8 +3,8 @@ import React, { FunctionComponent, ReactNode, useEffect } from "react";
 import "@fontsource/inter";
 import cn from "classnames";
 import { Post } from "@/interfaces/post";
-import DateFormatter from "./date-formatter";
-import { Button } from "./Button";
+import DateFormatter from "@/app/_components/date-formatter";
+import { Button } from "@/app/_components/Button";
 import classNames from "classnames";
 import { LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 
@@ -28,7 +28,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
   return (
     <article
       className={classNames(
-        `bg-light-primary dark:bg-dark-primary border-dark-primary prose prose-gray mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-6rem)] sm:w-full md:border-x dark:border-gray-200 ` +
+        `prose prose-gray mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-dark-primary bg-light-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-6rem)] sm:w-full md:border-x dark:border-gray-200 dark:bg-dark-primary ` +
           " " +
           (fullWidth ? "" : " md:px-14 md:pt-10 lg:px-36"),
         className,
