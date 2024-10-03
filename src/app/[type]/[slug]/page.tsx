@@ -8,7 +8,6 @@ import { Article } from "@/app/_components/Article";
 
 // Load client side comments
 import dynamic from "next/dynamic";
-import classNames from "classnames";
 import { DOMAIN } from "@/lib/constants";
 import { VideoComponent } from "@/app/_components/Video";
 import { Substack } from "@/app/_components/Substack";

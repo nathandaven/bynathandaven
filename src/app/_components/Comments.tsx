@@ -1,5 +1,4 @@
 "use client";
-import { getAllPosts } from "@/lib/api";
 import React, { FunctionComponent, ReactNode, useEffect, useState } from "react";
 import { ReactCusdis } from "react-cusdis";
 import commentsStyles from "@/app/_components/Comments.module.css";

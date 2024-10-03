@@ -1,4 +1,3 @@
-import { Post } from "@/interfaces/post";
 import classNames from "classnames";
 import React, { FunctionComponent, ReactNode, Suspense } from "react";
 import SubstackCustom from "@/app/_components/SubstackCustom";

@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import Link from "next/link";
 import React, { FunctionComponent, ReactNode } from "react";
 
 // Props (type checked) -- use ? to make a prop optional
@@ -24,7 +23,7 @@ export const Button: FunctionComponent<PropsWithChildren> = ({
       target={newTab ? "_blank" : undefined}
       className={classNames(
         classNames(
-          "border-dark-primary dark:border-light-primary cursor-pointer rounded-3xl border font-display-medium transition-colors hover:bg-[#E1DFD3] dark:hover:bg-slate-800",
+          "cursor-pointer rounded-3xl border border-dark-primary font-display-medium transition-colors hover:bg-[#E1DFD3] dark:border-light-primary dark:hover:bg-slate-800",
           sizeSmall ? "px-1.5 py-0.5 text-xs" : "px-4 py-1",
         ),
         className,

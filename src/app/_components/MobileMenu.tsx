@@ -1,7 +1,6 @@
 "use client";
 import classNames from "classnames";
 import React, { FunctionComponent, ReactNode, useEffect, useState } from "react";
-import { LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 import { Navigation } from "@/app/_components/Navigation";
 import { FooterMenu } from "@/app/_components/FooterMenu";
 

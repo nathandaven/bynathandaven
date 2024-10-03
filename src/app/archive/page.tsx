@@ -1,13 +1,11 @@
-import classNames from "classnames";
-import React, { FunctionComponent, ReactNode } from "react";
+import React from "react";
 import { Article } from "../_components/Article";
 import { Container } from "../_components/Container";
 import { List } from "../_components/List";
 import { getAllPosts } from "@/lib/api";
 import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
-import { Button } from "../_components/Button";
-import { parseISO, format } from "date-fns";
+import { format } from "date-fns";
 import { Metadata } from "next";
 import { metadata } from "../layout";
 

@@ -1,12 +1,9 @@
 import React, { FunctionComponent, ReactNode, useEffect } from "react";
-
 import "@fontsource/inter";
-import cn from "classnames";
 import { Post } from "@/interfaces/post";
 import DateFormatter from "@/app/_components/date-formatter";
 import { Button } from "@/app/_components/Button";
 import classNames from "classnames";
-import { LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {

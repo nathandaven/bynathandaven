@@ -1,7 +1,5 @@
-import Avatar from "@/app/_components/Avatar";
 import PreviewImage from "@/app/_components/PreviewImage";
 import { type Author } from "@/interfaces/author";
-import Link from "next/link";
 import DateFormatter from "@/app/_components/date-formatter";
 import classNames from "classnames";
 import { ContentType, ContentTypeEnum } from "@/interfaces/contentType";
