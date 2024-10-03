@@ -7,7 +7,7 @@ import path, { join } from "path";
 
 const articleDirectory = join(process.cwd(), "_CONTENT_/article");
 const albumDirectory = join(process.cwd(), "_CONTENT_/album");
-const generalDirectory = join(process.cwd(), "_CONTENT_/general");
+/* const generalDirectory = join(process.cwd(), "_CONTENT_/general"); */
 const videoDirectory = join(process.cwd(), "_CONTENT_/video");
 
 export function getPostSlugs(dir: string) {
@@ -20,8 +20,8 @@ export function getPostDirByType(type: string): string {
       return articleDirectory;
     case "album":
       return albumDirectory;
-    case "general":
-      return generalDirectory;
+    /* case "general":
+      return generalDirectory; */
     case "video":
       return videoDirectory;
     default:
@@ -52,20 +52,20 @@ export function getAllPosts(): Post[] {
   const albumSlugs = getPostSlugs(albumDirectory)
     .filter((dirent) => dirent.isFile())
     .map((dirent) => dirent.name);
-  const generalSlugs = getPostSlugs(generalDirectory)
+  /* const generalSlugs = getPostSlugs(generalDirectory)
     .filter((dirent) => dirent.isFile())
-    .map((dirent) => dirent.name);
+    .map((dirent) => dirent.name); */
   const videoSlugs = getPostSlugs(videoDirectory)
     .filter((dirent) => dirent.isFile())
     .map((dirent) => dirent.name);
 
   const articlePosts = articleSlugs.map((slug) => getPostBySlug(slug, articleDirectory));
   const albumPosts = albumSlugs.map((slug) => getPostBySlug(slug, albumDirectory));
-  const generalPosts = generalSlugs.map((slug) => getPostBySlug(slug, generalDirectory));
+  /* const generalPosts = generalSlugs.map((slug) => getPostBySlug(slug, generalDirectory)); */
   const videoPosts = videoSlugs.map((slug) => getPostBySlug(slug, videoDirectory));
 
   const allPosts = articlePosts
-    .concat(albumPosts, generalPosts, videoPosts)
+    .concat(albumPosts, /* generalPosts, */ videoPosts)
     .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
     .filter((post) => !post?.draft);
 
