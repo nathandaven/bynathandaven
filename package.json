@@ -10,7 +10,7 @@
     "postbuild": "next-sitemap"
   },
   "engines": {
-    "node": "22.6.0"
+    "node": "20.x"
   },
   "dependencies": {
     "@fontsource/inter": "^5.1.0",
