@@ -1,7 +1,7 @@
 import React, { FunctionComponent, ReactNode, useEffect } from "react";
 
 import "@fontsource/inter";
-import { Footer } from "@/app/_components/Footer";
+import { FooterMenu } from "@/app/_components/FooterMenu";
 import classNames from "classnames";
 import { MobileMenu } from "@/app/_components/MobileMenu";
 
@@ -58,7 +58,7 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
           <Navigation className="" />
         </div> */}
       </div>
-      <Footer className="px-5 md:px-0" /* className="pl-7 pr-7" */ />
+      <FooterMenu className="px-5 md:px-0" /* className="pl-7 pr-7" */ />
     </div>
   );
 };

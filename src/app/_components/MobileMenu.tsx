@@ -3,7 +3,7 @@ import classNames from "classnames";
 import React, { FunctionComponent, ReactNode, useEffect, useState } from "react";
 import { LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 import { Navigation } from "@/app/_components/Navigation";
-import { Footer } from "@/app/_components/Footer";
+import { FooterMenu } from "@/app/_components/FooterMenu";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -53,7 +53,7 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
           )}
         >
           <Navigation mobile={true} className={"gap-x-2"}></Navigation>
-          <Footer />
+          <FooterMenu />
         </div>
       </nav>
     </>
