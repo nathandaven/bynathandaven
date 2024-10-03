@@ -40,7 +40,7 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
             <DateFormatter dateString={post.date} />
           </i>
           <div className="m-0 my-0 hidden h-fit w-fit list-none gap-x-2 p-0 py-1 align-bottom xs:flex sm:py-0 sm:pl-3">
-            {post.tags?.map((tag, key) => (
+            {post.tags?.slice(0, 2).map((tag, key) => (
               <Button key={key} href={"/tag/" + tag} sizeSmall={true}>
                 <div /* className="text-sm" */>
                   {"#"}
