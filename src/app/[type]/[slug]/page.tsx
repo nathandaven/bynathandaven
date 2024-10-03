@@ -1,5 +1,4 @@
 import { Metadata, MetadataRoute } from "next";
-import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug, getPostDirByType } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { PostBody } from "@/app/_components/ArticleBody";
@@ -13,6 +12,8 @@ import { VideoComponent } from "@/app/_components/Video";
 import { Substack } from "@/app/_components/Substack";
 import React from "react";
 import { metadata } from "@/app/layout";
+import { ContentTypeEnum } from "@/interfaces/contentType";
+import { notFound } from "next/navigation";
 
 const PhotoGrid = dynamic(() => import("@/app/_components/PhotoGrid"), {
   ssr: false,
@@ -33,13 +34,16 @@ const Comments = dynamic(() => import("@/app/_components/Comments"), {
 });
 
 export default async function Post({ params }: Params) {
-  const post = getPostBySlug(params.slug, getPostDirByType(params.type ?? "general"));
+  if (!Object.values(ContentTypeEnum).includes(params.type as ContentTypeEnum)) {
+    return notFound();
+  }
+  const post = getPostBySlug(params.slug, getPostDirByType(params.type));
 
   if (!post) {
     return notFound();
   }
 
-  const content = await markdownToHtml(post.content || "");
+  const content = await markdownToHtml(post.content);
 
   return (
     <main>
@@ -101,7 +105,7 @@ export default async function Post({ params }: Params) {
 
 type Params = {
   params: {
-    type?: string;
+    type: string;
     slug: string;
   };
 };
@@ -155,3 +159,4 @@ export async function generateStaticParams() {
     };
   });
 }
+export const dynamicParams = false;

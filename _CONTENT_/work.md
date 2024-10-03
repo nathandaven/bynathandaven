@@ -1,7 +1,7 @@
 ---
 sectionTitleWithoutDescription: ""
-title: Services
-slug: ""
+title: Work
+slug: "work"
 date: 2024-09-17T16:44:37.457Z
 lastmod: 2024-09-17T16:44:37.457Z
 preview: ""

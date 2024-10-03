@@ -1,6 +1,6 @@
 import React, { FunctionComponent, ReactNode } from "react";
-import { Article } from "../_components/Article";
-import { Container } from "../_components/Container";
+import { Article } from "@/app/_components/Article";
+import { Container } from "@/app/_components/Container";
 
 // exporting component with OPTIONAL children
 export default function PageTemplate() {

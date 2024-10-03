@@ -25,7 +25,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
   return (
     <article
       className={classNames(
-        `prose prose-gray mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-dark-primary bg-light-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-6rem)] sm:w-full md:border-x dark:border-gray-200 dark:bg-dark-primary ` +
+        `prose prose-gray mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-dark-primary bg-light-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-a:break-all sm:min-h-[calc(100svh-6rem)] md:border-x md:prose-h1:text-5xl dark:border-gray-200 dark:bg-dark-primary ` +
           " " +
           (fullWidth ? "" : " md:px-14 md:pt-10 lg:px-36"),
         className,
@@ -34,9 +34,9 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
       {/* Tag Generation */}
       {metadata?.tags && metadata?.tags.length > 0 ? (
         <>
-          <div className="mb-4 flex w-60 gap-x-2 pr-5 pt-5 no-underline">
+          <div className="xxs:flex-row xxs:gap-y-0 mb-4 flex flex-col gap-x-2 gap-y-1 pr-5 pt-5 no-underline">
             {metadata?.tags.map((tag, key) => (
-              <Button key={key} href={"/tag/" + tag} sizeSmall={true} className="no-underline">
+              <Button key={key} href={"/tag/" + tag} sizeSmall={true} className="w-fit no-underline">
                 {"#"}
                 {tag}
               </Button>
@@ -49,12 +49,12 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
       {/* Title Generation */}
       {metadata?.title && metadata?.title.length > 0 ? (
         <>
-          <h1 className="my-2">{metadata?.title}</h1>
+          <h1 className="my-2 leading-none">{metadata?.title}</h1>
         </>
       ) : (
         <></>
       )}
-      <div className="flex w-full flex-row pb-2 leading-5">
+      <div className="flex w-full flex-col pb-2 leading-5 xs:flex-row">
         {/* Published Date Generation */}
         {metadata?.date ? (
           <>

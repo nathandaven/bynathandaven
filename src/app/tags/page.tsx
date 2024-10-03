@@ -1,10 +1,10 @@
 import React from "react";
-import { Article } from "../_components/Article";
-import { Container } from "../_components/Container";
+import { Article } from "@/app/_components/Article";
+import { Container } from "@/app/_components/Container";
 import { getAllPosts } from "@/lib/api";
 import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
-import { Button } from "../_components/Button";
+import { Button } from "@/app/_components/Button";
 import { Metadata } from "next";
 import { metadata } from "../layout";
 

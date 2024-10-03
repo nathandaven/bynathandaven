@@ -15,11 +15,20 @@ type PropsWithChildren<P = unknown> = P & {
 export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, className, title = "" }) => {
   const [menuOpened, setMenuOpened] = useState(false);
 
+  // hacky but blocking scroll when menu open
+  useEffect(() => {
+    if (menuOpened) {
+      document.body.classList.add("overflow-y-hidden");
+    } else {
+      document.body.classList.remove("overflow-y-hidden");
+    }
+  }, [menuOpened]);
+
   return (
     <>
       <nav
         className={classNames(
-          `sticky top-0 z-50 overscroll-contain border border-x-0 border-t-0 border-dark-primary bg-light-secondary px-5 transition-all duration-300 md:px-0 dark:border-light-primary dark:bg-dark-secondary` /* "mx-7" */,
+          `sticky top-0 z-50 overflow-hidden overscroll-contain border border-x-0 border-t-0 border-dark-primary bg-light-secondary px-5 transition-all duration-300 md:px-0 dark:border-light-primary dark:bg-dark-secondary` /* "mx-7" */,
           menuOpened ? "border-black" : "mt-4",
         )}
       >

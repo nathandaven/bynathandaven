@@ -34,6 +34,10 @@ module.exports = {
       priority = 0.8;
       changefreq = "daily";
     }
+    if (path.includes("photography")) {
+      priority = 0.8;
+      changefreq = "daily";
+    }
     if (path.includes("album")) {
       priority = 0.7;
       changefreq = "weekly";

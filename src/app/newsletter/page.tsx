@@ -1,11 +1,11 @@
 import React from "react";
-import { Article } from "../_components/Article";
-import { Container } from "../_components/Container";
-import { List } from "../_components/List";
+import { Article } from "@/app/_components/Article";
+import { Container } from "@/app/_components/Container";
+import { List } from "@/app/_components/List";
 import { getAllPosts } from "@/lib/api";
 import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
-import { Substack } from "../_components/Substack";
+import { Substack } from "@/app/_components/Substack";
 import { Metadata } from "next";
 import Link from "next/link";
 import { metadata } from "../layout";

@@ -24,7 +24,7 @@ export const Button: FunctionComponent<PropsWithChildren> = ({
       className={classNames(
         classNames(
           "cursor-pointer rounded-3xl border border-dark-primary font-display-medium transition-colors hover:bg-[#E1DFD3] dark:border-light-primary dark:hover:bg-slate-800",
-          sizeSmall ? "px-1.5 py-0.5 text-xs" : "px-4 py-1",
+          sizeSmall ? "xxs:px-1.5 xxs:py-0.5 px-1 py-[0.1rem] text-xs" : "px-4 py-1",
         ),
         className,
       )}

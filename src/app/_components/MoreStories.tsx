@@ -36,6 +36,7 @@ function MoreStories({ posts, className }: Props) {
               author={post.author ?? {}}
               slug={post.slug ?? ""}
               excerpt={post.excerpt ?? ""}
+              tags={post.tags ?? []}
               contentType={post.fmContentType ?? ""}
               className="h-fit"
             />
