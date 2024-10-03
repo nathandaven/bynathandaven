@@ -13,7 +13,9 @@ import generateRssFeed from "@/lib/rss";
 export default function Index() {
   const allPosts = getAllPosts();
   /* RSS Feed Generation */
-  generateRssFeed(allPosts);
+  if (process.env.NODE_ENV === "development") {
+    generateRssFeed(allPosts);
+  }
   revalidatePath("/");
 
   return (

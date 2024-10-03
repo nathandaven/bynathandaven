@@ -7,7 +7,7 @@
     "devOld": "next",
     "build": "next build",
     "start": "next start",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap & tsx ./postbuild.ts"
   },
   "engines": {
     "node": "20.x"

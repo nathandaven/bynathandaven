@@ -3,6 +3,7 @@ import { Post } from "@/interfaces/post";
 import fs from "fs";
 import { join } from "path";
 import RSS, { FeedOptions, ItemOptions } from "rss";
+import { getAllPosts } from "./api";
 
 export default function generateRssFeed(allPosts: Post[]) {
   const site_url = process.env.NODE_ENV === "production" ? "https://nathandaven.com" : "http://localhost:3000";
