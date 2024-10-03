@@ -20,7 +20,7 @@ const image = HOME_OG_IMAGE_URL;
 export const metadata: Metadata = {
   metadataBase:
     process.env.NODE_ENV === "production"
-      ? new URL(process.env.VERCEL_URL ?? "https://nathandaven.com")
+      ? new URL(`https://${process.env.VERCEL_URL ?? "nathandaven.com"}`)
       : new URL("http://localhost:3000"),
   title: title,
   description: description,

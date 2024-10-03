@@ -8,7 +8,7 @@ import { getAllPosts } from "./api";
 export default function generateRssFeed(allPosts: Post[]) {
   const site_url =
     process.env.NODE_ENV === "production"
-      ? (process.env.VERCEL_URL ?? "https://nathandaven.com")
+      ? `https://${process.env.VERCEL_URL ?? "nathandaven.com"}`
       : "http://localhost:3000";
 
   const feedOptions: FeedOptions = {

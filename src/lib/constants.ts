@@ -6,7 +6,7 @@ export const HOME_OG_IMAGE_URL =
 export const DOMAIN =
   process.env.NODE_ENV === "development"
     ? "http://localhost:3000/"
-    : (process.env.VERCEL_URL ?? "https://nathandaven.com");
+    : `https://${process.env.VERCEL_URL ?? "nathandaven.com"}`;
 
 export const LIGHT_COLOR_PRIMARY = "#ffffff";
 export const LIGHT_COLOR_SECONDARY = "#f8f8f8";
