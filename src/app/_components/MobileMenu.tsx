@@ -19,8 +19,10 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
   useEffect(() => {
     if (menuOpened) {
       document.body.classList.add("overflow-y-hidden");
+      document.body.classList.add("relative");
     } else {
       document.body.classList.remove("overflow-y-hidden");
+      document.body.classList.remove("relative");
     }
   }, [menuOpened]);
 
