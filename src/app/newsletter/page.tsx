@@ -8,6 +8,9 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import SubstackCustom from "../_components/SubstackCustom";
 import { Substack } from "../_components/Substack";
+import { Metadata } from "next";
+import Link from "next/link";
+import { metadata } from "../layout";
 
 // exporting component with OPTIONAL children
 export default function Newsletter() {
@@ -27,16 +30,39 @@ export default function Newsletter() {
       picture: undefined,
     },
     content: "",
+    draft: false,
   };
 
   return (
     <main>
       <Container title={"Newsletter"} fullWidth={false} className={""}>
         <Article metadata={TitlePost} className="">
+          My most recent videos and articles. For a full archive of my posts here, see the{" "}
+          <Link href="/archive" className="hover:text-light-secondary">
+            archive
+          </Link>
+          .
           <List listItems={posts} showThumbnails={false} />
           <Substack className="my-5" />
         </Article>
       </Container>
     </main>
   );
+}
+
+export function generateMetadata(): Metadata {
+  const title = "Newsletter | Nathan Davenport";
+
+  return {
+    ...metadata,
+    title,
+    openGraph: {
+      ...metadata.openGraph,
+      title,
+    },
+    twitter: {
+      ...metadata.twitter,
+      title,
+    },
+  };
 }

@@ -8,6 +8,8 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Button } from "../_components/Button";
 import { parseISO, format } from "date-fns";
+import { Metadata } from "next";
+import { metadata } from "../layout";
 
 function year(dateString: string) {
   return format(dateString, "yyyy");
@@ -34,6 +36,7 @@ export default function Archive() {
       picture: undefined,
     },
     content: "",
+    draft: false,
   };
 
   return (
@@ -73,3 +76,20 @@ export default function Archive() {
 /* if (post.tags && post.tags.length > 0 && post.tags?.includes(tag)) {
                     return <List listItems={posts ?? ([] as Post[])} showThumbnails={false} />;
                   } */
+
+export function generateMetadata(): Metadata {
+  const title = "Archive | Nathan Davenport";
+
+  return {
+    ...metadata,
+    title,
+    openGraph: {
+      ...metadata.openGraph,
+      title,
+    },
+    twitter: {
+      ...metadata.twitter,
+      title,
+    },
+  };
+}

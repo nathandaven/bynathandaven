@@ -6,9 +6,16 @@ import { List } from "../../_components/List";
 import { getAllPosts } from "@/lib/api";
 import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
+import { notFound } from "next/navigation";
+import { Metadata } from "next";
+import { metadata } from "@/app/layout";
 
-export default function Tag({ params }: Params) {
+export default async function Tag({ params }: Params) {
   const posts: Post[] = getAllPosts().filter((post) => post.tags?.includes(params.tag));
+
+  if (!posts) {
+    return notFound();
+  }
 
   const TitlePost: Post = {
     slug: params.tag,
@@ -21,6 +28,7 @@ export default function Tag({ params }: Params) {
       picture: undefined,
     },
     content: "",
+    draft: false,
   };
 
   return (
@@ -41,13 +49,30 @@ type Params = {
 
 export async function generateStaticParams() {
   const posts = getAllPosts();
-  const tags: Params[] = [] as Params[];
+  const tags: Params[] = [];
   posts.forEach((post) => {
     if (post.tags && post.tags?.length > 0)
       post.tags.forEach((tag) => {
-        tags.push({ params: { tag: tag } });
+        tags.push({ tag: tag } as any);
       });
   });
 
   return tags;
+}
+
+export function generateMetadata({ params }: Params): Metadata {
+  const title = `#${params.tag} | Nathan Davenport`;
+
+  return {
+    ...metadata,
+    title,
+    openGraph: {
+      ...metadata.openGraph,
+      title,
+    },
+    twitter: {
+      ...metadata.twitter,
+      title,
+    },
+  };
 }

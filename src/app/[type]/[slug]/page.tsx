@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import { Metadata, MetadataRoute } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug, getPostDirByType } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
@@ -11,9 +11,9 @@ import dynamic from "next/dynamic";
 import classNames from "classnames";
 import { DOMAIN } from "@/lib/constants";
 import { VideoComponent } from "@/app/_components/Video";
-import { Button } from "@/app/_components/Button";
-import SubstackCustom from "@/app/_components/SubstackCustom";
 import { Substack } from "@/app/_components/Substack";
+import React from "react";
+import { metadata } from "@/app/layout";
 
 const PhotoGrid = dynamic(() => import("@/app/_components/PhotoGrid"), {
   ssr: false,
@@ -77,10 +77,12 @@ export default async function Post({ params }: Params) {
           {params.type != "general" && (
             <>
               {/* Subscribe Section */}
-              <Substack className="mt-10 border border-b-0 border-l-0 border-r-0 border-black dark:border-white" />
+              <Substack className="mt-10 border border-b-0 border-l-0 border-r-0 border-dark-primary dark:border-light-primary" />
               {/* Comments Section */}
               <div
-                className={"mt-10 w-full gap-8 border border-b-0 border-l-0 border-r-0 border-black dark:border-white"}
+                className={
+                  "mt-10 w-full gap-8 border border-b-0 border-l-0 border-r-0 border-dark-primary dark:border-light-primary"
+                }
               >
                 <Comments
                   className="w-full"
@@ -106,19 +108,40 @@ type Params = {
 };
 
 export function generateMetadata({ params }: Params): Metadata {
-  const post = getPostBySlug(params.slug, getPostDirByType(params.type || "general"));
-
+  if (!params.type) {
+    return notFound();
+  }
+  const post = getPostBySlug(params.slug, getPostDirByType(params.type));
   if (!post) {
     return notFound();
   }
-
-  const title = `${post.title} | Newsletter by Nathan Davenport`;
+  const type =
+    params.type && params.type.length > 0 ? params.type?.charAt(0).toUpperCase() + params?.type.slice(1) : "general";
+  const title = post.title ? `${post.title} | ${type} by Nathan Davenport` : "Nathan Davenport";
+  const description = post.description ? post.description : undefined;
 
   return {
+    ...metadata,
     title,
+    description: description,
     openGraph: {
+      ...metadata.openGraph,
       title,
-      images: [post.preview ?? ""], // move back to ogImage { url: ""}
+      description: description,
+      type: "article",
+      authors: post.author && post.author.name ? [post.author.name ?? ""] : undefined,
+      images: post.preview ? [post.preview] : undefined, // move back to ogImage { url: ""}
+      videos:
+        post.youtubeEmbedCode && post.youtubeEmbedCode.length > 0
+          ? [{ url: `https://www.youtube.com/watch?v=${post.youtubeEmbedCode}` }]
+          : undefined,
+    },
+    twitter: {
+      ...metadata.twitter,
+      title: title,
+      description: description,
+      images: post.preview ? [post.preview] : undefined,
+      creator: "@nathandaven",
     },
   };
 }

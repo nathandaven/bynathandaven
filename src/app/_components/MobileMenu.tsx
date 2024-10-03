@@ -3,6 +3,7 @@ import classNames from "classnames";
 import React, { FunctionComponent, ReactNode, useEffect, useState } from "react";
 import { Navigation } from "./Navigation";
 import { Footer } from "./Footer";
+import { LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -19,12 +20,12 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
     <>
       <nav
         className={classNames(
-          "sticky top-0 z-50 overscroll-contain border border-x-0 border-t-0 border-black bg-[#f1f0e9] px-5 transition-all duration-300 md:px-0 dark:border-white dark:bg-[#0f0e0e]" /* "mx-7" */,
+          `sticky top-0 z-50 overscroll-contain border border-x-0 border-t-0 border-dark-primary bg-light-secondary px-5 transition-all duration-300 md:px-0 dark:border-light-primary dark:bg-dark-secondary` /* "mx-7" */,
           menuOpened ? "border-black" : "mt-4",
         )}
       >
         <div className="flex justify-between pt-2">
-          <a className="cursor-pointer dark:text-white" href="/">
+          <a className="cursor-pointer dark:text-light-primary" href="/">
             <b className="text-lg sm:text-xl">{title}</b>
             <span className="text-sm sm:text-base"> by Nathan Davenport</span>
           </a>
@@ -33,7 +34,7 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
               <Navigation className="hidden sm:block" />
               <button
                 className={classNames(
-                  "block cursor-pointer text-gray-800 hover:text-black sm:hidden dark:text-gray-200 dark:hover:text-white",
+                  "block cursor-pointer text-gray-800 hover:text-dark-primary sm:hidden dark:text-gray-100 dark:hover:text-light-primary",
                   className,
                 )}
                 onClick={() => setMenuOpened(!menuOpened)}

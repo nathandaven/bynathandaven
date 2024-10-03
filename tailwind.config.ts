@@ -64,7 +64,17 @@ const config: Config = {
       xl: "1280px",
       "2xl": "1536px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        "light-primary": "#ffffff",
+        "light-secondary": "#f8f8f8",
+        "dark-primary": "#141414",
+        "dark-secondary": "#0f0e0e",
+        "green-custom": "#6a7062ff",
+        "red-custom": "#925e78ff",
+        "purple-custom": "#3f334dff",
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/aspect-ratio")],
 };

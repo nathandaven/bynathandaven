@@ -1,4 +1,4 @@
-import { HOME_OG_IMAGE_URL } from "@/lib/constants";
+import { HOME_OG_IMAGE_URL, LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
@@ -6,14 +6,33 @@ import cn from "classnames";
 import "./globals.css";
 import AutoRefresh from "./_components/AutoRefresh";
 import classNames from "classnames";
+import Script from "next/script";
+import React from "react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const title = `Nathan Davenport`;
+const description = `Nathan Davenport is a software engineer, photographer, and video creator located in Atlanta, Georgia.`;
+const image = HOME_OG_IMAGE_URL;
 export const metadata: Metadata = {
-  title: `Nathan Davenport's Portfolio`,
-  description: `Nathan Davenport is a software engineer, photographer, and video creator located in Atlanta, Georgia.`,
+  metadataBase:
+    process.env.NODE_ENV === "production" ? new URL("https://nathandaven.com") : new URL("http://localhost:3000"),
+  title: title,
+  description: description,
   openGraph: {
-    images: [HOME_OG_IMAGE_URL], // what is this?
+    title: title,
+    type: "website",
+    description: description,
+    images: [image],
+    siteName: title,
+  },
+  twitter: {
+    title: title,
+    description: description,
+    images: [image],
+    creator: "@nathandaven",
   },
 };
 
@@ -26,33 +45,40 @@ export default function RootLayout({
     <AutoRefresh>
       <html lang="en">
         <head>
+          <meta property="og:type" content="website" />
           <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-          <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#f1f0e9" />
+          <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color={LIGHT_COLOR_SECONDARY} />
           <link rel="shortcut icon" href="/favicon/favicon.ico" />
-          <meta name="msapplication-TileColor" content="#f1f0e9" />
+          <meta name="msapplication-TileColor" content={LIGHT_COLOR_SECONDARY} />
           <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
-          <meta name="twitter:title" content={"Nathan Davenport's Portfolio"} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta
-            name="twitter:description"
-            content="Nathan Davenport is a software engineer, photographer, and video creator located in Atlanta, Georgia."
-          />
           <meta name="robots" content="index, follow" />
           <meta charSet="utf-8" />
-          <link rel="alternate" title="Nathan Davenport | RSS Feed" type="application/rss+xml" href="/feed.xml" />
-          <meta name="theme-color" content="#f1f0e9" media="(prefers-color-scheme: light)" />
+          <link rel="alternate" title="Nathan Davenport | RSS Feed" type="application/rss+xml" href="/rss.xml" />
+          <meta name="theme-color" content={LIGHT_COLOR_SECONDARY} media="(prefers-color-scheme: light)" />
           <meta name="theme-color" content="#0f0e0e" media="(prefers-color-scheme: dark)" />
+          <meta property="profile:first_name" content="Nathan" />
+          <meta property="profile:last_name" content="Davenport" />
+          <meta property="fb:app_id" content="966242223397117" />
         </head>
         <body
           /* className="fixed left-0 top-0 -z-50 block h-svh w-svw" */ className={classNames(
             inter.className,
-            "scrollbar-hide scroll-smooth bg-[#f1f0e9] tracking-tighter dark:bg-[#0f0e0e]",
+            `scrollbar-hide scroll-smooth bg-light-secondary tracking-tighter dark:bg-dark-secondary`,
           )}
         >
-          {children}
+          {process.env.NODE_ENV === "production" ? (
+            <>
+              <SpeedInsights />
+              {children}
+              <GoogleAnalytics gaId="G-X1XTCSK8DT" />
+            </>
+          ) : (
+            children
+          )}
         </body>
       </html>
     </AutoRefresh>

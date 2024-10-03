@@ -4,8 +4,13 @@ import { isImageFitCover, isImageSlide, useLightboxProps, useLightboxState } fro
 function isNextJsImage(slide: any) {
   return isImageSlide(slide) && typeof slide.width === "number" && typeof slide.height === "number";
 }
+type Props<P = unknown> = P & {
+  slide?: any;
+  offset?: any;
+  rect?: any;
+};
 
-export default function NextJsImage({ slide, offset, rect }) {
+export default function NextJsImage({ slide, offset, rect }: Props) {
   const {
     on: { click },
     carousel: { imageFit },

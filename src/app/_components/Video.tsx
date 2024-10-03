@@ -12,10 +12,10 @@ type PropsWithChildren<P = unknown> = P & {
 // exporting component with OPTIONAL children
 export const VideoComponent: FunctionComponent<PropsWithChildren> = ({ className, post }) => {
   return (
-    <div className={classNames("aspect-w-16 aspect-h-9 mb-2 mt-4 w-full", className)}>
+    <div className={classNames("aspect-h-9 aspect-w-16 mb-2 mt-4 w-full", className)}>
       <Suspense fallback={<p>Loading video...</p>}>
         <iframe
-          className="z-20 border border-black dark:border-white"
+          className="border-dark-primary dark:border-light-primary z-20 border"
           width="560"
           height="315"
           src={`https://www.youtube.com/embed/${post.youtubeEmbedCode}`}

@@ -65,8 +65,7 @@ Now, this is where the present day project comes in. Plans are, to extend this t
 The problem: the Beltline has actually gotten, too busy. Its become a vital connector through many parts of the city.
 ![](/assets/video/whats-rail-atlanta-beltline/2F4c3d9c53-bcc1-4e27-8925-02064a673eb8_2564x1432.jpg)via Ryan Gravel’s Thesis (1999) - [Atlanta Beltline, Inc.](http://beltline.org/wp-content/uploads/2012/04/Ryan-Gravel-Thesis-1999.pdf)
 
-But luckily, the Beltline has always been a transit project at it’s heart. Ryan Gravel outlined the plan decades ago designed it as an equity and sustainability project, with a vision of rapid transit and transit oriented development circling the city, all the way back in 1999.[2](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-2-139441014)
-![](/assets/video/whats-rail-atlanta-beltline/2F5e20193b-1e0d-418f-9ad2-d0bde6bcb324_2564x1432.jpg)via Ryan Gravel’s Thesis (1999) - [Atlanta Beltline, Inc.](http://beltline.org/wp-content/uploads/2012/04/Ryan-Gravel-Thesis-1999.pdf)
+But luckily, the Beltline has always been a transit project at it’s heart. Ryan Gravel outlined the plan decades ago designed it as an equity and sustainability project, with a vision of rapid transit and transit oriented development circling the city, all the way back in 1999.
 
 But really, this Eastside Extension project is really just a small a part of a much broader plan. Its the foot in the door for new rail in the city.
 
@@ -183,60 +182,32 @@ Contact your local representative to let them know you support the project. See 
   info@beltlinerailnow.org  
   [beltlinerailnow.com](http://beltlinerailnow.com)
 
-# References
+## References
 
-[1](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-1-139441014)
+1. HistoryLink Staff. "Voters Reject Rail Transit Plan and Three Other Forward Thrust Bond Proposals on May 19, 1970." _HistoryLink.org_, 19 Sept. 2002, [https://www.historylink.org/file/3961](https://www.historylink.org/file/3961).
 
-HistoryLink Staff. "Voters reject rail transit plan and three other Forward Thrust bond proposals on May 19, 1970." HistoryLink.org, 19 Sept. 2002, <https://www.historylink.org/file/3961>.
+2. Gravel, Ryan Austin. "Belt Line - Atlanta as a Reflection of Public Policy." _Atlanta Beltline, Inc._, Dec. 1999, [beltline.org/wp-content/uploads/2012/04/Ryan-Gravel-Thesis-1999.pdf](https://beltline.org/wp-content/uploads/2012/04/Ryan-Gravel-Thesis-1999.pdf).
 
-[2](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-2-139441014)
+3. "Census 2010 Tracts." _Georgia Association of Regional Commissions_, 22 July 2021, [opendata.atlantaregional.com/datasets/2e73cc4a02a441ba968e6a63a8b526f5/explore?location=33.765689%2C-84.372389%2C15.00](https://opendata.atlantaregional.com/datasets/2e73cc4a02a441ba968e6a63a8b526f5/explore?location=33.765689%2C-84.372389%2C15.00).
 
-Gravel, Ryan Austin. "Belt Line - Atlanta as a Reflection of Public Policy." Atlanta Beltline, Inc., December 1999, [beltline.org/wp-content/uploads/2012/04/Ryan-Gravel-Thesis-1999.pdf](http://beltline.org/wp-content/uploads/2012/04/Ryan-Gravel-Thesis-1999.pdf).
+4. "2020 Census Map." _U.S. Census Bureau_, 2023, [maps.geo.census.gov/ddmv/map.html](https://maps.geo.census.gov/ddmv/map.html).
 
-[3](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-3-139441014)
+5. "Technical Memorandum 3: Ridership Modeling Analysis and Results." _Atlanta BeltLine_, Feb. 2014, [beltline.org/resources/ssp-tech-memo-3-ridership-modeling/](https://beltline.org/resources/ssp-tech-memo-3-ridership-modeling/).
 
-"Census 2010 Tracts" Georgia Association of Regional Commissions, July 22, 2021, [opendata.atlantaregional.com/datasets/2e73cc4a02a441ba968e6a63a8b526f5/explore?location=33.765689%2C-84.372389%2C15.00](http://opendata.atlantaregional.com/datasets/2e73cc4a02a441ba968e6a63a8b526f5/explore?location=33.765689%2C-84.372389%2C15.00).
+6. Bagby, Dyana. "Beltline Rail Project Challenged by New Group of Business Community Leaders." _Rough Draft Atlanta_, 20 Oct. 2023, [roughdraftatlanta.com/2023/10/20/beltline-rail-project-challenged-by-new-group-of-business-community-leaders/](https://roughdraftatlanta.com/2023/10/20/beltline-rail-project-challenged-by-new-group-of-business-community-leaders/).
 
-[4](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-4-139441014)
+7. AlexIp718. "Day-to-day Ops of the Anti-Transit Group Is Run by Lobbyist Billy Linville Who Represented: Blackstone, 30th Largest Global CO2 Emitter; Delta, 2nd Largest Global Airline; Tesla, Only Non-Unionized Major US Automaker; Racetrac, Gas Station Chain. You Can't Make This Up." _Twitter_, 12 Oct. 2023, [twitter.com/AlexIp718/status/1712637120194728139](https://twitter.com/AlexIp718/status/1712637120194728139).
 
-"2020 Census Map." U.S. Census Bureau, 2023, [maps.geo.census.gov/ddmv/map.html](http://maps.geo.census.gov/ddmv/map.html).
+8. Wheatley, Thomas. "Beltline Rail Opponents: 'Better Atlanta Transit'." _Axios Atlanta_, 16 Oct. 2023, [https://www.axios.com/local/atlanta/2023/10/16/beltline-rail-opponents-better-atlanta-transit](https://www.axios.com/local/atlanta/2023/10/16/beltline-rail-opponents-better-atlanta-transit).
 
-[5](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-5-139441014)
+9. Saporta, Maria. "Time and Time Again, Atlantans Have Spoken: Build BeltLine Rail." _SaportaReport_, 23 Oct. 2023, [saportareport.com/time-and-time-again-atlantans-have-spoken-build-beltline-rail/columnists/mariasmetro/maria_saporta/](https://saportareport.com/time-and-time-again-atlantans-have-spoken-build-beltline-rail/columnists/mariasmetro/maria_saporta/).
 
-"Technical Memorandum 3: Ridership Modeling Analysis and Results." Atlanta BeltLine, Feb. 2014, [beltline.org/resources/ssp-tech-memo-3-ridership-modeling/](http://beltline.org/resources/ssp-tech-memo-3-ridership-modeling/).
+10. Green, Josh. "MARTA Picks Designer for Streetcar Extension to Ponce City Market." _Urbanize Atlanta_, 22 June 2023, [atlanta.urbanize.city/post/marta-picks-designer-streetcar-extension-ponce-city-market-images](https://atlanta.urbanize.city/post/marta-picks-designer-streetcar-extension-ponce-city-market-images).
 
-[6](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-6-139441014)
+11. Wickert, David. "Metro Atlanta: Get Ready for a Decade of Road Construction." _Atlanta Journal-Constitution_, 16 Aug. 2021, [https://www.ajc.com/politics/metro-atlanta-get-ready-for-a-decade-of-road-construction/SVH4QLKAF5F6TE4DVIVEQK6GUM/](https://www.ajc.com/politics/metro-atlanta-get-ready-for-a-decade-of-road-construction/SVH4QLKAF5F6TE4DVIVEQK6GUM/).
 
-Bagby, Dyana. "Beltline Rail Project Challenged by New Group of Business Community Leaders." Rough Draft Atlanta, 20 Oct. 2023, roughdraftatlanta.com/2023/10/20/beltline-rail-project-challenged-by-new-group-of-business-community-leaders/.
+12. Wickert, David. "Dickens Supports Atlanta Streetcar Extension, Unsure About Clifton Corridor." _Atlanta Journal-Constitution_, 2 Feb. 2023, [www.ajc.com/neighborhoods/atlanta-intown/dickens-supports-atlanta-streetcar-extension-unsure-about-clifton-corridor/EATWRXQXDVHFXA6Q445GIFLSUU/](https://www.ajc.com/neighborhoods/atlanta-intown/dickens-supports-atlanta-streetcar-extension-unsure-about-clifton-corridor/EATWRXQXDVHFXA6Q445GIFLSUU/).
 
-[7](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-7-139441014)
+13. Atlanta BeltLine, Inc. "U.S. DOT Secretary Buttigieg and Congressional Delegation Visit Atlanta BeltLine, Inc. Offices." _Atlanta BeltLine_, 27 May 2021, [beltline.org/2021/05/27/u-s-dot-secretary-buttigieg-and-congressional-delegation-visit-atlanta-beltline-inc-offices/](https://beltline.org/2021/05/27/u-s-dot-secretary-buttigieg-and-congressional-delegation-visit-atlanta-beltline-inc-offices/).
 
-AlexIp718. "Day-to-day ops of the anti-transit group is run by lobbyist Billy Linville who represented: Blackstone, 30th largest global CO2 emitter; Delta, 2nd largest global airline; Tesla, only non-unionized major US automaker; Racetrac, gas station chain. You can't make this up." Twitter, 12 Oct. 2023, [twitter.com/AlexIp718/status/1712637120194728139](http://twitter.com/AlexIp718/status/1712637120194728139).
-
-[8](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-8-139441014)
-
-Wheatley, Thomas. "Beltline rail opponents: 'Better Atlanta Transit'." Axios Atlanta, 16 Oct. 2023, <https://www.axios.com/local/atlanta/2023/10/16/beltline-rail-opponents-better-atlanta-transit>.
-
-[9](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-9-139441014)
-
-Saporta, Maria. "Time and Time Again, Atlantans Have Spoken: Build BeltLine Rail." SaportaReport, 23 Oct. 2023, [saportareport.com/time-and-time-again-atlantans-have-spoken-build-beltline-rail/columnists/mariasmetro/maria_saporta/](http://saportareport.com/time-and-time-again-atlantans-have-spoken-build-beltline-rail/columnists/mariasmetro/maria_saporta/).
-
-[10](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-10-139441014)
-
-Green, Josh. "MARTA Picks Designer for Streetcar Extension to Ponce City Market." Urbanize Atlanta, 22 June 2023, [atlanta.urbanize.city/post/marta-picks-designer-streetcar-extension-ponce-city-market-images](http://atlanta.urbanize.city/post/marta-picks-designer-streetcar-extension-ponce-city-market-images).
-
-[11](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-11-139441014)
-
-Wickert, David. "Metro Atlanta: Get ready for a decade of road construction." Atlanta Journal-Constitution, 16 Aug. 2021, <https://www.ajc.com/politics/metro-atlanta-get-ready-for-a-decade-of-road-construction/SVH4QLKAF5F6TE4DVIVEQK6GUM/>.
-
-[12](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-12-139441014)
-
-Wickert, David. "Dickens Supports Atlanta Streetcar Extension, Unsure About Clifton Corridor." Atlanta Journal-Constitution, 2 Feb. 2023, [www.ajc.com/neighborhoods/atlanta-intown/dickens-supports-atlanta-streetcar-extension-unsure-about-clifton-corridor/EATWRXQXDVHFXA6Q445GIFLSUU/](http://www.ajc.com/neighborhoods/atlanta-intown/dickens-supports-atlanta-streetcar-extension-unsure-about-clifton-corridor/EATWRXQXDVHFXA6Q445GIFLSUU/).
-
-[13](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-13-139441014)
-
-Atlanta BeltLine, Inc. "U.S. DOT Secretary Buttigieg and Congressional Delegation Visit Atlanta BeltLine, Inc. Offices." Atlanta BeltLine, 27 May 2021, [beltline.org/2021/05/27/u-s-dot-secretary-buttigieg-and-congressional-delegation-visit-atlanta-beltline-inc-offices/](http://beltline.org/2021/05/27/u-s-dot-secretary-buttigieg-and-congressional-delegation-visit-atlanta-beltline-inc-offices/).
-
-[14](https://nathandaven.substack.com/p/whats-going-on-with-rail-on-the-atlanta#footnote-anchor-14-139441014)
-
-atlcitycouncil. "Atlanta City Council President @DougShipmanATL said that transit along the Beltline has been approved by voters, the city council and neighborhood associations. Opponents of light rail along the trail system call for increased public engagement." Twitter, 25 Oct. 2023, twitter.com/atlcouncil/status/1717187859793297703.
+14. atlcitycouncil. "Atlanta City Council President @DougShipmanATL Said That Transit along the Beltline Has Been Approved by Voters, the City Council and Neighborhood Associations. Opponents of Light Rail along the Trail System Call for Increased Public Engagement." _Twitter_, 25 Oct. 2023, [twitter.com/atlcouncil/status/1717187859793297703](https://twitter.com/atlcouncil/status/1717187859793297703).

@@ -39,5 +39,5 @@ export default function generateRssFeed(allPosts: Post[]) {
     });
 
   // Write the RSS feed to a file as XML.
-  fs.writeFileSync(join(process.cwd(), "public/feed.xml"), feed.xml({ indent: true }));
+  fs.writeFileSync(join(process.cwd(), "public/rss.xml"), feed.xml({ indent: true }));
 }

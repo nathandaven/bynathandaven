@@ -48,3 +48,4 @@ Email: [nathandaven@gmail.com](mailto:nathandaven@gmail.com)
 
 - Vercel [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript
 - [Steve Ruiz](https://www.steveruiz.me/posts/nextjs-refresh-content) for AutoRefresh component to live watch .md files
+- [Production Checklist](https://nextjs.org/docs/pages/building-your-application/deploying/production-checklist#caching)

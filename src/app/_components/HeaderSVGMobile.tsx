@@ -9,7 +9,7 @@ type PropsWithChildren<P = unknown> = P & {
 
 const HeaderSVG: FunctionComponent<PropsWithChildren> = ({ children, className }) => (
   <svg
-    className={classNames("fill-[#0F0E0E] dark:fill-white", className)}
+    className={classNames("dark:fill-light-primary fill-[#0F0E0E]", className)}
     viewBox="0 0 473 275"
     xmlns="http://www.w3.org/2000/svg"
   >

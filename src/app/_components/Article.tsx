@@ -6,6 +6,7 @@ import { Post } from "@/interfaces/post";
 import DateFormatter from "./date-formatter";
 import { Button } from "./Button";
 import classNames from "classnames";
+import { LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -22,12 +23,12 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
   metadata = {} as Post,
   fullWidth = false,
 }) => {
-  /* "prose prose-gray mx-auto mb-2 h-full min-h-[calc(100svh-6rem)] w-[calc(100%-3.5rem)] max-w-none border-spacing-1 border border-black p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-4rem)] sm:w-full dark:border-gray-200" */
+  /* "prose prose-gray mx-auto mb-2 h-full min-h-[calc(100svh-6rem)] w-[calc(100%-3.5rem)] max-w-none border-spacing-1 border border-dark-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-4rem)] sm:w-full dark:border-gray-200" */
   /* (fullWidth ? "" : "md:px-20 md:pt-10") */
   return (
     <article
       className={classNames(
-        "prose prose-gray mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-black bg-[#f6f5ef] p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-6rem)] sm:w-full md:border-x dark:border-gray-200 dark:bg-[#141414] " +
+        `bg-light-primary dark:bg-dark-primary border-dark-primary prose prose-gray mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-6rem)] sm:w-full md:border-x dark:border-gray-200 ` +
           " " +
           (fullWidth ? "" : " md:px-14 md:pt-10 lg:px-36"),
         className,

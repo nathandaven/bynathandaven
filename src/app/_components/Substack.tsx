@@ -18,7 +18,7 @@ export const Substack: FunctionComponent<PropsWithChildren> = ({ className, text
         <h3 className="align text-center">{text ?? "For more, consider subscribing to my newsletter via Substack:"}</h3>
         <div className="flex justify-center">
           <Suspense fallback={<p>Loading Substack...</p>}>
-            <SubstackCustom className="h-fit max-w-96 border border-black shadow-2xl dark:shadow-none dark:invert" />
+            <SubstackCustom className="border-dark-primary h-fit max-w-96 border shadow-2xl dark:shadow-none dark:invert" />
           </Suspense>
         </div>
       </div>

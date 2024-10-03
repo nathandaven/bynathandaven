@@ -24,7 +24,7 @@ export const Button: FunctionComponent<PropsWithChildren> = ({
       target={newTab ? "_blank" : undefined}
       className={classNames(
         classNames(
-          "cursor-pointer rounded-3xl border border-black font-display-medium transition-colors hover:bg-[#E1DFD3] dark:border-white dark:hover:bg-slate-800",
+          "border-dark-primary dark:border-light-primary cursor-pointer rounded-3xl border font-display-medium transition-colors hover:bg-[#E1DFD3] dark:hover:bg-slate-800",
           sizeSmall ? "px-1.5 py-0.5 text-xs" : "px-4 py-1",
         ),
         className,

@@ -1,7 +1,6 @@
 import React, { FunctionComponent, ReactNode, useEffect } from "react";
 
 import "@fontsource/inter";
-import { Meta } from "./Meta";
 import { Footer } from "./Footer";
 import classNames from "classnames";
 import { MobileMenu } from "./MobileMenu";
@@ -34,7 +33,6 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
     >
       {/* Sticky Top Bar /> */}
       <MobileMenu title={title} />
-      <Meta />
       <div className="flex flex-row bg-transparent">
         {/* <div className="rotate-180 space-y-3 text-right text-xl [writing-mode:vertical-lr]">
           <a href="/">
@@ -47,7 +45,7 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
             <>
               <div className="sm:w-3/4">{children}</div>
               <div className="h-full w-full basis-1/4 sm:w-1/4">
-                <article className="prose prose-gray mx-auto mb-2 h-full min-h-fit max-w-none border border-l border-t-0 border-black p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:w-full sm:border-l-0 sm:border-t md:pt-10 dark:border-gray-200">
+                <article className="prose prose-gray mx-auto mb-2 h-full min-h-fit max-w-none border border-l border-t-0 border-dark-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:w-full sm:border-l-0 sm:border-t md:pt-10 dark:border-gray-200">
                   {secondCol}
                 </article>
               </div>

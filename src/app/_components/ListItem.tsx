@@ -31,7 +31,7 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
 
       <section>
         <Link className="no-underline" href={"/" + post.fmContentType + "/" + post.slug}>
-          <h2 className="m-0 mb-1 p-0 text-gray-700 hover:text-black dark:text-gray-200 dark:hover:text-white">
+          <h2 className="m-0 mb-1 p-0 text-gray-700 hover:text-dark-primary dark:text-gray-100 dark:hover:text-light-primary">
             {post.title} <i className="text-sm font-normal">{post.fmContentType}</i>
           </h2>{" "}
         </Link>

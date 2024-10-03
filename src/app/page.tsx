@@ -18,7 +18,6 @@ export default function Index() {
 
   return (
     <main>
-      <SpeedInsights />
       <Container fullWidth={true}>
         <Article fullWidth={true} className="md:p-10">
           <HeaderSVG className={"color dark hidden lg:block"} />
@@ -34,7 +33,6 @@ export default function Index() {
           {allPosts.length > 0 && <MoreStories className={"pt-10"} posts={/* morePosts */ allPosts} />}
         </Article>
       </Container>
-      <GoogleAnalytics gaId="G-X1XTCSK8DT" />
     </main>
   );
 }
