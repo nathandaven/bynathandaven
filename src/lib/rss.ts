@@ -6,7 +6,10 @@ import RSS, { FeedOptions, ItemOptions } from "rss";
 import { getAllPosts } from "./api";
 
 export default function generateRssFeed(allPosts: Post[]) {
-  const site_url = process.env.NODE_ENV === "production" ? "https://nathandaven.com" : "http://localhost:3000";
+  const site_url =
+    process.env.NODE_ENV === "production"
+      ? (process.env.VERCEL_URL ?? "https://nathandaven.com")
+      : "http://localhost:3000";
 
   const feedOptions: FeedOptions = {
     title: "Nathan Davenport | RSS Feed",

@@ -19,7 +19,9 @@ const description = `Nathan Davenport is a software engineer, photographer, and 
 const image = HOME_OG_IMAGE_URL;
 export const metadata: Metadata = {
   metadataBase:
-    process.env.NODE_ENV === "production" ? new URL("https://nathandaven.com") : new URL("http://localhost:3000"),
+    process.env.NODE_ENV === "production"
+      ? new URL(process.env.VERCEL_URL ?? "https://nathandaven.com")
+      : new URL("http://localhost:3000"),
   title: title,
   description: description,
   openGraph: {

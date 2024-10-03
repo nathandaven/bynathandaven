@@ -2,7 +2,9 @@
 module.exports = {
   siteUrl:
     process.env.SITE_URL ||
-    (process.env.NODE_ENV === "production" ? "https://nathandaven.com" : "http://localhost:3000"),
+    (process.env.NODE_ENV === "production"
+      ? (process.env.VERCEL_URL ?? "https://nathandaven.com")
+      : "http://localhost:3000"),
   generateRobotsTxt: true, // (optional)
   // ...other options
   transform: async (config, path) => {
