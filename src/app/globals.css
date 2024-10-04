@@ -4,8 +4,23 @@
 
 @layer base {
   .grit {
-    -webkit-mask-image: url("/assets/texture.png");
-    mask-image: url("/assets/texture.png");
+    -webkit-mask-image: url("/assets/stone-texture.png");
+    mask-image: url("/assets/stone-texture.png");
+  }
+
+  .texture {
+    background-repeat: repeat;
+    background-image: url("/assets/texture-new-light.png");
+    /* mix-blend-mode: multiply; */
+  }
+  @media (prefers-color-scheme: dark) {
+    .texture {
+      /* texture from here: https://www.tilingtextures.com/tt_blog/24-free-seamless-paper-texture-in-high-resolution/ */
+      /* background-image: url("/assets/texture-new-dark.png"); */
+      background-repeat: repeat;
+      background-image: url("/assets/texture-new-dark.png");
+      /* mix-blend-mode: screen; */
+    }
   }
 }
 
@@ -90,13 +105,13 @@ a {
 #custom-substack-embed button {
   font-family: "Inter" !important;
   cursor: pointer !important;
-  background-color: #f2f1ea !important;
+  background-color: #ffffff !important;
   border: #0f0e0e !important;
 }
 #custom-substack-embed button:hover {
   font-family: "Inter" !important;
   cursor: pointer !important;
-  background-color: #dedcd3 !important;
+  background-color: #f8f8f8 !important;
 }
 #custom-substack-embed p {
   font-family: "Inter" !important;

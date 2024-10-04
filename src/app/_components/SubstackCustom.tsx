@@ -15,7 +15,7 @@ const SubstackCustom: FunctionComponent<PropsWithChildren> = ({ className, child
       buttonText: "Subscribe",
       theme: "custom",
       colors: {
-        primary: "#F2F1EA",
+        primary: "#ffffff",
         input: "#0F0E0E",
         email: "#FFFFFF",
         text: "#0F0E0E",

@@ -136,7 +136,14 @@ export function generateMetadata({ params }: Params): Metadata {
       images: post.preview ? [post.preview] : undefined, // move back to ogImage { url: ""}
       videos:
         post.youtubeEmbedCode && post.youtubeEmbedCode.length > 0
-          ? [{ url: `https://www.youtube.com/watch?v=${post.youtubeEmbedCode}` }]
+          ? [
+              {
+                url: `https://www.youtube.com/watch?v=${post.youtubeEmbedCode}`,
+                secureUrl: `https://www.youtube.com/watch?v=${post.youtubeEmbedCode}`,
+                width: 1920,
+                height: 1080,
+              },
+            ]
           : undefined,
     },
     twitter: {

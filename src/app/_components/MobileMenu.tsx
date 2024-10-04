@@ -19,16 +19,8 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
   useEffect(() => {
     if (menuOpened) {
       document.body.classList.add("overflow-y-hidden");
-      document.body.classList.add("relative");
-      document.body.addEventListener("touchmove", function (e) {
-        e.preventDefault();
-      });
     } else {
       document.body.classList.remove("overflow-y-hidden");
-      document.body.classList.remove("relative");
-      document.body.removeEventListener("touchmove", function (e) {
-        e.preventDefault();
-      });
     }
   }, [menuOpened]);
 
@@ -36,7 +28,7 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
     <>
       <nav
         className={classNames(
-          `sticky top-0 z-50 overflow-hidden overscroll-contain border border-x-0 border-t-0 border-dark-primary bg-light-secondary px-5 transition-all duration-300 md:px-0 dark:border-light-primary dark:bg-dark-secondary` /* "mx-7" */,
+          `texture sticky top-0 z-50 overflow-hidden overscroll-contain border border-x-0 border-t-0 border-dark-primary bg-light-primary px-5 transition-all duration-300 md:px-0 dark:border-light-primary dark:bg-dark-primary` /* "mx-7" */,
           menuOpened ? "border-black" : "mt-4",
         )}
       >

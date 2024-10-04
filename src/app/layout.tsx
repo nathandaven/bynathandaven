@@ -1,4 +1,4 @@
-import { HOME_OG_IMAGE_URL, LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
+import { DOMAIN, LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
@@ -16,12 +16,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 const title = `Nathan Davenport`;
 const description = `Nathan Davenport is a software engineer, photographer, and video creator located in Atlanta, Georgia.`;
-const image = HOME_OG_IMAGE_URL;
+const image = `${DOMAIN}/assets/og-image-g-sq.jpg`;
 export const metadata: Metadata = {
-  metadataBase:
-    process.env.NODE_ENV === "production"
-      ? new URL(`https://${process.env.VERCEL_URL ?? "nathandaven.com"}`)
-      : new URL("http://localhost:3000"),
+  metadataBase: DOMAIN,
   title: title,
   description: description,
   openGraph: {
@@ -70,7 +67,7 @@ export default function RootLayout({
         <body
           /* className="fixed left-0 top-0 -z-50 block h-svh w-svw" */ className={classNames(
             inter.className,
-            `scrollbar-hide scroll-smooth bg-light-secondary tracking-tighter dark:bg-dark-secondary`,
+            `scrollbar-hide texture scroll-smooth bg-light-primary tracking-tighter dark:bg-dark-secondary`,
           )}
         >
           {process.env.NODE_ENV === "production" ? (
