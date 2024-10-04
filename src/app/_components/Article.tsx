@@ -25,7 +25,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
   return (
     <article
       className={classNames(
-        `prose prose-gray mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-dark-primary bg-light-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-a:break-all sm:min-h-[calc(100svh-6rem)] md:border-x md:prose-h1:text-5xl dark:border-gray-200 dark:bg-dark-primary ` +
+        `texture prose prose-gray mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-dark-primary bg-light-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-a:break-all sm:min-h-[calc(100svh-6rem)] md:border-x md:prose-h1:text-5xl dark:border-gray-200 dark:bg-dark-primary ` +
           " " +
           (fullWidth ? "" : " md:px-14 md:pt-10 lg:px-36"),
         className,

@@ -28,8 +28,8 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
     <>
       <nav
         className={classNames(
-          `texture sticky top-0 z-50 overflow-hidden overscroll-contain border border-x-0 border-t-0 border-dark-primary bg-light-primary px-5 transition-all duration-300 md:px-0 dark:border-light-primary dark:bg-dark-primary` /* "mx-7" */,
-          menuOpened ? "border-black" : "mt-4",
+          `sticky top-0 z-50 overflow-hidden overscroll-contain border border-x-0 border-t-0 border-dark-primary bg-light-primary px-5 transition-all duration-300 md:px-0 dark:border-light-primary dark:bg-dark-secondary` /* "mx-7" */,
+          menuOpened ? "border-primary-dark" : "mt-4",
         )}
       >
         <div className="flex justify-between pt-2">

@@ -1,3 +1,9 @@
+import {
+  DARK_COLOR_PRIMARY,
+  DARK_COLOR_SECONDARY,
+  LIGHT_COLOR_PRIMARY,
+  LIGHT_COLOR_SECONDARY,
+} from "./src/lib/constants";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -67,10 +73,10 @@ const config: Config = {
     },
     extend: {
       colors: {
-        "light-primary": "#ffffff",
-        "light-secondary": "#f8f8f8",
-        "dark-primary": "#141414",
-        "dark-secondary": "#0f0e0e",
+        "light-primary": LIGHT_COLOR_PRIMARY,
+        "light-secondary": LIGHT_COLOR_SECONDARY,
+        "dark-primary": DARK_COLOR_PRIMARY,
+        "dark-secondary": DARK_COLOR_SECONDARY,
         "green-custom": "#6a7062ff",
         "red-custom": "#925e78ff",
         "purple-custom": "#3f334dff",

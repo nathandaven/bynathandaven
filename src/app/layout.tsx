@@ -1,4 +1,4 @@
-import { DOMAIN, LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
+import { DARK_COLOR_SECONDARY, DOMAIN, LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import cn from "classnames";
@@ -58,8 +58,8 @@ export default function RootLayout({
           <meta name="robots" content="index, follow" />
           <meta charSet="utf-8" />
           <link rel="alternate" title="Nathan Davenport | RSS Feed" type="application/rss+xml" href="/rss.xml" />
-          <meta name="theme-color" content={LIGHT_COLOR_SECONDARY} media="(prefers-color-scheme: light)" />
-          <meta name="theme-color" content="#0f0e0e" media="(prefers-color-scheme: dark)" />
+          <meta name="theme-color" content={LIGHT_COLOR_PRIMARY} media="(prefers-color-scheme: light)" />
+          <meta name="theme-color" content={DARK_COLOR_SECONDARY} media="(prefers-color-scheme: dark)" />
           <meta property="profile:first_name" content="Nathan" />
           <meta property="profile:last_name" content="Davenport" />
           <meta property="fb:app_id" content="966242223397117" />
@@ -67,7 +67,7 @@ export default function RootLayout({
         <body
           /* className="fixed left-0 top-0 -z-50 block h-svh w-svw" */ className={classNames(
             inter.className,
-            `scrollbar-hide texture scroll-smooth bg-light-primary tracking-tighter dark:bg-dark-secondary`,
+            `scrollbar-hide scroll-smooth bg-light-primary tracking-tighter dark:bg-dark-secondary`,
           )}
         >
           {process.env.NODE_ENV === "production" ? (
