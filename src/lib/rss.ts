@@ -33,7 +33,7 @@ export default function generateRssFeed(allPosts: Post[]) {
           : "";
       console.log(imageURL);
       const item: ItemOptions = {
-        title: `${post?.title} | ${type} by Nathan Davenport`,
+        title: `${post?.title}`,
         description: (post?.excerpt ?? post?.description ?? "") + `<img src="${imageURL}" />`,
         url: post?.fmContentType && post?.slug ? `${site_url}/${post?.fmContentType}/${post?.slug}` : "",
         date: post?.date ?? Date.now(),
