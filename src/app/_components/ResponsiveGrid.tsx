@@ -12,7 +12,7 @@ type PropsWithChildren<P = unknown> = P & {
 
 const ResponsiveGridA: FunctionComponent<PropsWithChildren> = ({ children, className, wideGrid }) => {
   return (
-    <ResponsiveMasonry className={classNames("", className)} columnsCountBreakPoints={{ 350: 1, 750: 2, 1500: 3 }}>
+    <ResponsiveMasonry className={classNames("", className)} columnsCountBreakPoints={{ 380: 1, 850: 2, 1280: 3 }}>
       <Masonry gutter={"1rem"}>{children}</Masonry>
     </ResponsiveMasonry>
   );

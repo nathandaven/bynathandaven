@@ -29,7 +29,11 @@ export default function Photography() {
     <main>
       <Container title={"Gallery"} fullWidth={false} className={""}>
         <Article metadata={TitlePost} className="">
-          <List listItems={posts} showThumbnails={true} className={""} />
+          {posts && posts.length > 0 ? (
+            <List listItems={posts} showThumbnails={true} className={""} />
+          ) : (
+            <div>Albums are work in progress! Coming soon...</div>
+          )}
         </Article>
       </Container>
     </main>

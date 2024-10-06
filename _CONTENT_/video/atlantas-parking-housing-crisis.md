@@ -19,15 +19,9 @@ youtubeEmbedCode: "dz0xmQi6U6s"
 fmContentType: video
 ---
 
-## Atlanta is building way too much parking!
+## Introduction
 
 There’s a major problem brewing here in Atlanta. We have way too much parking. An entire fourth of Downtown Atlanta is just surface parking lots like this one. But behind me, is a much more pressing problem — we keep building more of it.
-
-**Watch the video here:**
-
----
-
-## Introduction
 
 What’s the problem with parking? It takes up a ton of space, that could otherwise be used for things like restaurants, park space, tree canopies, or most importantly, housing.
 

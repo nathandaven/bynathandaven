@@ -247,27 +247,16 @@ The project proposes multitudes of capacity enchantments and junction reconfigur
 
 #### Closing
 
-I urge everyone watching to checkout [atltrains.com](atltrains.com), and even read the full [white paper](https://drive.google.com/file/d/1uh-G-IGc3rLCm98qPzx9rIRkloyl-aNM/view?usp=sharing) on the proposal, as it would be game changing for the region.
+I urge everyone watching to checkout [atltrains.com](https://atltrains.com), and even read the full [white paper](https://drive.google.com/file/d/1uh-G-IGc3rLCm98qPzx9rIRkloyl-aNM/view?usp=sharing) on the proposal, as it would be game changing for the region.
 
 Let me know what y'all think of the ATL trains plan, and thanks again to Caleb Stubbs for working with me on this! Thanks y'all for watching, see you next time.
 
 #### Get involved
 
-- Checkout the ATL Trains website at
-
-<https://www.atltrains.com/>
-
-- Read the white paper (it’s a long one!)
-
-<https://drive.google.com/file/d/1uh-G-IGc3rLCm98qPzx9rIRkloyl-aNM/view?usp=sharing>
-
-- Sierra Club also has a great initiative called the Get On Board Georgia Initiative
-
-<https://www.getonboardgeorgia.org/vision>
-
-- Amtrak’s recently released Cooridor ID listing
-
-[https://railroads.dot.gov/sites/fra.dot.gov/files/2023-12/FY22 CID Project Summaries-Map.pdf](https://railroads.dot.gov/sites/fra.dot.gov/files/2023-12/FY22%20CID%20Project%20Summaries-Map.pdf)
+- Checkout the ATL Trains website at <https://www.atltrains.com/>
+- [Read the white paper (it’s a long one!) ](https://drive.google.com/file/d/1uh-G-IGc3rLCm98qPzx9rIRkloyl-aNM/view?usp=sharing)
+- Sierra Club also has a great initiative called the [Get On Board Georgia Initiative](https://www.getonboardgeorgia.org/vision)
+- Amtrak’s recently released [Cooridor ID listing](https://railroads.dot.gov/sites/fra.dot.gov/files/2023-12/FY22%20CID%20Project%20Summaries-Map.pdf)
 
 ## References
 

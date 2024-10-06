@@ -48,7 +48,7 @@ export default function Archive() {
               .map((year, key) => {
                 return (
                   <section key={key} className="w-fit">
-                    <h3 className="mt-0 cursor-default pt-0">{year}</h3>
+                    <h3 className="mt-0 cursor-default pt-0 text-left">{year}</h3>
                     <div key={key} className="w-fit">
                       <List
                         listItems={posts.filter(

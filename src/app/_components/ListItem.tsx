@@ -22,7 +22,7 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
   showThumbnail = false,
 }) => {
   return (
-    <div className={classNames("my-2 flex flex-col gap-2 py-2 text-justify sm:flex-row", className)}>
+    <div className={classNames("my-2 flex flex-col gap-2 py-2 sm:flex-row", className)}>
       {showThumbnail && (
         <div className="mr-4 sm:max-w-64">
           <PreviewImage title={post.title} src={post.preview} slug={post.slug} type={post.fmContentType} />
@@ -53,7 +53,7 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
             ))}
           </div>
         </div>
-        <div className="pt-2">{post.description}</div>
+        <div className="pt-2 text-justify">{post.description}</div>
       </section>
       {children}
       {/* <div className="flex flex-col justify-center">
