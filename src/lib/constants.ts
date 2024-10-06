@@ -1,6 +1,6 @@
 export const DOMAIN =
   process.env.NODE_ENV === "production"
-    ? `https://${process.env.VERCEL_URL ?? "nathandaven.com"}`
+    ? `https://${process.env.DOMAIN ?? "nathandaven.com"}`
     : "http://localhost:3000";
 
 export const LIGHT_COLOR_PRIMARY = "#ffffff";
