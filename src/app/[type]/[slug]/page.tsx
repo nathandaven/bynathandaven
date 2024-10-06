@@ -64,7 +64,7 @@ export default async function Post({ params }: Params) {
               <div className="mb-0 flex justify-center pb-0">
                 <a
                   href={`https://www.youtube.com/watch?v=${post.youtubeEmbedCode}`}
-                  className="border-none text-right text-xs no-underline opacity-75"
+                  className="border-none text-right text-xs no-underline opacity-75 hover:shadow-none"
                   target="_blank"
                 >
                   via YouTube

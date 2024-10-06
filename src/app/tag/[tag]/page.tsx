@@ -8,6 +8,7 @@ import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { metadata } from "@/app/layout";
+import { DOMAIN } from "@/lib/constants";
 
 export default async function Tag({ params }: Params) {
   const posts: Post[] = getAllPosts().filter((post) => post.tags?.includes(params.tag));
@@ -68,10 +69,12 @@ export function generateMetadata({ params }: Params): Metadata {
     openGraph: {
       ...metadata.openGraph,
       title,
+      images: [`${DOMAIN}/og-image/og-image-tags.jpg`],
     },
     twitter: {
       ...metadata.twitter,
       title,
+      images: [`${DOMAIN}/og-image/og-image-tags.jpg`],
     },
   };
 }

@@ -7,6 +7,7 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Metadata } from "next";
 import { metadata } from "../layout";
+import { DOMAIN } from "@/lib/constants";
 
 export default function Photography() {
   const posts: Post[] = getAllPosts().filter((post) => post.fmContentType == ("album" as ContentTypeEnum));
@@ -49,10 +50,12 @@ export function generateMetadata(): Metadata {
     openGraph: {
       ...metadata.openGraph,
       title,
+      images: [`${DOMAIN}/og-image/og-image-photography.jpg`],
     },
     twitter: {
       ...metadata.twitter,
       title,
+      images: [`${DOMAIN}/og-image/og-image-photography.jpg`],
     },
   };
 }

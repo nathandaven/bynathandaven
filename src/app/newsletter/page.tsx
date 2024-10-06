@@ -10,6 +10,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { metadata } from "@/app/layout";
 import { Divider } from "@/app/_components/Divider";
+import { DOMAIN } from "@/lib/constants";
 
 // exporting component with OPTIONAL children
 export default function Newsletter() {
@@ -61,10 +62,12 @@ export function generateMetadata(): Metadata {
     openGraph: {
       ...metadata.openGraph,
       title,
+      images: [`${DOMAIN}/og-image/og-image-newsletter.jpg`],
     },
     twitter: {
       ...metadata.twitter,
       title,
+      images: [`${DOMAIN}/og-image/og-image-newsletter.jpg`],
     },
   };
 }

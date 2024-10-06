@@ -8,6 +8,7 @@ import { ContentTypeEnum } from "@/interfaces/contentType";
 import { format } from "date-fns";
 import { Metadata } from "next";
 import { metadata } from "../layout";
+import { DOMAIN } from "@/lib/constants";
 
 function year(dateString: string) {
   return format(dateString, "yyyy");
@@ -84,10 +85,12 @@ export function generateMetadata(): Metadata {
     openGraph: {
       ...metadata.openGraph,
       title,
+      images: [`${DOMAIN}/og-image/og-image-archive.jpg`],
     },
     twitter: {
       ...metadata.twitter,
       title,
+      images: [`${DOMAIN}/og-image/og-image-archive.jpg`],
     },
   };
 }

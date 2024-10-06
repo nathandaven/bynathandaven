@@ -10,6 +10,7 @@ import { readFileSync } from "fs";
 import matter from "gray-matter";
 import { join } from "path";
 import { PostBody } from "@/app/_components/ArticleBody";
+import { DOMAIN } from "@/lib/constants";
 
 export default async function Work() {
   const { data, content } = matter(readFileSync(join(process.cwd(), "/_CONTENT_/general/work.md"), "utf8"));
@@ -41,10 +42,12 @@ export function generateMetadata(): Metadata {
     title,
     openGraph: {
       ...metadata.openGraph,
+      images: [`${DOMAIN}/og-image/og-image-work.jpg`],
       title,
     },
     twitter: {
       ...metadata.twitter,
+      images: [`${DOMAIN}/og-image/og-image-work.jpg`],
       title,
     },
   };

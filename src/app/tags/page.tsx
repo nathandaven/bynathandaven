@@ -7,6 +7,7 @@ import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Button } from "@/app/_components/Button";
 import { Metadata } from "next";
 import { metadata } from "../layout";
+import { DOMAIN } from "@/lib/constants";
 
 // exporting component with OPTIONAL children
 export default function Tags() {
@@ -71,10 +72,12 @@ export function generateMetadata(): Metadata {
     openGraph: {
       ...metadata.openGraph,
       title,
+      images: [`${DOMAIN}/og-image/og-image-tags.jpg`],
     },
     twitter: {
       ...metadata.twitter,
       title,
+      images: [`${DOMAIN}/og-image/og-image-tags.jpg`],
     },
   };
 }

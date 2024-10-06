@@ -21,6 +21,7 @@ import LinkedIn from "../_svg/linkedin";
 import TikTok from "../_svg/tiktok";
 import Substack from "../_svg/substack";
 import MailDotRu from "../_svg/maildotru";
+import { DOMAIN } from "@/lib/constants";
 
 async function getMarkdown(path: string) {
   const { data, content } = matter(readFileSync(join(process.cwd(), path), "utf8"));
@@ -167,10 +168,12 @@ export function generateMetadata(): Metadata {
     openGraph: {
       ...metadata.openGraph,
       title,
+      images: [`${DOMAIN}/og-image/og-image-about.jpg`],
     },
     twitter: {
       ...metadata.twitter,
       title,
+      images: [`${DOMAIN}/og-image/og-image-about.jpg`],
     },
   };
 }
