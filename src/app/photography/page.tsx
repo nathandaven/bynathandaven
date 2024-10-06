@@ -13,7 +13,7 @@ export default function Photography() {
   const posts: Post[] = getAllPosts().filter((post) => post.fmContentType == ("album" as ContentTypeEnum));
 
   const TitlePost: Post = {
-    slug: "gallery",
+    slug: "photography",
     title: "Photography",
     date: "",
     preview: "",
@@ -28,7 +28,7 @@ export default function Photography() {
 
   return (
     <main>
-      <Container title={"Gallery"} fullWidth={false} className={""}>
+      <Container title={"Photography"} fullWidth={false} className={""}>
         <Article metadata={TitlePost} className="">
           {posts && posts.length > 0 ? (
             <List listItems={posts} showThumbnails={true} className={""} />

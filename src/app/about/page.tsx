@@ -36,7 +36,7 @@ export default async function About() {
 
   return (
     <main>
-      <Container title={"Work"} fullWidth={false} className={""}>
+      <Container title={"About"} fullWidth={false} className={""}>
         <Article metadata={about.data as Post} className="text-left md:text-justify" noHeader={true} fullWidth={false}>
           <h1 className="mb-2">
             Hi! I'm{" "}
