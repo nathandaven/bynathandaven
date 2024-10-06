@@ -92,7 +92,7 @@ export default async function Post({ params }: Params) {
                   appId={process.env.CUSDIS_APP_ID_SECRET ?? ""}
                   pageId={params.slug ?? ""}
                   pageTitle={params.slug ?? ""}
-                  pageUrl={params.slug ? DOMAIN + params.type + "/" + params.slug + "/" : DOMAIN}
+                  pageUrl={params.slug ? DOMAIN + "/" + params.type + "/" + params.slug : DOMAIN}
                 />
               </div>
             </>
