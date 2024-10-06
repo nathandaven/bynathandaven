@@ -28,9 +28,7 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
             <Link href="/tags">tags</Link>
           </li>
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
-            <a target="_blank" href="/rss.xml">
-              rss
-            </a>
+            <Link href="/rss.xml">rss</Link>
           </li>
           <li className="hidden cursor-default sm:block">-</li>
           <li className="mt-2 w-fit hover:bg-dark-primary hover:text-light-primary sm:mt-0 dark:hover:bg-light-primary dark:hover:text-dark-primary">
