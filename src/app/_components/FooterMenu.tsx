@@ -22,15 +22,15 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
       <div className="justify-start text-left">
         <ul className="align-left leading-1 flex w-full max-w-[35rem] flex-col flex-wrap justify-start gap-x-2 pr-10 text-start sm:flex-row dark:text-gray-300">
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
-            <Link prefetch={false} href="/archive">
-              archive
-            </Link>
+            <Link href="/archive">archive</Link>
           </li>
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <Link href="/tags">tags</Link>
           </li>
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
-            <Link href="/rss.xml">rss</Link>
+            <Link prefetch={false} legacyBehavior={true} href="/rss.xml">
+              rss
+            </Link>
           </li>
           <li className="hidden cursor-default sm:block">-</li>
           <li className="mt-2 w-fit hover:bg-dark-primary hover:text-light-primary sm:mt-0 dark:hover:bg-light-primary dark:hover:text-dark-primary">
