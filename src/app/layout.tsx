@@ -9,7 +9,7 @@ import classNames from "classnames";
 import Script from "next/script";
 import React from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -64,23 +64,18 @@ export default function RootLayout({
           <meta property="profile:last_name" content="Davenport" />
           <meta property="fb:app_id" content="966242223397117" />
         </head>
+        {process.env.NODE_ENV === "production" && <GoogleTagManager gtmId="GTM-THMKGVQB" />}
         <body
-          /* className="fixed left-0 top-0 -z-50 block h-svh w-svw" */ className={classNames(
+          className={classNames(
             inter.className,
             `scrollbar-hide scroll-smooth bg-light-primary tracking-tighter dark:bg-dark-secondary`,
           )}
         >
-          {process.env.NODE_ENV === "production" ? (
-            <>
-              <SpeedInsights />
-              {children}
-              <Analytics />
-              <GoogleAnalytics gaId="G-X1XTCSK8DT" />
-            </>
-          ) : (
-            children
-          )}
+          {children}
+          {process.env.NODE_ENV === "production" && <SpeedInsights />}
+          {process.env.NODE_ENV === "production" && <Analytics />}
         </body>
+        {process.env.NODE_ENV === "production" && <GoogleAnalytics gaId="G-X1XTCSK8DT" />}
       </html>
     </AutoRefresh>
   );
