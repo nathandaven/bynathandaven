@@ -24,16 +24,18 @@ export default function generateRssFeed(allPosts: Post[]) {
   allPosts
     .filter((post) => post.fmContentType != ("general" as ContentTypeEnum))
     .map((post) => {
+      const imageURL = encodeURI(site_url + post?.preview.trim());
+      console.log(imageURL);
       const item: ItemOptions = {
         title: post?.title ?? "",
-        description: (post?.excerpt ?? post?.description ?? "") + `<img src="${site_url}${post?.preview}" />`,
+        description: (post?.excerpt ?? post?.description ?? "") + `<img src="${imageURL}" />`,
         url: post?.fmContentType && post?.slug ? `${site_url}/${post?.fmContentType}/${post?.slug}` : "",
         date: post?.date ?? Date.now(),
         author: post?.author?.name ?? "Nathan Davenport",
       };
       item.enclosure = post?.preview
         ? {
-            url: `${site_url}${post?.preview}`,
+            url: imageURL,
           }
         : undefined;
       feed.item(item);
