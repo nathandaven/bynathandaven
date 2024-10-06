@@ -17,3 +17,7 @@
   @apply mb-4 mt-8 text-2xl leading-snug;
 }
  */
+
+.markdown img a {
+  text-align: center;
+}

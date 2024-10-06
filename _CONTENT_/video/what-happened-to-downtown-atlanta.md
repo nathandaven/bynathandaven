@@ -47,25 +47,25 @@ Other city’s downtowns make Atlanta look, well to put it bluntly, embarrassing
 
 But look at Chicago’s downtown,
 
-![](/assets/video/what-happened-to-downtown-atlanta/2Fe4d77a26-a38f-4e3c-ad24-7ad294e7d1c4_2580x1446.jpg)_via “Let’s Go Somewhere New” -[youtube.com](https://www.youtube.com/watch?v=bzR_D0BZK2A)_
+![](/assets/video/what-happened-to-downtown-atlanta/2Fe4d77a26-a38f-4e3c-ad24-7ad294e7d1c4_2580x1446.jpg "_via “Let’s Go Somewhere New” -[youtube.com](https://www.youtube.com/watch?v=bzR_D0BZK2A)_")
 
 or Seattle’s Pike Place Market,
 
-![](/assets/video/what-happened-to-downtown-atlanta/2F741e0f99-6b70-473d-9f68-3f42caf9bac9_2580x1446.jpg)_via “Sound Wayz” -[youtube.com](https://www.youtube.com/watch?v=oMvPK9_BG40)_
+![](/assets/video/what-happened-to-downtown-atlanta/2F741e0f99-6b70-473d-9f68-3f42caf9bac9_2580x1446.jpg "_via “Sound Wayz” -[youtube.com](https://www.youtube.com/watch?v=oMvPK9_BG40)_")
 
 or even Savannah, Georgia.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2Fc1fc7962-7f3a-4a63-848e-4a35ff3d6d0a_2580x1446.jpg)_via “Travel USA” -[youtube.com](https://www.youtube.com/watch?v=RjwdwLeb6pk) _
+![](/assets/video/what-happened-to-downtown-atlanta/2Fc1fc7962-7f3a-4a63-848e-4a35ff3d6d0a_2580x1446.jpg "_via “Travel USA” -[youtube.com](https://www.youtube.com/watch?v=RjwdwLeb6pk) _")
 
 These places are vibrant, full of nightlife, and full of pedestrian activity.
 
 They’ve got housing, shops, restaurants, bars, breweries, cafes, and much more all packed into these spaces. These places are places where people actually live, and spend time in. It’s a community even.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2F01ba5ce1-b8e2-46ec-966c-3b3ed0c61b24_2580x1446.jpg)Fairlie-Poplar District, Downtown Atlanta
+![](/assets/video/what-happened-to-downtown-atlanta/2F01ba5ce1-b8e2-46ec-966c-3b3ed0c61b24_2580x1446.jpg "Fairlie-Poplar District, Downtown Atlanta")
 
 That’s not to say Atlanta doesn’t have these things in historic Downtown. The Fairlie-Poplar district is the best place to find this kind of thing.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2Ff90943fd-7c23-4787-9c0a-c29e3d7bc9e4_2580x1446.jpg)Broad Street Boardwalk, Downtown Atlanta
+![](/assets/video/what-happened-to-downtown-atlanta/2Ff90943fd-7c23-4787-9c0a-c29e3d7bc9e4_2580x1446.jpg "Broad Street Boardwalk, Downtown Atlanta")
 
 Broad Street Boardwalk is frankly beautiful, and the historic core of small city blocks here makes it really enjoyable to walk around.
 
@@ -89,13 +89,13 @@ So where did everyone go? Well, I've talked about this before, but its primarily
 
 See, people were pretty desperate to get out of cities. After the the Industrial Revolution, people wanted to get out of their polluted and noisy neighborhoods. And after World War 2, the popularity of the automobile, standardized building construction, and greenfield suburban development induced hundreds of thousands of people to chase this newfound American Dream.
 
-Looking at population trends over the past several decades, we can really see how intensely the suburban and exurban counties of the Atlanta Metro Region have grown in comparison to the city of Atlanta. [1](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-1-138682285)
+Looking at population trends over the past several decades, we can really see how intensely the suburban and exurban counties of the Atlanta Metro Region have grown in comparison to the city of Atlanta.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2F7bc30488-ce37-410a-a7c4-8e7caaf99b11_3840x2160.jpg) _Adapted from[Population Estimates for the Atlanta Region: Another Steady Year of Growth (2016)](http://www.documents.atlantaregional.com/snapshots/PopulationEstimates2016Snapshot.pdf)_
+![](/assets/video/what-happened-to-downtown-atlanta/2F7bc30488-ce37-410a-a7c4-8e7caaf99b11_3840x2160.jpg "_Adapted from[Population Estimates for the Atlanta Region: Another Steady Year of Growth (2016)](http://www.documents.atlantaregional.com/snapshots/PopulationEstimates2016Snapshot.pdf)_")
 
-This is commonly refereed to as **white flight** , due to mostly only white people having the means to leave the city economically, especially in the South. But as time went on, the black middle class also quickly left Atlanta as well, leading to a mass exodus of population from Atlanta proper to newly formed, suburban communities. The construction of the interstate system helped facilitate this too, allowing for easy travel to the city from these suburban enclaves.[2](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-2-138682285)
+This is commonly refereed to as **white flight** , due to mostly only white people having the means to leave the city economically, especially in the South. But as time went on, the black middle class also quickly left Atlanta as well, leading to a mass exodus of population from Atlanta proper to newly formed, suburban communities. The construction of the interstate system helped facilitate this too, allowing for easy travel to the city from these suburban enclaves.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2Fa60c04f1-a304-41dd-85b6-a0c7b8f93b9f_2404x1400.jpg) _American Suburb - Image from video by David McBee -[pexels.com](https://www.pexels.com/video/drone-footage-of-a-neighborhood-5031099/)_
+![](/assets/video/what-happened-to-downtown-atlanta/2Fa60c04f1-a304-41dd-85b6-a0c7b8f93b9f_2404x1400.jpg "_American Suburb - Image from video by David McBee -[pexels.com](https://www.pexels.com/video/drone-footage-of-a-neighborhood-5031099/)_")
 
 Unfortunately, this has an immensely negative effect on urban areas of the time, and Atlanta suffered quite greatly. People needed road space to drive their cars, they needed parking to store their cars, and they especially needed a reason to drive into their city.
 
@@ -109,7 +109,7 @@ After some further research, I began to read about the " **Disneyification** " o
 
 Architects of the time began to think of how to create this " **New Downtown** " of their dreams. And lucky for one man, he was given unrelented power over the second half of the century to do just that: **John Portman**.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2Fa4f7b196-c015-4eae-84f0-77bd209c1c04_2396x1452.jpg)via Google Earth
+![](/assets/video/what-happened-to-downtown-atlanta/2Fa4f7b196-c015-4eae-84f0-77bd209c1c04_2396x1452.jpg "via Google Earth")
 
 This infamous name is responsible for mega projects such as Peachtree Center, America's Mart, and the Marriot marquee. Famous for his large, stunning atrium, sprawling sky bridges that soared high above the streets, and cold, daunting constructions that kept the undesirables out, and the people within.
 
@@ -129,7 +129,7 @@ that made it downright hostile to be outside of his structures.
 
 In Portman’s mind, one of the keys to an urban renaissance involves getting Americans out of their cars. So he structures his projects in accordance with something he refers to as a “coordinate unit,” the distance he believes a person will walk before climbing into “the four-wheeled monster.” Hence the sky-bridges, the clustering of white-collar labor and fun zones in his developments. ([Arts ATL](https://www.artsatl.org/10-years-of-artsatl-how-john-portman-changed-atlanta-and-urban-america/))
 
-Not to mention, that block by block, property owners began to destroy nearby buildings for parking construction to service this audience, making the problem even worse.[3](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-3-138682285)
+Not to mention, that block by block, property owners began to destroy nearby buildings for parking construction to service this audience, making the problem even worse.
 
 These places were basically the equivalent of a suburban mall, designed to pull people into their climate controlled interiors, so they would never want to leave.
 
@@ -155,31 +155,31 @@ To see how the city feels about this demographic of people in our city, look no 
 
 The Olympics cemented this ideal. In 1992, Atlanta won it's bid for the International Olympic Games in 1996. This was a revelation for the city, and especially transformed Downtown in a short amount of time, for better or worse.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2F5908ad7d-07da-4cbc-bba4-fa3bf772ff71_2580x1446.jpg) _via Google Earth_
+![](/assets/video/what-happened-to-downtown-atlanta/2F5908ad7d-07da-4cbc-bba4-fa3bf772ff71_2580x1446.jpg "_via Google Earth_")
 
 The city began large construction projects, one of the most prominent being Centennial Olympic Park. This park spanned many city blocks, and created a massive new plaza in order to host the Olympics.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2F08ea0e35-ffca-4cfb-91ff-edef1a1fe890_2312x1400.jpg)_Centennial Olympic Park, Downtown Atlanta_
+![](/assets/video/what-happened-to-downtown-atlanta/2F08ea0e35-ffca-4cfb-91ff-edef1a1fe890_2312x1400.jpg "_Centennial Olympic Park, Downtown Atlanta_")
 
 The areas were formerly abandoned and industrial uses, but advocates at the time protested its construction since it slated one of the largest Atlanta homeless shelters to be destroyed. And, the beds in this shelter were never replaced.
 
 Initial city plans hoped to revitalize many of the streets of Downtown, beautifying blocks, making pedestrian facilities safer, and more. However, what ended up happening was a so called “cooridor plan,” that strictly invested only in corridors between Olympic events and desirable destinations, for example, between Peachtree Center and Centennial Olympic Park.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2Fcddfcc10-ccc0-49c1-9136-7397fc8aa91b_2580x1488.jpg)_Illustrating the “Cooridor Plan," using Google Earth_
+![](/assets/video/what-happened-to-downtown-atlanta/2Fcddfcc10-ccc0-49c1-9136-7397fc8aa91b*2580x1488.jpg "\_Illustrating the “Cooridor Plan," using Google Earth*")
 
-And now for the fact that I find extremely astonishing. The city began to change its wording of people in the city — it began to use the terminology of “users.” No longer were people downtown residents or even people, they were simply “users” of the space, those that the city hoped would spend money in commercialized Downtown. This began to be reflected in signage across downtown, directing people through its defined corridors and areas of interest. [4](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-4-138682285)
+And now for the fact that I find extremely astonishing. The city began to change its wording of people in the city — it began to use the terminology of “users.” No longer were people downtown residents or even people, they were simply “users” of the space, those that the city hoped would spend money in commercialized Downtown. This began to be reflected in signage across downtown, directing people through its defined corridors and areas of interest.
 
 “By the mid 1990s, even putatively liberal newspaper columnists blamed the homeless for almost single-handedly causing downtown's decline, conveniently overlooking the wider socioeconomic forces at play in motivating the corporate exodus from downtown. Rather than provide training, jobs, and housing for the homeless, both the city government and the business community are more interested in making downtown less amenable to these undesirable users. Actually, the homeless are not users at all, since users "use" the city by spending money.“
 
 via [Theorizing The City: The New Urban Anthropology, 328](https://archive.org/details/theorizingcityne0000unse/page/328/mode/2up)
 
-So once the Olympics rolled in 1996, Fulton County quietly footed a one way bus ticket for thousands of homeless people in the Olympic areas.[5](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-5-138682285) Additionally, they arrested over 9,000 people, cited just for looking either “homeless” or “African-American.”[6](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-6-138682285)
+So once the Olympics rolled in 1996, Fulton County quietly footed a one way bus ticket for thousands of homeless people in the Olympic areas. Additionally, they arrested over 9,000 people, cited just for looking either “homeless” or “African-American.”
 
-On top of that, The city demolished the last of Atlanta’s public housing projects during this period: Techwood Homes and Clark Howell Homes, home to over 1600 families, forcing relocation of most far away from the area.[7](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-7-138682285)
+On top of that, The city demolished the last of Atlanta’s public housing projects during this period: Techwood Homes and Clark Howell Homes, home to over 1600 families, forcing relocation of most far away from the area.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2F23799f5c-7cfc-40bd-a4ca-f768c210e65c_525x374.webp)Image by Eddie Richardson, via [medium.com](https://medium.com/@eddierich360/history-of-the-olympic-legacy-program-in-atlanta-georgia-44e47354a97b)
+![](/assets/video/what-happened-to-downtown-atlanta/2F23799f5c-7cfc-40bd-a4ca-f768c210e65c_525x374.webp "Image by Eddie Richardson, via [medium.com](https://medium.com/@eddierich360/history-of-the-olympic-legacy-program-in-atlanta-georgia-44e47354a97b)")
 
-The Olympics transformed Downtown almost as quickly as the previous decades of suburbanization — they were staging a TV show,[8](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-8-138682285) they made it look good for the cameras, but in the end, Downtown was changed forever.
+The Olympics transformed Downtown almost as quickly as the previous decades of suburbanization — they were staging a TV show, they made it look good for the cameras, but in the end, Downtown was changed forever.
 
 ## Downtown Today
 
@@ -203,7 +203,7 @@ With future construction projects on the horizon, theres a real possibility of D
 
 For example, The Gulch, the massive array of road viaducts west of downtown, is seeing rapid development of high density residential and commercial spaces as of today.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2Fee8a680c-aa0b-46fa-94cd-66ed4adb442f_2396x1452.jpg)The Gulch and Mercedes Benz, 2023
+![](/assets/video/what-happened-to-downtown-atlanta/2Fee8a680c-aa0b-46fa-94cd-66ed4adb442f_2396x1452.jpg "The Gulch and Mercedes Benz, 2023")
 
 **Centennial Yards** will reconnect Castleberry Hill with South Downtown, and looks to be one of the best projects we’ve seen in the city in a long time.
 
@@ -211,9 +211,9 @@ The **Eastside Streetcar Extension** could bring thousands of new people into Do
 
 **Underground Atlanta** is seeing _another_ resurgence, with many new bars, clubs, and event spaces opening in its creepy underbelly.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2F8d0b01fa-61cd-40ac-a817-a39b658699bb_2396x1452.jpg)Underground Atlanta, 2023
+![](/assets/video/what-happened-to-downtown-atlanta/2F8d0b01fa-61cd-40ac-a817-a39b658699bb_2396x1452.jpg "Underground Atlanta, 2023")
 
-All in all, there’s a lot of hope for Downtown, and while many locals have craved a new resurgence for the district, it looks like there is promise on the horizon. (despite the recent forclosure of Hotel Row redevelopment, [via Urbanize Atlanta](https://atlanta.urbanize.city/post/newport-selling-south-downtown-all-buildings-development))[9](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-9-138682285)
+All in all, there’s a lot of hope for Downtown, and while many locals have craved a new resurgence for the district, it looks like there is promise on the horizon. (despite the recent foreclosure of Hotel Row redevelopment, [via Urbanize Atlanta](https://atlanta.urbanize.city/post/newport-selling-south-downtown-all-buildings-development))
 
 #### Concluding Thoughts
 
@@ -221,7 +221,7 @@ In cities across the world, the Downtown’s are what define and make a city wha
 
 At the end of the day, understanding the histories of our cities and spaces is the best way to push for greater; and I think we can push for better Downtown spaces, in Atlanta and across the globe, that everyone can love.
 
-# References
+## References
 
 #### Primary Source
 
@@ -229,38 +229,20 @@ Low, Setha M. “The Anthropology of Cities: Imagining and Theorizing the City.�
 
 _Free reference:_ <https://archive.org/details/theorizingcityne0000unse/page/326>
 
-[1](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-anchor-1-138682285)
+1. _Theorizing the City: The New Urban Anthropology Reader._ Edited by Setha M. Low and Neil Smith, Yale University Press, 1998, p. 326. _Internet Archive_, [https://archive.org/details/theorizingcityne0000unse/page/362/mode/2up?view=theater](https://archive.org/details/theorizingcityne0000unse/page/362/mode/2up?view=theater).
 
-_Theorizing the City: The New Urban Anthropology Reader_. Edited by Setha M. Low and Neil Smith, Yale University Press, 1998, p. 326. Internet Archive, archive.org/details/theorizingcityne0000unse/page/362/mode/2up?view=theater.
+2. "Atlanta's Population Growth: 1990-2020." _Atlanta Regional Commission_, n.d., [https://33n.atlantaregional.com/data-diversions/atlantas-population-growth-1990-2020](https://33n.atlantaregional.com/data-diversions/atlantas-population-growth-1990-2020).
 
-[2](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-anchor-2-138682285)
+3. Oney, Steve. "10 Years of ArtsATL: How John Portman Changed Atlanta and Urban America." _ArtsATL_, 13 Mar. 2020, [https://www.artsatl.org/10-years-of-artsatl-how-john-portman-changed-atlanta-and-urban-america/](https://www.artsatl.org/10-years-of-artsatl-how-john-portman-changed-atlanta-and-urban-america/).
 
-"Atlanta's Population Growth: 1990-2020." Atlanta Regional Commission, n.d., <https://33n.atlantaregional.com/data-diversions/atlantas-population-growth-1990-2020>.
+4. _Theorizing the City: The New Urban Anthropology Reader._ Edited by Setha M. Low and Neil Smith, Yale University Press, 1998, p. 328. _Internet Archive_, [https://archive.org/details/theorizingcityne0000unse/page/328/mode/2up?view=theater](https://archive.org/details/theorizingcityne0000unse/page/328/mode/2up?view=theater).
 
-[3](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-anchor-3-138682285)
+5. AP. "Olympics -- Atlanta 'Cleanup' Includes One-Way Tickets For Homeless." _Duluth News-Tribune_, 22 Mar. 1996, [https://archive.seattletimes.com/archive/?date=19960322&slug=2320280](https://archive.seattletimes.com/archive/?date=19960322&slug=2320280).
 
-Oney, Steve. "10 Years of ArtsATL: How John Portman Changed Atlanta and Urban America." _ArtsATL_ , 13 Mar. 2020, <https://www.artsatl.org/10-years-of-artsatl-how-john-portman-changed-atlanta-and-urban-america/>.
+6. Kessler, Martin. "The Forgotten Story of Rio's First Favela and Its Connection to the Atlanta Olympics." _Only A Game_, 5 Aug. 2016, [https://www.wbur.org/onlyagame/2016/08/05/autodromo-rio-atlanta-olympics](https://www.wbur.org/onlyagame/2016/08/05/autodromo-rio-atlanta-olympics).
 
-[4](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-anchor-4-138682285)
+7. Rogers, Katelynn. "Techwood Homes." _History of Our Streets_, 11 Apr. 2022, [https://sites.gsu.edu/historyofourstreets/2022/04/11/techwood-homes/](https://sites.gsu.edu/historyofourstreets/2022/04/11/techwood-homes/).
 
-_Theorizing the City: The New Urban Anthropology Reader_. Edited by Setha M. Low and Neil Smith, Yale University Press, 1998, p. 328. Internet Archive, [archive.org/details/theorizingcityne0000unse/page/328/mode/2up?view=theater](http://archive.org/details/theorizingcityne0000unse/page/362/mode/2up?view=theater).
+8. Nadeau, R. J. "The Abandoned Autódromo From Atlanta's Olympic Bid Still Stands In Rio." _Only A Game_, WBUR, 5 Aug. 2016, [https://www.wbur.org/onlyagame/2016/08/05/autodromo-rio-atlanta-olympics](https://www.wbur.org/onlyagame/2016/08/05/autodromo-rio-atlanta-olympics).
 
-[5](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-anchor-5-138682285)
-
-AP. "Olympics -- Atlanta 'Cleanup' Includes One-Way Tickets For Homeless." _Duluth News-Tribune_ , March 22, 1996, [archive.seattletimes.com/archive/?date=19960322&slug=2320280](http://archive.seattletimes.com/archive/?date=19960322&slug=2320280).
-
-[6](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-anchor-6-138682285)
-
-Kessler, Martin. "The Forgotten Story Of Rio's First Favela And Its Connection To The Atlanta Olympics." _Only A Game_ , 5 Aug. 2016, <https://www.wbur.org/onlyagame/2016/08/05/autodromo-rio-atlanta-olympics>.
-
-[7](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-anchor-7-138682285)
-
-Rogers, Katelynn. "Techwood Homes." _History of Our Streets_ , 11 Apr. 2022, <https://sites.gsu.edu/historyofourstreets/2022/04/11/techwood-homes/>.
-
-[8](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-anchor-8-138682285)
-
-Nadeau, R.J. "The Abandoned Autódromo From Atlanta's Olympic Bid Still Stands In Rio." Only A Game, WBUR, 5 Aug. 2016, <https://www.wbur.org/onlyagame/2016/08/05/autodromo-rio-atlanta-olympics>.
-
-[9](https://nathandaven.substack.com/p/what-happened-to-downtown-atlanta#footnote-anchor-9-138682285)
-
-Green, Josh. "Newport Selling South Downtown: All Buildings, Development Rights." _Urbanize Atlanta_ , <https://atlanta.urbanize.city/post/newport-selling-south-downtown-all-buildings-development>.
+9. Green, Josh. "Newport Selling South Downtown: All Buildings, Development Rights." _Urbanize Atlanta_, [https://atlanta.urbanize.city/post/newport-selling-south-downtown-all-buildings-development](https://atlanta.urbanize.city/post/newport-selling-south-downtown-all-buildings-development).

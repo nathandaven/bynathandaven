@@ -11,6 +11,7 @@ type PropsWithChildren<P = unknown> = P & {
   className?: string;
   metadata?: Post;
   fullWidth?: boolean;
+  noHeader?: boolean;
 };
 
 // exporting component with OPTIONAL children
@@ -19,20 +20,21 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
   className,
   metadata = {} as Post,
   fullWidth = false,
+  noHeader = false,
 }) => {
-  /* "prose prose-gray mx-auto mb-2 h-full min-h-[calc(100svh-6rem)] w-[calc(100%-3.5rem)] max-w-none border-spacing-1 border border-dark-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-h1:text-5xl sm:min-h-[calc(100svh-4rem)] sm:w-full dark:border-gray-200" */
-  /* (fullWidth ? "" : "md:px-20 md:pt-10") */
   return (
     <article
+      // THIS IS SUCH A MESS!!!
       className={classNames(
-        `texture prose prose-gray mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-dark-primary bg-light-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-a:break-all sm:min-h-[calc(100svh-6rem)] md:border-x md:prose-h1:text-5xl dark:border-gray-200 dark:bg-dark-primary ` +
+        // PROSE CLASSES
+        "texture prose prose-neutral mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-dark-primary bg-light-primary p-5 pb-5 leading-6 duration-200 dark:prose-invert prose-a:break-words prose-a:font-normal hover:prose-a:bg-dark-primary hover:prose-a:text-light-primary prose-img:border prose-img:border-dark-primary sm:min-h-[calc(100svh-6rem)] md:border-x md:prose-h1:text-5xl dark:border-gray-200 dark:bg-dark-primary dark:hover:prose-a:bg-light-primary dark:hover:prose-a:text-dark-primary" +
           " " +
-          (fullWidth ? "" : " md:px-14 md:pt-10 lg:px-36"),
+          (fullWidth ? "" : " lg:px-15 md:px-14 md:pt-10"),
         className,
       )}
     >
       {/* Tag Generation */}
-      {metadata?.tags && metadata?.tags.length > 0 ? (
+      {!noHeader && metadata?.tags && metadata?.tags.length > 0 ? (
         <>
           <div className="xxs:flex-row xxs:gap-y-0 mb-4 flex flex-col gap-x-2 gap-y-1 pr-5 pt-5 no-underline">
             {metadata?.tags.map((tag, key) => (
@@ -47,7 +49,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
         <></>
       )}
       {/* Title Generation */}
-      {metadata?.title && metadata?.title.length > 0 ? (
+      {!noHeader && metadata?.title && metadata?.title.length > 0 ? (
         <>
           <h1 className="my-2 leading-none">{metadata?.title}</h1>
         </>
@@ -56,7 +58,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
       )}
       <div className="flex w-full flex-col pb-2 leading-5 xs:flex-row">
         {/* Published Date Generation */}
-        {metadata?.date ? (
+        {!noHeader && metadata?.date ? (
           <>
             <div className="w-60 pr-5">
               <p className="mb-0">
@@ -72,7 +74,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
           <></>
         )}
         {/* Author Generation */}
-        {metadata?.author?.name && metadata?.author?.name.length > 0 ? (
+        {!noHeader && metadata?.author?.name && metadata?.author?.name.length > 0 ? (
           <>
             <div className="w-60">
               <p className="mb-0">

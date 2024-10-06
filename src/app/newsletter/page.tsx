@@ -8,7 +8,8 @@ import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Substack } from "@/app/_components/Substack";
 import { Metadata } from "next";
 import Link from "next/link";
-import { metadata } from "../layout";
+import { metadata } from "@/app/layout";
+import { Divider } from "@/app/_components/Divider";
 
 // exporting component with OPTIONAL children
 export default function Newsletter() {
@@ -35,13 +36,16 @@ export default function Newsletter() {
     <main>
       <Container title={"Newsletter"} fullWidth={false} className={""}>
         <Article metadata={TitlePost} className="">
-          My most recent videos and articles. For a full archive of my posts here, see the{" "}
-          <Link href="/archive" className="hover:text-light-secondary">
-            archive
-          </Link>
-          .
+          <p className="mt-3">
+            My most recent videos and articles. For a full archive of my posts here, see the{" "}
+            <Link href="/archive" className="hover:text-light-secondary">
+              archive
+            </Link>
+            .
+          </p>
           <List listItems={posts} showThumbnails={false} />
-          <Substack className="my-5" />
+          <Divider className="pt-10 opacity-50" />
+          <Substack className="my-0 pb-10" />
         </Article>
       </Container>
     </main>

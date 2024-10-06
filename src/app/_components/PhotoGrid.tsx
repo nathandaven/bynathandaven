@@ -40,7 +40,7 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
           <Image
             src={photo.relativePath}
             className={classNames(
-              "m-0 w-full border-spacing-1 border border-dark-primary p-0 shadow-sm transition-shadow duration-200 hover:shadow-lg dark:border-light-primary",
+              "m-0 w-full border-spacing-0 border border-dark-primary p-0 shadow-md outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-xl hover:outline-1 dark:border-light-primary dark:outline-light-primary",
               className,
             )}
             width={1300}

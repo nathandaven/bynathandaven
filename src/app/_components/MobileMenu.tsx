@@ -33,16 +33,19 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
         )}
       >
         <div className="flex justify-between pt-2">
-          <a className="cursor-pointer dark:text-light-primary" href="/">
+          <a
+            className="h-fit cursor-pointer hover:bg-dark-primary hover:text-light-primary dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary"
+            href="/"
+          >
             <b className="text-lg sm:text-xl">{title}</b>
             <span className="text-sm sm:text-base"> by Nathan Davenport</span>
           </a>
           <div className="flex flex-col justify-end">
             <div className="h-fit text-base sm:text-xl">
-              <Navigation className="hidden sm:block" />
+              <Navigation className={"hidden sm:block"} />
               <button
                 className={classNames(
-                  "block cursor-pointer text-gray-800 hover:text-dark-primary sm:hidden dark:text-gray-100 dark:hover:text-light-primary",
+                  "block cursor-pointer hover:bg-dark-primary hover:text-light-primary sm:hidden dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
                   className,
                 )}
                 onClick={() => setMenuOpened(!menuOpened)}
@@ -53,7 +56,6 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
             </div>
           </div>
         </div>
-
         <div
           className={classNames(
             "flex flex-col justify-between transition-all duration-75 sm:hidden",

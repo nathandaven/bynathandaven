@@ -22,7 +22,7 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
   showThumbnail = false,
 }) => {
   return (
-    <div className={classNames("my-2 flex flex-col gap-2 py-2 sm:flex-row", className)}>
+    <div className={classNames("my-2 flex flex-col gap-2 py-2 text-justify sm:flex-row", className)}>
       {showThumbnail && (
         <div className="mr-4 sm:max-w-64">
           <PreviewImage title={post.title} src={post.preview} slug={post.slug} type={post.fmContentType} />
@@ -30,11 +30,14 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
       )}
 
       <section>
-        <Link className="no-underline" href={"/" + post.fmContentType + "/" + post.slug}>
-          <h2 className="m-0 mb-1 p-0 text-gray-700 hover:text-dark-primary dark:text-gray-100 dark:hover:text-light-primary">
-            {post.title} <i className="text-sm font-normal">{post.fmContentType}</i>
-          </h2>{" "}
-        </Link>
+        <h2 className="m-0 mb-1 break-normal p-0">
+          <Link className="font-bold no-underline" href={"/" + post.fmContentType + "/" + post.slug}>
+            <span className="font-bold hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
+              {post.title}
+            </span>
+          </Link>{" "}
+          <i className="text-sm font-normal">{post.fmContentType}</i>
+        </h2>{" "}
         <div className="sm:flex">
           <i className="flex h-full items-center text-sm">
             <DateFormatter dateString={post.date} />

@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import markdownStyles from "./markdown-styles.module.css";
 
 type Props = {
@@ -5,5 +6,5 @@ type Props = {
 };
 
 export function PostBody({ content }: Props) {
-  return <div className={markdownStyles["markdown"]} dangerouslySetInnerHTML={{ __html: content }} />;
+  return <div style={markdownStyles} dangerouslySetInnerHTML={{ __html: content }} />;
 }

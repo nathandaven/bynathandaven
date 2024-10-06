@@ -7,11 +7,11 @@ date: 2023-09-14T04:45:00.000Z
 author:
   name: Nathan Davenport
   picture: /assets/authors/nathan.jpg
-keywords:
-tags:
-categories:
+keywords: null
+tags: null
+categories: null
 fmContentType: article
-draft: false
+draft: true
 ---
 
 #### Why am I here?

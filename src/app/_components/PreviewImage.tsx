@@ -14,8 +14,8 @@ const PreviewImage = ({ title, src, slug, type }: Props) => {
     <Image
       src={src}
       alt={`Cover Image for ${title}`}
-      className={cn("w-full shadow-sm", {
-        "border-dark-primary dark:border-light-primary m-0 border-spacing-1 border p-0 transition-shadow duration-200 hover:shadow-lg":
+      className={cn("w-full shadow-md", {
+        "m-0 border-spacing-0 border border-dark-primary p-0 outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-lg hover:outline-1 dark:border-light-primary dark:outline-light-primary":
           slug,
       })}
       width={1300}

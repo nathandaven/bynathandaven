@@ -22,11 +22,11 @@ export const Button: FunctionComponent<PropsWithChildren> = ({
     <a
       target={newTab ? "_blank" : undefined}
       className={classNames(
+        className,
         classNames(
-          "cursor-pointer rounded-3xl border border-dark-primary font-display-medium transition-colors hover:bg-[#E1DFD3] dark:border-light-primary dark:hover:bg-slate-800",
+          "cursor-pointer rounded-3xl border border-dark-primary font-display-medium dark:border-light-primary",
           sizeSmall ? "xxs:px-1.5 xxs:py-0.5 px-1 py-[0.1rem] text-xs" : "px-4 py-1",
         ),
-        className,
       )}
       href={href}
     >

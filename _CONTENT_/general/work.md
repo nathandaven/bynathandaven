@@ -1,0 +1,90 @@
+---
+sectionTitleWithoutDescription: ""
+title: Work
+slug: work
+lastmod: 2024-09-17T16:44:37.457Z
+preview: /assets/og-image-h.jpg
+draft: false
+description: "Services, previous work, and media credits."
+tags: []
+categories: []
+excerpt: ""
+sectionTitleWithDescription: ""
+linkedVideo: ""
+linkedAlbum: ""
+fmContentType: general
+author:
+  name: Nathan Davenport
+date: 2024-10-04T23:02:41.021Z
+---
+
+I am available for **story collaborations**, **photography work**, and **other freelance work**! Please see below for details. 🤝
+
+Professionally, I work full time as a **Software Engineer**. For **professional roles**, please see my [resume](/assets/general/resume.pdf) and my [LinkedIn](https://linkedin.com/in/nathandaven).
+
+---
+
+## Collaborations
+
+Looking to work with me on a story? I run a video journalism YouTube channel under my own name **Nathan Davenport**, where I deep dive into topics I find interesting, through a documentary and video essay format. Currently, I focus on many topics relating to **urban planning** and **cities in general**, including transportation, real estate, housing, and general urbanism overall.
+
+### Interviews and Story Collaborations
+
+I often collaborate with other people or organizations. This looks like a standard interview, where I do a recorded interview in person or over video call to gather information on a subject. I will use this footage in my video to support the subject.
+
+This can also be a more in depth collaboration, where the person or organization reviews the video and helps with the writing process. Since these projects take a ton of work, I do consider charging for collaborative stories.
+
+If you would like to be interviewed or collaborate with me on a story, please reach out!
+
+### Sponsorships
+
+I am also available to take sponsorships on my channel. I have more than **6,000 subscribers** on Youtube and **350,000 views** on the platform, and am always available for ad breaks of various types. Please reach out to me if you are an advertiser and we can discuss further.
+
+### Contact
+
+E-mail me at [videos@nathandaven.com](mailto:videos@nathandaven.com) for further discussion.
+
+---
+
+## Services
+
+### Photography Session
+
+I have ten years of photography experience shooting live events, concerts, portraits, studio sessions, creative projects, family photos, and more. I am always available to do a shoot on film, digital, or both.
+
+My rates are flexible, depending on requirements for film development, editing, travel, or complexity. I am always looking for something challenging, reach out to me if you have a project in mind!
+
+### Freelance Work
+
+I am always open to new video editing, graphic design, or software development projects. I work professionally as a software engineer, and have tons of experience in both front end and back end work. I also am open to video editing and graphic design work, due to thousands of hours of work for my YouTube channel. Reach out to me if you have a project in mind!
+
+### Contact
+
+E-mail me at [nathan@nathandaven.com](mailto:nathan@nathandaven.com) for further discussion.
+
+---
+
+## Previous Projects
+
+### Interviews and Story Collaborations
+
+- Interview with [Carden Wyckoff on transportation accessability](https://youtu.be/qAotSlD0jzg)
+- Story Collaboration with [Caleb Stubbs of the ATL Trains proposal](https://youtu.be/2Ed_VUqILh0)
+- See more on my [YouTube](https://youtube.com/@nathandaven).
+
+### Design
+
+- [Firefox Paradise Theme](https://github.com/nathandaven/firefox-paradise-theme)
+- [Reclaim Home Park](https://drive.google.com/file/d/1WmFoMpn1YrAMAJuynuwrB8yWhFQZ5aWk/view?usp=sharing) - Capstone Process Book & Urban Case Study
+- [Government Window Design System](https://www.governmentwindow.com/)
+
+### Software
+
+- [This Website](https://github.com/nathandaven/bynathandaven)
+- [Traveler - Game for Gameboy Advance](https://github.com/nathandaven/traveller-gba)
+- [Macon-Bibb County Tax Website](https://www.maconbibbtax.us/)
+- [Paulding County Tax Website](https://www.pauldingcountytax.com/index.html)
+- [Government Window Company Website](https://www.governmentwindow.com/)
+- [BrainyPhonics Mobile Application](https://drive.google.com/file/d/1Ca44nozhrrNWHe663-N_DIC3KSULpymz/view)
+- [jsRayTracer](https://nathandaven.github.io/jsRayTracer/)
+- See more on my [GitHub](https://github.com/nathandaven).

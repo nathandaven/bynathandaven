@@ -6,7 +6,7 @@ date: 2024-09-16T19:25:55.955Z
 preview: /assets/articles/demo/img1.png
 draft: false
 description: ""
-tags: []
+tags: [atlanta]
 categories: []
 excerpt: ""
 author:

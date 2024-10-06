@@ -27,7 +27,7 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
   return (
     <div
       className={classNames(
-        (fullWidth ? "max-w-[90rem]" : "max-w-6xl") + " " + "mx-auto px-0 antialiased transition-all md:px-6",
+        (fullWidth ? "max-w-[90rem]" : "max-w-5xl") + " " + "mx-auto px-0 antialiased transition-all md:px-6",
         className,
       )}
     >

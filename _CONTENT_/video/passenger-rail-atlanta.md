@@ -53,9 +53,9 @@ Most cities spring up around major waterways like rivers and harbors, which allo
 
 Instead of waterways, Atlanta’s railroads served this purpose, and the city grew around, and eventually up and over the train tracks, embedding the railroads into every aspect of the region’s development. In fact, the city’s original name was “Terminus,” a name representing its importance as the South’s premiere railroad hub.
 
-![](/assets/video/passenger-rail-atlanta/2F260e1298-3a89-4809-96a5-ad48a21d8ceb_3840x2160.png)via [Thread ATL](https://www.threadatl.org/2018/10/26/the-railroad-gulch-is-atlantas-dry-riverbed/)
+![](/assets/video/passenger-rail-atlanta/2F260e1298-3a89-4809-96a5-ad48a21d8ceb_3840x2160.png "via [Thread ATL](https://www.threadatl.org/2018/10/26/the-railroad-gulch-is-atlantas-dry-riverbed/)")
 
-The railroads were the waterway for the city, providing commerce, transportation, and the place where they converged in the heart of Atlanta eventually came to bear a nickname akin to a river, the “ **Railroad Gulch.** ”[1](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-1-139625986)
+The railroads were the waterway for the city, providing commerce, transportation, and the place where they converged in the heart of Atlanta eventually came to bear a nickname akin to a river, the “ **Railroad Gulch.** ”
 
 #### The impressive coverage of American passenger rail
 
@@ -77,7 +77,7 @@ With **90 regional rail-like local trains per day** , you could get to most of t
 
 But even more astounding was the sheer amount of long-distance intercity options.
 
-A century ago, there were nearly **30 long distance passenger trains per day** , connecting to cities across the eastern United States.[2](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-2-139625986)
+A century ago, there were nearly **30 long distance passenger trains per day** , connecting to cities across the eastern United States.
 
 Tragically, today we currently only have one intercity train per day in Metro Atlanta, the Crescent, passing through Atlanta between New York City and New Orleans.
 
@@ -89,15 +89,15 @@ Tragically, today we currently only have one intercity train per day in Metro At
 
 Behind me, across the street from todays Five Points MARTA station, used to stand Atlanta’s first passenger train station: **Atlanta Union Station**. Dating back to 1853, the station served **30-40 trains a day** at its peak.
 
-![](/assets/video/passenger-rail-atlanta/2F8463d62e-6476-46e1-bb86-8bff1ce267b6_3840x2160.png)via Atlanta History Center, courtesy of Caleb Stubbs (@cest524) of ATL Trains
+![](/assets/video/passenger-rail-atlanta/2F8463d62e-6476-46e1-bb86-8bff1ce267b6_3840x2160.png "via Atlanta History Center, courtesy of Caleb Stubbs (@cest524) of ATL Trains")
 
-And here, used to stand one of Atlanta’s grand train stations, **Atlanta Terminal Station** , built in 1905. At its peak, it served **over 90 trains a day** , but now stands the _Richard B. Russell Federal Building_ , serving **0 trains a day**.[3](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-3-139625986)
+And here, used to stand one of Atlanta’s grand train stations, **Atlanta Terminal Station** , built in 1905. At its peak, it served **over 90 trains a day** , but now stands the _Richard B. Russell Federal Building_ , serving **0 trains a day**.
 
-![](/assets/video/passenger-rail-atlanta/2F26a5d523-5223-4527-af05-2433057485e3_3840x2160.png)via Atlanta History Center, courtesy of Caleb Stubbs (@cest524) of ATL Trains
+![](/assets/video/passenger-rail-atlanta/2F26a5d523-5223-4527-af05-2433057485e3_3840x2160.png "via Atlanta History Center, courtesy of Caleb Stubbs (@cest524) of ATL Trains")
 
 Both were beautiful historic buildings, that were demolished in 1972.
 
-![](/assets/video/passenger-rail-atlanta/2F52f260ea-6230-4003-8e12-8320a9a5d44f_3840x2160.png)via [Google Maps Streetview](https://maps.app.goo.gl/4WV71TKwFFEW2fen9?g_st=i)
+![](/assets/video/passenger-rail-atlanta/2F52f260ea-6230-4003-8e12-8320a9a5d44f_3840x2160.png "via [Google Maps Streetview](https://maps.app.goo.gl/4WV71TKwFFEW2fen9?g_st=i)")
 
 #### **Regulation**
 
@@ -121,11 +121,9 @@ Passenger rail ticket prices increased rapidly due to the decreased demand, and 
 
 It wasn’t just limited to passenger trains either. During the post-World War II boom, many railroads went bankrupt and were driven out of business by tight regulations and competition from airlines, cars, and the burgeoning trucking industry.
 
-The nail in the coffin was the National Interstate and Defense Highways Act of 1956, which practically killed passenger rail for Americans, as passenger and freight rail companies just couldn’t compete with cheap cars, cheap gas, and fast new expressways that started being constructed across the US over the second half of the century.[4](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-4-139625986)
+The nail in the coffin was the National Interstate and Defense Highways Act of 1956, which practically killed passenger rail for Americans, as passenger and freight rail companies just couldn’t compete with cheap cars, cheap gas, and fast new expressways that started being constructed across the US over the second half of the century.
 
-“ _Between an 18-year span following the year after World War II, 1946, passenger traffic declined from 770 million to 298 million by 1964._ ”
-
-###### _[Adam Burns, “Decline of Railroads”](https://www.american-rails.com/decline.html)_
+> Between an 18-year span following the year after World War II, 1946, passenger traffic declined from 770 million to 298 million by 1964. - Adam Burns, [Decline of Railroads](https://www.american-rails.com/decline.html)
 
 #### Nationalization of the railroads
 
@@ -135,7 +133,7 @@ The federal government consolidated all of the bankrupting northeastern freight 
 
 Unfortunately, it was really too late for the railroads. American's fell in love with the car, and by this time interstate highways and air travel made these transportation modes way more convenient for most Americans.
 
-So by 1970, with Atlanta’s formerly illustrious passenger rail stations now being closed, Atlanta’s railroad gulch "dried up," and became increasingly less useful, and more so disruptive and unattractive.[5](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-5-139625986)
+So by 1970, with Atlanta’s formerly illustrious passenger rail stations now being closed, Atlanta’s railroad gulch "dried up," and became increasingly less useful, and more so disruptive and unattractive.
 
 ## Rebirth
 
@@ -143,7 +141,7 @@ Luckily, in recent years we’ve seen a major insurgence of interest in train tr
 
 #### Amtrak ConnectsUS Program and Corridor ID
 
-As a result of the Biden Administration’s Bipartisan Infrastructure Law passed in 2021, five-year funding for transit expansion went up to $39 billion,[6](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-6-139625986) while funding for passenger and freight rail went up to $66 billion over the next five years.[7](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-7-139625986)
+As a result of the Biden Administration’s Bipartisan Infrastructure Law passed in 2021, five-year funding for transit expansion went up to $39 billion, while funding for passenger and freight rail went up to $66 billion over the next five years.
 
 ![](/assets/video/passenger-rail-atlanta/2F635fceb2-15a7-49ae-a58f-c170578e90ec_3840x2160.png)
 
@@ -183,7 +181,7 @@ The plan would connect **12 counties** with proper rail services, and since most
 
 Most importantly, is the restoration of a downtown train station, located right here in the Gulch, right where Atlanta’s historic downtown stations once stood, potentially within the Centennial Yards project, or through adaptive reuse of CNN Center. This station could serve as a regional hub for the entire South East, and allow for easy transfers to Amtrak, MARTA Rail, streetcar, and bus services.
 
-![](/assets/video/passenger-rail-atlanta/2F5ddd914a-7ca1-4b54-9993-77733a8c988f_3840x2160.png)via [ATL Trains whitepaper](https://drive.google.com/file/d/1uh-G-IGc3rLCm98qPzx9rIRkloyl-aNM/view?usp=sharing)
+![](/assets/video/passenger-rail-atlanta/2F5ddd914a-7ca1-4b54-9993-77733a8c988f_3840x2160.png "via [ATL Trains whitepaper](https://drive.google.com/file/d/1uh-G-IGc3rLCm98qPzx9rIRkloyl-aNM/view?usp=sharing)")
 
 **Funding**
 
@@ -195,7 +193,7 @@ By leveraging and expanding existing railroad corridors over assembling brand ne
 
 In theory, the 13 counties could fund the project with a half-penny (0.5%), 30-year HB 930 Transit SPLOST tax, and would use the Atlanta Region Transit Link Authority, the ATL, as its operator.
 
-![](/assets/video/passenger-rail-atlanta/2F85fa8eab-c2af-45f0-b130-96cbe3306301_3840x2160.jpeg)
+![](/assets/video/passenger-rail-atlanta/2F85fa8eab-c2af-45f0-b130-96cbe3306301_3840x2160.jpg)
 
 This circumnavigates constitutional roadblocks that come with using authorities such as MARTA as it's operator, and enables greater flexibility in funding sources.
 
@@ -209,7 +207,7 @@ For example, Clayton County recently joined MARTA, Atlanta’s transit authority
 
 ![](/assets/video/passenger-rail-atlanta/2F2894118f-9927-4480-85aa-4834f61703c3_3840x2160.png)
 
-However, due to lack of compliance with the freight rail companies, Clayton County and MARTA were unable to reach any sort of agreement to do the project. Now, MARTA is proposing “Bus Rapid Transit” for the county, and honestly its a bit of a laughable project looking at it. The route just doesn’t make sense for BRT, and while some bus lanes will help the route, its so winding and not at all what MARTA promised Clayton County.[8](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-8-139625986)
+However, due to lack of compliance with the freight rail companies, Clayton County and MARTA were unable to reach any sort of agreement to do the project. Now, MARTA is proposing “Bus Rapid Transit” for the county, and honestly its a bit of a laughable project looking at it. The route just doesn’t make sense for BRT, and while some bus lanes will help the route, its so winding and not at all what MARTA promised Clayton County.
 
 ![](/assets/video/passenger-rail-atlanta/2Fa64b3123-ba5e-455c-90e1-11e60940d50f_3840x2160.png)
 
@@ -219,7 +217,7 @@ This is because Georgia DOT is **constitutionally prohibited** for state gas tax
 
 ![](/assets/video/passenger-rail-atlanta/2F035b58cb-5d2f-4637-9920-6db28c6cb990_3840x2160.png)
 
-People often ask why MARTA "sucks," but really, it was set up from the beginning to struggle, and lacking state support makes it really difficult to build regional projects that compare to other states in the country, as we pretty much always need federal funding.[9](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-9-139625986)
+People often ask why MARTA "sucks," but really, it was set up from the beginning to struggle, and lacking state support makes it really difficult to build regional projects that compare to other states in the country, as we pretty much always need federal funding.
 
 ![](/assets/video/passenger-rail-atlanta/2F451842f5-3732-4efd-8b83-8c398c9584f8_3840x2160.png)
 
@@ -231,13 +229,13 @@ The key here is that passenger rail investment can be a win-win for both freight
 
 Often, politicians make out that passenger services impede on freight operations, however, this simply isn't the case. ATL Trains details how investment benefits both parties -- through dramatically expanding capacity, eliminating bottlenecks, improving network fluidity, and more.
 
-![](/assets/video/passenger-rail-atlanta/2Fde6c16b0-8268-40b0-b728-92507bf216e0_3840x2160.png)via [ATL Trains whitepaper](https://drive.google.com/file/d/1uh-G-IGc3rLCm98qPzx9rIRkloyl-aNM/view?usp=sharing)
+![](/assets/video/passenger-rail-atlanta/2Fde6c16b0-8268-40b0-b728-92507bf216e0_3840x2160.png "via [ATL Trains whitepaper](https://drive.google.com/file/d/1uh-G-IGc3rLCm98qPzx9rIRkloyl-aNM/view?usp=sharing)")
 
 #### Setting the example
 
-Nearby states such as North Carolina are taking rail expansion seriously, and since their state DOT has invested in improving Amtrak service through the NC By Train program, they've seen intercity ridership increase **[23% since 2022](https://www.newsobserver.com/news/local/article281987988.html)** , \*\*\*\* and have many improvements in the pipeline.[10](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-10-139625986)
+Nearby states such as North Carolina are taking rail expansion seriously, and since their state DOT has invested in improving Amtrak service through the NC By Train program, they've seen intercity ridership increase **[23% since 2022](https://www.newsobserver.com/news/local/article281987988.html)** , \*\*\*\* and have many improvements in the pipeline.
 
-![](/assets/video/passenger-rail-atlanta/2Fc25a3ddb-497a-43fb-827f-64eabc7f5428_1548x792.png) _via[The News & Observer](https://www.newsobserver.com/news/local/article281987988.html)_
+![](/assets/video/passenger-rail-atlanta/2Fc25a3ddb-497a-43fb-827f-64eabc7f5428_1548x792.png " _via[The News & Observer](https://www.newsobserver.com/news/local/article281987988.html)_")
 
 They face the exact same challenges we do here in Georgia - gaining state support, and working with the freight companies. They're doing exactly what ATL Trains proposes: improving rail operations for both passenger and freight.
 
@@ -271,44 +269,24 @@ Let me know what y'all think of the ATL trains plan, and thanks again to Caleb S
 
 [https://railroads.dot.gov/sites/fra.dot.gov/files/2023-12/FY22 CID Project Summaries-Map.pdf](https://railroads.dot.gov/sites/fra.dot.gov/files/2023-12/FY22%20CID%20Project%20Summaries-Map.pdf)
 
-# References
+## References
 
-[1](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-1-139625986)
+1. Morrison, Jeff. "The Railroad Gulch: Atlanta's Dry Riverbed." _ThreadATL_, 26 Oct. 2018, [https://www.threadatl.org/2018/10/26/the-railroad-gulch-is-atlantas-dry-riverbed/](https://www.threadatl.org/2018/10/26/the-railroad-gulch-is-atlantas-dry-riverbed/).
 
-Morrison, Jeff. "The Railroad Gulch: Atlanta's Dry Riverbed." ThreadATL, 26 Oct. 2018, <https://www.threadatl.org/2018/10/26/the-railroad-gulch-is-atlantas-dry-riverbed/>.
+2. Stubbs, Caleb. "ATL Trains - Our Passenger Rail History." _ArcGIS StoryMaps_, Esri, updated 13 Sept. 2023, accessed 10 Dec. 2023, [https://storymaps.arcgis.com/stories/e830c5581fd04ee1bb55c6beabecdc07](https://storymaps.arcgis.com/stories/e830c5581fd04ee1bb55c6beabecdc07).
 
-[2](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-2-139625986)
+3. Stubbs, Caleb. "ATL Trains - Our Passenger Rail History." _ArcGIS StoryMaps_, Esri, updated 13 Sept. 2023, accessed 10 Dec. 2023, [https://storymaps.arcgis.com/stories/e830c5581fd04ee1bb55c6beabecdc07](https://storymaps.arcgis.com/stories/e830c5581fd04ee1bb55c6beabecdc07).
 
-Stubbs, Caleb. “ATL Trains - Our Passenger Rail History." ArcGIS StoryMaps, Esri, Updated 13 Sept. 2023, Accessed 10 Dec. 2023, <https://storymaps.arcgis.com/stories/e830c5581fd04ee1bb55c6beabecdc07>.
+4. Burns, Adam. "Decline of Railroads." _American Rails_, last revised 7 May 2023, [https://www.american-rails.com/decline.html](https://www.american-rails.com/decline.html).
 
-[3](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-3-139625986)
+5. Burns, Adam. "Decline of Railroads." _American Rails_, last revised 7 May 2023, [https://www.american-rails.com/decline.html](https://www.american-rails.com/decline.html).
 
-Stubbs, Caleb. “ATL Trains - Our Passenger Rail History." ArcGIS StoryMaps, Esri, Updated 13 Sept. 2023, Accessed 10 Dec. 2023, <https://storymaps.arcgis.com/stories/e830c5581fd04ee1bb55c6beabecdc07.>
+6. _National Association of Counties._ "Legislative Analysis: Counties & Bipartisan Infrastructure Law." _National Association of Counties_, 4 Mar. 2022, [www.naco.org/resources/legislative-analysis-counties-bipartisan-infrastructure-law](www.naco.org/resources/legislative-analysis-counties-bipartisan-infrastructure-law).
 
-[4](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-4-139625986)
+7. _McKinsey & Company._ "The US Bipartisan Infrastructure Law: Breaking It Down." _McKinsey & Company_, 12 Nov. 2021, [www.mckinsey.com/industries/public-sector/our-insights/the-us-bipartisan-infrastructure-law-breaking-it-down](www.mckinsey.com/industries/public-sector/our-insights/the-us-bipartisan-infrastructure-law-breaking-it-down).
 
-Burns, Adam. "Decline of Railroads." American Rails, Last revised May 7, 2023, <https://www.american-rails.com/decline.html>.
+8. Green, Josh. "MARTA, Clayton County Transit, Airport Link Move Forward." _Urbanize Atlanta_, 12 Dec. 2023, [https://atlanta.urbanize.city/post/MARTA-clayton-county-transit-airport-link-move-forward](https://atlanta.urbanize.city/post/MARTA-clayton-county-transit-airport-link-move-forward).
 
-[5](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-5-139625986)
+9. Short, Aaron. "Atlanta’s Transit Flaws Are State’s Fault." _Streetsblog USA_, 25 Sept. 2019, [https://usa.streetsblog.org/2019/09/25/atlantas-transit-flaws-are-states-fault](https://usa.streetsblog.org/2019/09/25/atlantas-transit-flaws-are-states-fault).
 
-Burns, Adam. "Decline of Railroads." American Rails, Last revised May 7, 2023, <https://www.american-rails.com/decline.html>.
-
-[6](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-6-139625986)
-
-National Association of Counties. "Legislative Analysis: Counties & Bipartisan Infrastructure Law." _National Association of Counties_ , 4 March 2022, [www.naco.org/resources/legislative-analysis-counties-bipartisan-infrastructure-law](http://www.naco.org/resources/legislative-analysis-counties-bipartisan-infrastructure-law).
-
-[7](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-7-139625986)
-
-McKinsey & Company. “The US Bipartisan Infrastructure Law: Breaking It Down.” _McKinsey & Company_, 12 November 2021, [www.mckinsey.com/industries/public-sector/our-insights/the-us-bipartisan-infrastructure-law-breaking-it-down](http://www.mckinsey.com/industries/public-sector/our-insights/the-us-bipartisan-infrastructure-law-breaking-it-down).
-
-[8](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-8-139625986)
-
-Green, Josh. "MARTA, Clayton County Transit, Airport Link Move Forward." Urbanize Atlanta, 12 December 2023, [atlanta.urbanize.city/post/MARTA-clayton-county-transit-airport-link-move-forward](http://atlanta.urbanize.city/post/MARTA-clayton-county-transit-airport-link-move-forward).
-
-[9](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-9-139625986)
-
-Short, Aaron. "Atlanta’s Transit Flaws Are State’s Fault." _Streetsblog USA_ , 25 September 2019, <https://usa.streetsblog.org/2019/09/25/atlantas-transit-flaws-are-states-fault>.
-
-[10](https://nathandaven.substack.com/p/is-it-time-to-bring-passenger-rail#footnote-anchor-10-139625986)
-
-Stradling, Richard. "With record ridership, North Carolina looks to expand passenger rail system." _The News & Observer_, 18 November 2023, [www.newsobserver.com/news/local/article281987988.html](http://www.newsobserver.com/news/local/article281987988.html).
+10. Stradling, Richard. "With Record Ridership, North Carolina Looks to Expand Passenger Rail System." _The News & Observer_, 18 Nov. 2023, [www.newsobserver.com/news/local/article281987988.html](www.newsobserver.com/news/local/article281987988.html).

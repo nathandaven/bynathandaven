@@ -1,5 +1,4 @@
 import React, { FunctionComponent, ReactNode } from "react";
-import cn from "classnames";
 import classNames from "classnames";
 import Link from "next/link";
 
@@ -15,7 +14,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
   return (
     <div
       className={
-        /* "m-5 border border-dark-primary border-spacing-1" */ cn(
+        /* "m-5 border border-dark-primary border-spacing-1" */ classNames(
           className,
           mobile
             ? "flex flex-col gap-y-1 py-1 text-3xl xs:gap-y-4 xs:py-4 xs:text-5xl"
@@ -23,50 +22,45 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
         ) /* border border-l-0 border-y-0 border-dark-primary border-spacing-1 */
       }
     >
-      <Link
-        href="/newsletter"
-        className={classNames(
-          "text-gray-800 hover:text-dark-primary dark:text-gray-200 dark:hover:text-light-primary",
-          mobile ? "" : "mr-2 text-base md:text-xl",
-        )}
-      >
-        Newsletter
+      <Link href="/newsletter" className="mr-2 text-base">
+        <span
+          className={classNames(
+            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            mobile ? "text-4xl font-bold" : "mx-1 mr-0 text-base md:text-xl",
+          )}
+        >
+          Newsletter
+        </span>
       </Link>
-      <Link
-        href="/photography"
-        className={classNames(
-          "text-gray-800 hover:text-dark-primary dark:text-gray-200 dark:hover:text-light-primary",
-          mobile ? "" : "mr-2 text-base md:text-xl",
-        )}
-      >
-        Photography
+      <Link href="/photography" className="mr-2 text-base">
+        <span
+          className={classNames(
+            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            mobile ? "text-4xl font-bold" : "mx-1 mr-0 text-base md:text-xl",
+          )}
+        >
+          Photography
+        </span>
       </Link>
-      {/* <a
-        href="/general/services"
-        className={classNames(
-          "hover:text-dark-primary dark:hover:text-light-primary text-gray-800 dark:text-gray-200",
-          mobile ? "" : "mr-2 text-base md:text-xl",
-        )}
-      >
-        Services
-      </a> */}
-      <Link
-        href="/work"
-        className={classNames(
-          "text-gray-800 hover:text-dark-primary dark:text-gray-200 dark:hover:text-light-primary",
-          mobile ? "" : "mr-2 text-base md:text-xl",
-        )}
-      >
-        Work
+      <Link href="/work" className="mr-2 text-base">
+        <span
+          className={classNames(
+            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            mobile ? "text-4xl font-bold" : "mx-1 mr-0 text-base md:text-xl",
+          )}
+        >
+          Work
+        </span>
       </Link>
-      <Link
-        href="/about"
-        className={classNames(
-          "text-gray-800 hover:text-dark-primary dark:text-gray-200 dark:hover:text-light-primary",
-          mobile ? "" : "mr-0 text-base md:text-xl",
-        )}
-      >
-        About
+      <Link href="/about" className="mr-0 text-base">
+        <span
+          className={classNames(
+            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            mobile ? "text-4xl font-bold" : "mx-1 mr-0 text-base md:text-xl",
+          )}
+        >
+          About
+        </span>
       </Link>
     </div>
   );

@@ -44,7 +44,7 @@ Now, food halls aint nothing new. The modern food hall is loosely based on the c
 
 But American cities, this concept was dumbed down to fit in your decaying local mall, your dingy high school, or your whitewashed company food hall.
 
-![](/assets/video/the-food-hall-epidemic/2F2606b0aa-151c-4ab5-be92-dcc465276019_3840x2160.png) _Typical American Mall_
+![](/assets/video/the-food-hall-epidemic/2F2606b0aa-151c-4ab5-be92-dcc465276019_3840x2160.png "_Typical American Mall_")
 
 Today’s modern food hall is different breed. The premise is the same: bring together restaurants in a large communal dining area. The twist: all businesses are locally owned, small business.
 
@@ -54,7 +54,7 @@ In many ways, this concept is great for both the participating businesses and ma
 
 Prices are typically much lower than standard brick and mortar, and leases are much more flexible and less binding, all while bringing consistent foot traffic and amenities.
 
-Sound familiar? It's the modern food truck, providing a similar start up cost without a lot of the challenges that face the food truck industry. Shockingly, it costs five to ten times less to open a location in a food hall or food truck, over an independent location.[1](https://nathandaven.substack.com/p/the-food-hall-epidemic#footnote-1-141507698)
+Sound familiar? It's the modern food truck, providing a similar start up cost without a lot of the challenges that face the food truck industry. Shockingly, it costs five to ten times less to open a location in a food hall or food truck, over an independent location.
 
 Food halls are really disrupting the food truck trend, making it easier to start a new restaurant or allow an existing food truck business to expand into a fixed space.
 
@@ -74,7 +74,7 @@ But in itself - this is the problem.
 
 Here’s Atlanta’ Sweet Auburn Municipal Market, which is a rarity these days. Its the only permanent farmer’s market type location that still exists in the city, and has been around since 1923.
 
-![](/assets/video/the-food-hall-epidemic/2F75dc7c7e-b6b1-461e-9228-3b1b57298b01_3840x2160.png)Sweet Auburn Municipal Market, Atlanta GA
+![](/assets/video/the-food-hall-epidemic/2F75dc7c7e-b6b1-461e-9228-3b1b57298b01_3840x2160.png "Sweet Auburn Municipal Market, Atlanta GA")
 
 This place is great because its community organized, small business operated, and a non profit. Its genuinely a place that contributes to the resident of the city.
 
@@ -94,7 +94,7 @@ This might be fine in suburbia, which the mall model was originally for, but in 
 
 See, lets look at Edgewood Ave.
 
-![](/assets/video/the-food-hall-epidemic/2F45e4dc32-4b2e-4f5c-a56d-967d2ce21bd6_3840x2160.png)Edgewood Avenue (Sweet Auburn, Atlanta)
+![](/assets/video/the-food-hall-epidemic/2F45e4dc32-4b2e-4f5c-a56d-967d2ce21bd6_3840x2160.png "Edgewood Avenue (Sweet Auburn, Atlanta)")
 
 It's starting to feel like every local business we love and cherish is disappearing by the minute.
 
@@ -104,7 +104,7 @@ Just this past month, we saw multitudes of long standing businesses close here: 
 
 See, The Beltline runs through Edgewood Avenue right here, tapping away foot traffic to ever growing Krog Street Market, a food hall that opened a decade ago in 2014.
 
-![](/assets/video/the-food-hall-epidemic/2F7dac1f78-a791-4b4b-bb03-d08b0134d5f9_2862x1642.png)Eastside Beltline and Krog ~~Street Market~~ _District_ intersecting Edgewood Ave
+![](/assets/video/the-food-hall-epidemic/2F7dac1f78-a791-4b4b-bb03-d08b0134d5f9_2862x1642.png "Eastside Beltline and Krog ~~Street Market~~ _District_ intersecting Edgewood Ave")
 
 I don't think this is a coincidence. The Beltline has driven up property values throughout this area, and Krog Street Market is a driving force of this appraisal.
 
@@ -124,9 +124,9 @@ But on the other hand. Krog Street District and the Beltline have completely zap
 
 Now don't get me wrong, I'm not a NIMBY. Places like Krog and Ponce are bringing lots of density to the city that is much needed. But I do think it's worth realizing that _these places don't work in a vacuum._
 
-![](/assets/video/the-food-hall-epidemic/2Fdda3491b-4a5b-494c-a9cd-4d3699fcdd96_3840x2160.png) Ponce City Market, 2024
+![](/assets/video/the-food-hall-epidemic/2Fdda3491b-4a5b-494c-a9cd-4d3699fcdd96_3840x2160.png "Ponce City Market, 2024")
 
-Ponce City Market in particular is infamous for not being property taxed adequately for most of its existence. Yes, you heard that right, Jamestown's entire operation had its property taxes froze at 2014 levels up until 2020, while the property’s valuation rose to over a _billion dollars_.[2](https://nathandaven.substack.com/p/the-food-hall-epidemic#footnote-2-141507698)
+Ponce City Market in particular is infamous for not being property taxed adequately for most of its existence. Yes, you heard that right, Jamestown's entire operation had its property taxes froze at 2014 levels up until 2020, while the property’s valuation rose to over a _billion dollars_.
 
 ![](/assets/video/the-food-hall-epidemic/2F0433531d-55f3-48cc-9f32-23fd0339b320_3840x2160.png)
 
@@ -149,10 +149,8 @@ I did this one a little bit differently than my other ones, so let me know what 
 
 Thanks for reading.
 
-[1](https://nathandaven.substack.com/p/the-food-hall-epidemic#footnote-anchor-1-141507698)
+## References
 
-CBS Sunday Morning. "Food halls: A world of flavors under one roof." 24 Nov. 2019, [youtube.com/watch?v=OiAf7dFy5Vk](http://youtube.com/watch?v=OiAf7dFy5Vk).
+1. CBS Sunday Morning. "Food Halls: A World of Flavors Under One Roof." _YouTube_, 24 Nov. 2019, [youtube.com/watch?v=OiAf7dFy5Vk](https://youtube.com/watch?v=OiAf7dFy5Vk).
 
-[2](https://nathandaven.substack.com/p/the-food-hall-epidemic#footnote-anchor-2-141507698)
-
-Atlanta Civic Circle. "Georgia's Tax Appeal Loophole Means Big Money for Big Corporations." _Atlanta Civic Circle_ , 16 Nov. 2023, [atlantaciviccircle.org/2023/11/16/georgias-tax-appeal-loophole-means-big-money-for-big-corporations/](http://atlantaciviccircle.org/2023/11/16/georgias-tax-appeal-loophole-means-big-money-for-big-corporations/).
+2. _Atlanta Civic Circle_. "Georgia's Tax Appeal Loophole Means Big Money for Big Corporations." _Atlanta Civic Circle_, 16 Nov. 2023, [atlantaciviccircle.org/2023/11/16/georgias-tax-appeal-loophole-means-big-money-for-big-corporations/](https://atlantaciviccircle.org/2023/11/16/georgias-tax-appeal-loophole-means-big-money-for-big-corporations/).
