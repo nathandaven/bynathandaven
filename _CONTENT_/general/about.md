@@ -21,10 +21,10 @@ fmContentType: general
 
 I'm Nathan Davenport, a self proclaimed **video-journalist**, **photographer**, and **software engineer** located in **Atlanta, Georgia**.
 
-My first love is programming. Ever since I was really little, I was building computers, jailbreaking iPod Touches, and sort of learning programming languages from primitive 2006 YouTube videos. I ended up going to college at **Georgia Tech** for **Computational Media**, and I now work professionally as a **Software Engineer II**. Currently, I work at **NCR Voyix**, doing backend work for self-checkout solutions.
+My first passion is programming. Ever since I was really little, I was building computers, jailbreaking iPod Touches, and sort of learning programming languages from primitive 2006 YouTube videos. I ended up going to college at **Georgia Tech** for **Computational Media**, and I now work professionally as a **Software Engineer II** at **NCR Voyix**, doing backend work in **Typescript**, **Kubernetes**, and other technologies for a SaaS self-checkout solution.
 
 However, I have other passions as well. I grew up in the suburbs of **Atlanta, Georgia**, Cobb County specifically, but have always been obsessed with cities. I put thousands of hours into **Sim City 4** as a kid, and probably about the same amount into **Cities Skylines** as an adult!
 
 I just find **urban studies** really interesting, which is why I made a [YouTube channel](https://youtube.com/@nathandaven) where I deep dive into **local urbanism**, including **land use**, **transportation**, **real-estate**, and more. Its grown a lot over the past year, and it's really cool to see so many people interested in the topics! Not to mention, I am learning a ton as well! 😁
 
-I also **take photos** and **produce music as well**. You can see some of my public work on my [Instagram](https://instagram.com/nathandaven), or look through my public albums [here](photography) on this website. For the meantime, thanks for reading. 🫶
+Some of my other hobbies include **taking photos** and **producing music**. You can see some of my public work on my [Instagram](https://instagram.com/nathandaven), or look through my public albums [here](photography) on this website. For the meantime, thanks for reading. 🫶

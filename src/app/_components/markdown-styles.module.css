@@ -18,6 +18,6 @@
 }
  */
 
-.markdown img a {
-  text-align: center;
+.markdown p img {
+  @apply border;
 }
