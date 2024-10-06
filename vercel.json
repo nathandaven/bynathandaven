@@ -1,12 +1,13 @@
 {
   "rewrites": [
-    { "source": "/rss", "destination": "/rss.xml" },
-    { "source": "/sitemap", "destination": "/sitemap.xml" },
-    { "source": "/sitemap-0", "destination": "/sitemap-0.xml" },
-    { "source": "/robots", "destination": "/robots.txt" },
+    { "source": "/rss.xml", "destination": "https://bynathandaven.vercel.app/rss.xml" },
+    { "source": "/sitemap.xml", "destination": "https://bynathandaven.vercel.app/sitemap.xml" },
+    { "source": "/sitemap-0.xml", "destination": "https://bynathandaven.vercel.app/sitemap-0.xml" },
+    { "source": "/robots.txt", "destination": "https://bynathandaven.vercel.app/robots.txt" },
     {
       "source": "/_error",
       "destination": "/"
-    }
+    },
+    { "source": "/latest", "destination": "/video/five-points-renovation" }
   ]
 }
