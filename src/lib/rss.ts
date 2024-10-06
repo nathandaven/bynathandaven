@@ -3,13 +3,10 @@ import { Post } from "@/interfaces/post";
 import fs from "fs";
 import { join } from "path";
 import RSS, { FeedOptions, ItemOptions } from "rss";
-import { getAllPosts } from "./api";
+import { DOMAIN } from "@/lib/constants";
 
 export default function generateRssFeed(allPosts: Post[]) {
-  const site_url =
-    process.env.NODE_ENV === "production"
-      ? `https://${process.env.VERCEL_URL ?? "nathandaven.com"}`
-      : "http://localhost:3000";
+  const site_url = DOMAIN;
 
   const feedOptions: FeedOptions = {
     title: "Nathan Davenport | RSS Feed",

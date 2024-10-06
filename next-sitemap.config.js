@@ -1,10 +1,10 @@
 /** @type {import('next-sitemap').IConfig} */
+
 module.exports = {
   siteUrl:
-    process.env.SITE_URL ||
-    (process.env.NODE_ENV === "production"
-      ? `https://${process.env.VERCEL_URL ?? "nathandaven.com"}`
-      : "http://localhost:3000"),
+    process.env.NODE_ENV === "production"
+      ? `https://${process.env.DOMAIN ?? "nathandaven.com"}`
+      : "http://localhost:3000",
   generateRobotsTxt: true, // (optional)
   // ...other options
   transform: async (config, path) => {

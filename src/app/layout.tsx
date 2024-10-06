@@ -16,7 +16,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const title = `Nathan Davenport`;
 const description = `Nathan Davenport is a software engineer, photographer, and video creator located in Atlanta, Georgia.`;
-const image = `${DOMAIN}/assets/og-image-g-sq.jpg`;
+const image = `${DOMAIN}/assets/og-image-g.jpg`;
 export const metadata: Metadata = {
   metadataBase: new URL(DOMAIN),
   title: title,
