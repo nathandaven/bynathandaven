@@ -51,14 +51,14 @@ export default async function About() {
             <div className="sm:w-2/5 md:w-1/3">
               <Image
                 className="mb-0 mt-5 hidden w-full border-spacing-0 cursor-default border border-dark-primary pb-0 shadow-md outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-xl hover:outline-1 sm:block dark:border-light-primary dark:outline-light-primary"
-                src="/assets/authors/nathan-hamburg-b-1.jpg"
+                src="/assets/authors/nathan-hamburg-vert.jpg"
                 alt={""}
                 width={1205}
                 height={1507}
               />
               <Image
                 className="mb-0 mt-5 block w-full border-spacing-0 cursor-default border border-dark-primary pb-0 outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-xl hover:outline-1 sm:hidden dark:border-light-primary dark:outline-light-primary"
-                src="/assets/authors/nathan-hamburg-a.jpg"
+                src="/assets/authors/nathan-hamburg-hor.jpg"
                 alt={""}
                 width={1549}
                 height={1161}
