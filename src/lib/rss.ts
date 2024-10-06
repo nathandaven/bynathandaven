@@ -5,7 +5,7 @@ import { join } from "path";
 import RSS, { FeedOptions, ItemOptions } from "rss";
 import { DOMAIN } from "@/lib/constants";
 
-export default function generateRssFeed(allPosts: Post[]) {
+export default function generateRssFeed(allPosts: Post[]): RSS {
   const site_url = DOMAIN;
 
   const feedOptions: FeedOptions = {
@@ -48,6 +48,5 @@ export default function generateRssFeed(allPosts: Post[]) {
       feed.item(item);
     });
 
-  // Write the RSS feed to a file as XML.
-  fs.writeFileSync(join(process.cwd(), "public/rss.xml"), feed.xml({ indent: true }));
+  return feed;
 }

@@ -28,7 +28,7 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
             <Link href="/tags">tags</Link>
           </li>
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
-            <Link prefetch={false} legacyBehavior={true} href="/rss.xml">
+            <Link prefetch={false} href="/rss">
               rss
             </Link>
           </li>

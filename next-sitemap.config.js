@@ -14,7 +14,7 @@ module.exports = {
     let lastmod = config.autoLastmod ? new Date().toISOString() : undefined;
     let alternateRefs = config.alternateRefs ?? [];
     // custom function to ignore the path
-      if (path.includes(".png") || path.includes(".jpg"))
+    if (path.includes(".png") || path.includes(".jpg") || path.includes(".svg")) {
       return null;
     }
 
