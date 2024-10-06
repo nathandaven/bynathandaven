@@ -26,7 +26,7 @@ export default function generateRssFeed(allPosts: Post[]) {
     .map((post) => {
       const item: ItemOptions = {
         title: post?.title ?? "",
-        description: post?.excerpt ?? post?.description ?? "",
+        description: (post?.excerpt ?? post?.description ?? "") + `<img src="${site_url}${post?.preview}" />`,
         url: post?.fmContentType && post?.slug ? `${site_url}/${post?.fmContentType}/${post?.slug}` : "",
         date: post?.date ?? Date.now(),
         author: post?.author?.name ?? "Nathan Davenport",
