@@ -60,6 +60,8 @@ export default function Archive() {
                             post.fmContentType !== ContentTypeEnum.GENERAL,
                         )}
                         showThumbnails={false}
+                        showDescription={false}
+                        showTags={false}
                       />
                     </div>
                   </section>

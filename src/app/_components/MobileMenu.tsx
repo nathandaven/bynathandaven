@@ -51,7 +51,7 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
                 onClick={() => setMenuOpened(!menuOpened)}
                 /* onTouchEnd={() => setMenuOpened(!menuOpened)} */
               >
-                Menu
+                {menuOpened ? <span>Back</span> : <span>Menu</span>}
               </button>
             </div>
           </div>

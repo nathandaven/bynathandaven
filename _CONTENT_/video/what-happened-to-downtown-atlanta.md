@@ -165,13 +165,11 @@ The areas were formerly abandoned and industrial uses, but advocates at the time
 
 Initial city plans hoped to revitalize many of the streets of Downtown, beautifying blocks, making pedestrian facilities safer, and more. However, what ended up happening was a so called “cooridor plan,” that strictly invested only in corridors between Olympic events and desirable destinations, for example, between Peachtree Center and Centennial Olympic Park.
 
-![](/assets/video/what-happened-to-downtown-atlanta/2Fcddfcc10-ccc0-49c1-9136-7397fc8aa91b*2580x1488.jpg "\_Illustrating the “Cooridor Plan," using Google Earth*")
+![](/assets/video/what-happened-to-downtown-atlanta/2Fcddfcc10-ccc0-49c1-9136-7397fc8aa91b_2580x1488.jpg "Illustrating the Cooridor Plan, using Google Earth")
 
 And now for the fact that I find extremely astonishing. The city began to change its wording of people in the city — it began to use the terminology of “users.” No longer were people downtown residents or even people, they were simply “users” of the space, those that the city hoped would spend money in commercialized Downtown. This began to be reflected in signage across downtown, directing people through its defined corridors and areas of interest.
 
-“By the mid 1990s, even putatively liberal newspaper columnists blamed the homeless for almost single-handedly causing downtown's decline, conveniently overlooking the wider socioeconomic forces at play in motivating the corporate exodus from downtown. Rather than provide training, jobs, and housing for the homeless, both the city government and the business community are more interested in making downtown less amenable to these undesirable users. Actually, the homeless are not users at all, since users "use" the city by spending money.“
-
-via [Theorizing The City: The New Urban Anthropology, 328](https://archive.org/details/theorizingcityne0000unse/page/328/mode/2up)
+> By the mid 1990s, even putatively liberal newspaper columnists blamed the homeless for almost single-handedly causing downtown's decline, conveniently overlooking the wider socioeconomic forces at play in motivating the corporate exodus from downtown. Rather than provide training, jobs, and housing for the homeless, both the city government and the business community are more interested in making downtown less amenable to these undesirable users. Actually, the homeless are not users at all, since users "use" the city by spending money. (_via [Theorizing The City: The New Urban Anthropology, 328](https://archive.org/details/theorizingcityne0000unse/page/328/mode/2up)_)
 
 So once the Olympics rolled in 1996, Fulton County quietly footed a one way bus ticket for thousands of homeless people in the Olympic areas. Additionally, they arrested over 9,000 people, cited just for looking either “homeless” or “African-American.”
 

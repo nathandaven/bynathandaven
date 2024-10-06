@@ -37,7 +37,7 @@ export default function Newsletter() {
     <main>
       <Container title={"Newsletter"} fullWidth={false} className={""}>
         <Article metadata={TitlePost} className="">
-          <p className="mt-3 text-justify">
+          <p className="mt-3">
             My most recent videos and articles. For a full archive of my posts here, see the{" "}
             <Link href="/archive" className="hover:text-light-secondary">
               archive

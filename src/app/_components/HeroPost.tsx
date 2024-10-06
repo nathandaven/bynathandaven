@@ -4,6 +4,7 @@ import DateFormatter from "@/app/_components/date-formatter";
 import classNames from "classnames";
 import { ContentType, ContentTypeEnum } from "@/interfaces/contentType";
 import { Button } from "@/app/_components/Button";
+import Link from "next/link";
 
 type Props = {
   title: string;
@@ -28,9 +29,9 @@ export function HeroPost({ title, preview, date, excerpt, author, tags, contentT
         <div className="mt-2 flex flex-row justify-between gap-x-2">
           <div className="">
             <h3 className="bold my-0">
-              <a href={`/${contentType}/${slug}`} className="text-bold my-0 min-w-0 break-normal py-0 no-underline">
+              <Link href={`/${contentType}/${slug}`} className="text-bold my-0 min-w-0 break-normal py-0 no-underline">
                 <b className="break-normal">{title}</b>
-              </a>
+              </Link>
             </h3>
           </div>
           <div className="mb-0 flex h-fit flex-col justify-center gap-x-2 text-right align-middle">

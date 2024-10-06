@@ -59,7 +59,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
       {/* Description Generation */}
       {!noHeader && metadata?.description && metadata?.description.length > 0 ? (
         <>
-          <p className="my-0 justify-between py-0 pt-2 text-justify">{metadata?.description}</p>
+          <p className="my-0 justify-between py-0 pt-2">{metadata?.description}</p>
         </>
       ) : (
         <></>

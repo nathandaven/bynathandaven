@@ -8,7 +8,9 @@ type PropsWithChildren<P = unknown> = P & {
   children?: ReactNode;
   className?: string;
   listItems: Post[];
-  showThumbnails: boolean;
+  showThumbnails?: boolean;
+  showDescription?: boolean;
+  showTags?: boolean;
 };
 
 // exporting component with OPTIONAL children
@@ -17,12 +19,20 @@ export const List: FunctionComponent<PropsWithChildren> = ({
   className,
   listItems = [] as Post[],
   showThumbnails = false,
+  showDescription = true,
+  showTags = true,
 }) => {
   return (
     <div className={classNames("", className)}>
-      <ul className="m-0 list-none p-0">
+      <ul className="m-0 flex list-none flex-col gap-y-4 p-0">
         {listItems.map((item, key) => (
-          <ListItem post={item} key={key} showThumbnail={showThumbnails} />
+          <ListItem
+            post={item}
+            key={key}
+            showThumbnail={showThumbnails}
+            showDescription={showTags}
+            showTags={showDescription}
+          />
         ))}
       </ul>
     </div>

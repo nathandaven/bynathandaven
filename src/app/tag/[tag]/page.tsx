@@ -35,7 +35,7 @@ export default async function Tag({ params }: Params) {
     <main>
       <Container title={"Tags"} fullWidth={false} className={""}>
         <Article metadata={TitlePost} className="">
-          <List listItems={posts} showThumbnails={false} className="" />
+          <List listItems={posts} showThumbnails={false} showTags={false} showDescription={false} className="" />
         </Article>
       </Container>
     </main>
