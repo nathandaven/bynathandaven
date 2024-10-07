@@ -39,7 +39,7 @@ To me, this project is a prime of example of one of our society's biggest proble
 
 ## Rundown
 
-To start, lets get down to basics.\*\*\*\*
+To start, lets get down to basics.
 
 ![](</assets/video/five-points-renovation/qAotSlD0jzg%2000-01-22%20(2)%20The%20War%20on%20Public%20Transport.jpeg>)
 
