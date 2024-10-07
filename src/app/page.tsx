@@ -17,8 +17,8 @@ export default function Index() {
   /* RSS Feed Generation */
   if (process.env.NODE_ENV === "development") {
     generateRssFeed(allPosts);
+    revalidatePath("/");
   }
-  revalidatePath("/");
 
   return (
     <main>

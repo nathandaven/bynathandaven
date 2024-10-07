@@ -1,6 +1,7 @@
 import { Post } from "@/interfaces/post";
 import classNames from "classnames";
 import React, { FunctionComponent, ReactNode, Suspense } from "react";
+import ImageBlur from "./ImageBlur";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -18,7 +19,7 @@ export const VideoComponent: FunctionComponent<PropsWithChildren> = ({ className
         className,
       )}
     >
-      <Suspense fallback={<p>Loading video...</p>}>
+      <Suspense>
         <iframe
           className="z-20"
           width="560"
@@ -30,7 +31,8 @@ export const VideoComponent: FunctionComponent<PropsWithChildren> = ({ className
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen={true}
         ></iframe>
-        <div className="z-0 h-full w-full bg-light-primary drop-shadow-2xl dark:bg-dark-primary"></div>
+
+        <ImageBlur className="border-none" src={post.preview} width={1920} height={1080}></ImageBlur>
       </Suspense>
     </div>
   );

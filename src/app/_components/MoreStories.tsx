@@ -4,7 +4,7 @@ import { ContentTypeEnum } from "@/interfaces/contentType";
 import classNames from "classnames";
 
 const loadingA = (
-  <div key="test" className="align-center w-full text-center transition-all duration-75">
+  <div key="test" className="align-center h-[90vh] w-full text-center transition-all duration-75 md:h-auto">
     Loading...
   </div>
 );

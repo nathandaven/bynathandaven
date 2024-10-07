@@ -11,6 +11,8 @@ type PropsWithChildren<P = unknown> = P & {
   alt?: string;
   src: string;
   priority?: boolean;
+  width?: number;
+  height?: number;
 };
 
 // exporting component with OPTIONAL children
@@ -18,6 +20,8 @@ export const ImageBlur: FunctionComponent<PropsWithChildren> = async ({
   index,
   alt = "",
   src = "",
+  width,
+  height,
   priority = false,
   className,
 }) => {
@@ -28,8 +32,8 @@ export const ImageBlur: FunctionComponent<PropsWithChildren> = async ({
         "m-0 w-full border-spacing-0 border border-dark-primary p-0 shadow-md outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-xl hover:outline-1 dark:border-light-primary dark:outline-light-primary",
         className,
       )}
-      width={2464}
-      height={1632}
+      width={width ?? 2464}
+      height={height ?? 1632}
       alt={alt ?? ""}
       quality={25}
       placeholder={"blur"}
