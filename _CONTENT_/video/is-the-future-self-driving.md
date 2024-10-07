@@ -71,7 +71,7 @@ If you ask Waymo, they claimed this past December that compared to human benchma
 
 Cruise also reports 65% fewer collisions after their first 1 million driverless miles as of September 2023.
 
-![](/assets/video/is-the-future-self-driving/2F8295ab35-9fad-45b8-b197-f6e9c152756a_1920x1105.jpg "[via getcruise.com](https://www.getcruise.com/news/blog/2023/human-ridehail-crash-rate-benchmark/)")
+![](/assets/video/is-the-future-self-driving/8295ab35-9fad-45b8-b197-f6e9c152756a_1920x1105.webp "[via getcruise.com](https://www.getcruise.com/news/blog/2023/human-ridehail-crash-rate-benchmark/)")
 
 Tesla consistently claims that "Autopilot is ~10X safer than US average, and ~5X safer than a Tesla with no Autopilot tech enabled," as recently as the beginning of this year.
 

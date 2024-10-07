@@ -49,7 +49,7 @@ Getting into the history of railroads, I was astounded by all these details that
 
 Most cities spring up around major waterways like rivers and harbors, which allow for places of trade, transportation, and obviously water. Downtown Atlanta is located about five miles Southeast from the Chattahoochee River. But this river is historically not very useful: it’s unsuitable for trade and travel due to its shallow nature this far upstream.
 
-![](/assets/video/passenger-rail-atlanta/2Fbfd05b43-ea9e-4117-a474-3d62fa3d7749_3840x2160.png)
+![](/assets/video/passenger-rail-atlanta/bfd05b43-ea9e-4117-a474-3d62fa3d7749_3840x2160.webp)
 
 Instead of waterways, Atlanta’s railroads served this purpose, and the city grew around, and eventually up and over the train tracks, embedding the railroads into every aspect of the region’s development. In fact, the city’s original name was “Terminus,” a name representing its importance as the South’s premiere railroad hub.
 
@@ -167,7 +167,7 @@ He proposes a 300-mile regional rail system that would transform the region by l
 
 The ATL Trains Vision is all about implementing all-day, bidirectional regional rail service serving the estimated **82 percent** of the Region’s existing activity centers that lie within a half-mile of a railroad corridor.
 
-![](/assets/video/passenger-rail-atlanta/2F71b7a3ce-ac4e-4c09-b9dc-47208f1a8493_3840x2160.png)
+![](/assets/video/passenger-rail-atlanta/71b7a3ce-ac4e-4c09-b9dc-47208f1a8493_3840x2160.webp)
 
 Since building new tracks on existing corridors slashes capital costs by upwards of 80 percent that of building a brand new corridor from scratch, regional rail offers all the proven benefits of conventional rail transit for a cost comparable to BRT.
 
