@@ -33,7 +33,16 @@ export default function Photography() {
           {posts && posts.length > 0 ? (
             <List listItems={posts} showThumbnails={true} className={""} />
           ) : (
-            <div>Albums are work in progress! Coming soon...</div>
+            <>
+              <p>Albums are work in progress! Coming soon...</p>
+              <p>
+                For now, check out my primary{" "}
+                <a target="_blank" href="https://www.instagram.com/nathandaven/">
+                  Instagram
+                </a>{" "}
+                to see some of my work.
+              </p>
+            </>
           )}
         </Article>
       </Container>
