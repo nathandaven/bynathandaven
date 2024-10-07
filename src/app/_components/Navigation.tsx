@@ -26,7 +26,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
         <span
           className={classNames(
             "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
-            mobile ? "text-4xl font-bold" : "mx-1 mr-0 text-base md:text-xl",
+            mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >
           Newsletter
@@ -36,7 +36,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
         <span
           className={classNames(
             "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
-            mobile ? "text-4xl font-bold" : "mx-1 mr-0 text-base md:text-xl",
+            mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >
           Photography
@@ -46,22 +46,32 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
         <span
           className={classNames(
             "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
-            mobile ? "text-4xl font-bold" : "mx-1 mr-0 text-base md:text-xl",
+            mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >
           Work
         </span>
       </Link>
-      <Link href="/about" className="mr-0 text-base">
+      <Link href="/about" className="mr-2 text-base">
         <span
           className={classNames(
             "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
-            mobile ? "text-4xl font-bold" : "mx-1 mr-0 text-base md:text-xl",
+            mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >
           About
         </span>
       </Link>
+      <a target="_blank" href="https://nathandaven.substack.com/subscribe" className="mr-0 text-base">
+        <span
+          className={classNames(
+            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
+          )}
+        >
+          Subscribe
+        </span>
+      </a>
     </div>
   );
 };

@@ -36,7 +36,7 @@ export default function Photography() {
             <>
               <p>Albums are work in progress! Coming soon...</p>
               <p>
-                For now, check out my primary{" "}
+                For now, check out my personal{" "}
                 <a target="_blank" href="https://www.instagram.com/nathandaven/">
                   Instagram
                 </a>{" "}

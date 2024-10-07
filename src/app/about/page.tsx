@@ -76,7 +76,7 @@ export default async function About() {
                   <a
                     target="_blank"
                     className="text-md my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
-                    href="https://instagram.com/nathandaven"
+                    href="https://instagram.com/bynathandaven"
                   >
                     <Instagram className="w-4 p-0.5 align-middle" />
                     <span className="">instagram</span>

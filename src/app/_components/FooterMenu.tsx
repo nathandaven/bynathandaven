@@ -34,7 +34,7 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
           </li>
           <li className="hidden cursor-default sm:block">-</li>
           <li className="mt-2 w-fit hover:bg-dark-primary hover:text-light-primary sm:mt-0 dark:hover:bg-light-primary dark:hover:text-dark-primary">
-            <a target="_blank" href="https://instagram.com/nathandaven">
+            <a target="_blank" href="https://instagram.com/bynathandaven">
               instagram
             </a>
           </li>

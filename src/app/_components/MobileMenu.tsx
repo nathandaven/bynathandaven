@@ -37,8 +37,8 @@ export const MobileMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
             className="h-fit cursor-pointer hover:bg-dark-primary hover:text-light-primary dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary"
             href="/"
           >
-            <b className="text-lg sm:text-xl">{title}</b>
-            <span className="text-sm sm:text-base"> by Nathan Davenport</span>
+            <b className="text-lg md:text-xl">{title}</b>
+            <span className="text-sm md:text-base"> by Nathan Davenport</span>
           </a>
           <div className="flex flex-col justify-end">
             <div className="h-fit text-base sm:text-xl">
