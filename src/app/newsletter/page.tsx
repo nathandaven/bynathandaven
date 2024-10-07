@@ -42,7 +42,11 @@ export default function Newsletter() {
             <Link href="/archive" className="hover:text-light-secondary">
               archive
             </Link>
-            .
+            . For more posts like these, consider subscribing to my email list via{" "}
+            <a target="_blank" href="https://nathandaven.substack.com/subscribe">
+              Substack
+            </a>
+            !
           </p>
           <List listItems={posts} showThumbnails={false} />
           <Divider className="pt-10 opacity-50" />

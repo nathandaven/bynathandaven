@@ -1,7 +1,7 @@
 import { getAllPosts } from "@/lib/api";
 import generateRssFeed from "@/lib/rss";
 
-export async function GET() {
+export function GET() {
   const allPosts = getAllPosts();
   const feed = generateRssFeed(allPosts);
   return new Response(feed.xml({ indent: true }), {
