@@ -14,6 +14,7 @@ import React from "react";
 import { metadata } from "@/app/layout";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
+import ImageBlur from "@/app/_components/ImageBlur";
 
 const PhotoGrid = dynamic(() => import("@/app/_components/PhotoGrid"), {
   ssr: false,
@@ -75,7 +76,25 @@ export default async function Post({ params }: Params) {
           {/* Markdown Post Content */}
           <PostBody content={content} />
           {/* Album Grid */}
-          {params.type == "album" && <PhotoGrid post={post} />}
+          {params.type == "album" && (
+            <PhotoGrid post={post}>
+              {post.photoList?.map((photo, index) => {
+                return (
+                  <div>
+                    <ImageBlur
+                      src={photo.relativePath}
+                      alt={photo.caption}
+                      key={index}
+                      priority={index < 4 ? true : false}
+                    />
+                    {photo.caption && photo.caption.length > 0 ? (
+                      <i key={"caption" + index}>{photo.caption}</i>
+                    ) : undefined}
+                  </div>
+                );
+              })}
+            </PhotoGrid>
+          )}
           {/* Disable for general type */}
           {params.type != "general" && (
             <>

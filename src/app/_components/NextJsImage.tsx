@@ -1,3 +1,4 @@
+import dynamicBlurDataUrl from "@/lib/blurImage";
 import Image from "next/image";
 import { isImageFitCover, isImageSlide, useLightboxProps, useLightboxState } from "yet-another-react-lightbox";
 
@@ -34,13 +35,13 @@ export default function NextJsImage({ slide, offset, rect }: Props) {
         src={slide}
         loading="eager"
         draggable={false}
-        placeholder={slide.blurDataURL ? "blur" : undefined}
         style={{
           objectFit: cover ? "cover" : "contain",
           cursor: click ? "pointer" : undefined,
         }}
         sizes={`${Math.ceil((width / window.innerWidth) * 100)}vw`}
         onClick={offset === 0 ? () => click?.({ index: currentIndex }) : undefined}
+        quality={75}
       />
     </div>
   );

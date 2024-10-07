@@ -27,9 +27,9 @@ function MoreStories({ posts, className }: Props) {
       <ResponsiveGridA className="">
         {posts
           .filter((post) => post.fmContentType != ("general" as ContentTypeEnum))
-          .map((post) => (
+          .map((post, key) => (
             <HeroPost
-              key={post.slug}
+              key={post.slug + key}
               title={post.title ?? ""}
               preview={post.preview ?? ""}
               date={post.date ?? ""}
