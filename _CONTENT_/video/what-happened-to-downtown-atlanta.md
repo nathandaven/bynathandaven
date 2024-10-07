@@ -9,6 +9,9 @@ draft: false
 description: "Downtown Atlanta was once a vibrant city center - now it's a hollow shell of it's former self. What caused it to be this way?"
 tags:
   - atlanta
+  - downtown
+  - urbanism
+  - architecture
 categories: []
 author:
   name: Nathan Davenport
