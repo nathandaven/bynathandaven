@@ -62,7 +62,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
           About
         </span>
       </Link>
-      <a target="_blank" href="https://nathandaven.substack.com/subscribe" className="mr-0 text-base">
+      {/*       <a target="_blank" href="https://nathandaven.substack.com/subscribe" className="mr-0 text-base">
         <span
           className={classNames(
             "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
@@ -71,7 +71,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
         >
           Subscribe
         </span>
-      </a>
+      </a> */}
     </div>
   );
 };
