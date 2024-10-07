@@ -10,7 +10,7 @@
 
   .texture {
     background-repeat: repeat;
-    background-image: url("/assets/texture-new-light.png");
+    background-image: url("/assets/texture-new-light.jpg");
     /* mix-blend-mode: multiply; */
   }
   @media (prefers-color-scheme: dark) {
@@ -18,7 +18,7 @@
       /* texture from here: https://www.tilingtextures.com/tt_blog/24-free-seamless-paper-texture-in-high-resolution/ */
       /* background-image: url("/assets/texture-new-dark.png"); */
       background-repeat: repeat;
-      background-image: url("/assets/texture-new-dark.png");
+      background-image: url("/assets/texture-new-dark.jpg");
       /* mix-blend-mode: screen; */
     }
   }
