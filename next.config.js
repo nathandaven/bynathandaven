@@ -19,6 +19,9 @@ const nextConfig = {
     ],
   },
   reactStrictMode: true,
+  experimental: {
+    scrollRestoration: true,
+  },
   async redirects() {
     return [
       // Basic redirect
