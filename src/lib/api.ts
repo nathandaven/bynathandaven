@@ -90,6 +90,7 @@ export function parseAlbumPhotos(post: Post): Photo[] {
     // Filter accepted extensions
     if (acceptedExtensions.includes(ext)) {
       const fileBuffer = readFileSync(filepath);
+      console.log(filepath);
       const tags: Tags = load(fileBuffer);
 
       const width = tags["Image Width"] ? tags["Image Width"]?.value : undefined;
@@ -103,16 +104,16 @@ export function parseAlbumPhotos(post: Post): Photo[] {
       const filmDefaultMake =
         dateTimeOriginal && dateTime
           ? (dateTimeOriginal ?? dateTime) > new Date("04-17-2019")
-            ? undefined
-            : "PENTAX"
+            ? "(35mm)"
+            : undefined
           : undefined;
 
       const filmDefaultModel =
         dateTimeOriginal && dateTime
           ? (dateTimeOriginal ?? dateTime) > new Date("04-17-2019")
             ? "(35mm)"
-            : "K1000 (35mm)"
-          : "(35mm)";
+            : undefined
+          : undefined;
 
       const photo: Photo = {
         relativePath: "/assets/albums/" + post.albumPath + "/" + image,

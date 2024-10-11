@@ -54,16 +54,5 @@
     "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.12",
     "typescript": "^5.5.2"
-  },
-  "exifreader": {
-    "include": {
-      "jpeg": true,
-      "exif": [
-        "DateTime",
-        "DateTimeOriginal",
-        "Make",
-        "Model"
-      ]
-    }
   }
 }
