@@ -41,7 +41,7 @@ export default function NextJsImage({ slide, offset, rect }: Props) {
         }}
         sizes={`${Math.ceil((width / window.innerWidth) * 100)}vw`}
         onClick={offset === 0 ? () => click?.({ index: currentIndex }) : undefined}
-        quality={75}
+        quality={100}
       />
     </div>
   );

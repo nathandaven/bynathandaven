@@ -1,0 +1,21 @@
+---
+sectionTitleWithoutDescription: ""
+title: Paris
+slug: paris
+date: 2019-07-20T19:25:55.955Z
+preview: /assets/albums/paris/049353006478-R1-026-11A.webp
+draft: false
+description: "Part one of my family trip to Paris, France, and York, UK in 2019."
+tags:
+  - travel
+categories: null
+excerpt: ""
+author:
+  name: Nathan Davenport
+  picture: /assets/authors/nathan.jpg
+sectionTitleWithDescription: ""
+albumPath: paris
+fmContentType: album
+---
+
+Three part trip with Family to Paris, France, London England, and to see my uncle and his family in York, UK.

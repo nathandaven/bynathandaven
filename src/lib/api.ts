@@ -1,9 +1,11 @@
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Photo } from "@/interfaces/photo";
 import { Post } from "@/interfaces/post";
-import fs from "fs";
+import fs, { readFileSync, statSync } from "fs";
 import matter from "gray-matter";
 import path, { join } from "path";
+import { load, Tags } from "exifreader";
+import { parseEXIFDate } from "@/app/_components/date-formatter";
 
 const articleDirectory = join(process.cwd(), "_CONTENT_/article");
 const albumDirectory = join(process.cwd(), "_CONTENT_/album");
@@ -82,20 +84,58 @@ export function parseAlbumPhotos(post: Post): Photo[] {
 
   fs.readdirSync(albumDir).forEach((image) => {
     const filepath = path.resolve(albumDir, image);
-    const acceptedExtensions: string[] = [".jpg", ".jpeg", ".png", ".gif", ".tiff", ".webm"];
+    const acceptedExtensions: string[] = [".jpg", ".jpeg", ".png", ".gif", ".tiff", ".webp"];
     const ext = path.parse(filepath).ext.toLowerCase();
 
     // Filter accepted extensions
     if (acceptedExtensions.includes(ext)) {
+      const fileBuffer = readFileSync(filepath);
+      const tags: Tags = load(fileBuffer);
+
+      const width = tags["Image Width"] ? tags["Image Width"]?.value : undefined;
+      const height = tags["Image Height"] ? tags["Image Height"]?.value : undefined;
+
+      const dateTimeOriginal = tags["DateTime"] ? parseEXIFDate(tags["DateTime"].value.toString()) : undefined;
+      const dateTime = tags["DateTime"]
+        ? parseEXIFDate(tags["DateTime"].value.toString())
+        : undefined; /* new Date(post.date) */
+
+      const filmDefaultMake =
+        dateTimeOriginal && dateTime
+          ? (dateTimeOriginal ?? dateTime) > new Date("04-17-2019")
+            ? undefined
+            : "PENTAX"
+          : undefined;
+
+      const filmDefaultModel =
+        dateTimeOriginal && dateTime
+          ? (dateTimeOriginal ?? dateTime) > new Date("04-17-2019")
+            ? "(35mm)"
+            : "K1000 (35mm)"
+          : "(35mm)";
+
       const photo: Photo = {
         relativePath: "/assets/albums/" + post.albumPath + "/" + image,
         filename: filepath ?? "",
         album: albumDir ?? "",
-        caption: "",
+        caption: tags["Image Description"] ? tags["Image Description"]?.description : "",
+        width: tags["Image Width"] ? tags["Image Width"]?.value : undefined,
+        height: tags["Image Height"] ? tags["Image Height"]?.value : undefined,
+        make: tags["Make"] ? tags["Make"]?.value.toString() : filmDefaultMake,
+        model: tags["Model"] ? tags["Model"]?.value.toString() : filmDefaultModel,
+        dateTime: dateTimeOriginal ?? dateTime ?? undefined /* new Date(post.date) */,
       };
 
       album.push(photo);
     }
   });
-  return album;
+
+  // Sorting albums from newest to oldest
+  return album.sort((a: Photo, b: Photo) => {
+    if (a.dateTime && b.dateTime) {
+      return b.dateTime.getTime() - a.dateTime.getTime();
+    } else {
+      return a.filename < b.filename ? 1 : 0;
+    }
+  });
 }

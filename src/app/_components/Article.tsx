@@ -4,6 +4,8 @@ import { Post } from "@/interfaces/post";
 import DateFormatter from "@/app/_components/date-formatter";
 import { Button } from "@/app/_components/Button";
 import classNames from "classnames";
+import Link from "next/link";
+import { Back } from "./Back";
 
 // Props (type checked) -- use ? to make a prop optional
 type PropsWithChildren<P = unknown> = P & {
@@ -12,6 +14,7 @@ type PropsWithChildren<P = unknown> = P & {
   metadata?: Post;
   fullWidth?: boolean;
   noHeader?: boolean;
+  showBack?: boolean;
 };
 
 // exporting component with OPTIONAL children
@@ -21,6 +24,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
   metadata = {} as Post,
   fullWidth = false,
   noHeader = false,
+  showBack = false,
 }) => {
   return (
     <article
@@ -33,10 +37,15 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
         className,
       )}
     >
+      {showBack && (
+        <Back className="my-0 py-0 text-xs">
+          <a className="my-0 py-0 no-underline">{"<"} back</a>
+        </Back>
+      )}
       {/* Tag Generation */}
       {!noHeader && metadata?.tags && metadata?.tags.length > 0 ? (
         <>
-          <div className="xxs:flex-row xxs:gap-y-0 mb-4 flex flex-col gap-x-2 gap-y-1 pr-5 pt-5 no-underline">
+          <div className="mb-4 flex flex-col gap-x-2 gap-y-1 pr-5 pt-3 no-underline xxs:flex-row xxs:gap-y-0">
             {metadata?.tags.map((tag, key) => (
               <Button key={key} href={"/tag/" + tag} sizeSmall={true} className="w-fit no-underline">
                 {"#"}

@@ -1,0 +1,19 @@
+---
+sectionTitleWithoutDescription: ""
+title: New York City
+slug: new-york-city
+date: 2023-11-25T19:25:55.955Z
+preview: /assets/albums/new-york-city/376842001318-R1-E005.webp
+draft: false
+description: "Assorted trips to NY."
+tags:
+  - travel
+categories: null
+excerpt: ""
+author:
+  name: Nathan Davenport
+  picture: /assets/authors/nathan.jpg
+sectionTitleWithDescription: ""
+albumPath: new-york-city
+fmContentType: album
+---

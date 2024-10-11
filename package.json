@@ -23,6 +23,7 @@
     "classnames": "^2.5.1",
     "concurrently": "^9.0.1",
     "date-fns": "^4.1.0",
+    "exifreader": "^4.23.7",
     "gray-matter": "^4.0.3",
     "leva": "^0.9.35",
     "next": "14.2.12",
@@ -53,5 +54,19 @@
     "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.12",
     "typescript": "^5.5.2"
+  },
+  "exifreader": {
+    "include": {
+      "jpeg": true,
+      "exif": [
+        "DateTime",
+        "GPSLatitude",
+        "GPSLatitudeRef",
+        "GPSLongitude",
+        "GPSLongitudeRef",
+        "GPSAltitude",
+        "GPSAltitudeRef"
+      ]
+    }
   }
 }

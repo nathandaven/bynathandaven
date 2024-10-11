@@ -60,6 +60,7 @@ export default async function About() {
                 quality={75}
                 placeholder="blur"
                 blurDataURL={await dynamicBlurDataUrl("/assets/authors/nathan-hamburg-vert.jpg")}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <Image
                 className="mb-0 mt-5 block w-full border-spacing-0 cursor-default border border-dark-primary pb-0 outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-xl hover:outline-1 sm:hidden dark:border-light-primary dark:outline-light-primary"
@@ -70,6 +71,7 @@ export default async function About() {
                 quality={75}
                 placeholder="blur"
                 blurDataURL={await dynamicBlurDataUrl("/assets/authors/nathan-hamburg-hor.jpg")}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <ul className="align-left ml-0 hidden w-full list-none flex-col gap-y-2.5 pl-0 leading-4 sm:flex">
                 <li className="my-0 py-0 pt-2 sm:pt-0">

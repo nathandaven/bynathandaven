@@ -1,0 +1,21 @@
+---
+sectionTitleWithoutDescription: ""
+title: Chicago
+slug: chicago
+date: 2021-10-12T19:25:55.955Z
+preview: /assets/albums/chicago/025088007179-R1-E015.webp
+draft: false
+description: "Weekend trip to Chicago in 2021"
+tags:
+  - travel
+categories: null
+excerpt: ""
+author:
+  name: Nathan Davenport
+  picture: /assets/authors/nathan.jpg
+sectionTitleWithDescription: ""
+albumPath: chicago
+fmContentType: album
+---
+
+Only been here once, on a weekend journey to Chicago in 2021. Definitely need to spend more time here!
