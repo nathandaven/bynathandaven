@@ -60,12 +60,9 @@
       "jpeg": true,
       "exif": [
         "DateTime",
-        "GPSLatitude",
-        "GPSLatitudeRef",
-        "GPSLongitude",
-        "GPSLongitudeRef",
-        "GPSAltitude",
-        "GPSAltitudeRef"
+        "DateTimeOriginal",
+        "Make",
+        "Model"
       ]
     }
   }
