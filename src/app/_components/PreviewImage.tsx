@@ -29,8 +29,7 @@ export async function PreviewImage({
 }: Props) {
   const image = (
     <Image
-      unoptimized
-      src={`https://raw.githubusercontent.com/nathandaven/bynathandaven/refs/heads/feature/add-photos-initial-pass/public/${src}`}
+      src={src}
       alt={`Cover Image for ${title}`}
       className={cn(
         "m-0 max-h-96 w-full border-spacing-0 border border-dark-primary object-cover p-0 shadow-md outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-lg hover:outline-1 dark:border-light-primary dark:outline-light-primary",

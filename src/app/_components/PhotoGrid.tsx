@@ -66,9 +66,7 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
           const date = photo.dateTime ? format(photo.dateTime, "LLLL	d, yyyy") : "";
           const desc = `${date ? date + " - " : ""}${photo.make ? photo.make + " " : ""}${photo.model ? photo.model : ""}`;
           const temp: SlideImage = {
-            src:
-              photo.relativePath ??
-              `https://raw.githubusercontent.com/nathandaven/bynathandaven/refs/heads/feature/add-photos-initial-pass/public/assets-full/${photo.relativePath}`,
+            src: photo.relativePath,
             width: photo.width ?? undefined,
             height: photo.height ?? undefined,
             alt: desc,
