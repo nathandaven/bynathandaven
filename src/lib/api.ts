@@ -90,7 +90,6 @@ export function parseAlbumPhotos(post: Post): Photo[] {
     // Filter accepted extensions
     if (acceptedExtensions.includes(ext)) {
       const fileBuffer = readFileSync(filepath);
-      console.log(filepath);
       const tags: Tags = load(fileBuffer);
 
       const width = tags["Image Width"] ? tags["Image Width"]?.value : undefined;
