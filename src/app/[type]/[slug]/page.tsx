@@ -10,7 +10,7 @@ import dynamic from "next/dynamic";
 import { DOMAIN } from "@/lib/constants";
 import { VideoComponent } from "@/app/_components/Video";
 import { Substack } from "@/app/_components/Substack";
-import React from "react";
+import React, { Suspense } from "react";
 import { metadata } from "@/app/layout";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
@@ -78,13 +78,13 @@ export default async function Post({ params }: Params) {
           {/* Markdown Post Content */}
           {content ? <PostBody content={content} /> : <div className="py-3"></div>}
           {/* Album Grid */}
-          {params.type == "album" && (
+          {params.type == "album" && post.photoList ? (
             <PhotoGrid post={post}>
               {post.photoList?.map((photo: Photo, index) => {
                 const date = photo.dateTime ? format(photo.dateTime, "LLLL	d, yyyy") : "";
                 const desc = `${date ? date + " - " : ""}${photo.make ? photo.make + " " : ""}${photo.model ? photo.model : ""}`;
                 return (
-                  <div key={index}>
+                  <Suspense key={index}>
                     <ImageBlur
                       src={photo.relativePath}
                       alt={`Photo taken on ${desc}`}
@@ -94,15 +94,12 @@ export default async function Post({ params }: Params) {
                       height={photo.height ?? undefined}
                       caption={desc}
                     />
-                    {photo.caption && photo.make && photo.model ? (
-                      <i className="text-xs" key={index}>
-                        {photo.caption} {photo.make} {photo.model}{" "}
-                      </i>
-                    ) : undefined}
-                  </div>
+                  </Suspense>
                 );
               })}
             </PhotoGrid>
+          ) : (
+            <></>
           )}
           {/* Disable for general type */}
           {params.type != "general" && (
