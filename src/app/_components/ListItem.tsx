@@ -49,6 +49,7 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
       <section>
         <h3 className="bold my-0 mr-4">
           <Link
+            scroll={false}
             href={`/${post.fmContentType}/${post.slug}`}
             className="text-bold my-0 min-w-0 break-normal py-0 no-underline"
           >

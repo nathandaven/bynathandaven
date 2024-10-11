@@ -47,7 +47,7 @@ export async function PreviewImage({
   return (
     <div className="sm:mx-0">
       {slug ? (
-        <Link href={`/${type}/${slug}`} aria-label={title}>
+        <Link scroll={false} href={`/${type}/${slug}`} aria-label={title}>
           {image}
         </Link>
       ) : (

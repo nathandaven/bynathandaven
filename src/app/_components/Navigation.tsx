@@ -22,7 +22,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
         ) /* border border-l-0 border-y-0 border-dark-primary border-spacing-1 */
       }
     >
-      <Link href="/newsletter" className="mr-2 text-base">
+      <Link scroll={false} href="/newsletter" className="mr-2 text-base">
         <span
           className={classNames(
             "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
@@ -32,7 +32,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
           Newsletter
         </span>
       </Link>
-      <Link href="/photography" className="mr-2 text-base">
+      <Link scroll={false} href="/photography" className="mr-2 text-base">
         <span
           className={classNames(
             "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
@@ -42,7 +42,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
           Photography
         </span>
       </Link>
-      <Link href="/work" className="mr-2 text-base">
+      <Link scroll={false} href="/work" className="mr-2 text-base">
         <span
           className={classNames(
             "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
@@ -52,7 +52,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
           Work
         </span>
       </Link>
-      <Link href="/about" className="mr-2 text-base">
+      <Link scroll={false} href="/about" className="mr-2 text-base">
         <span
           className={classNames(
             "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",

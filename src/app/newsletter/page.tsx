@@ -39,7 +39,7 @@ export default function Newsletter() {
         <Article metadata={TitlePost} className="">
           <p className="mt-3">
             My most recent videos and articles. For a full archive of my posts here, see the{" "}
-            <Link href="/archive" className="hover:text-light-secondary">
+            <Link scroll={false} href="/archive" className="hover:text-light-secondary">
               archive
             </Link>
             . For more posts like these, consider subscribing to my email list via{" "}
