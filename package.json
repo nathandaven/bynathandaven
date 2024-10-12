@@ -27,6 +27,7 @@
     "gray-matter": "^4.0.3",
     "leva": "^0.9.35",
     "next": "14.2.12",
+    "next-scroll-restorer": "^0.9.7",
     "next-sitemap": "^4.2.3",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",

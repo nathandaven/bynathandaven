@@ -7,10 +7,11 @@ import "@/app/globals.css";
 import AutoRefresh from "@/app/_components/AutoRefresh";
 import classNames from "classnames";
 import Script from "next/script";
-import React from "react";
+import React, { Suspense } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
+import ClientSideScrollRestorer from "./_components/ClientSideScrollRestorer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -76,6 +77,9 @@ export default function RootLayout({
           {process.env.NODE_ENV === "production" && <SpeedInsights />}
           {process.env.NODE_ENV === "production" && <Analytics />}
         </body>
+        <Suspense>
+          <ClientSideScrollRestorer />
+        </Suspense>
         {process.env.NODE_ENV === "production" && <GoogleAnalytics gaId="G-X1XTCSK8DT" />}
       </html>
     </AutoRefresh>
