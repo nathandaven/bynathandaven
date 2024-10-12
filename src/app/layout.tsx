@@ -71,6 +71,7 @@ export default function RootLayout({
             `scrollbar-hide scroll-smooth bg-light-primary tracking-tighter dark:bg-dark-secondary`,
           )}
         >
+          <div></div>
           {children}
           {process.env.NODE_ENV === "production" && <SpeedInsights />}
           {process.env.NODE_ENV === "production" && <Analytics />}
