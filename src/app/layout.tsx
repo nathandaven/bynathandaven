@@ -76,9 +76,6 @@ export default function RootLayout({
           {children}
           {process.env.NODE_ENV === "production" && <SpeedInsights />}
           {process.env.NODE_ENV === "production" && <Analytics />}
-          <Suspense>
-            <ClientSideScrollRestorer />
-          </Suspense>
         </body>
         {process.env.NODE_ENV === "production" && <GoogleAnalytics gaId="G-X1XTCSK8DT" />}
       </html>
