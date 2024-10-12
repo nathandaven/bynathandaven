@@ -13,16 +13,18 @@ type PropsWithChildren<P = unknown> = P & {
   priority?: boolean;
   width?: number;
   height?: number;
+  caption?: string;
 };
 
 // exporting component with OPTIONAL children
 export const ImageBlur: FunctionComponent<PropsWithChildren> = async ({
   index,
-  alt = "",
+  alt,
   src = "",
   width,
   height,
   priority = false,
+  caption,
   className,
 }) => {
   return (
@@ -34,11 +36,14 @@ export const ImageBlur: FunctionComponent<PropsWithChildren> = async ({
       )}
       width={width ?? 2464}
       height={height ?? 1632}
-      alt={alt ?? ""}
-      quality={25}
+      alt={alt ?? caption ?? ""}
+      quality={priority ? 100 : 60}
       placeholder={"blur"}
-      priority={priority}
+      priority={priority ? priority : undefined}
+      loading={priority ? undefined : "lazy"}
       blurDataURL={await dynamicBlurDataUrl(src)}
+      title={caption ?? undefined}
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
     />
   );
 };

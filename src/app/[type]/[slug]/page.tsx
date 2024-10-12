@@ -10,16 +10,18 @@ import dynamic from "next/dynamic";
 import { DOMAIN } from "@/lib/constants";
 import { VideoComponent } from "@/app/_components/Video";
 import { Substack } from "@/app/_components/Substack";
-import React from "react";
+import React, { Suspense } from "react";
 import { metadata } from "@/app/layout";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
 import ImageBlur from "@/app/_components/ImageBlur";
+import { Photo } from "@/interfaces/photo";
+import { format } from "date-fns";
 
 const PhotoGrid = dynamic(() => import("@/app/_components/PhotoGrid"), {
   ssr: false,
   loading: () => (
-    <div key="test" className="align-center w-full text-center transition-all duration-75">
+    <div key="test" className="align-center h-[90vh] w-full text-center transition-all duration-75">
       Loading...
     </div>
   ),
@@ -58,7 +60,7 @@ export default async function Post({ params }: Params) {
         twoColumnLayout={false}
         secondCol={<></>}
       >
-        <Article metadata={post} fullWidth={params.type == "album" ? true : false} className="">
+        <Article showBack={true} metadata={post} fullWidth={params.type == "album" ? true : false} className="">
           {params.type == "video" && post.youtubeEmbedCode && post.youtubeEmbedCode.length > 0 && (
             <>
               <VideoComponent post={post} />
@@ -74,26 +76,30 @@ export default async function Post({ params }: Params) {
             </>
           )}
           {/* Markdown Post Content */}
-          <PostBody content={content} />
+          {content ? <PostBody content={content} /> : <div className="py-3"></div>}
           {/* Album Grid */}
-          {params.type == "album" && (
+          {params.type == "album" && post.photoList ? (
             <PhotoGrid post={post}>
-              {post.photoList?.map((photo, index) => {
+              {post.photoList?.map((photo: Photo, index) => {
+                const date = photo.dateTime ? format(photo.dateTime, "LLLL	d, yyyy") : "";
+                const desc = `${date ? date + " - " : ""}${photo.make ? photo.make + " " : ""}${photo.model ? photo.model : ""}`;
                 return (
-                  <div>
+                  <Suspense key={index}>
                     <ImageBlur
                       src={photo.relativePath}
-                      alt={photo.caption}
+                      alt={`Photo taken on ${desc}`}
                       key={index}
-                      priority={index < 4 ? true : false}
+                      priority={index < 3 ? true : undefined}
+                      width={photo.width ?? undefined}
+                      height={photo.height ?? undefined}
+                      caption={desc}
                     />
-                    {photo.caption && photo.caption.length > 0 ? (
-                      <i key={"caption" + index}>{photo.caption}</i>
-                    ) : undefined}
-                  </div>
+                  </Suspense>
                 );
               })}
             </PhotoGrid>
+          ) : (
+            <></>
           )}
           {/* Disable for general type */}
           {params.type != "general" && (

@@ -7,7 +7,7 @@ import "@/app/globals.css";
 import AutoRefresh from "@/app/_components/AutoRefresh";
 import classNames from "classnames";
 import Script from "next/script";
-import React from "react";
+import React, { Suspense } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
@@ -71,6 +71,7 @@ export default function RootLayout({
             `scrollbar-hide scroll-smooth bg-light-primary tracking-tighter dark:bg-dark-secondary`,
           )}
         >
+          <div></div>
           {children}
           {process.env.NODE_ENV === "production" && <SpeedInsights />}
           {process.env.NODE_ENV === "production" && <Analytics />}

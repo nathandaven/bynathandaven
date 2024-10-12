@@ -1,0 +1,21 @@
+---
+sectionTitleWithoutDescription: ""
+title: Seattle
+slug: seattle
+date: 2023-03-15T19:25:55.955Z
+preview: /assets/albums/seattle/819773006495-R1-031-14.webp
+draft: false
+description: "Part three of my West Coast Amtrak journey: Seattle and Olympic National Park"
+tags:
+  - travel
+categories: null
+excerpt: ""
+author:
+  name: Nathan Davenport
+  picture: /assets/authors/nathan.jpg
+sectionTitleWithDescription: ""
+albumPath: seattle
+fmContentType: album
+---
+
+I spent over **five weeks** couch-surfing the West Coast, and riding the **Amtrak Coast Starlight** from [Los Angeles](/album/los-angeles) to [San Francisco](/album/san-francisco), and the **Amtrak Cascades** from [Seattle](/album/seattle) to [Vancouver](/album/vancouver) in early 2023. Trains are so cool man!

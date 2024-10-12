@@ -84,6 +84,15 @@ a {
 .yarl__button:hover {
   color: rgba(242, 241, 234, 0.5) !important;
 }
+.yarl__slide_captions_container {
+  background-color: rgba(0, 0, 0, 0) !important;
+  width: 100% !important;
+  justify-content: center !important;
+}
+.yarl__slide_description {
+  text-align: right !important;
+  opacity: 75%;
+}
 
 @keyframes marqueeScroll {
   to {

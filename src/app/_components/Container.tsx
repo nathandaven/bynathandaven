@@ -58,7 +58,7 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
           <Navigation className="" />
         </div> */}
       </div>
-      <FooterMenu className="px-5 md:px-0" /* className="pl-7 pr-7" */ />
+      <FooterMenu className="px-3 md:px-0" /* className="pl-7 pr-7" */ />
     </div>
   );
 };

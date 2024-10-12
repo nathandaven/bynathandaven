@@ -12,6 +12,7 @@ type PropsWithChildren<P = unknown> = P & {
   className?: string;
   post: Post;
   showThumbnail?: boolean;
+  verticalThumbnail?: boolean;
   showDescription?: boolean;
   showTags?: boolean;
 };
@@ -22,19 +23,31 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
   className,
   post = {} as Post,
   showThumbnail = false,
+  verticalThumbnail = false,
   showDescription = true,
   showTags = true,
 }) => {
   return (
-    <div className={classNames("my-0 flex flex-col gap-2 py-0 sm:flex-row", className)}>
+    <div
+      className={classNames(
+        "my-0 flex flex-col gap-2 py-0" + " " + (verticalThumbnail ? "" : "sm:flex-row"),
+        className,
+      )}
+    >
       {showThumbnail && (
-        <div className="mr-4 sm:max-w-64">
-          <PreviewImage title={post.title} src={post.preview} slug={post.slug} type={post.fmContentType} />
+        <div className={classNames("mr-4", verticalThumbnail ?? "sm:max-w-64")}>
+          <PreviewImage
+            className="max-h-72 xs:aspect-1 xs:max-h-none xs:object-cover"
+            title={post.title}
+            src={post.preview}
+            slug={post.slug}
+            type={post.fmContentType}
+          />
         </div>
       )}
 
       <section>
-        <h3 className="bold my-0">
+        <h3 className="bold my-0 mr-4">
           <Link
             href={`/${post.fmContentType}/${post.slug}`}
             className="text-bold my-0 min-w-0 break-normal py-0 no-underline"

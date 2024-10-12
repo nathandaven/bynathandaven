@@ -31,7 +31,6 @@ export default function generateRssFeed(allPosts: Post[]): RSS {
         post?.fmContentType && post?.fmContentType.length > 0
           ? post?.fmContentType?.charAt(0).toUpperCase() + post?.fmContentType.slice(1)
           : "";
-      console.log(imageURL);
       const item: ItemOptions = {
         title: `${post?.title}`,
         description: (post?.excerpt ?? post?.description ?? "") + `<img src="${imageURL}" />`,

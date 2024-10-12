@@ -3,9 +3,9 @@ sectionTitleWithoutDescription: ""
 title: Work
 slug: work
 lastmod: 2024-09-17T16:44:37.457Z
-preview: /assets/og-image-h.jpg
+preview: /og-image/og-image-work.jpg
 draft: false
-description: "Services, previous work, and media credits."
+description: Services, previous work, and media credits.
 tags: []
 categories: []
 excerpt: ""

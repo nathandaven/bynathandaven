@@ -9,6 +9,7 @@ type PropsWithChildren<P = unknown> = P & {
   className?: string;
   listItems: Post[];
   showThumbnails?: boolean;
+  verticalThumbnail?: boolean;
   showDescription?: boolean;
   showTags?: boolean;
 };
@@ -20,21 +21,29 @@ export const List: FunctionComponent<PropsWithChildren> = ({
   listItems = [] as Post[],
   showThumbnails = false,
   showDescription = true,
+  verticalThumbnail = false,
   showTags = true,
 }) => {
   return (
-    <div className={classNames("", className)}>
-      <ul className="m-0 flex list-none flex-col gap-y-4 p-0">
-        {listItems.map((item, key) => (
-          <ListItem
-            post={item}
-            key={key}
-            showThumbnail={showThumbnails}
-            showDescription={showTags}
-            showTags={showDescription}
-          />
-        ))}
-      </ul>
-    </div>
+    <section
+      className={classNames(
+        classNames(
+          "m-0 list-none gap-y-4",
+          verticalThumbnail ? "grid-col-1 grid xs:grid-cols-2 md:grid-cols-3" : "flex flex-col",
+        ),
+        className,
+      )}
+    >
+      {listItems.map((item, key) => (
+        <ListItem
+          post={item}
+          key={key}
+          showThumbnail={showThumbnails}
+          verticalThumbnail={true}
+          showDescription={showDescription}
+          showTags={showTags}
+        />
+      ))}
+    </section>
   );
 };

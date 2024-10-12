@@ -4,7 +4,7 @@ title: Media Credts
 slug: media-credits
 date: 2024-10-04T23:32:50.818Z
 lastmod: 2024-09-17T16:45:19.899Z
-preview: /assets/og-image-g.jpg
+preview: /og-image/og-image-about.jpg
 draft: false
 description: About Nathan Davenport
 tags: []

@@ -1,0 +1,21 @@
+---
+sectionTitleWithoutDescription: ""
+title: Vancouver
+slug: vancouver
+date: 2023-03-19T19:25:55.955Z
+preview: /assets/albums/vancouver/819773006498-R1-024-10A.webp
+draft: false
+description: "Part four of my West Coast Amtrak journey: Vancouver, BC"
+tags:
+  - travel
+categories: null
+excerpt: ""
+author:
+  name: Nathan Davenport
+  picture: /assets/authors/nathan.jpg
+sectionTitleWithDescription: ""
+albumPath: vancouver
+fmContentType: album
+---
+
+I spent over **five weeks** couch-surfing the West Coast, and riding the **Amtrak Coast Starlight** from [Los Angeles](/album/los-angeles) to [San Francisco](/album/san-francisco), and the **Amtrak Cascades** from [Seattle](/album/seattle) to [Vancouver](/album/vancouver) in early 2023. Trains are so cool man!

@@ -20,7 +20,7 @@ type Props = {
 
 export function HeroPost({ title, preview, date, excerpt, author, tags, contentType, slug, className }: Props) {
   return (
-    <section className={classNames("pb-2", className)}>
+    <section className={classNames("", className)}>
       <div className="">
         <PreviewImage title={title} src={preview} slug={slug} type={contentType} />
       </div>

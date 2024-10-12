@@ -1,0 +1,19 @@
+---
+sectionTitleWithoutDescription: ""
+title: Live & Events
+slug: live
+date: 2020-09-16T19:25:55.955Z
+preview: /assets/albums/live/856732007297-R1-015-6.webp
+draft: false
+description: "Some notable live music and event photography in Atlanta."
+tags:
+  - atlanta
+categories: []
+excerpt: ""
+author:
+  name: Nathan Davenport
+  picture: /assets/authors/nathan.jpg
+sectionTitleWithDescription: ""
+albumPath: live
+fmContentType: album
+---
