@@ -55,11 +55,8 @@ export default function Photography() {
                 <a target="_blank" href="https://www.instagram.com/nathandaven/">
                   Instagram
                 </a>{" "}
-                to stay up to date with my photography work. See{" "}
-                <Link scroll={false} href="/work">
-                  here
-                </Link>{" "}
-                to work with me on a project.
+                to stay up to date with my photography work. See <Link href="/work">here</Link> to work with me on a
+                project.
               </p>
               {general.length > 0 && (
                 <section>

@@ -29,11 +29,7 @@ export function HeroPost({ title, preview, date, excerpt, author, tags, contentT
         <div className="mt-2 flex flex-row justify-between gap-x-2">
           <div className="">
             <h3 className="bold my-0">
-              <Link
-                scroll={false}
-                href={`/${contentType}/${slug}`}
-                className="text-bold my-0 min-w-0 break-normal py-0 no-underline"
-              >
+              <Link href={`/${contentType}/${slug}`} className="text-bold my-0 min-w-0 break-normal py-0 no-underline">
                 <b className="break-normal">{title}</b>
               </Link>
             </h3>
