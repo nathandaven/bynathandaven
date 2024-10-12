@@ -11,7 +11,6 @@ import React, { Suspense } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
-import ClientSideScrollRestorer from "./_components/ClientSideScrollRestorer";
 
 const inter = Inter({ subsets: ["latin"] });
 
