@@ -1,5 +1,3 @@
-"use client";
-
 import cn from "classnames";
 import Link from "next/link";
 import Image from "next/image";
@@ -31,7 +29,7 @@ export async function PreviewImage({
 }: Props) {
   const image = (
     <Image
-      key={src}
+      unoptimized
       src={src}
       alt={`Cover Image for ${title}`}
       className={cn(
@@ -45,10 +43,6 @@ export async function PreviewImage({
       placeholder="blur"
       blurDataURL={await dynamicBlurDataUrl(src)}
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-      onError={(event) => {
-        event.target = { ...event.target, id: src } as any;
-        event.target = { ...event.target, srcset: src } as any;
-      }}
     />
   );
 
