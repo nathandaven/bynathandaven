@@ -20,6 +20,8 @@ youtubeEmbedCode: MLIFYnIYJKU
 fmContentType: video
 ---
 
+## Introduction
+
 The suburbs are broken. OK OK I know thats a harsh comment… hear me out.
 
 You know it well. The subdivision. The house. The Yard. The garage.
@@ -224,7 +226,7 @@ Thanks for watching! I'll see y'all next time.
 
 ![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-36.webp)
 
-# References
+## References
 
 1. Quednau, Rachel. "Cobb County: Addicted to Growth." _Strong Towns_, 3 Aug. 2018, [https://www.strongtowns.org/journal/2018/8/3/cobb-county-addicted-to-growth](https://www.strongtowns.org/journal/2018/8/3/cobb-county-addicted-to-growth).
 
