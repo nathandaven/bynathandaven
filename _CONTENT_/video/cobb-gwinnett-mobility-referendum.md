@@ -8,10 +8,11 @@ preview: /assets/video/cobb-gwinnett-mobility-referendum/thumb.webp
 draft: false
 description: Cobb & Gwinnett have public transport referendums on the ballot until Nov 5. Could these MSPLOST's transform the suburbs for the better?
 tags:
-  - atlanta
+  - suburbs
   - transportation
-  - marta
   - publictransport
+  - cobb
+  - gwinnett
 categories: []
 author:
   name: Nathan Davenport
