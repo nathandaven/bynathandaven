@@ -16,6 +16,12 @@ const nextConfig = {
         port: "",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "nathandaven.com",
+        port: "",
+        pathname: "**",
+      },
     ],
   },
   reactStrictMode: true,
@@ -55,6 +61,16 @@ const nextConfig = {
       {
         source: "/home",
         destination: "/",
+        permanent: true,
+      },
+      {
+        source: "/posts",
+        destination: "/newsletter",
+        permanent: true,
+      },
+      {
+        source: "/post",
+        destination: "/newsletter",
         permanent: true,
       },
       // Wildcard path matching
