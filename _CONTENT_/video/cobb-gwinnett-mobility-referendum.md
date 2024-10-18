@@ -1,0 +1,249 @@
+---
+sectionTitleWithoutDescription: ""
+title: We have a real chance to fix the suburbs.
+slug: cobb-gwinnett-mobility-referendum
+date: 2024-10-18T20:49:40.231Z
+lastmod: 2024-10-18T20:49:40.868Z
+preview: /assets/video/cobb-gwinnett-mobility-referendum/thumb.webp
+draft: false
+description: " "
+tags:
+  - atlanta
+  - transportation
+  - marta
+  - publictransport
+categories: []
+author:
+  name: Nathan Davenport
+  picture: /assets/authors/nathan.jpg
+youtubeEmbedCode: MLIFYnIYJKU
+fmContentType: video
+---
+
+The suburbs are broken. OK OK I know thats a harsh comment… hear me out.
+
+You know it well. The subdivision. The house. The Yard. The garage.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-02.webp)
+
+Yes, American Suburbia is one of capitalism's success stories, thanks to a century of automobile lobbying and a reframing of the American Dream. So, automobile driven suburban sprawl has become the most dominant form of housing for most of North America.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-05.webp)
+
+But also, the suburbs bring new problems: ever-growing traffic, completely unsustainable infrastructure, and downright ugly environments.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-09.webp)
+
+But what if we could actually fix the suburbs? Or well, a little bit.
+
+Alongside Gwinnett county, **Cobb** and **Gwinnett** are the largest suburbias in Metro Atlanta, and both have massive referendums on the ballot **right now** that could bring residents more options and more opportunities **through county wide public transportation expansion**.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-11.webp)
+
+**So today, I want to make the case to you on some ways we could actually fix the suburbs, one bus at a time** 😉
+
+## My Context
+
+Today's story is personal to me because I this is where I grew up - East Cobb County. Don't get me wrong - I am very thankful for my upbringing, and the work my parents did to raise our family here.
+
+But let me show you the ultimate issue: transportation. Look at this sidewalk. It just ends!
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-13.webp)
+
+This is the intersection of Shallowford and Sandy Plains road in East Cobb County. This used to just be a stop sign back in the day, and mostly just farmland. Now, it's a massive, seven lane intersection with power center surrounding it.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-14.webp)
+
+It's not safe for drivers, it's not safe for pedestrians, and it's not really a place you want to be. Its a place you can only drive through, and I think that's unfortunate.
+
+## The history
+
+### Background
+
+But seriously, how did American suburbs end up this way? Why is Cobb County and most other Suburbias in North America, so hostile to getting around outside the car? Well, as usual, it brings us back to some history.
+
+#### Origins
+
+The most cited example of the first suburb was Levittown in New York, a whites only community that practically invented the stereotypical American culdesac we all know and love today.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-16.webp)
+
+Fast forward to today, zoning codes have adopted single family ordinances as the default, and the government subsidized the expansion of single family, cudlesac subdivisions out of rural farm land, in order to sell to returning veterans and kick start the post-war economy.
+
+#### Strong Towns
+
+Cobb County specifically, is a really interest case study. Once almost entirely made up of sprawling farm land, Cobb County had redeveloped into one of the most classic examples of culdesac spaghetti in the country.
+
+So much so, that [Strong Towns](https://www.strongtowns.org/journal/2018/8/3/cobb-county-addicted-to-growth) has actually done an entire case study on the county.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-18.webp)
+
+**The quick TLDR:**
+
+From the get go, Cobb County has been a haven for upper class whites, looking to move out from crowded inner cities to suburban havens. Even in a "Post Segregation America," these communities were desirable to literally place miles and miles between upper and lower class Atlantans, eventually becoming known as White Flight.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-19.webp)
+
+Just looking at American media from the period tells you all you need to know: American suburbia was clean, safe, quiet, desirable. And these people wanted auto oriented lifestyles, so as more and more people got in cars and moved to the suburbs, the existing public transportation systems were dismantled and underfunded, leading to more roads, wider roads, and no other options for transportation.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-20.webp)
+
+#### Ponzi Scheme
+
+Cobb County has been promising low taxes form the get go, operating on what Strong Towns often calls a Ponzi Scheme, or the American Suburban Experiment.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-38.webp)
+
+So fast forward to today, when you only expand with low density, single family development, it's impossible for the tax base from these developments to cover the required infrastructure. Cobb County still operates in a deficit, to this day.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-21.webp)
+
+So order to expand and sustain existing road, water, sewage, power, trash, and other infrastructure funding, the county had to continue to expand with more suburban development, in order to pay for previous years expansion. **It's a shopping addiction, but eventually, the county _will_ run out of credit to spend.**
+
+Classical dense, downtown development, especially around public transport, is the only way to subsidize low density, suburban sprawl in the long-term.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-39.webp)
+
+Even to this day, the county is continuing to expand for unsustainable short term gains, and long term losses. The most recent major example is the development of a brand new stadium for the Atlanta Braves, Truist Park, which is now estimated to have costed Cobb County residents an [additional $15 million dollars](https://www.fieldofschemes.com/2022/03/03/18549/cobb-county-residents-are-losing-15m-a-year-on-braves-stadium-comprehensive-study-finds/) in tax revenue a year.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-23.webp)
+
+**Is this the price we have to pay just for some peace and quiet, and a little privacy? Well, I don't think it's quite that black and white, and there are some ways we could make the suburbs safe, quiet, and more livable!**
+
+## Public Transportation
+
+In Cobb County specifically, we have a really cool opportunity to expand the county's current abysmal public transportation service, CobbLinc.
+
+See, both Cobb and Gwinnett rejected the vote to join MARTA during its inception in the 1971, leading to the counties not receiving heavy rail lines, and instead opting to funding their own public transportation services.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-24.webp)
+
+Both counties have attempted several times to join MARTA, however neither have been able to pass the vote. Gwinnett came really close though most recently, [shy only 1,023 votes](https://www.gwinnettforum.com/2024/01/brack-background-on-voting-about-transit-in-gwinnett/).
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-40.webp)
+
+Even today, there is a massive amount of pushback from the old establishment, especially in Cobb County, against public transportation expansion. [I think this video posted by ATL Yimby](https://www.tiktok.com/@atlyimby/video/7238584456519453994) says everything you need to know.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-26.webp)
+
+### MSPLOST
+
+Incredibly, though Cobb County is changing. over the past several decades, Cobb County changed dramatically as the county runs out of options to pay down its debts, and the region faces increasing housing pressures.
+
+A massive public transportation referendum is on the ballot **right now** until election day in November, that could transform the county even further.
+
+What to expect from the [Mobility MSPLOST](https://www.youtube.com/watch?v=azPBZjwagxI):
+
+- expansive micro-transit county wide in zones, for last mile connections. Think public uber pools that come within 30 minutes of calling, only for 2.50 flat with transfers!
+- and to support micro-transit, multiple Bus Rapid Transit routes through the densest corridors
+- and to support the rapid routes, expanded Arterial Rapid Transit routes with frequent bus routes and better shelters
+- and in general, increased frequencies across the board, alongside improved para-transit
+- there will also be multiple new transit centers and rapid connections to MARTA Rail and other key locations
+- as well as expansive pedestrian, bicycle, and complete street funding to transform streets into safer places to connect to transit, and to walk, bike, and also drive.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-42.webp)
+
+### Interview Introduction
+
+Im super excited to have with me today two activists, Matt Stigall from Cobb 4 Transit and Sam Foster from A Better Cobb, who have been campaigning county wide for the referendum.
+
+[Watch the full video for the interview!](https://www.youtube.com/watch?v=MLIFYnIYJKU)
+
+Sam Foster from [A Better Cobb](https://abettercobb.com/), a Strong Towns conversation:
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-27.webp)
+
+Matt Stigall from [Cobb 4 Transit](https://www.instagram.com/cobb4transit/):
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-28.webp)
+
+## Looking deeper
+
+### Funding Concerns
+
+One of the biggest concerns with the plan from residents, especially those resistant to new taxes in general, is how the plan will be funded.
+
+The expansion is funded by a 30 year SPLOST tax, the same mechanism MARTA uses in Atlanta and participating counties. This creates a 1% sales tax on all goods and services sold in the county to support public transportation.
+
+Now I know this is concerning, especially when cost of living is higher than ever before, and it may be hard to see immediate benefits from this tax.
+
+However, a 30 year commitment is important to get grants from the state and federal level, as it shows a commitment to the project vs a typical 5 year SPLOST. The project's needs can always be adjusted in the future with new legislation, and the 30 year SPLOST is necessary to commit to addressing the county's transportation needs, that is going to further and further struggle if we don't improve public transport and get cars off the road.
+
+### Its not perfect
+
+Is this plan perfect? Not at all! These plans are never perfect, but this offers a transformation to how Cobb residents could get around. Especially thinking of students, low income folks, and especially seniors, who largely have expressed excitement about the expansion of para-transit services.
+
+Looking at the existing map, and then comparing to the new map, it is an incredible transformation.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-29.webp)
+
+But, the outer areas of the county do not get as much attention. North-East Cobb and West Cobb don't get much attention from fixed routes, and instead will have to rely on micro-transit to get to transit centers, or local locations.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-30.webp)
+
+The reality is, these ares are also some of the least densely populated. We know these communities are going to continue to drive, and maybe use micro-transit for choice trips such as a Brave's game or to get to the airport, rather than regularly ride.
+
+So with the funding available, its important to connect the denser nodes of the region, and make the most effective investment in public transport.
+
+### What are some other ways to improve the suburbs?
+
+Public transportation is not a one size fit all solution. There's tons of factors associated with transportation that affect how people live and get around in general, including land use, housing type, density, access to park space, and more.
+
+Lets look at my childhood subdivision, and its neighboring power center. Here's some quick ideas of mine that could easily transform this area into something people actually want to spend time at!
+
+- Small scale retail at subdivision swim/tennis centers, shops, coffeeshops through rezoning
+  ![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-31.webp)
+- Public transit shelters at subdivision entrances
+  ![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-32.webp)
+- Pedestrian paths connecting culdesacs to other streets
+  ![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-33.webp)
+- Infill parking lots in power centers with small scale mixed use
+  ![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-34.webp)
+- Bike paths on major roadways
+  ![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-35.webp)
+
+The reality is, if communities want to change, they can, and some slam dunk policy can be all a community needs to become a more live-able place.
+
+## Concluding
+
+#### Gwinnett
+
+Now, wrapping up, Cobb isn't the only county in Metro Atlanta passing an MSPLOST referendum for public transportation.
+
+Gwinnett also has a [very similar bill](https://www.councilforqualitygrowth.org/transportation/gwinnett-transit-splost-2024/) on the ballot, that will make similar sweeping changes to their public transportation service, Ride Gwinnett. If both of these were to pass, that would be game changing for the northern suburbs of Atlanta.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-41.webp)
+
+#### Closing Thoughts
+
+So -- please vote in November! Election Day is November 5th, and I rushed really hard to get this video done by then, and hope y'all enjoyed it!
+
+Make sure to check out @abettercobb and @Cobb4Transit, they were really great and they have been doing a ton of work for this upcoming MSPLOST, as well as ADU ordinances in Cobb cities, and more!
+
+Thanks for watching! I'll see y'all next time.
+
+![](/assets/video/cobb-gwinnett-mobility-referendum/cobb-gwinnett-mobility-referendum-36.webp)
+
+# References
+
+1. Quednau, Rachel. "Cobb County: Addicted to Growth." _Strong Towns_, 3 Aug. 2018, [https://www.strongtowns.org/journal/2018/8/3/cobb-county-addicted-to-growth](https://www.strongtowns.org/journal/2018/8/3/cobb-county-addicted-to-growth).
+
+2. Byron, Aubrey. "The True Cost of Debt in Atlanta’s Suburbs." _Strong Towns_, 9 Aug. 2018, [https://www.strongtowns.org/journal/2018/8/9/the-true-cost-of-debt-in-atlantas-suburbs](https://www.strongtowns.org/journal/2018/8/9/the-true-cost-of-debt-in-atlantas-suburbs).
+
+3. Marohn, Charles L. "Poor Neighborhoods Make the Best Investment." _Strong Towns_, 10 Jan. 2017, [https://www.strongtowns.org/journal/2017/1/10/poor-neighborhoods-make-the-best-investment](https://www.strongtowns.org/journal/2017/1/10/poor-neighborhoods-make-the-best-investment).
+
+4. "Cobb County Transit Plan Has a Lot to Like, but Also Potential Problems." _Georgia Public Policy Foundation_, [https://www.georgiapolicy.org/news/cobb-county-transit-plan-has-a-lot-to-like-but-also-potential-problems/](https://www.georgiapolicy.org/news/cobb-county-transit-plan-has-a-lot-to-like-but-also-potential-problems/).
+
+5. "What Is Cobb County’s MSPLOST Transit Referendum?" _Atlanta Civic Circle_, 9 Oct. 2024, [https://atlantaciviccircle.org/2024/10/09/what-is-cobb-countys-msplost-transit-referendum/](https://atlantaciviccircle.org/2024/10/09/what-is-cobb-countys-msplost-transit-referendum/).
+
+6. "Cobb, Gwinnett Affordable Housing, Mass Transit Expansion." _Atlanta Civic Circle_, 3 Oct. 2024, [https://atlantaciviccircle.org/2024/10/03/cobb-gwinnett-affordable-housing-mass-transit-expansion/](https://atlantaciviccircle.org/2024/10/03/cobb-gwinnett-affordable-housing-mass-transit-expansion/).
+
+7. "Cobb, Gwinnett Housing Growing Pains." _Atlanta Civic Circle_, 25 Sept. 2024, [https://atlantaciviccircle.org/2024/09/25/cobb-gwinnett-housing-growing-pains/](https://atlantaciviccircle.org/2024/09/25/cobb-gwinnett-housing-growing-pains/).
+
+8. ATL YIMBY. "Video." _TikTok_, [https://www.tiktok.com/@atlyimby/video/7238584456519453994](https://www.tiktok.com/@atlyimby/video/7238584456519453994).
+
+9. "MSPLOST City Factsheets." Cobb County Government, Apr. 2024, [https://s3.amazonaws.com/cobbcounty.org.if-us-east-1/s3fs-public/2024-04/MSPLOST%20City%20Factsheets.pdf](https://s3.amazonaws.com/cobbcounty.org.if-us-east-1/s3fs-public/2024-04/MSPLOST%20City%20Factsheets.pdf).
+
+10. "Five Year Network MSPLOST Boards." Cobb County Government, Aug. 2024, [https://s3.amazonaws.com/cobbcounty.org.if-us-east-1/s3fs-public/2024-08/FiveYearNetwork_MSPLOST_Boards_08192024_0.pdf](https://s3.amazonaws.com/cobbcounty.org.if-us-east-1/s3fs-public/2024-08/FiveYearNetwork_MSPLOST_Boards_08192024_0.pdf).
+
+11. "Gwinnett Transit SPLOST 2024." _Council for Quality Growth_, [https://www.councilforqualitygrowth.org/transportation/gwinnett-transit-splost-2024/](https://www.councilforqualitygrowth.org/transportation/gwinnett-transit-splost-2024/).
