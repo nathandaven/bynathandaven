@@ -58,7 +58,7 @@ export default async function About() {
                 width={1205}
                 height={1507}
                 quality={75}
-                placeholder="blur"
+                /* placeholder="blur" */
                 /* blurDataURL={await dynamicBlurDataUrl("/assets/authors/nathan-hamburg-vert.jpg")} */
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
@@ -69,7 +69,7 @@ export default async function About() {
                 width={1549}
                 height={1161}
                 quality={75}
-                placeholder="blur"
+                /* placeholder="blur" */
                 /* blurDataURL={await dynamicBlurDataUrl("/assets/authors/nathan-hamburg-hor.jpg")} */
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />

@@ -68,8 +68,9 @@ E-mail me at [nathan@nathandaven.com](mailto:nathan@nathandaven.com) for further
 
 ### Interviews and Story Collaborations
 
-- Interview with [Carden Wyckoff on transportation accessability](https://youtu.be/qAotSlD0jzg)
-- Story Collaboration with [Caleb Stubbs of the ATL Trains proposal](https://youtu.be/2Ed_VUqILh0)
+- [Interview](https://www.youtube.com/watch?v=MLIFYnIYJKU) with [A Better Cobb](https://abettercobb.com/) and [Cobb 4 Transit](https://www.facebook.com/Cobb4Transit/) on the Cobb County, Georgia Mobility Referendum
+- [Interview](https://youtu.be/qAotSlD0jzg) with [Carden Wyckoff](https://x.com/cardenonwheels) on transportation accessability
+- [Story Collaboration](https://youtu.be/2Ed_VUqILh0) with Caleb Stubbs of the [ATL Trains proposal](https://www.atltrains.com/)
 - See more on my [YouTube](https://youtube.com/@nathandaven).
 
 ### Design

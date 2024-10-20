@@ -15,7 +15,7 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 const title = `Nathan Davenport`;
-const description = `Nathan Davenport is a software engineer, photographer, and video creator located in Atlanta, Georgia.`;
+const description = `Video-journalism, Photography, & Software Engineering`;
 const image = `${DOMAIN}/og-image/og-image-default.jpg`;
 export const metadata: Metadata = {
   metadataBase: new URL(DOMAIN),

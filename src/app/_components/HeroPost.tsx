@@ -61,7 +61,7 @@ export function HeroPost({ title, preview, date, excerpt, author, tags, contentT
             {", "}
             <DateFormatter dateString={date} />
           </span>
-          <div className="m-0 my-0 hidden h-fit w-fit list-none gap-x-1 p-0 py-0 align-middle xs:flex sm:py-0">
+          <div className="no-scrollbar m-0 my-0 hidden h-fit w-fit list-none gap-x-1 overflow-x-scroll p-0 py-0 align-middle xs:flex sm:py-0">
             {tags?.slice(0, 2).map((tag, key) => (
               <Button key={key} href={"/tag/" + tag} sizeSmall={true} className="h-fit">
                 <div /* className="text-sm" */>
