@@ -1,7 +1,11 @@
 import { DOMAIN } from "@/lib/constants";
 
 export default async function dynamicBlurDataUrl(url: string) {
-  const base64str = await fetch(`${DOMAIN}/_next/image?url=${url}&w=16&q=75`).then(async (res) =>
+  /* const base64str = await fetch(`${DOMAIN}/_next/image?url=${url}&w=16&q=75`).then(async (res) =>
+    Buffer.from(await res.arrayBuffer()).toString("base64"),
+  ); */
+
+  const base64str = await fetch(`${DOMAIN}/${url}`).then(async (res) =>
     Buffer.from(await res.arrayBuffer()).toString("base64"),
   );
 
@@ -21,3 +25,8 @@ export default async function dynamicBlurDataUrl(url: string) {
 
   return `data:image/svg+xml;base64,${toBase64(blurSvg)}`;
 }
+
+export const simpleBlur = async (url: string) =>
+  await fetch(`${DOMAIN}/${url}`).then(async (res) => {
+    return `data:image/png;base64,${Buffer.from(await res.arrayBuffer()).toString("base64")}`;
+  });

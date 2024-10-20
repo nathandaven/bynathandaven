@@ -70,29 +70,7 @@ export default async function Post({ params }: Params) {
           {/* Markdown Post Content */}
           {content ? <PostBody content={content} /> : <div className="py-3"></div>}
           {/* Album Grid */}
-          {params.type == "album" && post.photoList ? (
-            <PhotoGrid post={post} className="">
-              {post.photoList?.map((photo: Photo, index) => {
-                const date = photo.dateTime ? format(photo.dateTime, "LLLL	d, yyyy") : "";
-                const desc = `${date ? date + " - " : ""}${photo.make ? photo.make + " " : ""}${photo.model ? photo.model : ""}`;
-                return (
-                  <Suspense key={index}>
-                    <ImageBlur
-                      src={photo.relativePath}
-                      alt={`Photo taken on ${desc}`}
-                      key={index}
-                      priority={index < 3 ? true : undefined}
-                      width={photo.width ?? undefined}
-                      height={photo.height ?? undefined}
-                      caption={desc}
-                    />
-                  </Suspense>
-                );
-              })}
-            </PhotoGrid>
-          ) : (
-            <></>
-          )}
+          {params.type == "album" && post.photoList ? <PhotoGrid post={post} className=""></PhotoGrid> : <></>}
           {/* Disable for general type */}
           {params.type != "general" && (
             <>

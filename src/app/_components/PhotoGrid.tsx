@@ -36,7 +36,6 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
       return {
         src: image.relativePath,
         aspect_ratio: (image.width ?? 1) / (image.height ?? 1),
-        lastRowBehavior: "fill",
         nextImageProps: {
           unoptimized: true,
           key: key,
@@ -59,7 +58,7 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
   return (
     <>
       <div className={classNames("mx-[-.5rem]", className)}>
-        <Gallery gap="0.5rem" {...{ images, widths, ratios }}></Gallery>
+        <Gallery gap="0.5rem" lastRowBehavior="match-previous" {...{ images, widths, ratios }}></Gallery>
       </div>
       <Lightbox
         index={index}

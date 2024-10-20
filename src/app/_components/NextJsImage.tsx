@@ -30,6 +30,7 @@ export default function NextJsImage({ slide, offset, rect }: Props) {
   return (
     <div style={{ position: "relative", width, height }}>
       <Image
+        unoptimized
         fill
         alt=""
         src={slide}
