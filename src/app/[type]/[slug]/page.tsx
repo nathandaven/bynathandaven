@@ -17,15 +17,7 @@ import { notFound } from "next/navigation";
 import ImageBlur from "@/app/_components/ImageBlur";
 import { Photo } from "@/interfaces/photo";
 import { format } from "date-fns";
-
-const PhotoGrid = dynamic(() => import("@/app/_components/PhotoGrid"), {
-  ssr: false,
-  loading: () => (
-    <div key="test" className="align-center h-[90vh] w-full text-center transition-all duration-75">
-      Loading...
-    </div>
-  ),
-});
+import PhotoGrid from "@/app/_components/PhotoGrid";
 
 const Comments = dynamic(() => import("@/app/_components/Comments"), {
   ssr: false,
@@ -79,7 +71,7 @@ export default async function Post({ params }: Params) {
           {content ? <PostBody content={content} /> : <div className="py-3"></div>}
           {/* Album Grid */}
           {params.type == "album" && post.photoList ? (
-            <PhotoGrid post={post}>
+            <PhotoGrid post={post} className="">
               {post.photoList?.map((photo: Photo, index) => {
                 const date = photo.dateTime ? format(photo.dateTime, "LLLL	d, yyyy") : "";
                 const desc = `${date ? date + " - " : ""}${photo.make ? photo.make + " " : ""}${photo.model ? photo.model : ""}`;

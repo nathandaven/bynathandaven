@@ -33,16 +33,15 @@ export async function PreviewImage({
       src={src}
       alt={`Cover Image for ${title}`}
       className={cn(
-        "m-0 max-h-96 w-full border-spacing-0 border border-dark-primary object-cover p-0 shadow-md outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-lg hover:outline-1 dark:border-light-primary dark:outline-light-primary",
+        "m-0 w-full border-spacing-0 border border-dark-primary object-cover p-0 shadow-md outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-lg hover:outline-1 dark:border-light-primary dark:outline-light-primary",
         className,
       )}
-      width={width ?? (type == ContentTypeEnum.ALBUM ? 960 : 1280)}
-      height={height ?? 720}
+      width={1280}
+      height={720}
       priority={priority}
       quality={quality}
       placeholder="blur"
       blurDataURL={await dynamicBlurDataUrl(src)}
-      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
     />
   );
 

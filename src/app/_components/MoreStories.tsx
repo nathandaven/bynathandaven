@@ -21,10 +21,12 @@ type Props = {
 };
 
 function MoreStories({ posts, className }: Props) {
+  let num = 0;
   return (
     <section className={classNames("", className)}>
       {/* <div className="mb-10 grid grid-cols-1 gap-x-6 gap-y-2 md:grid-cols-[55%_auto]"> */}
-      <ResponsiveGridA className="">
+      {/* "columns-1 md:columns-2 lg:columns-3" */}
+      <div className="grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
         {posts
           .filter((post) => post.fmContentType != ("general" as ContentTypeEnum))
           .map((post, key) => (
@@ -38,10 +40,10 @@ function MoreStories({ posts, className }: Props) {
               excerpt={post.excerpt ?? ""}
               tags={post.tags ?? []}
               contentType={post.fmContentType ?? ""}
-              className="h-fit"
+              className={`h-fit break-inside-avoid-column order-${key}`}
             />
           ))}
-      </ResponsiveGridA>
+      </div>
       {/* </div> */}
     </section>
   );
