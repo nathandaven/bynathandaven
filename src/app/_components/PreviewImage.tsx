@@ -41,7 +41,7 @@ export async function PreviewImage({
       priority={priority}
       quality={quality}
       placeholder="blur"
-      blurDataURL={await dynamicBlurDataUrl(src)}
+      /* blurDataURL={await dynamicBlurDataUrl(src)} */
     />
   );
 

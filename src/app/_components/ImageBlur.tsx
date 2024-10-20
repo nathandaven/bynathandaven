@@ -41,7 +41,7 @@ export const ImageBlur: FunctionComponent<PropsWithChildren> = async ({
       placeholder={"blur"}
       priority={priority ? priority : undefined}
       loading={priority ? undefined : "lazy"}
-      blurDataURL={await dynamicBlurDataUrl(src)}
+      /* blurDataURL={await dynamicBlurDataUrl(src)} */
       title={caption ?? undefined}
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
     />
