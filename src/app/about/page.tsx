@@ -58,8 +58,8 @@ export default async function About() {
                 width={1205}
                 height={1507}
                 quality={75}
-                placeholder="blur"
-                blurDataURL={await dynamicBlurDataUrl("/assets/authors/nathan-hamburg-vert.jpg")}
+                /* placeholder="blur" */
+                /* blurDataURL={await dynamicBlurDataUrl("/assets/authors/nathan-hamburg-vert.jpg")} */
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <Image
@@ -69,8 +69,8 @@ export default async function About() {
                 width={1549}
                 height={1161}
                 quality={75}
-                placeholder="blur"
-                blurDataURL={await dynamicBlurDataUrl("/assets/authors/nathan-hamburg-hor.jpg")}
+                /* placeholder="blur" */
+                /* blurDataURL={await dynamicBlurDataUrl("/assets/authors/nathan-hamburg-hor.jpg")} */
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <ul className="align-left ml-0 hidden w-full list-none flex-col gap-y-2.5 pl-0 leading-4 sm:flex">

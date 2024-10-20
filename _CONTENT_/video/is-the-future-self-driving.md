@@ -4,7 +4,7 @@ title: The Self-Driving Dilemma
 slug: is-the-future-self-driving
 date: 2024-07-01T10:47:36.000Z
 lastmod: 2024-09-20T20:28:23.197Z
-preview: /assets/video/is-the-future-self-driving/thumb.jpg
+preview: /assets/video/is-the-future-self-driving/thumb.webp
 draft: false
 description: Self-driving tech offered by Tesla, Waymo, and others are impressive but what are they solving? Let's discuss if self-driving technologies will fix traffic.
 tags:

@@ -21,8 +21,14 @@ type Props = {
 export function HeroPost({ title, preview, date, excerpt, author, tags, contentType, slug, className }: Props) {
   return (
     <section className={classNames("", className)}>
-      <div className="">
-        <PreviewImage title={title} src={preview} slug={slug} type={contentType} />
+      <div className="relative sm:aspect-h-9 sm:aspect-w-16">
+        <PreviewImage
+          className="inset-0 max-h-96 w-full sm:absolute sm:h-full sm:max-h-none sm:object-cover"
+          title={title}
+          src={preview}
+          slug={slug}
+          type={contentType}
+        />
       </div>
 
       <div className="flex flex-col justify-between gap-x-2">
@@ -55,7 +61,7 @@ export function HeroPost({ title, preview, date, excerpt, author, tags, contentT
             {", "}
             <DateFormatter dateString={date} />
           </span>
-          <div className="m-0 my-0 hidden h-fit w-fit list-none gap-x-1 p-0 py-0 align-middle xs:flex sm:py-0">
+          <div className="no-scrollbar m-0 my-0 hidden h-fit w-fit list-none gap-x-1 overflow-x-scroll p-0 py-0 align-middle xs:flex sm:py-0">
             {tags?.slice(0, 2).map((tag, key) => (
               <Button key={key} href={"/tag/" + tag} sizeSmall={true} className="h-fit">
                 <div /* className="text-sm" */>

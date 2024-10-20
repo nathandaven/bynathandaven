@@ -76,7 +76,7 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
                   </Button>
                 ))}
               </div>
-              <div className="m-0 my-0 hidden h-fit w-fit list-none gap-x-1 p-0 py-0 align-middle sm:flex sm:py-0">
+              <div className="no-scrollbar m-0 my-0 hidden h-fit w-fit list-none gap-x-1 overflow-x-scroll p-0 py-0 align-middle sm:flex sm:py-0">
                 {post.tags?.map((tag, key) => (
                   <Button key={key} href={"/tag/" + tag} sizeSmall={true} className="h-fit">
                     <div /* className="text-sm" */>

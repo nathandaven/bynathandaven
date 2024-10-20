@@ -92,8 +92,8 @@ export function parseAlbumPhotos(post: Post): Photo[] {
       const fileBuffer = readFileSync(filepath);
       const tags: Tags = load(fileBuffer);
 
-      const width = tags["Image Width"] ? tags["Image Width"]?.value : undefined;
-      const height = tags["Image Height"] ? tags["Image Height"]?.value : undefined;
+      const width = tags.ImageWidth ? tags.ImageWidth?.value : undefined;
+      const height = tags.ImageHeight ? tags.ImageHeight?.value : undefined;
 
       const dateTimeOriginal = tags["DateTime"] ? parseEXIFDate(tags["DateTime"].value.toString()) : undefined;
       const dateTime = tags["DateTime"]
@@ -119,8 +119,8 @@ export function parseAlbumPhotos(post: Post): Photo[] {
         filename: filepath ?? "",
         album: albumDir ?? "",
         caption: tags["Image Description"] ? tags["Image Description"]?.description : "",
-        width: tags["Image Width"] ? tags["Image Width"]?.value : undefined,
-        height: tags["Image Height"] ? tags["Image Height"]?.value : undefined,
+        width: tags.ImageWidth ? tags.ImageWidth.value : undefined,
+        height: tags.ImageHeight ? tags.ImageHeight.value : undefined,
         make: tags["Make"] ? tags["Make"]?.value.toString() : filmDefaultMake,
         model: tags["Model"] ? tags["Model"]?.value.toString() : filmDefaultModel,
         dateTime: dateTimeOriginal ?? dateTime ?? undefined /* new Date(post.date) */,
