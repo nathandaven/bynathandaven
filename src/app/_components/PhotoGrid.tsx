@@ -34,10 +34,11 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
       const date = image.dateTime ? format(image.dateTime, "LLLL	d, yyyy") : "";
       const desc = `${date ? date + " - " : ""}${image.make ? image.make + " " : ""}${image.model ? image.model : ""}`;
       return {
-        unoptimized: true,
         src: image.relativePath,
         aspect_ratio: (image.width ?? 1) / (image.height ?? 1),
+        lastRowBehavior: "fill",
         nextImageProps: {
+          unoptimized: true,
           key: key,
           alt: desc,
           title: desc,
@@ -53,7 +54,7 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
       };
     }) ?? [];
   const widths = [380, 640, 768, 1024, 1280];
-  const ratios = [1, 1, 2, 2.5, 3, 3];
+  const ratios = [1, 2, 2, 3, 4, 4];
 
   return (
     <>
