@@ -28,6 +28,7 @@
     "leva": "^0.9.35",
     "next": "14.2.12",
     "next-gallery": "^2.1.0",
+    "next-mdx-remote": "^5.0.0",
     "next-sitemap": "^4.2.3",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",

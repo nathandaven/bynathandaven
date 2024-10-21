@@ -21,20 +21,18 @@ const Comments: FunctionComponent<PropsWithChildren> = ({ className, appId, page
     pageTitle &&
     pageUrl && (
       <div id={pageId} className={"" + className}>
-        <div className="">
-          <h2>Comments</h2>
-          <ReactCusdis
-            style={commentsStyles}
-            attrs={{
-              host: "https://cusdis.com",
-              appId: appId,
-              pageId: pageId,
-              pageTitle: pageTitle,
-              pageUrl: pageUrl,
-              theme: "auto",
-            }}
-          />
-        </div>
+        <h2>Comments</h2>
+        <ReactCusdis
+          style={commentsStyles}
+          attrs={{
+            host: "https://cusdis.com",
+            appId: appId,
+            pageId: pageId,
+            pageTitle: pageTitle,
+            pageUrl: pageUrl,
+            theme: "dark",
+          }}
+        />
       </div>
     )
   );

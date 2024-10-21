@@ -1,3 +1,26 @@
-#cusdis_thread input {
+/* #cusdis_thread input {
   background: aliceblue !important;
+}
+#cusdis_thread body {
+  background: none !important;
+  height: 1000px !important;
+}
+
+#cusdis_thread iframe {
+  height: 1000px !important;
+}
+ */
+
+#cusdis_thread label {
+  color: white !important;
+}
+
+#people {
+  color: white !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  #cusdis_thread iframe {
+    color-scheme: dark !important;
+  }
 }
