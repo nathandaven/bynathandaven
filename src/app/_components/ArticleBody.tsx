@@ -22,6 +22,7 @@ export function PostBody({ content }: Props) {
           width={props.width ?? 1920}
           height={props.height ?? 1080}
           loading="lazy"
+          unoptimized={true}
           className={classNames(
             "m-0 my-6 w-full border-spacing-0 border border-dark-primary p-0 shadow-md outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-xl hover:outline-1 dark:border-light-primary dark:outline-light-primary",
             props.className,

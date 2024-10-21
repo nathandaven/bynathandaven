@@ -52,7 +52,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
           Work
         </span>
       </Link>
-      <Link href="/about" className="mr-2 text-base">
+      <Link href="/about" className="text-base">
         <span
           className={classNames(
             "text-dark-primary hover:bg-dark-primary hover:text-light-primary dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
