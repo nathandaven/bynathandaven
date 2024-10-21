@@ -38,7 +38,7 @@ export function getPostBySlug(slug: string, dir: string) {
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  const post = { ...data, slug: realSlug, content, frontmatter: data } as Post;
+  const post = { ...data, slug: realSlug, content } as Post;
 
   if (post?.fmContentType && post.fmContentType == ("album" as ContentTypeEnum)) {
     post.photoList = parseAlbumPhotos(post);
