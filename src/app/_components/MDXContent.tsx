@@ -1,8 +1,9 @@
-import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote/rsc";
+import { MDXRemote } from "next-mdx-remote/rsc";
 import Image from "next/image";
 import { Suspense } from "react";
 import { VideoComponent } from "./Video";
 import classNames from "classnames";
+import rehypeUnwrapImages from "rehype-unwrap-images";
 
 type Props = {
   content: string;
@@ -12,6 +13,9 @@ export function PostBody({ content }: Props) {
   const MDXComponents = {
     Image,
     VideoComponent,
+    a: (props: any) => {
+      return <a {...props} target="_blank"></a>;
+    },
     img: (props: any) => {
       // Regex to find width and height inside file name
       // eg. 2Ffb4dee33-d1b9-48de-8536-408f33b1d9d6_3840x2160.webp
@@ -48,5 +52,16 @@ export function PostBody({ content }: Props) {
     },
   };
 
-  return <MDXRemote source={content} components={MDXComponents} />;
+  return (
+    <MDXRemote
+      options={{
+        mdxOptions: {
+          remarkPlugins: [],
+          rehypePlugins: [[rehypeUnwrapImages]],
+        },
+      }}
+      source={content}
+      components={MDXComponents}
+    />
+  );
 }

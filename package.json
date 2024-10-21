@@ -36,6 +36,7 @@
     "react-dom": "^18.3.1",
     "react-plock": "^3.2.0",
     "react-responsive-masonry": "2.1.7",
+    "rehype-unwrap-images": "^1.0.0",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "rss": "^1.2.2",

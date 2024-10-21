@@ -1507,6 +1507,21 @@ hasown@^2.0.2:
   dependencies:
     function-bind "^1.1.2"
 
+hast-util-has-property@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hast-util-has-property/-/hast-util-has-property-3.0.0.tgz#4e595e3cddb8ce530ea92f6fc4111a818d8e7f93"
+  integrity sha512-MNilsvEKLFpV604hwfhVStK0usFY/QmM5zX16bo7EjnAEGofr5YyI37kzopBlZJkHD4t887i+q/C8/tr5Q94cA==
+  dependencies:
+    "@types/hast" "^3.0.0"
+
+hast-util-interactive@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hast-util-interactive/-/hast-util-interactive-3.0.0.tgz#f5d42eb52320bc42214c3210b30fe8d21eb17b04"
+  integrity sha512-9VFa3kP6AT40BNYcPmn3jpsG+1KPDF0rUFCrFVQDUsuUXZ3YLODm8UGV0tmYzFpcOIQXTAOi2ccS3ywlj2dQTA==
+  dependencies:
+    "@types/hast" "^3.0.0"
+    hast-util-has-property "^3.0.0"
+
 hast-util-sanitize@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/hast-util-sanitize/-/hast-util-sanitize-5.0.1.tgz#8e90068cd68e651c569960b77a1b25076579b4cf"
@@ -2530,10 +2545,10 @@ react-colorful@^5.5.1:
   resolved "https://registry.yarnpkg.com/react-colorful/-/react-colorful-5.6.1.tgz#7dc2aed2d7c72fac89694e834d179e32f3da563b"
   integrity sha512-1exovf0uGTGyq5mXQT0zgQ80uvj2PCwvF8zY1RN9/vbJVSjSo3fsB/4L3ObbF7u70NduSiK4xu4Y6q1MHoUGEw==
 
-react-cusdis@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-cusdis/-/react-cusdis-2.1.0.tgz#b8bf6878b6f495793c4fc1730bcc702bb356724d"
-  integrity sha512-cv37LCQC9NEuDdFmc0ssSdP/fZaC0UIxzjcYUsmO4ev+ojTo694uSM2HL3Uw+6MtjJh4DCx681jA7+1C1Tvmrw==
+react-cusdis@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/react-cusdis/-/react-cusdis-2.1.3.tgz#95ed31822689f2621a2cc1d9a4c8d4ff64030686"
+  integrity sha512-fUJOAUY7a3y21fNzlRWUSTr/ZMsejQAYWIWdsNuBPPZHbUrBvke/8Gw4OL5Mlrth7jLw8VTNssX0WBX5/prorQ==
 
 react-dom@^18.3.1:
   version "18.3.1"
@@ -2641,6 +2656,16 @@ rehype-recma@^1.0.0:
     "@types/estree" "^1.0.0"
     "@types/hast" "^3.0.0"
     hast-util-to-estree "^3.0.0"
+
+rehype-unwrap-images@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rehype-unwrap-images/-/rehype-unwrap-images-1.0.0.tgz#7e6ae5bddffdf7ad439cc2e4ca1820e85a031a79"
+  integrity sha512-wzW5Mk9IlVF2UwXC5NtIZsx1aHYbV8+bLWjJnlZaaamz5QU52RppWtq1uEZJqGo8d9Y4RuDqidB6r9RFpKugIg==
+  dependencies:
+    "@types/hast" "^3.0.0"
+    hast-util-interactive "^3.0.0"
+    hast-util-whitespace "^3.0.0"
+    unist-util-visit "^5.0.0"
 
 remark-html@^16.0.1:
   version "16.0.1"
