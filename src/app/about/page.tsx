@@ -26,14 +26,13 @@ import dynamicBlurDataUrl from "@/lib/blurImage";
 
 async function getMarkdown(path: string) {
   const { data, content } = matter(readFileSync(join(process.cwd(), path), "utf8"));
-  const markdown = await markdownToHtml(content);
-  return { data, markdown };
+  return { data, content };
 }
 
 export default async function About() {
   // About me
-  const about = await getMarkdown("/_CONTENT_/general/about.md");
-  const mediaCredits = await getMarkdown("/_CONTENT_/general/media-credits.md");
+  const about = await getMarkdown("/_CONTENT_/general/about.mdx");
+  const mediaCredits = await getMarkdown("/_CONTENT_/general/media-credits.mdx");
 
   return (
     <main>
@@ -48,7 +47,7 @@ export default async function About() {
           </h1>
           <div className="flex flex-col-reverse gap-x-10 gap-y-5 sm:flex-row">
             <div className="flex-initial sm:w-3/5 md:w-2/3">
-              <PostBody content={about.markdown} />
+              <PostBody content={about.content} />
             </div>
             <div className="sm:w-2/5 md:w-1/3">
               <Image
@@ -160,7 +159,7 @@ export default async function About() {
           </div>
           <Divider className="py-6 opacity-50" />
           <div className="pb-4 prose-h2:mt-4">
-            <PostBody content={mediaCredits.markdown} />
+            <PostBody content={mediaCredits.content} />
           </div>
         </Article>
       </Container>

@@ -13,8 +13,7 @@ import { PostBody } from "@/app/_components/ArticleBody";
 import { DOMAIN } from "@/lib/constants";
 
 export default async function Work() {
-  const { data, content } = matter(readFileSync(join(process.cwd(), "/_CONTENT_/general/work.md"), "utf8"));
-  const markdown = await markdownToHtml(content);
+  const { data, content } = matter(readFileSync(join(process.cwd(), "/_CONTENT_/general/work.mdx"), "utf8"));
 
   return (
     <main>
@@ -27,7 +26,7 @@ export default async function Work() {
               <span className="absolute ml-3.5 mt-5 h-3 w-[3.1rem] bg-green-200 md:ml-3.5 md:mt-6 md:h-5 md:w-[4.4rem] dark:bg-green-700"></span>
             </span>
           </h1>
-          <PostBody content={markdown} />
+          <PostBody content={content} />
         </Article>
       </Container>
     </main>
