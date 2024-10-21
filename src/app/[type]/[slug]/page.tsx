@@ -1,7 +1,7 @@
 import { Metadata, MetadataRoute } from "next";
 import { getAllPosts, getPostBySlug, getPostDirByType } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
-import { PostBody } from "@/app/_components/ArticleBody";
+import { PostBody } from "@/app/_components/MDXContent";
 import { Container } from "@/app/_components/Container";
 import { Article } from "@/app/_components/Article";
 

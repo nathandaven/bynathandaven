@@ -9,7 +9,7 @@ import matter from "gray-matter";
 import { readFileSync } from "fs";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { join } from "path";
-import { PostBody } from "@/app/_components/ArticleBody";
+import { PostBody } from "@/app/_components/MDXContent";
 import Image from "next/image";
 import { Divider } from "@/app/_components/Divider";
 import GithubSVG from "@/app/_svg/github.svg";

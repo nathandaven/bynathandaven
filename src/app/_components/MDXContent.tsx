@@ -21,20 +21,26 @@ export function PostBody({ content }: Props) {
       const height = match ? parseInt(match[2], 10) : (props.height ?? 1080);
       /* console.log(`${width} x ${height}`); */
       return (
-        <Image
-          {...props}
-          src={props.src}
-          alt={props.alt ?? `Image from ${props.src}`}
-          title={props.title}
-          width={width}
-          height={height}
-          loading="lazy"
-          unoptimized={true}
-          className={classNames(
-            "m-0 my-6 w-full border-spacing-0 border border-dark-primary p-0 shadow-md outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-xl hover:outline-1 dark:border-light-primary dark:outline-light-primary",
-            props.className,
-          )}
-        />
+        <figure className="md:my-6">
+          <Image
+            {...props}
+            src={props.src}
+            alt={"Image: " + (props.alt.length > 0 ? props.alt : props.title)}
+            title={props.title}
+            width={width}
+            height={height}
+            loading="lazy"
+            unoptimized={true}
+            className={classNames(
+              "m-0 w-full border-spacing-0 border border-dark-primary p-0 shadow-md outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:shadow-xl hover:outline-1 dark:border-light-primary dark:outline-light-primary",
+              props.className,
+            )}
+          />
+          {/* shocked this worked so effortlessly... */}
+          <figcaption className="text-ca text-center text-xs prose-a:text-[#737373] dark:prose-a:text-[#a3a3a3]">
+            {<MDXRemote source={props.title} />}
+          </figcaption>
+        </figure>
       );
     },
     Video: (props: any) => {

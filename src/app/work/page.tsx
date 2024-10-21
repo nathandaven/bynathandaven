@@ -9,7 +9,7 @@ import markdownToHtml from "@/lib/markdownToHtml";
 import { readFileSync } from "fs";
 import matter from "gray-matter";
 import { join } from "path";
-import { PostBody } from "@/app/_components/ArticleBody";
+import { PostBody } from "@/app/_components/MDXContent";
 import { DOMAIN } from "@/lib/constants";
 
 export default async function Work() {
