@@ -40,9 +40,18 @@ export function PostBody({ content }: Props) {
               props.className,
             )}
           />
-          {/* shocked this worked so effortlessly... */}
+          {/* shocked this worked lol... */}
           <figcaption className="text-ca text-center text-xs prose-a:text-[#737373] dark:prose-a:text-[#a3a3a3]">
-            {<MDXRemote source={props.title} />}
+            {
+              <MDXRemote
+                source={props.title}
+                components={{
+                  a: (props: any) => {
+                    return <a {...props} target="_blank"></a>;
+                  },
+                }}
+              />
+            }
           </figcaption>
         </figure>
       );
