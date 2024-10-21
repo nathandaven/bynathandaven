@@ -11,6 +11,7 @@ export type Post = {
   fmContentType: ContentTypeEnum;
   author: Author;
   content: string;
+  frontmatter: Record<string, unknown>;
   description?: string;
   draft: boolean;
   // Optional

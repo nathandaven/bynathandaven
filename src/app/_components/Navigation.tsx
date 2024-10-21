@@ -25,7 +25,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
       <Link href="/newsletter" className="mr-2 text-base">
         <span
           className={classNames(
-            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            "text-dark-primary hover:bg-dark-primary hover:text-light-primary dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
             mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >
@@ -35,7 +35,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
       <Link href="/photography" className="mr-2 text-base">
         <span
           className={classNames(
-            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            "text-dark-primary hover:bg-dark-primary hover:text-light-primary dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
             mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >
@@ -45,7 +45,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
       <Link href="/work" className="mr-2 text-base">
         <span
           className={classNames(
-            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            "text-dark-primary hover:bg-dark-primary hover:text-light-primary dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
             mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >
@@ -55,7 +55,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
       <Link href="/about" className="mr-2 text-base">
         <span
           className={classNames(
-            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            "text-dark-primary hover:bg-dark-primary hover:text-light-primary dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
             mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >
@@ -65,7 +65,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
       {/*       <a target="_blank" href="https://nathandaven.substack.com/subscribe" className="mr-0 text-base">
         <span
           className={classNames(
-            "hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            "hover:bg-dark-primary text-light-primarydark: text-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
             mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >

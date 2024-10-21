@@ -10,7 +10,7 @@ import dynamic from "next/dynamic";
 import { DOMAIN } from "@/lib/constants";
 import { VideoComponent } from "@/app/_components/Video";
 import { Substack } from "@/app/_components/Substack";
-import React, { Suspense } from "react";
+import React, { ComponentPropsWithoutRef, Suspense } from "react";
 import { metadata } from "@/app/layout";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
@@ -18,6 +18,8 @@ import ImageBlur from "@/app/_components/ImageBlur";
 import { Photo } from "@/interfaces/photo";
 import { format } from "date-fns";
 import PhotoGrid from "@/app/_components/PhotoGrid";
+import { MDXRemoteSerializeResult } from "next-mdx-remote";
+import Image from "next/image";
 
 const Comments = dynamic(() => import("@/app/_components/Comments"), {
   ssr: false,
@@ -37,8 +39,6 @@ export default async function Post({ params }: Params) {
   if (!post) {
     return notFound();
   }
-
-  const content = await markdownToHtml(post.content);
 
   return (
     <main>
@@ -68,7 +68,7 @@ export default async function Post({ params }: Params) {
             </>
           )}
           {/* Markdown Post Content */}
-          {content ? <PostBody content={content} /> : <div className="py-3"></div>}
+          {post.content ? <PostBody content={post.content} /> : <div className="py-3"></div>}
           {/* Album Grid */}
           {params.type == "album" && post.photoList ? <PhotoGrid post={post} className=""></PhotoGrid> : <></>}
           {/* Disable for general type */}
@@ -77,7 +77,7 @@ export default async function Post({ params }: Params) {
               {/* Subscribe Section */}
               <Substack className="mt-10 border border-b-0 border-l-0 border-r-0 border-dark-primary dark:border-light-primary" />
               {/* Comments Section */}
-              <div
+              {/* <div
                 className={
                   "mt-10 w-full gap-8 border border-b-0 border-l-0 border-r-0 border-dark-primary dark:border-light-primary"
                 }
@@ -89,7 +89,7 @@ export default async function Post({ params }: Params) {
                   pageTitle={params.slug ?? ""}
                   pageUrl={params.slug ? DOMAIN + "/" + params.type + "/" + params.slug : DOMAIN}
                 />
-              </div>
+              </div> */}
             </>
           )}
         </Article>
