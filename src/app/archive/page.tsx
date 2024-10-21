@@ -9,6 +9,7 @@ import { format } from "date-fns";
 import { Metadata } from "next";
 import { metadata } from "../layout";
 import { DOMAIN } from "@/lib/constants";
+import { Divider } from "../_components/Divider";
 
 function year(dateString: string) {
   return format(dateString, "yyyy");
@@ -48,9 +49,11 @@ export default function Archive() {
               .reverse()
               .map((year, key) => {
                 return (
-                  <section key={key} className="w-fit">
-                    <h3 className="mt-0 cursor-default pt-0 text-left">{year}</h3>
-                    <div key={key} className="w-fit">
+                  <section key={key} className="mb-10 w-full">
+                    <h2 className="mb-1 mt-0 cursor-default pt-0 text-left text-3xl font-bold">{year}</h2>
+
+                    <Divider />
+                    <div key={key} className="mt-3 w-fit">
                       <List
                         listItems={posts.filter(
                           (post) =>

@@ -47,7 +47,7 @@ export default function Tags() {
     <main>
       <Container title={"Tags"} fullWidth={false} className={""}>
         <Article metadata={TitlePost} className="">
-          <div className="mt-2 grid grid-cols-1 gap-4 pt-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6">
+          <div className="mb-5 mt-2 grid grid-cols-1 gap-4 pt-2 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {tags.sort().map((tag, key) => {
               return (
                 <Button href={"/tag/" + tag} key={key} className="w-fit">
