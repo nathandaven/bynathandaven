@@ -2,6 +2,9 @@
 
 Remaking my personal portfolio site.
 
+<img width="1437" alt="image" src="https://github.com/user-attachments/assets/f62be8bd-e1f4-4004-8da0-6598501c33ad">
+
+
 ## Goals:
 
 - New design
