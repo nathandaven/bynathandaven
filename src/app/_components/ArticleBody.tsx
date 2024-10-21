@@ -13,14 +13,21 @@ export function PostBody({ content }: Props) {
     Image,
     VideoComponent,
     img: (props: any) => {
+      // Regex to find width and height inside file name
+      // eg. 2Ffb4dee33-d1b9-48de-8536-408f33b1d9d6_3840x2160.webp
+      const regex = /(\d{3,5})x(\d{3,5})\./;
+      const match = props.src.match(regex);
+      const width = match ? parseInt(match[1], 10) : (props.width ?? 1920);
+      const height = match ? parseInt(match[2], 10) : (props.height ?? 1080);
+      /* console.log(`${width} x ${height}`); */
       return (
         <Image
           {...props}
           src={props.src}
           alt={props.alt ?? `Image from ${props.src}`}
           title={props.title}
-          width={props.width ?? 1920}
-          height={props.height ?? 1080}
+          width={width}
+          height={height}
           loading="lazy"
           unoptimized={true}
           className={classNames(
