@@ -27,8 +27,8 @@ export default function Index() {
           <div>
             <h1 className="sr-only mb-1">Nathan Davenport</h1>
             <p className="sr-only mt-1">Video-journalism Photography & Software Engineering</p>
-            <HeaderSVG className={"color dark hidden lg:block"} />
-            <HeaderSVGMobile className={"xs-max-lg:block max-xs:hidden lg:hidden"} />
+            <HeaderSVG className={"color dark hidden md:block"} />
+            <HeaderSVGMobile className={"xs-max-md:block max-xs:hidden md:hidden"} />
             <HeaderSVGName className={"block xs:hidden"} />
           </div>
           {/* <div className="my-2 border border-x-0 border-b-0"></div> */}

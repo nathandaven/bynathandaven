@@ -26,7 +26,7 @@ function MoreStories({ posts, className }: Props) {
     <section className={classNames("", className)}>
       {/* <div className="mb-10 grid grid-cols-1 gap-x-6 gap-y-2 md:grid-cols-[55%_auto]"> */}
       {/* "columns-1 md:columns-2 lg:columns-3" */}
-      <div className="grid grid-cols-1 gap-x-4 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 xl:grid-cols-3">
         {posts
           .filter((post) => post.fmContentType != ("general" as ContentTypeEnum))
           .map((post, key) => (
