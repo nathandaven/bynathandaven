@@ -9,6 +9,7 @@ import { Metadata } from "next";
 import { metadata } from "../layout";
 import { DOMAIN } from "@/lib/constants";
 import Link from "next/link";
+import { Divider } from "../_components/Divider";
 
 export default function Photography() {
   const posts: Post[] = getAllPosts().filter((post) => post.fmContentType == ("album" as ContentTypeEnum));
@@ -36,7 +37,8 @@ export default function Photography() {
     if (post.tags && post.tags.length > 0 && post.tags.includes("project")) {
       projects.push(post);
     } else if (post.tags && post.tags.length > 0 && post.tags.includes("job")) {
-      jobs.push(post);
+      // jobs.push(post);
+      projects.push(post);
     } else if (post.tags && post.tags.length > 0 && (post.tags.includes("travel") || post.tags.includes("city"))) {
       cities.push(post);
     } else {
@@ -47,82 +49,84 @@ export default function Photography() {
   return (
     <main>
       <Container title={"Photography"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="">
-          {posts && posts.length > 0 ? (
-            <>
-              <p className="mt-3">
-                Follow my personal{" "}
-                <a target="_blank" href="https://www.instagram.com/nathandaven/">
-                  Instagram
-                </a>{" "}
-                to stay up to date with my photography work. See <Link href="/work">here</Link> to work with me on a
-                project.
-              </p>
-              {general.length > 0 && (
-                <section>
-                  <h3>General</h3>
-                  <List
-                    listItems={general}
-                    showTags={false}
-                    showDescription={false}
-                    showThumbnails={true}
-                    verticalThumbnail={true}
-                    className={"pt-2"}
-                  />
-                </section>
-              )}
-              {projects.length > 0 && (
-                <section>
-                  <h3>Projects</h3>
-                  <List
-                    listItems={projects}
-                    showTags={false}
-                    showDescription={false}
-                    showThumbnails={true}
-                    verticalThumbnail={true}
-                    className={"pt-2"}
-                  />
-                </section>
-              )}
-              {cities.length > 0 && (
-                <section>
-                  <h3>Cities</h3>
-                  <List
-                    listItems={cities}
-                    showTags={false}
-                    showDescription={false}
-                    showThumbnails={true}
-                    verticalThumbnail={true}
-                    className={"pt-2"}
-                  />
-                </section>
-              )}
-              {jobs.length > 0 && (
-                <section>
-                  <h3>Jobs</h3>
-                  <List
-                    listItems={jobs}
-                    showTags={false}
-                    showDescription={false}
-                    showThumbnails={true}
-                    verticalThumbnail={true}
-                    className={"pt-2"}
-                  />
-                </section>
-              )}
-            </>
-          ) : (
-            <>
-              <p>Albums are work in progress! Coming soon...</p>
-              <p>
-                For now, check out my personal{" "}
-                <a target="_blank" href="https://www.instagram.com/nathandaven/">
-                  Instagram
-                </a>{" "}
-                to see some of my work.
-              </p>
-            </>
-          )}
+        <Article metadata={TitlePost}>
+          <div className="pb-4">
+            {posts && posts.length > 0 ? (
+              <>
+                <p className="mt-3">
+                  Follow my personal{" "}
+                  <a target="_blank" href="https://www.instagram.com/nathandaven/">
+                    Instagram
+                  </a>{" "}
+                  to stay up to date with my photography work. See <Link href="/work">here</Link> to work with me on a
+                  project.
+                </p>
+                {general.length > 0 && (
+                  <section>
+                    <Divider title={"General"} className="pt-0" />
+                    <List
+                      listItems={general}
+                      showTags={false}
+                      showDescription={false}
+                      showThumbnails={true}
+                      verticalThumbnail={true}
+                      className={"pt-2"}
+                    />
+                  </section>
+                )}
+                {cities.length > 0 && (
+                  <section>
+                    <Divider title={"Cities"} />
+                    <List
+                      listItems={cities}
+                      showTags={false}
+                      showDescription={false}
+                      showThumbnails={true}
+                      verticalThumbnail={true}
+                      className={"pt-2"}
+                    />
+                  </section>
+                )}
+                {projects.length > 0 && (
+                  <section>
+                    <Divider title={"Projects"} />
+                    <List
+                      listItems={projects}
+                      showTags={false}
+                      showDescription={false}
+                      showThumbnails={true}
+                      verticalThumbnail={true}
+                      className={"pt-2"}
+                    />
+                  </section>
+                )}
+                {jobs.length > 0 && (
+                  <section>
+                    <Divider title={"Jobs"} />
+                    <List
+                      listItems={jobs}
+                      showTags={false}
+                      showDescription={false}
+                      showThumbnails={true}
+                      verticalThumbnail={true}
+                      className={"pt-2"}
+                    />
+                  </section>
+                )}
+              </>
+            ) : (
+              <>
+                <p>Albums are work in progress! Coming soon...</p>
+                <p>
+                  For now, check out my personal{" "}
+                  <a target="_blank" href="https://www.instagram.com/nathandaven/">
+                    Instagram
+                  </a>{" "}
+                  to see some of my work.
+                </p>
+              </>
+            )}
+          </div>
         </Article>
       </Container>
     </main>

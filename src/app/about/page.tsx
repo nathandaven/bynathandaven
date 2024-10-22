@@ -159,7 +159,11 @@ export default async function About() {
               {/* <FooterMenu mobile={false} /> */}
             </div>
           </div>
-          <Divider className="py-6 opacity-50" />
+          {/* <Divider className="py-6 opacity-50" /> */}
+          <div className="mb-0 flex gap-x-4 pb-0 pt-5">
+            <h2 className="mb-1 mt-0 text-nowrap">Media Credits</h2>
+            <Divider />
+          </div>
           <div className="pb-4 prose-h2:mt-4">
             <PostBody content={mediaCredits.content} />
           </div>

@@ -4,6 +4,7 @@ import { Suspense } from "react";
 import { VideoComponent } from "./Video";
 import classNames from "classnames";
 import rehypeUnwrapImages from "rehype-unwrap-images";
+import { Divider } from "./Divider";
 
 type Props = {
   content: string;
@@ -13,6 +14,7 @@ export function PostBody({ content }: Props) {
   const MDXComponents = {
     Image,
     VideoComponent,
+    Divider,
     a: (props: any) => {
       return <a {...props} target="_blank"></a>;
     },

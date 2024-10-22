@@ -35,7 +35,7 @@ export const ListItem: FunctionComponent<PropsWithChildren> = ({
       )}
     >
       {showThumbnail && (
-        <div className={classNames("mr-4", verticalThumbnail ?? "sm:max-w-64")}>
+        <div className={classNames("", verticalThumbnail ?? "sm:max-w-64")}>
           <PreviewImage
             className="max-h-72 xs:aspect-1 xs:max-h-none xs:object-cover"
             title={post.title}
