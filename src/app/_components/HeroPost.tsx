@@ -21,13 +21,20 @@ type Props = {
 export function HeroPost({ title, preview, date, excerpt, author, tags, contentType, slug, className }: Props) {
   return (
     <section className={classNames("", className)}>
-      <div className="relative sm:aspect-h-9 sm:aspect-w-16">
+      <div
+        className={classNames(
+          "aspect-h-9 aspect-w-16 relative",
+          contentType == ContentTypeEnum.ALBUM ? "aspect-h-2 aspect-w-3 md:aspect-h-9 md:aspect-w-16" : "",
+        )}
+      >
         <PreviewImage
-          className="inset-0 max-h-96 w-full sm:absolute sm:h-full sm:max-h-none sm:object-cover"
+          className="absolute inset-0 h-full w-full object-cover"
           title={title}
           src={preview}
           slug={slug}
           type={contentType}
+          width={1920}
+          height={contentType == ContentTypeEnum.ALBUM ? 1280 : 1080}
         />
       </div>
 
