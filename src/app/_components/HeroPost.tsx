@@ -23,8 +23,10 @@ export function HeroPost({ title, preview, date, excerpt, author, tags, contentT
     <section className={classNames("", className)}>
       <div
         className={classNames(
-          "aspect-h-9 aspect-w-16 relative",
-          contentType == ContentTypeEnum.ALBUM ? "aspect-h-2 aspect-w-3 md:aspect-h-9 md:aspect-w-16" : "",
+          "relative",
+          contentType == ContentTypeEnum.ALBUM
+            ? "max-md:aspect-h-2 max-md:aspect-w-3 md:aspect-h-9 md:aspect-w-16"
+            : "aspect-h-9 aspect-w-16",
         )}
       >
         <PreviewImage
