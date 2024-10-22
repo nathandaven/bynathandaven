@@ -64,7 +64,9 @@ export default function RootLayout({
           <meta property="profile:last_name" content="Davenport" />
           <meta property="fb:app_id" content="966242223397117" />
         </head>
-        {process.env.NODE_ENV === "production" && <GoogleTagManager gtmId="GTM-THMKGVQB" />}
+        {process.env.NODE_ENV === "production" && DOMAIN == "https://nathandaven.com" && (
+          <GoogleTagManager gtmId="GTM-THMKGVQB" />
+        )}
         <body
           className={classNames(
             inter.className,
@@ -73,10 +75,12 @@ export default function RootLayout({
         >
           <div></div>
           {children}
-          {process.env.NODE_ENV === "production" && <SpeedInsights />}
-          {process.env.NODE_ENV === "production" && <Analytics />}
+          {process.env.NODE_ENV === "production" && DOMAIN == "https://nathandaven.com" && <SpeedInsights />}
+          {process.env.NODE_ENV === "production" && DOMAIN == "https://nathandaven.com" && <Analytics />}
         </body>
-        {process.env.NODE_ENV === "production" && <GoogleAnalytics gaId="G-X1XTCSK8DT" />}
+        {process.env.NODE_ENV === "production" && DOMAIN == "https://nathandaven.com" && (
+          <GoogleAnalytics gaId="G-X1XTCSK8DT" />
+        )}
       </html>
     </AutoRefresh>
   );

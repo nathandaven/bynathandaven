@@ -50,9 +50,7 @@ export default function Archive() {
               .map((year, key) => {
                 return (
                   <section key={key} className="mb-10 w-full">
-                    <h2 className="mb-1 mt-0 cursor-default pt-0 text-left text-3xl font-bold">{year}</h2>
-
-                    <Divider />
+                    <Divider title={year} large={true} />
                     <div key={key} className="mt-3 w-fit">
                       <List
                         listItems={posts.filter(
