@@ -1,6 +1,6 @@
 import { DARK_COLOR_SECONDARY, DOMAIN, LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Inter_Tight, JetBrains_Mono, PT_Mono, PT_Serif, Roboto_Mono } from "next/font/google";
 import cn from "classnames";
 
 import "@/app/globals.css";
@@ -12,7 +12,19 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const interTight = Inter_Tight({ subsets: ["latin"], variable: "--font-inter-tight" });
+const serif = PT_Serif({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-pt-serif",
+});
+const mono = Roboto_Mono({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-mono",
+});
 
 const title = `Nathan Davenport`;
 const description = `Video-journalism, Photography, & Software Engineering`;
@@ -68,12 +80,8 @@ export default function RootLayout({
           <GoogleTagManager gtmId="GTM-THMKGVQB" />
         )}
         <body
-          className={classNames(
-            inter.className,
-            `scrollbar-hide scroll-smooth bg-light-primary tracking-tighter dark:bg-dark-secondary`,
-          )}
+          className={`scrollbar-hide scroll-smooth bg-light-primary tracking-tight dark:bg-dark-primary ${inter.variable} ${interTight.variable} ${serif.variable} ${mono.variable} `}
         >
-          <div></div>
           {children}
           {process.env.NODE_ENV === "production" && DOMAIN == "https://nathandaven.com" && <SpeedInsights />}
           {process.env.NODE_ENV === "production" && DOMAIN == "https://nathandaven.com" && <Analytics />}

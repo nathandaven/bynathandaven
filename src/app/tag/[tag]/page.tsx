@@ -9,6 +9,7 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { metadata } from "@/app/layout";
 import { DOMAIN } from "@/lib/constants";
+import { Wrapper } from "@/app/_components/Wrapper";
 
 export default async function Tag({ params }: Params) {
   const posts: Post[] = getAllPosts().filter((post) => post.tags?.includes(params.tag));
@@ -33,10 +34,8 @@ export default async function Tag({ params }: Params) {
 
   return (
     <main>
-      <Container title={"Tags"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="">
-          <List listItems={posts} showThumbnails={false} showTags={false} showDescription={false} className="" />
-        </Article>
+      <Container post={TitlePost} fullWidth={false} className={""}>
+        <List listItems={posts} showThumbnails={false} showTags={false} showDescription={false} className="" />
       </Container>
     </main>
   );

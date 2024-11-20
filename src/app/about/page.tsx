@@ -23,6 +23,7 @@ import Substack from "../_svg/substack";
 import MailDotRu from "../_svg/maildotru";
 import { DOMAIN } from "@/lib/constants";
 import dynamicBlurDataUrl from "@/lib/blurImage";
+import { Wrapper } from "../_components/Wrapper";
 
 async function getMarkdown(path: string) {
   const { data, content } = matter(readFileSync(join(process.cwd(), path), "utf8"));
@@ -36,18 +37,25 @@ export default async function About() {
 
   return (
     <main>
-      <Container title={"About"} fullWidth={false} className={""}>
-        <Article metadata={about.data as Post} className="text-left md:text-justify" noHeader={true} fullWidth={false}>
-          <h1 className="mb-2">
+      <Container post={about.data as Post} fullWidth={false} className={""}>
+        <Article post={about.data as Post} className="text-left md:text-justify" noHeader={true} fullWidth={false}>
+          {/* <h1 className="mb-2">
             Hi! I'm{" "}
             <span>
               <span className="absolute z-10 ml-2.5 md:ml-3">Nathan.</span>
               <span className="absolute ml-3.5 mt-5 h-3 w-[7.6rem] bg-orange-200 md:ml-3.5 md:mt-6 md:h-5 md:w-[10.4rem] dark:bg-orange-800"></span>
             </span>
-          </h1>
-          <div className="flex flex-col-reverse gap-x-10 gap-y-5 sm:flex-row">
+          </h1> */}
+          <div className="md:2/3 prose-xl mt-0 flex flex-col-reverse gap-x-10 gap-y-5 pt-10 sm:flex-row lg:w-3/4 xl:w-full">
             <div className="flex-initial sm:w-3/5 md:w-2/3">
               <PostBody content={about.content} />
+              <div className="pb-4 prose-h2:mt-4">
+                <div className="mb-0 flex gap-x-4 pb-0 pt-5">
+                  <h2 className="text-nowrap">Media Credits</h2>
+                  <Divider />
+                </div>
+                <PostBody content={mediaCredits.content} />
+              </div>
             </div>
             <div className="sm:w-2/5 md:w-1/3">
               <Image
@@ -160,13 +168,6 @@ export default async function About() {
             </div>
           </div>
           {/* <Divider className="py-6 opacity-50" /> */}
-          <div className="mb-0 flex gap-x-4 pb-0 pt-5">
-            <h2 className="mb-1 mt-0 text-nowrap">Media Credits</h2>
-            <Divider />
-          </div>
-          <div className="pb-4 prose-h2:mt-4">
-            <PostBody content={mediaCredits.content} />
-          </div>
         </Article>
       </Container>
     </main>
