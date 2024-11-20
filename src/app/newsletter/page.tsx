@@ -49,7 +49,9 @@ export default function Newsletter() {
             !
           </p>
           <List listItems={posts} showThumbnails={false} />
-          <Divider className="pt-10 opacity-50" />
+          <div className="mt-10 opacity-50">
+            <Divider />
+          </div>
           <Substack className="my-0 pb-10" />
         </Article>
       </Container>
