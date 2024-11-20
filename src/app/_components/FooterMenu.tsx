@@ -15,12 +15,12 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
     <footer
       className={classNames(
         className,
-        "text-md mt-0 flex justify-between py-6 pt-3 xs:text-lg sm:mb-3 sm:flex-row sm:text-xs md:py-0 dark:text-gray-300" +
+        "text-md mt-0 flex justify-between py-6 pt-3 xs:text-lg md:mb-3 md:flex-row md:py-0 md:text-xs dark:text-gray-300" +
           (mobile ? "" : ""),
       )}
     >
       <div className="justify-start text-left">
-        <ul className="align-left leading-1 flex w-full max-w-[35rem] flex-col flex-wrap justify-start gap-x-2 pr-10 text-start sm:flex-row dark:text-gray-300">
+        <ul className="align-left leading-1 flex w-full max-w-[35rem] flex-col flex-wrap justify-start gap-x-2 pr-10 text-start md:flex-row dark:text-gray-300">
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <Link href="/archive">archive</Link>
           </li>
@@ -32,8 +32,8 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
               rss
             </Link>
           </li>
-          <li className="hidden cursor-default sm:block">-</li>
-          <li className="mt-2 w-fit hover:bg-dark-primary hover:text-light-primary sm:mt-0 dark:hover:bg-light-primary dark:hover:text-dark-primary">
+          <li className="hidden cursor-default md:block">-</li>
+          <li className="mt-2 w-fit hover:bg-dark-primary hover:text-light-primary md:mt-0 dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <a target="_blank" href="https://instagram.com/bynathandaven">
               instagram
             </a>
@@ -41,6 +41,11 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <a target="_blank" href="https://youtube.com/@nathandaven">
               youtube
+            </a>
+          </li>
+          <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
+            <a target="_blank" href="https://bsky.app/profile/nathandaven.com">
+              bluesky
             </a>
           </li>
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
@@ -77,7 +82,7 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
       </div>
       {/* <div className="w-96 text-center">Made with love by Nathan Davenport</div> */}
       {/* <div className="text-center"></div> */}
-      <div className="leading-1 flex max-w-96 flex-col justify-end text-right sm:h-fit sm:flex-none">
+      <div className="leading-1 flex max-w-96 flex-col justify-end text-right md:h-fit md:flex-none">
         © {new Date().getFullYear()} Nathan Davenport
       </div>
     </footer>

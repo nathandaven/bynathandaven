@@ -23,6 +23,7 @@ import Substack from "../_svg/substack";
 import MailDotRu from "../_svg/maildotru";
 import { DOMAIN } from "@/lib/constants";
 import dynamicBlurDataUrl from "@/lib/blurImage";
+import Bluesky from "../_svg/bluesky";
 
 async function getMarkdown(path: string) {
   const { data, content } = matter(readFileSync(join(process.cwd(), path), "utf8"));
@@ -93,6 +94,16 @@ export default async function About() {
                   >
                     <YouTube className="w-4 p-0.5 align-middle" />
                     <span className="">youtube</span>
+                  </a>
+                </li>
+                <li className="my-0 py-0">
+                  <a
+                    target="_blank"
+                    className="text-md my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    href="https://bsky.app/profile/nathandaven.com"
+                  >
+                    <Bluesky className="w-4 p-0.5 align-middle" />
+                    <span className="">bluesky</span>
                   </a>
                 </li>
                 <li className="my-0 py-0">
