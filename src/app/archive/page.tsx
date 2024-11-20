@@ -10,6 +10,7 @@ import { Metadata } from "next";
 import { metadata } from "../layout";
 import { DOMAIN } from "@/lib/constants";
 import { Divider } from "../_components/Divider";
+import { Wrapper } from "../_components/Wrapper";
 
 function year(dateString: string) {
   return format(dateString, "yyyy");
@@ -41,35 +42,33 @@ export default function Archive() {
 
   return (
     <main>
-      <Container title={"Archive"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="">
-          <div className="mt-2 grid grid-cols-1 gap-4 pt-2 md:grid-cols-2">
-            {years
-              .sort()
-              .reverse()
-              .map((year, key) => {
-                return (
-                  <section key={key} className="mb-10 w-full">
-                    <Divider title={year} large={true} />
-                    <div key={key} className="mt-3 w-fit">
-                      <List
-                        listItems={posts.filter(
-                          (post) =>
-                            post.date &&
-                            post.fmContentType &&
-                            format(post?.date, "yyyy") === year &&
-                            post.fmContentType !== ContentTypeEnum.GENERAL,
-                        )}
-                        showThumbnails={false}
-                        showDescription={false}
-                        showTags={false}
-                      />
-                    </div>
-                  </section>
-                );
-              })}
-          </div>
-        </Article>
+      <Container post={TitlePost} fullWidth={false} className={""}>
+        <div className="mt-2 grid w-full grid-cols-1 gap-4 pt-2 md:grid-cols-2">
+          {years
+            .sort()
+            .reverse()
+            .map((year, key) => {
+              return (
+                <section key={key} className="mb-10 w-full">
+                  <Divider title={year} large={true} />
+                  <div key={key} className="mt-3 w-fit">
+                    <List
+                      listItems={posts.filter(
+                        (post) =>
+                          post.date &&
+                          post.fmContentType &&
+                          format(post?.date, "yyyy") === year &&
+                          post.fmContentType !== ContentTypeEnum.GENERAL,
+                      )}
+                      showThumbnails={false}
+                      showDescription={false}
+                      showTags={false}
+                    />
+                  </div>
+                </section>
+              );
+            })}
+        </div>
       </Container>
     </main>
   );

@@ -57,7 +57,7 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
 
   return (
     <>
-      <div className={classNames("mx-[-.5rem]", className)}>
+      <div className={classNames("mx-[-0.5rem] md:mx-[-1.25rem]", className)}>
         <Gallery gap="0.5rem" lastRowBehavior="match-previous" {...{ images, widths, ratios }}></Gallery>
       </div>
       <Lightbox

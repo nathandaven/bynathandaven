@@ -1,16 +1,3 @@
-/* #cusdis_thread input {
-  background: aliceblue !important;
-}
-#cusdis_thread body {
-  background: none !important;
-  height: 1000px !important;
-}
-
-#cusdis_thread iframe {
-  height: 1000px !important;
-}
- */
-
 #cusdis_thread label {
   color: white !important;
 }

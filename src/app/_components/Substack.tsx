@@ -7,14 +7,19 @@ type PropsWithChildren<P = unknown> = P & {
   children?: ReactNode;
   className?: string;
   text?: string;
+  small?: boolean;
 };
 
 // exporting component with OPTIONAL children
-export const Substack: FunctionComponent<PropsWithChildren> = ({ className, text }) => {
+export const Substack: FunctionComponent<PropsWithChildren> = ({ className, text, small = false }) => {
   return (
     <div className={classNames("b my-5 flex w-full justify-center gap-8", className)}>
       <div>
-        <h3 className="align text-center">{text ?? "For more, consider subscribing to my newsletter via Substack:"}</h3>
+        {!small && (
+          <h3 className="align text-center">
+            {text ?? "For more, consider subscribing to my newsletter via Substack:"}
+          </h3>
+        )}
         <div className="flex justify-center">
           <Suspense fallback={<p>Loading Substack...</p>}>
             <SubstackCustom className="h-fit max-w-96 border border-dark-primary shadow-2xl dark:shadow-none dark:invert" />

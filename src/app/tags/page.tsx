@@ -8,6 +8,7 @@ import { Button } from "@/app/_components/Button";
 import { Metadata } from "next";
 import { metadata } from "../layout";
 import { DOMAIN } from "@/lib/constants";
+import { Wrapper } from "../_components/Wrapper";
 
 // exporting component with OPTIONAL children
 export default function Tags() {
@@ -45,19 +46,17 @@ export default function Tags() {
 
   return (
     <main>
-      <Container title={"Tags"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="">
-          <div className="mb-5 mt-2 grid grid-cols-1 gap-4 pt-2 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            {tags.sort().map((tag, key) => {
-              return (
-                <Button href={"/tag/" + tag} key={key} className="w-fit">
-                  {"#"}
-                  {tag}
-                </Button>
-              );
-            })}
-          </div>
-        </Article>
+      <Container post={TitlePost} fullWidth={false} className={""}>
+        <div className="mb-5 mt-2 grid grid-cols-1 gap-4 pt-2 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {tags.sort().map((tag, key) => {
+            return (
+              <Button href={"/tag/" + tag} key={key} className="w-fit">
+                {"#"}
+                {tag}
+              </Button>
+            );
+          })}
+        </div>
       </Container>
     </main>
   );

@@ -23,4 +23,6 @@ export type Post = {
   photoList?: Photo[];
   // Video
   youtubeEmbedCode?: string;
+  // theme
+  theme?: string;
 };

@@ -11,6 +11,8 @@ import Link from "next/link";
 import { metadata } from "@/app/layout";
 import { Divider } from "@/app/_components/Divider";
 import { DOMAIN } from "@/lib/constants";
+import { Wrapper } from "../_components/Wrapper";
+import { Prose } from "../_components/Prose";
 
 // exporting component with OPTIONAL children
 export default function Newsletter() {
@@ -35,9 +37,9 @@ export default function Newsletter() {
 
   return (
     <main>
-      <Container title={"Newsletter"} fullWidth={false} className={""}>
-        <Article metadata={TitlePost} className="">
-          <p className="mt-3">
+      <Container post={TitlePost} fullWidth={false} className={""}>
+        <Prose>
+          <p className="mt-3 pb-10">
             My most recent videos and articles. For a full archive of my posts here, see the{" "}
             <Link href="/archive" className="hover:text-light-secondary">
               archive
@@ -51,7 +53,7 @@ export default function Newsletter() {
           <List listItems={posts} showThumbnails={false} />
           <Divider className="pt-10 opacity-50" />
           <Substack className="my-0 pb-10" />
-        </Article>
+        </Prose>
       </Container>
     </main>
   );

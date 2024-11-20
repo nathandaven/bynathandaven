@@ -11,15 +11,24 @@ type PropsWithChildren<P = unknown> = P & {
   src?: string;
   title?: string;
   preview?: string;
+  invert?: boolean;
 };
 
 // exporting component with OPTIONAL children
-export const VideoComponent: FunctionComponent<PropsWithChildren> = ({ className, post, src, title, preview }) => {
+export const VideoComponent: FunctionComponent<PropsWithChildren> = ({
+  className,
+  post,
+  src,
+  title,
+  preview,
+  invert = false,
+}) => {
   return (
     (src || post) && (
       <div
         className={classNames(
           "aspect-h-9 aspect-w-16 mb-2 mt-4 w-full border-spacing-0 border border-dark-primary outline outline-0 outline-offset-0 outline-dark-primary transition-all duration-100 hover:outline-1 hover:drop-shadow-lg dark:border-light-primary dark:outline-light-primary",
+          invert ? "border-light-primary outline-light-primary" : "",
           className,
         )}
       >
