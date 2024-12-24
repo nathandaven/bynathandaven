@@ -62,7 +62,9 @@ const config: Config = {
       ],
     },
     screens: {
+      xxxs: "150px",
       xxs: "250px",
+      xxsm: "310px",
       xs: "380px",
       // Default values...
       sm: "640px",

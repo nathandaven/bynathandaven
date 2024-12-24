@@ -27,10 +27,13 @@ import Bluesky from "../_svg/bluesky";
 import Mastodon from "../_svg/mastodon";
 import Threads from "../_svg/threads";
 import Link from "next/link";
+import Website from "../_svg/website";
+import Facebook from "../_svg/facebook";
+import Patreon from "../_svg/patreon";
 
 export default async function LinkMe() {
   return (
-    <main className="dark:tex flex min-h-screen flex-col items-center bg-light-primary text-dark-primary dark:bg-dark-primary dark:text-light-primary">
+    <main className="flex min-h-screen flex-col items-center bg-light-primary px-4 text-dark-primary dark:bg-dark-primary dark:text-light-primary">
       <header className="mt-10 space-y-2 text-center">
         <div className="flex w-full items-center justify-center">
           <Image
@@ -48,7 +51,7 @@ export default async function LinkMe() {
         <p className="max-w-sm">
           I'm <b>Nathan Davenport</b>, a self proclaimed video-journalist, photographer, and software engineer.
         </p>
-        <p className="max-w-sm">
+        {/* <p className="max-w-sm">
           Looking for my actual website? See{" "}
           <span>
             <Link className="underline" href="/">
@@ -58,179 +61,227 @@ export default async function LinkMe() {
               .
             </Link>
           </span>
-        </p>
+        </p> */}
       </header>
-      <main className="mt-8 w-full max-w-sm">
+      <main className="mt-5 w-full max-w-sm">
         <div className="flex flex-col gap-y-4">
-          <ul className="align-left ml-0 flex w-full list-none flex-col gap-y-2.5 pl-0 leading-4">
+          <ul className="align-left xxsm:grid-cols-2 ml-0 grid w-full list-none grid-cols-1 gap-2.5 pl-0 leading-4">
+            <Link
+              className="flex justify-center rounded-lg bg-amber-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-yellow-900"
+              href="/"
+            >
+              <Link
+                target="_blank"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
+                href="/"
+              >
+                <Website className="w-6 p-0.5 align-middle" />
+                <span className="">Website</span>
+              </Link>
+            </Link>
             <a
-              className="flex justify-center rounded-lg bg-red-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-red-700"
+              className="flex justify-center rounded-lg bg-red-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-red-700"
               href="https://youtube.com/@nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
             >
               <a
                 target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
                 rel="noopener noreferrer me"
                 href="https://youtube.com/@nathandaven"
               >
                 <YouTube className="w-6 p-0.5 align-middle" />
-                <span className="">youtube</span>
+                <span className="">YouTube</span>
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-purple-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-purple-700"
+              className="flex justify-center rounded-lg bg-zinc-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-zinc-700"
+              href="https://www.patreon.com/c/nathandaven"
+              target="_blank"
+              rel="noopener noreferrer me"
+            >
+              <a
+                target="_blank"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
+                rel="noopener noreferrer me"
+                href="https://www.patreon.com/c/nathandaven"
+              >
+                <Patreon className="w-6 p-0.5 align-middle" />
+                <span className="">Patreon</span>
+              </a>
+            </a>
+            <a
+              className="flex justify-center rounded-lg bg-purple-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-purple-700"
               target="_blank"
               rel="noopener noreferrer me"
               href="https://instagram.com/bynathandaven"
             >
               <a
                 target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
                 href="https://instagram.com/bynathandaven"
                 rel="noopener noreferrer me"
               >
                 <Instagram className="w-6 p-0.5 align-middle" />
-                <span className="">instagram</span>
+                <span className="">Instagram</span>
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-blue-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-blue-700"
+              className="flex justify-center rounded-lg bg-blue-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-700"
               href="https://bsky.app/profile/nathandaven.com"
               target="_blank"
               rel="noopener noreferrer me"
             >
               <a
                 target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
                 rel="noopener noreferrer me"
                 href="https://bsky.app/profile/nathandaven.com"
               >
                 <Bluesky className="w-6 p-0.5 align-middle" />
-                <span className="">bluesky</span>
+                <span className="">Bluesky</span>
               </a>
             </a>
             <a
-              className="bg- flex justify-center rounded-lg bg-indigo-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-indigo-700"
-              href="https://urbanists.social/@nathandaven"
-              target="_blank"
-              rel="noopener noreferrer me"
-            >
-              <a
-                target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://urbanists.social/@nathandaven"
-              >
-                <Mastodon className="w-6 p-0.5 align-middle" />
-                <span className="">mastodon</span>
-              </a>
-            </a>
-            <a
-              className="flex justify-center rounded-lg bg-gray-700 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-gray-800"
-              href="https://threads.net/bynathandaven"
-              target="_blank"
-              rel="noopener noreferrer me"
-            >
-              <a
-                target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://threads.net/bynathandaven"
-              >
-                <Threads className="w-6 p-0.5 align-middle" />
-                <span className="">threads</span>
-              </a>
-            </a>
-            <a
-              className="flex justify-center rounded-lg bg-blue-800 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-blue-900"
+              className="flex justify-center rounded-lg bg-blue-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-900"
               href="https://twitter.com/nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
             >
               <a
                 target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
                 rel="noopener noreferrer me"
                 href="https://twitter.com/nathandaven"
               >
                 <X className="w-6 p-0.5 align-middle" />
-                <span className="">twitter/x</span>
+                <span className="">Twitter</span>
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-blue-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-blue-700"
-              href="https://linkedin.com/in/nathandaven"
+              className="bg- flex justify-center rounded-lg bg-indigo-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-indigo-800"
+              href="https://urbanists.social/@nathandaven"
+              target="_blank"
+              rel="noopener noreferrer me"
             >
               <a
                 target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
+                rel="noopener noreferrer me"
+                href="https://urbanists.social/@nathandaven"
+              >
+                <Mastodon className="w-6 p-0.5 align-middle" />
+                <span className="">Mastodon</span>
+              </a>
+            </a>
+
+            <a
+              className="flex justify-center rounded-lg bg-gray-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-gray-800"
+              href="https://threads.net/bynathandaven"
+              target="_blank"
+              rel="noopener noreferrer me"
+            >
+              <a
+                target="_blank"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
+                rel="noopener noreferrer me"
+                href="https://threads.net/bynathandaven"
+              >
+                <Threads className="w-6 p-0.5 align-middle" />
+                <span className="">Threads</span>
+              </a>
+            </a>
+            <a
+              className="flex justify-center rounded-lg bg-sky-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-sky-700"
+              href="https://linkedin.com/in/nathandaven"
+              target="_blank"
+              rel="noopener noreferrer me"
+            >
+              <a
+                target="_blank"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
                 rel="noopener noreferrer me"
                 href="https://linkedin.com/in/nathandaven"
               >
                 <LinkedIn className="w-6 p-0.5 align-middle" />
-                <span className="">linkedin</span>
+                <span className="">LinkedIn</span>
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-pink-700 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-pink-800"
+              className="flex justify-center rounded-lg bg-blue-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-900"
+              href="https://facebook.com/bynathandaven"
+              target="_blank"
+              rel="noopener noreferrer me"
+            >
+              <a
+                target="_blank"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
+                rel="noopener noreferrer me"
+                href="https://facebook.com/bynathandaven"
+              >
+                <Facebook className="w-6 p-0.5 align-middle" />
+                <span className="">Facebook</span>
+              </a>
+            </a>
+            <a
+              className="flex justify-center rounded-lg bg-pink-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-pink-800"
               href="https://tiktok.com/@nathandaven"
             >
               <a
                 target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
                 rel="noopener noreferrer me"
                 href="https://tiktok.com/@nathandaven"
               >
                 <TikTok className="w-6 p-0.5 align-middle" />
-                <span className="">tiktok</span>
+                <span className="">TikTok</span>
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-green-700 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-green-800"
+              className="flex justify-center rounded-lg bg-green-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-green-800"
               href="https://github.com/nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
             >
               <a
                 target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
                 rel="noopener noreferrer me"
                 href="https://github.com/nathandaven"
               >
                 <Github className="w-6 p-0.5 align-middle" />
-                <span className="">github</span>
+                <span className="">Github</span>
               </a>
             </a>
             <a
               target="_blank"
               rel="noopener noreferrer me"
-              className="flex justify-center rounded-lg bg-orange-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-orange-700"
+              className="flex justify-center rounded-lg bg-orange-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-orange-700"
               href="https://nathandaven.substack.com/"
             >
               <a
                 target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
                 rel="noopener noreferrer me"
                 href="https://nathandaven.substack.com/"
               >
                 <Substack className="w-6 p-0.5 align-middle" />
-                <span className="">substack</span>
+                <span className="">Substack</span>
               </a>
             </a>
             <a
               target="_blank"
-              className="bg- bg- flex justify-center rounded-lg bg-cyan-800 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-cyan-900"
+              className="bg- bg- flex justify-center rounded-lg bg-cyan-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-cyan-900"
               href="mailto:nathan@nathandaven.com"
             >
               <a
                 target="_blank"
-                className="text-md text-bold my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-normal text-light-primary no-underline"
+                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
                 href="mailto:nathan@nathandaven.com"
               >
                 <MailDotRu className="w-6 p-0.5 align-middle" />
-                <span className="">email</span>
+                <span className="">Email</span>
               </a>
             </a>
           </ul>
@@ -250,12 +301,12 @@ export function generateMetadata(): Metadata {
     openGraph: {
       ...metadata.openGraph,
       title,
-      images: [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`],
+      images: [`${DOMAIN}/assets/authors/nathan.jpg`],
     },
     twitter: {
       ...metadata.twitter,
       title,
-      images: [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`],
+      images: [`${DOMAIN}/assets/authors/nathan.jpg`],
     },
   };
 }
