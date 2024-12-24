@@ -38,7 +38,7 @@ export default async function LinkMe() {
         </div>
         <h1 className="mt-4 text-2xl font-bold">Nathan Davenport</h1>
         <p className="max-w-sm">
-          I'm <b>Nathan Davenport</b>, a video-journalist, photographer, and software engineer.
+          <b>Nathan Davenport</b> is a video-journalist, photographer, and software engineer.
         </p>
         {/* <p className="max-w-sm">
           Looking for my actual website? See{" "}
@@ -284,20 +284,17 @@ export default async function LinkMe() {
 export function generateMetadata(): Metadata {
   const title = "Links | Nathan Davenport";
 
-  const description = "I'm Nathan Davenport, a video-journalist, photographer, and software engineer.";
+  const description = "Nathan Davenport is a video-journalist, photographer, and software engineer.";
 
   return {
-    ...metadata,
     title,
     description,
     openGraph: {
-      ...metadata.openGraph,
       title,
       description,
       images: [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`],
     },
     twitter: {
-      ...metadata.twitter,
       title,
       description,
       images: [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`],
