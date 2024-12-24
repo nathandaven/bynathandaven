@@ -22,7 +22,7 @@ import Patreon from "../_svg/patreon";
 
 export default async function LinkMe() {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-light-primary px-4 text-dark-primary dark:bg-dark-primary dark:text-light-primary">
+    <main className="flex min-h-dvh flex-col items-center bg-light-primary px-4 text-dark-primary dark:bg-dark-primary dark:text-light-primary">
       <header className="mt-10 space-y-2 text-center">
         <div className="flex w-full items-center justify-center">
           <Image
@@ -59,14 +59,10 @@ export default async function LinkMe() {
               className="flex justify-center rounded-lg bg-amber-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-yellow-900"
               href="/"
             >
-              <Link
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                href="/"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <Website className="w-6 p-0.5 align-middle" />
                 <span className="">Website</span>
-              </Link>
+              </div>
             </Link>
             <a
               className="flex justify-center rounded-lg bg-red-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-red-700"
@@ -74,15 +70,10 @@ export default async function LinkMe() {
               target="_blank"
               rel="noopener noreferrer me"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://youtube.com/@nathandaven"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <YouTube className="w-6 p-0.5 align-middle" />
                 <span className="">YouTube</span>
-              </a>
+              </div>
             </a>
             <a
               className="flex justify-center rounded-lg bg-zinc-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-zinc-700"
@@ -90,15 +81,10 @@ export default async function LinkMe() {
               target="_blank"
               rel="noopener noreferrer me"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://www.patreon.com/c/nathandaven"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <Patreon className="w-6 p-0.5 align-middle" />
                 <span className="">Patreon</span>
-              </a>
+              </div>
             </a>
             <a
               className="flex justify-center rounded-lg bg-purple-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-purple-700"
@@ -106,15 +92,10 @@ export default async function LinkMe() {
               rel="noopener noreferrer me"
               href="https://instagram.com/bynathandaven"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                href="https://instagram.com/bynathandaven"
-                rel="noopener noreferrer me"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <Instagram className="w-6 p-0.5 align-middle" />
                 <span className="">Instagram</span>
-              </a>
+              </div>
             </a>
             <a
               className="flex justify-center rounded-lg bg-blue-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-700"
@@ -122,15 +103,10 @@ export default async function LinkMe() {
               target="_blank"
               rel="noopener noreferrer me"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://bsky.app/profile/nathandaven.com"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <Bluesky className="w-6 p-0.5 align-middle" />
                 <span className="">Bluesky</span>
-              </a>
+              </div>
             </a>
             <a
               className="flex justify-center rounded-lg bg-blue-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-900"
@@ -138,15 +114,10 @@ export default async function LinkMe() {
               target="_blank"
               rel="noopener noreferrer me"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://twitter.com/nathandaven"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <X className="w-6 p-0.5 align-middle" />
                 <span className="">Twitter</span>
-              </a>
+              </div>
             </a>
             <a
               className="bg- flex justify-center rounded-lg bg-indigo-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-indigo-800"
@@ -154,15 +125,10 @@ export default async function LinkMe() {
               target="_blank"
               rel="noopener noreferrer me"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://urbanists.social/@nathandaven"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <Mastodon className="w-6 p-0.5 align-middle" />
                 <span className="">Mastodon</span>
-              </a>
+              </div>
             </a>
 
             <a
@@ -171,15 +137,10 @@ export default async function LinkMe() {
               target="_blank"
               rel="noopener noreferrer me"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://threads.net/bynathandaven"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <Threads className="w-6 p-0.5 align-middle" />
                 <span className="">Threads</span>
-              </a>
+              </div>
             </a>
             <a
               className="flex justify-center rounded-lg bg-sky-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-sky-700"
@@ -187,15 +148,10 @@ export default async function LinkMe() {
               target="_blank"
               rel="noopener noreferrer me"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://linkedin.com/in/nathandaven"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <LinkedIn className="w-6 p-0.5 align-middle" />
                 <span className="">LinkedIn</span>
-              </a>
+              </div>
             </a>
             <a
               className="flex justify-center rounded-lg bg-blue-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-900"
@@ -203,29 +159,19 @@ export default async function LinkMe() {
               target="_blank"
               rel="noopener noreferrer me"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://facebook.com/bynathandaven"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <Facebook className="w-6 p-0.5 align-middle" />
                 <span className="">Facebook</span>
-              </a>
+              </div>
             </a>
             <a
               className="flex justify-center rounded-lg bg-pink-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-pink-800"
               href="https://tiktok.com/@nathandaven"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://tiktok.com/@nathandaven"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <TikTok className="w-6 p-0.5 align-middle" />
                 <span className="">TikTok</span>
-              </a>
+              </div>
             </a>
             <a
               className="flex justify-center rounded-lg bg-green-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-green-800"
@@ -233,15 +179,10 @@ export default async function LinkMe() {
               target="_blank"
               rel="noopener noreferrer me"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://github.com/nathandaven"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <Github className="w-6 p-0.5 align-middle" />
                 <span className="">Github</span>
-              </a>
+              </div>
             </a>
             <a
               target="_blank"
@@ -249,29 +190,20 @@ export default async function LinkMe() {
               className="flex justify-center rounded-lg bg-orange-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-orange-700"
               href="https://nathandaven.substack.com/"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                rel="noopener noreferrer me"
-                href="https://nathandaven.substack.com/"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <Substack className="w-6 p-0.5 align-middle" />
                 <span className="">Substack</span>
-              </a>
+              </div>
             </a>
             <a
               target="_blank"
               className="bg- bg- flex justify-center rounded-lg bg-cyan-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-cyan-900"
               href="mailto:nathan@nathandaven.com"
             >
-              <a
-                target="_blank"
-                className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline"
-                href="mailto:nathan@nathandaven.com"
-              >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <MailDotRu className="w-6 p-0.5 align-middle" />
                 <span className="">Email</span>
-              </a>
+              </div>
             </a>
           </ul>
         </div>
