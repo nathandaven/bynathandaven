@@ -1,18 +1,7 @@
 import React from "react";
-import { Article } from "@/app/_components/Article";
-import { Container } from "@/app/_components/Container";
-import { Post } from "@/interfaces/post";
-import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Metadata } from "next/types";
 import { metadata } from "@/app/layout";
-import matter from "gray-matter";
-import { readFileSync } from "fs";
-import markdownToHtml from "@/lib/markdownToHtml";
-import { join } from "path";
-import { PostBody } from "@/app/_components/MDXContent";
 import Image from "next/image";
-import { Divider } from "@/app/_components/Divider";
-import GithubSVG from "@/app/_svg/github.svg";
 import Github from "../_svg/github";
 import Instagram from "../_svg/instagram";
 import YouTube from "../_svg/youtube";
@@ -49,7 +38,7 @@ export default async function LinkMe() {
         </div>
         <h1 className="mt-4 text-2xl font-bold">Nathan Davenport</h1>
         <p className="max-w-sm">
-          I'm <b>Nathan Davenport</b>, a self proclaimed video-journalist, photographer, and software engineer.
+          I'm <b>Nathan Davenport</b>, a video-journalist, photographer, and software engineer.
         </p>
         {/* <p className="max-w-sm">
           Looking for my actual website? See{" "}
@@ -295,18 +284,23 @@ export default async function LinkMe() {
 export function generateMetadata(): Metadata {
   const title = "Links | Nathan Davenport";
 
+  const description = "I'm Nathan Davenport, a video-journalist, photographer, and software engineer.";
+
   return {
     ...metadata,
     title,
+    description,
     openGraph: {
       ...metadata.openGraph,
       title,
-      images: [`${DOMAIN}/assets/authors/nathan.jpg`],
+      description,
+      images: [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`],
     },
     twitter: {
       ...metadata.twitter,
       title,
-      images: [`${DOMAIN}/assets/authors/nathan.jpg`],
+      description,
+      images: [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`],
     },
   };
 }
