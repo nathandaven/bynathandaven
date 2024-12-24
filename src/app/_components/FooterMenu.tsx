@@ -20,7 +20,7 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
       )}
     >
       <div className="justify-start text-left">
-        <ul className="align-left leading-1 flex w-full max-w-[35rem] flex-col flex-wrap justify-start gap-x-2 pr-10 text-start md:flex-row dark:text-gray-300">
+        <ul className="align-left leading-1 flex w-full max-w-[40rem] flex-col flex-wrap justify-start gap-x-1 pr-10 text-start md:flex-row lg:gap-x-2 dark:text-gray-300">
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <Link href="/archive">archive</Link>
           </li>
@@ -33,19 +33,29 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
             </Link>
           </li>
           <li className="hidden cursor-default md:block">-</li>
+          <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
+            <a target="_blank" href="https://youtube.com/@nathandaven">
+              youtube
+            </a>
+          </li>
           <li className="mt-2 w-fit hover:bg-dark-primary hover:text-light-primary md:mt-0 dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <a target="_blank" href="https://instagram.com/bynathandaven">
               instagram
             </a>
           </li>
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
-            <a target="_blank" href="https://youtube.com/@nathandaven">
-              youtube
+            <a target="_blank" href="https://bsky.app/profile/nathandaven.com">
+              bluesky
             </a>
           </li>
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
-            <a target="_blank" href="https://bsky.app/profile/nathandaven.com">
-              bluesky
+            <a target="_blank" rel="me" href="https://urbanists.social/@nathandaven">
+              mastodon
+            </a>
+          </li>
+          <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
+            <a target="_blank" href="https://threads.net/bynathandaven">
+              threads
             </a>
           </li>
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">

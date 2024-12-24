@@ -24,6 +24,8 @@ import MailDotRu from "../_svg/maildotru";
 import { DOMAIN } from "@/lib/constants";
 import dynamicBlurDataUrl from "@/lib/blurImage";
 import Bluesky from "../_svg/bluesky";
+import Mastodon from "../_svg/mastodon";
+import Threads from "../_svg/threads";
 
 async function getMarkdown(path: string) {
   const { data, content } = matter(readFileSync(join(process.cwd(), path), "utf8"));
@@ -76,6 +78,16 @@ export default async function About() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <ul className="align-left ml-0 hidden w-full list-none flex-col gap-y-2.5 pl-0 leading-4 sm:flex">
+                <li className="my-0 py-0">
+                  <a
+                    target="_blank"
+                    className="text-md my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    href="https://youtube.com/@nathandaven"
+                  >
+                    <YouTube className="w-4 p-0.5 align-middle" />
+                    <span className="">youtube</span>
+                  </a>
+                </li>
                 <li className="my-0 py-0 pt-2 sm:pt-0">
                   <a
                     target="_blank"
@@ -90,20 +102,30 @@ export default async function About() {
                   <a
                     target="_blank"
                     className="text-md my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
-                    href="https://youtube.com/@nathandaven"
+                    href="https://bsky.app/profile/nathandaven.com"
                   >
-                    <YouTube className="w-4 p-0.5 align-middle" />
-                    <span className="">youtube</span>
+                    <Bluesky className="w-4 p-0.5 align-middle" />
+                    <span className="">bluesky</span>
                   </a>
                 </li>
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
                     className="text-md my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
-                    href="https://bsky.app/profile/nathandaven.com"
+                    href="https://urbanists.social/@nathandaven"
                   >
-                    <Bluesky className="w-4 p-0.5 align-middle" />
-                    <span className="">bluesky</span>
+                    <Mastodon className="w-4 p-0.5 align-middle" />
+                    <span className="">mastodon</span>
+                  </a>
+                </li>
+                <li className="my-0 py-0">
+                  <a
+                    target="_blank"
+                    className="text-md my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    href="https://threads.net/bynathandaven"
+                  >
+                    <Threads className="w-4 p-0.5 align-middle" />
+                    <span className="">threads</span>
                   </a>
                 </li>
                 <li className="my-0 py-0">

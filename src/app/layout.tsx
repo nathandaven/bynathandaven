@@ -63,6 +63,7 @@ export default function RootLayout({
           <meta property="profile:first_name" content="Nathan" />
           <meta property="profile:last_name" content="Davenport" />
           <meta property="fb:app_id" content="966242223397117" />
+          <link rel="me" href="https://urbanists.social/@nathandaven" />
         </head>
         {process.env.NODE_ENV === "production" && DOMAIN == "https://nathandaven.com" && (
           <GoogleTagManager gtmId="GTM-THMKGVQB" />
