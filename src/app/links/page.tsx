@@ -31,7 +31,7 @@ import Link from "next/link";
 export default async function LinkMe() {
   return (
     <main className="dark:tex flex min-h-screen flex-col items-center bg-light-primary text-dark-primary dark:bg-dark-primary dark:text-light-primary">
-      <header className="mt-10 text-center">
+      <header className="mt-10 space-y-2 text-center">
         <div className="flex w-full items-center justify-center">
           <Image
             className="h-24 w-24 rounded-full border-dark-primary align-middle shadow-md dark:border-light-primary"
@@ -45,12 +45,23 @@ export default async function LinkMe() {
           />
         </div>
         <h1 className="mt-4 text-2xl font-bold">Nathan Davenport</h1>
-        <p className="mt-2 max-w-96">
+        <p className="max-w-sm">
           I'm <b>Nathan Davenport</b>, a self proclaimed video-journalist, photographer, and software engineer.
+        </p>
+        <p className="max-w-sm">
+          Looking for my actual website? See{" "}
+          <span>
+            <Link className="underline" href="/">
+              <span className="hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
+                nathandaven.com
+              </span>
+              .
+            </Link>
+          </span>
         </p>
       </header>
       <main className="mt-8 w-full max-w-sm">
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col gap-y-4">
           <ul className="align-left ml-0 flex w-full list-none flex-col gap-y-2.5 pl-0 leading-4">
             <a
               className="flex justify-center rounded-lg bg-red-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-red-700"
@@ -69,7 +80,7 @@ export default async function LinkMe() {
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-purple-500 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-purple-600"
+              className="flex justify-center rounded-lg bg-purple-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-purple-700"
               target="_blank"
               rel="noopener noreferrer me"
               href="https://instagram.com/bynathandaven"
@@ -101,7 +112,7 @@ export default async function LinkMe() {
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-purple-800 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-purple-900"
+              className="bg- flex justify-center rounded-lg bg-indigo-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-indigo-700"
               href="https://urbanists.social/@nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -117,7 +128,7 @@ export default async function LinkMe() {
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-gray-800 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-gray-900"
+              className="flex justify-center rounded-lg bg-gray-700 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-gray-800"
               href="https://threads.net/bynathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -149,7 +160,7 @@ export default async function LinkMe() {
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-blue-500 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-blue-600"
+              className="flex justify-center rounded-lg bg-blue-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-blue-700"
               href="https://linkedin.com/in/nathandaven"
             >
               <a
@@ -163,7 +174,7 @@ export default async function LinkMe() {
               </a>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-pink-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-pink-700"
+              className="flex justify-center rounded-lg bg-pink-700 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-pink-800"
               href="https://tiktok.com/@nathandaven"
             >
               <a
@@ -195,7 +206,7 @@ export default async function LinkMe() {
             <a
               target="_blank"
               rel="noopener noreferrer me"
-              className="flex justify-center rounded-lg bg-orange-500 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-orange-600"
+              className="flex justify-center rounded-lg bg-orange-600 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-orange-700"
               href="https://nathandaven.substack.com/"
             >
               <a
@@ -210,7 +221,7 @@ export default async function LinkMe() {
             </a>
             <a
               target="_blank"
-              className="flex justify-center rounded-lg bg-blue-500 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-blue-600"
+              className="bg- bg- flex justify-center rounded-lg bg-cyan-800 py-3 text-center text-white shadow hover:cursor-pointer hover:bg-cyan-900"
               href="mailto:nathan@nathandaven.com"
             >
               <a
@@ -225,12 +236,7 @@ export default async function LinkMe() {
           </ul>
         </div>
       </main>
-      <footer className="mt-auto py-4 text-center text-sm">
-        For more, see my full website at{" "}
-        <Link className="underline" href="/">
-          <span className="hover:font-bold">nathandaven.com</span>.
-        </Link>
-      </footer>
+      <footer className="mt-auto py-4 text-center text-sm">© {new Date().getFullYear()} Nathan Davenport</footer>
     </main>
   );
 }
