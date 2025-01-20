@@ -24,23 +24,23 @@ import Flickr from "../_svg/flickr";
 export default async function LinkMe() {
   return (
     <main className="flex min-h-dvh flex-col items-center bg-light-primary px-4 text-dark-primary dark:bg-dark-primary dark:text-light-primary">
-      <header className="mt-10 space-y-2 text-center">
-        <div className="flex w-full items-center justify-center">
-          <Image
-            className="h-24 w-24 rounded-full border-dark-primary align-middle shadow-md dark:border-light-primary"
-            src="/assets/authors/nathan.jpg"
-            alt={""}
-            width={900}
-            height={900}
-            quality={75}
-            unoptimized
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          />
+      <header className="mt-10 flex w-full max-w-sm space-x-5 pl-4 text-center">
+        <Image
+          className="h-24 w-24 rounded-full border-dark-primary shadow-md dark:border-light-primary"
+          src="/assets/authors/nathan.jpg"
+          alt={""}
+          width={900}
+          height={900}
+          quality={75}
+          unoptimized
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
+        <div className="pl-0 text-left">
+          <h1 className="mt-2 text-2xl font-bold">Nathan Davenport</h1>
+          <p className="mt-2 max-w-sm text-sm">
+            <b>Nathan Davenport</b> is a video-journalist, photographer, and software engineer.
+          </p>
         </div>
-        <h1 className="mt-4 text-2xl font-bold">Nathan Davenport</h1>
-        <p className="max-w-sm">
-          <b>Nathan Davenport</b> is a video-journalist, photographer, and software engineer.
-        </p>
         {/* <p className="max-w-sm">
           Looking for my actual website? See{" "}
           <span>
@@ -53,11 +53,11 @@ export default async function LinkMe() {
           </span>
         </p> */}
       </header>
-      <main className="mt-5 w-full max-w-sm">
+      <main className="mt-6 w-full max-w-sm">
         <div className="flex flex-col gap-y-4">
           <ul className="align-left col-span-2 ml-0 grid w-full list-none gap-2.5 pl-0 leading-4 xxsm:grid-cols-2">
             <Link
-              className="flex justify-center rounded-lg bg-amber-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-yellow-900"
+              className="flex justify-center rounded-lg bg-amber-800 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-yellow-900"
               href="/"
             >
               <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
@@ -66,7 +66,7 @@ export default async function LinkMe() {
               </div>
             </Link>
             <a
-              className="flex justify-center rounded-lg bg-red-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-red-700"
+              className="flex justify-center rounded-lg bg-red-600 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-red-700"
               href="https://youtube.com/@nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -77,7 +77,7 @@ export default async function LinkMe() {
               </div>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-zinc-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-zinc-700"
+              className="flex justify-center rounded-lg bg-zinc-600 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-zinc-700"
               href="https://www.patreon.com/c/nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -88,7 +88,7 @@ export default async function LinkMe() {
               </div>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-purple-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-purple-700"
+              className="flex justify-center rounded-lg bg-purple-600 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-purple-700"
               target="_blank"
               rel="noopener noreferrer me"
               href="https://instagram.com/bynathandaven"
@@ -99,7 +99,7 @@ export default async function LinkMe() {
               </div>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-blue-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-700"
+              className="flex justify-center rounded-lg bg-blue-600 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-700"
               href="https://bsky.app/profile/nathandaven.com"
               target="_blank"
               rel="noopener noreferrer me"
@@ -110,7 +110,7 @@ export default async function LinkMe() {
               </div>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-blue-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-900"
+              className="flex justify-center rounded-lg bg-blue-800 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-900"
               href="https://twitter.com/nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -121,7 +121,7 @@ export default async function LinkMe() {
               </div>
             </a>
             <a
-              className="bg- flex justify-center rounded-lg bg-indigo-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-indigo-800"
+              className="bg- flex justify-center rounded-lg bg-indigo-700 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-indigo-800"
               href="https://urbanists.social/@nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -133,7 +133,7 @@ export default async function LinkMe() {
             </a>
 
             <a
-              className="flex justify-center rounded-lg bg-gray-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-gray-800"
+              className="flex justify-center rounded-lg bg-gray-700 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-gray-800"
               href="https://threads.net/bynathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -144,7 +144,7 @@ export default async function LinkMe() {
               </div>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-sky-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-sky-700"
+              className="flex justify-center rounded-lg bg-sky-600 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-sky-700"
               href="https://linkedin.com/in/nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -155,7 +155,7 @@ export default async function LinkMe() {
               </div>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-blue-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-900"
+              className="flex justify-center rounded-lg bg-blue-800 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-blue-900"
               href="https://facebook.com/bynathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -166,7 +166,7 @@ export default async function LinkMe() {
               </div>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-pink-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-pink-800"
+              className="flex justify-center rounded-lg bg-pink-700 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-pink-800"
               href="https://tiktok.com/@nathandaven"
             >
               <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
@@ -175,7 +175,7 @@ export default async function LinkMe() {
               </div>
             </a>
             <a
-              className="flex justify-center rounded-lg bg-green-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-green-800"
+              className="flex justify-center rounded-lg bg-green-700 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-green-800"
               href="https://github.com/nathandaven"
               target="_blank"
               rel="noopener noreferrer me"
@@ -188,7 +188,7 @@ export default async function LinkMe() {
             <a
               target="_blank"
               rel="noopener noreferrer me"
-              className="flex justify-center rounded-lg bg-orange-600 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-orange-700"
+              className="flex justify-center rounded-lg bg-orange-600 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-orange-700"
               href="https://nathandaven.substack.com/"
             >
               <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
@@ -199,7 +199,7 @@ export default async function LinkMe() {
             <a
               target="_blank"
               rel="noopener noreferrer me"
-              className="flex justify-center rounded-lg bg-fuchsia-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-fuchsia-800"
+              className="flex justify-center rounded-lg bg-fuchsia-700 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-fuchsia-800"
               href="https://www.flickr.com/people/nathandaven/"
             >
               <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
@@ -209,7 +209,7 @@ export default async function LinkMe() {
             </a>
             <a
               target="_blank"
-              className="bg- bg- col-span-2 flex justify-center rounded-lg bg-cyan-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-cyan-900"
+              className="bg- bg- col-span-2 flex justify-center rounded-lg bg-cyan-800 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-cyan-900"
               href="mailto:nathan@nathandaven.com"
             >
               <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">

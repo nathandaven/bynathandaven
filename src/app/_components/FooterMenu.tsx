@@ -15,12 +15,12 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
     <footer
       className={classNames(
         className,
-        "text-md mt-0 flex justify-between py-6 pt-3 xs:text-lg md:mb-3 md:flex-row md:py-0 md:text-xs dark:text-gray-300" +
+        "mt-0 flex justify-between py-6 pt-3 text-xs xxs:text-sm xs:text-lg md:mb-3 md:flex-row md:py-0 md:text-xs dark:text-gray-300" +
           (mobile ? "" : ""),
       )}
     >
       <div className="justify-start text-left">
-        <ul className="align-left leading-1 flex w-full max-w-[40rem] flex-col flex-wrap justify-start gap-x-1 pr-10 text-start md:flex-row lg:gap-x-2 dark:text-gray-300">
+        <ul className="align-left leading-1 flex w-full max-w-[42rem] flex-col flex-wrap justify-start gap-x-1 pr-4 text-start md:flex-row lg:gap-x-2 dark:text-gray-300">
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <Link href="/archive">archive</Link>
           </li>
@@ -81,6 +81,11 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <a target="_blank" href="https://nathandaven.substack.com/">
               substack
+            </a>
+          </li>
+          <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
+            <a target="_blank" href="https://www.flickr.com/people/nathandaven/">
+              flickr
             </a>
           </li>
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
