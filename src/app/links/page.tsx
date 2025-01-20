@@ -19,6 +19,7 @@ import Link from "next/link";
 import Website from "../_svg/website";
 import Facebook from "../_svg/facebook";
 import Patreon from "../_svg/patreon";
+import Flickr from "../_svg/flickr";
 
 export default async function LinkMe() {
   return (
@@ -54,7 +55,7 @@ export default async function LinkMe() {
       </header>
       <main className="mt-5 w-full max-w-sm">
         <div className="flex flex-col gap-y-4">
-          <ul className="align-left xxsm:grid-cols-2 ml-0 grid w-full list-none grid-cols-1 gap-2.5 pl-0 leading-4">
+          <ul className="align-left col-span-2 ml-0 grid w-full list-none gap-2.5 pl-0 leading-4 xxsm:grid-cols-2">
             <Link
               className="flex justify-center rounded-lg bg-amber-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-yellow-900"
               href="/"
@@ -197,7 +198,18 @@ export default async function LinkMe() {
             </a>
             <a
               target="_blank"
-              className="bg- bg- flex justify-center rounded-lg bg-cyan-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-cyan-900"
+              rel="noopener noreferrer me"
+              className="flex justify-center rounded-lg bg-fuchsia-700 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-fuchsia-800"
+              href="https://www.flickr.com/people/nathandaven/"
+            >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
+                <Flickr className="w-6 p-0.5 align-middle" />
+                <span className="">Flickr</span>
+              </div>
+            </a>
+            <a
+              target="_blank"
+              className="bg- bg- col-span-2 flex justify-center rounded-lg bg-cyan-800 py-2.5 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-cyan-900"
               href="mailto:nathan@nathandaven.com"
             >
               <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
