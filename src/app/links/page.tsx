@@ -24,7 +24,7 @@ import Flickr from "../_svg/flickr";
 export default async function LinkMe() {
   return (
     <main className="flex min-h-dvh flex-col items-center bg-light-primary px-4 text-dark-primary dark:bg-dark-primary dark:text-light-primary">
-      <header className="mt-10 flex w-full max-w-sm space-x-5 pl-4 text-center">
+      <header className="mt-6 flex w-full max-w-sm space-x-5 pl-4 text-center">
         <Image
           className="h-24 w-24 rounded-full border-dark-primary shadow-md dark:border-light-primary"
           src="/assets/authors/nathan.jpg"
