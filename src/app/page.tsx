@@ -32,14 +32,14 @@ export default function Index() {
             <HeaderSVGName className={"block xs:hidden"} />
           </div>
           {/* <div className="my-2 border border-x-0 border-b-0"></div> */}
-          <div className="flex flex-col justify-start gap-x-4 xs:flex-row">
+          <div className="flex flex-col justify-start gap-x-4 sm:flex-row">
             <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
               <a
                 target="_blank"
-                href="https://nathandaven.substack.com/subscribe"
+                href="https://patreon.com/nathandaven"
                 className="my-0 mt-2 py-0 no-underline xs:text-nowrap"
               >
-                Join the email list {">"}
+                Join the Patreon {">"}
               </a>
             </h4>
             <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
@@ -49,6 +49,15 @@ export default function Index() {
                 className="my-0 mt-2 py-0 no-underline xs:text-nowrap"
               >
                 Subscribe on YouTube {">"}
+              </a>
+            </h4>
+            <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
+              <a
+                target="_blank"
+                href="https://nathandaven.substack.com/subscribe"
+                className="my-0 mt-2 py-0 no-underline xs:text-nowrap"
+              >
+                See my Newsletter {">"}
               </a>
             </h4>
           </div>
