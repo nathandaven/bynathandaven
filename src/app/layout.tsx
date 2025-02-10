@@ -12,7 +12,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], display: "swap" });
 
 const title = `Nathan Davenport | Video-journalism, Photography, & Software`;
 const description = `Nathan Davenport is passionate about impactful software, cities and proper urbanism, and photographing daily life. This is the home for his creative work.`;
