@@ -57,6 +57,8 @@ export default function Newsletter() {
             <Divider />
           </div> */}
           {/* <Substack className="my-0 pb-10" /> */}
+
+          <div className="pb-10"></div>
         </Article>
       </Container>
     </main>
