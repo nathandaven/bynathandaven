@@ -40,7 +40,7 @@ export default async function About() {
 
   return (
     <main>
-      <Container title={"About"} fullWidth={false} className={""}>
+      <Container title={"About"} fullWidth={false} increasedWidth={true} className={""}>
         <Article metadata={about.data as Post} className="text-left md:text-justify" noHeader={true} fullWidth={false}>
           <h1 className="mb-2">
             Hi! I'm{" "}
@@ -82,7 +82,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://youtube.com/@nathandaven"
                   >
                     <YouTube className="w-4 p-0.5 align-middle" />
@@ -92,7 +92,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://instagram.com/bynathandaven"
                   >
                     <Instagram className="w-4 p-0.5 align-middle" />
@@ -102,7 +102,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://bsky.app/profile/nathandaven.com"
                   >
                     <Bluesky className="w-4 p-0.5 align-middle" />
@@ -112,7 +112,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://urbanists.social/@nathandaven"
                   >
                     <Mastodon className="w-4 p-0.5 align-middle" />
@@ -122,7 +122,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://threads.net/bynathandaven"
                   >
                     <Threads className="w-4 p-0.5 align-middle" />
@@ -132,7 +132,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://twitter.com/nathandaven"
                   >
                     <X className="w-4 p-0.5 align-middle" />
@@ -142,7 +142,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://linkedin.com/in/nathandaven"
                   >
                     <LinkedIn className="w-4 p-0.5 align-middle" />
@@ -152,7 +152,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://tiktok.com/@nathandaven"
                   >
                     <TikTok className="w-4 p-0.5 align-middle" />
@@ -162,7 +162,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://github.com/nathandaven"
                   >
                     <Github className="w-4 p-0.5 align-middle" />
@@ -172,7 +172,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://nathandaven.substack.com/"
                   >
                     <Substack className="w-4 p-0.5 align-middle" />
@@ -182,7 +182,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="https://www.flickr.com/people/nathandaven/"
                   >
                     <Flickr className="w-4 p-0.5 align-middle" />
@@ -192,7 +192,7 @@ export default async function About() {
                 <li className="my-0 py-0">
                   <a
                     target="_blank"
-                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-sm font-normal no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
+                    className="my-0 flex w-fit gap-x-2 fill-dark-primary py-0 pr-1 text-lg no-underline hover:fill-light-primary dark:fill-light-primary dark:hover:fill-dark-primary"
                     href="mailto:nathan@nathandaven.com"
                   >
                     <MailDotRu className="w-4 p-0.5 align-middle" />

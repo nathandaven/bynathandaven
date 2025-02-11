@@ -48,7 +48,7 @@ export default function Photography() {
 
   return (
     <main>
-      <Container title={"Photography"} fullWidth={false} className={""}>
+      <Container title={"Photography"} fullWidth={false} increasedWidth={true} className={""}>
         <Article metadata={TitlePost}>
           <div className="pb-4">
             {posts && posts.length > 0 ? (
@@ -57,6 +57,10 @@ export default function Photography() {
                   Follow my personal{" "}
                   <a target="_blank" href="https://www.instagram.com/nathandaven/">
                     Instagram
+                  </a>{" "}
+                  or my{" "}
+                  <a target="_blank" href="https://www.flickr.com/nathandaven/">
+                    Flickr
                   </a>{" "}
                   to stay up to date with my photography work. See <Link href="/work">here</Link> to work with me on a
                   project.

@@ -21,7 +21,7 @@ export default function Newsletter() {
 
   const TitlePost: Post = {
     slug: "newsletter",
-    title: "Newsletter",
+    title: "Editorials",
     date: "",
     preview: "",
     fmContentType: ContentTypeEnum.ARTICLE,
@@ -42,17 +42,21 @@ export default function Newsletter() {
             <Link href="/archive" className="hover:text-light-secondary">
               archive
             </Link>
-            . For more posts like these, consider subscribing to my email list via{" "}
+            . I also post exlusive content on my{" "}
+            <a target="_blank" href="https://patreon.com/nathandaven">
+              Patreon
+            </a>
+            , including full-length interviews. And I do a monthly newsletter on{" "}
             <a target="_blank" href="https://nathandaven.substack.com/subscribe">
               Substack
             </a>
             !
           </p>
           <List listItems={posts} showThumbnails={false} />
-          <div className="mt-10 opacity-50">
+          {/* <div className="mt-10 opacity-50">
             <Divider />
-          </div>
-          <Substack className="my-0 pb-10" />
+          </div> */}
+          {/* <Substack className="my-0 pb-10" /> */}
         </Article>
       </Container>
     </main>

@@ -29,7 +29,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
             mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
           )}
         >
-          Newsletter
+          Editorials
         </span>
       </Link>
       <Link href="/photography" className="mr-2 text-base">

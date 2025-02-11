@@ -28,7 +28,7 @@ export const List: FunctionComponent<PropsWithChildren> = ({
     <section
       className={classNames(
         classNames(
-          "m-0 list-none gap-4",
+          "m-0 list-none gap-6",
           verticalThumbnail ? "grid-col-1 grid xs:grid-cols-2 md:grid-cols-3" : "flex flex-col",
         ),
         className,

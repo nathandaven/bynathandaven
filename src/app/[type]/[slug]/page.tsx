@@ -75,7 +75,7 @@ export default async function Post({ params }: Params) {
           {params.type != "general" && (
             <>
               {/* Subscribe Section */}
-              <Substack className="mt-10 border border-b-0 border-l-0 border-r-0 border-dark-primary dark:border-light-primary" />
+              {/* <Substack className="mt-10 border border-b-0 border-l-0 border-r-0 border-dark-primary dark:border-light-primary" /> */}
               {/* Comments Section */}
               {/* <div
                 className={

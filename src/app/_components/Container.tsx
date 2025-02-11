@@ -12,6 +12,7 @@ type PropsWithChildren<P = unknown> = P & {
   twoColumnLayout?: boolean;
   secondCol?: ReactNode;
   fullWidth?: boolean;
+  increasedWidth?: boolean;
   title?: string;
 };
 
@@ -22,12 +23,15 @@ export const Container: FunctionComponent<PropsWithChildren> = ({
   twoColumnLayout = false,
   secondCol,
   fullWidth = false,
+  increasedWidth = false,
   title = "Home",
 }) => {
   return (
     <div
       className={classNames(
-        (fullWidth ? "max-w-[90rem]" : "max-w-5xl") + " " + "mx-auto px-0 antialiased transition-all md:px-6",
+        (fullWidth ? "max-w-[90rem]" : increasedWidth ? "max-w-6xl" : "max-w-4xl") +
+          " " +
+          "mx-auto px-0 antialiased transition-all md:px-6",
         className,
       )}
     >

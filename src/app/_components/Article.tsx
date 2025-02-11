@@ -31,9 +31,9 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
       // THIS IS SUCH A MESS!!!
       className={classNames(
         // PROSE CLASSES
-        "texture prose prose-neutral mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-dark-primary bg-light-primary p-5 px-3 pb-5 leading-6 duration-200 dark:prose-invert prose-a:break-words prose-a:font-normal hover:prose-a:bg-dark-primary hover:prose-a:text-light-primary prose-img:border prose-img:border-dark-primary prose-img:shadow-md sm:min-h-[calc(100svh-6rem)] md:border-x md:px-5 md:prose-h1:text-5xl dark:border-gray-200 dark:bg-dark-primary dark:hover:prose-a:bg-light-primary dark:hover:prose-a:text-dark-primary dark:prose-img:border-light-primary" +
+        "texture prose prose-lg prose-neutral mb-2 h-full min-h-[calc(100svh-24rem)] w-full max-w-none border-spacing-1 border border-x-0 border-t-0 border-dark-primary bg-light-primary p-5 px-3 pb-5 duration-200 dark:prose-invert prose-a:break-words prose-a:font-normal hover:prose-a:bg-dark-primary hover:prose-a:text-light-primary prose-ul:leading-7 prose-img:border prose-img:border-dark-primary prose-img:shadow-md sm:min-h-[calc(100svh-6rem)] md:border-x md:px-5 md:prose-h1:text-5xl dark:border-gray-200 dark:bg-dark-primary dark:hover:prose-a:bg-light-primary dark:hover:prose-a:text-dark-primary dark:prose-img:border-light-primary" +
           " " +
-          (fullWidth ? "" : " md:px-10 md:pt-10 lg:px-10"),
+          (fullWidth ? "" : " md:px-10 md:pt-10 lg:px-20"),
         className,
       )}
     >
@@ -77,7 +77,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
         {/* Published Date Generation */}
         {!noHeader && metadata?.date ? (
           <>
-            <div className="w-60 pr-5">
+            <div className="w-60 pr-5 leading-7">
               <p className="mb-0">
                 Published
                 <br />
@@ -93,7 +93,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
         {/* Author Generation */}
         {!noHeader && metadata?.author?.name && metadata?.author?.name.length > 0 ? (
           <>
-            <div className="w-60">
+            <div className="w-60 leading-7">
               <p className="mb-0">
                 Written by <br />
                 <b>{metadata.author.name}</b>

@@ -40,7 +40,7 @@ export function HeroPost({ title, preview, date, excerpt, author, tags, contentT
         />
       </div>
 
-      <div className="flex flex-col justify-between gap-x-2">
+      <div className="flex flex-col justify-between gap-x-2 pb-3">
         <div className="mt-2 flex flex-row justify-between gap-x-2">
           <div className="">
             <h3 className="bold my-0">
