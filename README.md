@@ -2,21 +2,14 @@
 
 Remaking my personal portfolio site.
 
-<img width="1437" alt="image" src="https://github.com/user-attachments/assets/f62be8bd-e1f4-4004-8da0-6598501c33ad">
+<img width="1124" alt="Screenshot 2025-03-24 at 2 22 49 PM" src="https://github.com/user-attachments/assets/a63464fe-3d37-4e52-be64-2c0bba76723b" />
 
-
-## Goals:
-
-- New design
-- Blog page with mdx next.js
-- Photo album page parsing using static folders in git
-- References page
-- Resume page
 
 ## Technologies used
 
 - Next.JS
 - React
+- MDX
 - Vercel deployment
 
 ## Content Directory
@@ -25,7 +18,7 @@ This directory holds all of the content for the site. All routes here are mapped
 
 This is managed using Front Matter CMS in VS Code. I'm really liking this concept of a local CMS controlled by git, and it's really convenient to write in Markdown.
 
-Future improvement may be a refactor to use .mdx files for even better flexability. However, this works for now.
+I'm already itching to redesign this again. We shall see lol!
 
 ## Getting Started
 
