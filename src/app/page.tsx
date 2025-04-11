@@ -11,6 +11,7 @@ import dynamic from "next/dynamic";
 import generateRssFeed from "@/lib/rss";
 import HeaderSVGName from "@/app/_svg/HeaderSVGName";
 import { Divider } from "@/app/_components/Divider";
+import Link from "next/link";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -52,6 +53,11 @@ export default function Index() {
               </a>
             </h4>
             <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
+              <Link href="/links" className="my-0 mt-2 py-0 no-underline xs:text-nowrap">
+                All Links {">"}
+              </Link>
+            </h4>
+            {/* <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
               <a
                 target="_blank"
                 href="https://nathandaven.substack.com/subscribe"
@@ -59,7 +65,7 @@ export default function Index() {
               >
                 See my Newsletter {">"}
               </a>
-            </h4>
+            </h4> */}
           </div>
           <div className="flex gap-x-3">
             <h3 className="mt-2">Recents</h3>
