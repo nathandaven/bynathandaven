@@ -54,7 +54,7 @@ export default function Index() {
             </h4>
             <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
               <Link href="/links" className="my-0 mt-2 py-0 no-underline xs:text-nowrap">
-                All links {">"}
+                All Links {">"}
               </Link>
             </h4>
             {/* <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
