@@ -51,7 +51,7 @@ export default function Index() {
                 Subscribe on YouTube {">"}
               </a>
             </h4>
-            <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
+            {/* <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
               <a
                 target="_blank"
                 href="https://nathandaven.substack.com/subscribe"
@@ -59,7 +59,7 @@ export default function Index() {
               >
                 See my Newsletter {">"}
               </a>
-            </h4>
+            </h4> */}
           </div>
           <div className="flex gap-x-3">
             <h3 className="mt-2">Recents</h3>
