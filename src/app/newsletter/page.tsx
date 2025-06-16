@@ -42,15 +42,11 @@ export default function Newsletter() {
             <Link href="/archive" className="hover:text-light-secondary">
               archive
             </Link>
-            . I also post exlusive content on my{" "}
+            . I also occasionally post exclusive content on my{" "}
             <a target="_blank" href="https://patreon.com/nathandaven">
               Patreon
             </a>
-            , including full-length interviews. And I do a monthly newsletter on{" "}
-            <a target="_blank" href="https://nathandaven.substack.com/subscribe">
-              Substack
-            </a>
-            !
+            , including full-length interviews.
           </p>
           <List listItems={posts} showThumbnails={false} />
           {/* <div className="mt-10 opacity-50">
