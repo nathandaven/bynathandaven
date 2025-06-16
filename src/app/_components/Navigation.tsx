@@ -42,7 +42,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
           Photography
         </span>
       </Link>
-      <Link href="/work" className="mr-2 text-base">
+      {/* <Link href="/work" className="mr-2 text-base">
         <span
           className={classNames(
             "text-dark-primary hover:bg-dark-primary hover:text-light-primary dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
@@ -51,7 +51,7 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
         >
           Work
         </span>
-      </Link>
+      </Link> */}
       <Link href="/about" className="text-base">
         <span
           className={classNames(
