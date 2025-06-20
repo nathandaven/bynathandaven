@@ -36,10 +36,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Contact
-
-Email: [nathandaven@gmail.com](mailto:nathandaven@gmail.com)
-
 ## Special Thanks
 
 - Vercel [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript
