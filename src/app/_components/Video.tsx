@@ -11,10 +11,18 @@ type PropsWithChildren<P = unknown> = P & {
   src?: string;
   title?: string;
   preview?: string;
+  startTime?: number;
 };
 
 // exporting component with OPTIONAL children
-export const VideoComponent: FunctionComponent<PropsWithChildren> = ({ className, post, src, title, preview }) => {
+export const VideoComponent: FunctionComponent<PropsWithChildren> = ({
+  className,
+  post,
+  src,
+  title,
+  preview,
+  startTime,
+}) => {
   return (
     (src || post) && (
       <div
@@ -28,7 +36,7 @@ export const VideoComponent: FunctionComponent<PropsWithChildren> = ({ className
             className="z-20"
             width="560"
             height="315"
-            src={`https://www.youtube.com/embed/${post?.youtubeEmbedCode ?? src}`}
+            src={`https://www.youtube.com/embed/${post?.youtubeEmbedCode ?? src}${startTime ? `?start=${startTime}` : ""}`}
             title={post?.title ?? title ?? ""}
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
