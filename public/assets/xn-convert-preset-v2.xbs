@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="xn-convert-preset-v2">
+    <Resize mode="1" width="2048" height="0" unit="0" ratio="true" orientation="false" enlarge="1" resample="10" gamma_correct="false"/>
+    <Watermark filename="/Users/nathandaven/Developer/bynathandaven/public/assets/watermark.png" opacity="20" no_alpha="false" position="4" delta_x="0" delta_y="-10" perc="100" size="3" perc_mode="1"/>
+    <Output folder="/Volumes/Nathan X-9 SSD/Pictures/Website Pictures/albums/bavaria" filename="{Filename}" case="0" startIndex="1" format="WEBP">
+        <Options overwrite="0" orgDate="true" keepMeta="true" keepICC="false" keepFolder="true" checkFilesize="false" keepParentFolder="false" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="false"/>
+        <WEBP method="1" quality="100" filesize="500" compress="4" strength="60" sharpness="0" preset="1" sharpyuv="false"/>
+    </Output>
+</XnView_script>
