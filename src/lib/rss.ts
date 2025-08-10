@@ -26,7 +26,10 @@ export default function generateRssFeed(allPosts: Post[]): RSS {
   allPosts
     .filter((post) => post.fmContentType != ("general" as ContentTypeEnum))
     .map((post) => {
-      const imageURL = encodeURI(site_url + post?.preview.trim()) ?? "";
+      let imageURL = encodeURI(site_url + post?.preview.trim()) ?? "";
+      if (post?.preview?.startsWith("http")) {
+        imageURL = encodeURI(post?.preview.trim()) ?? "";
+      }
       const type =
         post?.fmContentType && post?.fmContentType.length > 0
           ? post?.fmContentType?.charAt(0).toUpperCase() + post?.fmContentType.slice(1)
