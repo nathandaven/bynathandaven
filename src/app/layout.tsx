@@ -11,9 +11,23 @@ import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
-const title = `Nathan Davenport | Video-journalism, Photography, & Software`;
-const description = `Nathan Davenport is passionate about impactful software, cities and proper urbanism, and photographing daily life. This is the home for his creative work.`;
+const title = `Nathan Davenport | Software, Video-journalism, & Photography`;
+const description = `Nathan Davenport is passionate about impactful software, cities and urbanism, and photography. This is the home for his creative work.`;
 const image = `${DOMAIN}/og-image/og-image-default.jpg`;
+
+import type { Viewport } from "next";
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: LIGHT_COLOR_PRIMARY },
+    { media: "(prefers-color-scheme: dark)", color: DARK_COLOR_SECONDARY },
+  ],
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
 export function generateMetadata(): Metadata {
   return {
     metadataBase: new URL(DOMAIN),
@@ -42,10 +56,6 @@ export function generateMetadata(): Metadata {
       other: [{ rel: "mask-icon", url: "/favicon/safari-pinned-tab.svg", color: LIGHT_COLOR_SECONDARY }],
     },
     manifest: "/favicon/site.webmanifest",
-    themeColor: [
-      { media: "(prefers-color-scheme: light)", color: LIGHT_COLOR_PRIMARY },
-      { media: "(prefers-color-scheme: dark)", color: DARK_COLOR_SECONDARY },
-    ],
     robots: "index, follow",
     alternates: {
       types: {
