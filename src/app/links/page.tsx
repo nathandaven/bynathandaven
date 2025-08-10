@@ -249,8 +249,8 @@ export default async function LinkMe() {
 
 export function generateMetadata(): Metadata {
   const title = "Links | Nathan Davenport";
-
-  const description = "Nathan Davenport is a video-journalist, photographer, and software engineer.";
+  const description = "All of Nathan Davenport's social links.";
+  const images = [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`];
 
   return {
     title,
@@ -258,12 +258,14 @@ export function generateMetadata(): Metadata {
     openGraph: {
       title,
       description,
-      images: [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`],
+      images,
+      url: `${DOMAIN}/links`,
     },
     twitter: {
       title,
       description,
-      images: [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`],
+      images,
+      creator: "@nathandaven",
     },
   };
 }

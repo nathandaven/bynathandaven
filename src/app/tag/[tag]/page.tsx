@@ -71,6 +71,7 @@ export function generateMetadata({ params }: Params): Metadata {
       title,
       description,
       images,
+      url: `${DOMAIN}/tag/${params.tag}`,
     },
     twitter: {
       title,

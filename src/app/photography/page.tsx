@@ -148,6 +148,7 @@ export function generateMetadata(): Metadata {
       title,
       description,
       images,
+      url: `${DOMAIN}/photography`,
     },
     twitter: {
       title,

@@ -81,15 +81,21 @@ export default function Archive() {
 
 export function generateMetadata(): Metadata {
   const title = "Archive | Nathan Davenport";
+  const description = "Nathan Davenport's archive of posts, articles, and more.";
+  const images = [`${DOMAIN}/og-image/og-image-archive.jpg`];
 
   return {
     title,
     openGraph: {
       title,
-      images: [`${DOMAIN}/og-image/og-image-archive.jpg`],
+      description,
+      images,
+      url: `${DOMAIN}/archive`,
     },
     twitter: {
       title,
+      description,
+      creator: "@nathandaven",
       images: [`${DOMAIN}/og-image/og-image-archive.jpg`],
     },
   };

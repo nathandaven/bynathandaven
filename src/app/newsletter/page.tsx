@@ -72,6 +72,7 @@ export function generateMetadata(): Metadata {
       title,
       description,
       images,
+      url: `${DOMAIN}/newsletter`,
     },
     twitter: {
       title,

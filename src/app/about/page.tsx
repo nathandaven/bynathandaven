@@ -227,6 +227,7 @@ export function generateMetadata(): Metadata {
       title,
       description,
       images,
+      url: `${DOMAIN}/about`,
     },
     twitter: {
       title,
