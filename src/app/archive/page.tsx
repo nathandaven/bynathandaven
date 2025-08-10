@@ -7,7 +7,7 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { format } from "date-fns";
 import { Metadata } from "next";
-import { metadata } from "../layout";
+
 import { DOMAIN } from "@/lib/constants";
 import { Divider } from "../_components/Divider";
 
@@ -81,18 +81,21 @@ export default function Archive() {
 
 export function generateMetadata(): Metadata {
   const title = "Archive | Nathan Davenport";
+  const description = "Nathan Davenport's archive of posts, articles, and more.";
+  const images = [`${DOMAIN}/og-image/og-image-archive.jpg`];
 
   return {
-    ...metadata,
     title,
     openGraph: {
-      ...metadata.openGraph,
       title,
-      images: [`${DOMAIN}/og-image/og-image-archive.jpg`],
+      description,
+      images,
+      url: `${DOMAIN}/archive`,
     },
     twitter: {
-      ...metadata.twitter,
       title,
+      description,
+      creator: "@nathandaven",
       images: [`${DOMAIN}/og-image/og-image-archive.jpg`],
     },
   };

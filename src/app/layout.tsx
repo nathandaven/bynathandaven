@@ -1,40 +1,79 @@
 import { DARK_COLOR_SECONDARY, DOMAIN, LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import cn from "classnames";
-
 import "@/app/globals.css";
 import AutoRefresh from "@/app/_components/AutoRefresh";
 import classNames from "classnames";
-import Script from "next/script";
-import React, { Suspense } from "react";
+import React from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
-const title = `Nathan Davenport | Video-journalism, Photography, & Software`;
-const description = `Nathan Davenport is passionate about impactful software, cities and proper urbanism, and photographing daily life. This is the home for his creative work.`;
+const title = `Nathan Davenport | Software, Video-journalism, & Photography`;
+const description = `Nathan Davenport is passionate about impactful software, cities and urbanism, and photography. This is the home for his creative work.`;
 const image = `${DOMAIN}/og-image/og-image-default.jpg`;
-export const metadata: Metadata = {
-  metadataBase: new URL(DOMAIN),
-  title: title,
-  description: description,
-  openGraph: {
-    title: title,
-    type: "website",
-    description: description,
-    images: [image],
-    siteName: title,
-  },
-  twitter: {
-    title: title,
-    description: description,
-    images: [image],
-    creator: "@nathandaven",
-  },
+
+import type { Viewport } from "next";
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: LIGHT_COLOR_PRIMARY },
+    { media: "(prefers-color-scheme: dark)", color: DARK_COLOR_SECONDARY },
+  ],
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
+
+export function generateMetadata(): Metadata {
+  return {
+    metadataBase: new URL(DOMAIN),
+    title: title,
+    description: description,
+    openGraph: {
+      title: title,
+      type: "website",
+      description: description,
+      images: [image],
+      siteName: title,
+    },
+    twitter: {
+      title: title,
+      description: description,
+      images: [image],
+      creator: "@nathandaven",
+    },
+    icons: {
+      icon: [
+        { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+        { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/favicon/favicon.ico", rel: "shortcut icon" },
+      ],
+      apple: "/favicon/apple-touch-icon.png",
+      other: [{ rel: "mask-icon", url: "/favicon/safari-pinned-tab.svg", color: LIGHT_COLOR_SECONDARY }],
+    },
+    manifest: "/favicon/site.webmanifest",
+    robots: "index, follow",
+    alternates: {
+      types: {
+        "application/rss+xml": [{ url: "/rss.xml", title: "Nathan Davenport | RSS Feed" }],
+      },
+    },
+    other: {
+      "msapplication-TileColor": LIGHT_COLOR_SECONDARY,
+      "msapplication-config": "/favicon/browserconfig.xml",
+      // Facebook Open Graph
+      "profile:first_name": "Nathan",
+      "profile:last_name": "Davenport",
+      "fb:app_id": "966242223397117",
+      // Mastodon profile
+      me: "https://urbanists.social/@nathandaven",
+    },
+  };
+}
 
 export default function RootLayout({
   children,
@@ -46,24 +85,6 @@ export default function RootLayout({
       <html lang="en">
         <head>
           <meta property="og:type" content="website" />
-          <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
-          <link rel="manifest" href="/favicon/site.webmanifest" />
-          <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color={LIGHT_COLOR_SECONDARY} />
-          <link rel="shortcut icon" href="/favicon/favicon.ico" />
-          <meta name="msapplication-TileColor" content={LIGHT_COLOR_SECONDARY} />
-          <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta name="robots" content="index, follow" />
-          <meta charSet="utf-8" />
-          <link rel="alternate" title="Nathan Davenport | RSS Feed" type="application/rss+xml" href="/rss.xml" />
-          <meta name="theme-color" content={LIGHT_COLOR_PRIMARY} media="(prefers-color-scheme: light)" />
-          <meta name="theme-color" content={DARK_COLOR_SECONDARY} media="(prefers-color-scheme: dark)" />
-          <meta property="profile:first_name" content="Nathan" />
-          <meta property="profile:last_name" content="Davenport" />
-          <meta property="fb:app_id" content="966242223397117" />
-          <link rel="me" href="https://urbanists.social/@nathandaven" />
         </head>
         {process.env.NODE_ENV === "production" && DOMAIN == "https://nathandaven.com" && (
           <GoogleTagManager gtmId="GTM-THMKGVQB" />

@@ -8,7 +8,7 @@ import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Substack } from "@/app/_components/Substack";
 import { Metadata } from "next";
 import Link from "next/link";
-import { metadata } from "@/app/layout";
+
 import { Divider } from "@/app/_components/Divider";
 import { DOMAIN } from "@/lib/constants";
 
@@ -62,20 +62,23 @@ export default function Newsletter() {
 }
 
 export function generateMetadata(): Metadata {
-  const title = "Newsletter | Nathan Davenport";
+  const title = "Editorials | Nathan Davenport";
+  const description = "Nathan Davenport's editorials featuring articles and videos.";
+  const images = [`${DOMAIN}/og-image/og-image-newsletter.jpg`];
 
   return {
-    ...metadata,
     title,
     openGraph: {
-      ...metadata.openGraph,
       title,
-      images: [`${DOMAIN}/og-image/og-image-newsletter.jpg`],
+      description,
+      images,
+      url: `${DOMAIN}/newsletter`,
     },
     twitter: {
-      ...metadata.twitter,
       title,
-      images: [`${DOMAIN}/og-image/og-image-newsletter.jpg`],
+      description,
+      images,
+      creator: "@nathandaven",
     },
   };
 }

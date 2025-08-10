@@ -6,7 +6,7 @@ import { getAllPosts } from "@/lib/api";
 import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Metadata } from "next";
-import { metadata } from "../layout";
+
 import { DOMAIN } from "@/lib/constants";
 import Link from "next/link";
 import { Divider } from "../_components/Divider";
@@ -139,19 +139,22 @@ export default function Photography() {
 
 export function generateMetadata(): Metadata {
   const title = "Photography | Nathan Davenport";
+  const description = "A collection of photography albums by Nathan Davenport.";
+  const images = [`${DOMAIN}/og-image/og-image-photography.jpg`];
 
   return {
-    ...metadata,
     title,
     openGraph: {
-      ...metadata.openGraph,
       title,
-      images: [`${DOMAIN}/og-image/og-image-photography.jpg`],
+      description,
+      images,
+      url: `${DOMAIN}/photography`,
     },
     twitter: {
-      ...metadata.twitter,
       title,
-      images: [`${DOMAIN}/og-image/og-image-photography.jpg`],
+      description,
+      images,
+      creator: "@nathandaven",
     },
   };
 }

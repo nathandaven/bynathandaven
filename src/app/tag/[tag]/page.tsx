@@ -7,7 +7,7 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
-import { metadata } from "@/app/layout";
+
 import { DOMAIN } from "@/lib/constants";
 
 export default async function Tag({ params }: Params) {
@@ -62,19 +62,22 @@ export async function generateStaticParams() {
 
 export function generateMetadata({ params }: Params): Metadata {
   const title = `#${params.tag} | Nathan Davenport`;
+  const description = `Posts tagged with #${params.tag} by Nathan Davenport.`;
+  const images = [`${DOMAIN}/og-image/og-image-tags.jpg`];
 
   return {
-    ...metadata,
     title,
     openGraph: {
-      ...metadata.openGraph,
       title,
-      images: [`${DOMAIN}/og-image/og-image-tags.jpg`],
+      description,
+      images,
+      url: `${DOMAIN}/tag/${params.tag}`,
     },
     twitter: {
-      ...metadata.twitter,
       title,
-      images: [`${DOMAIN}/og-image/og-image-tags.jpg`],
+      description,
+      images,
+      creator: "@nathandaven",
     },
   };
 }

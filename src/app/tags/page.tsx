@@ -6,7 +6,7 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Button } from "@/app/_components/Button";
 import { Metadata } from "next";
-import { metadata } from "../layout";
+
 import { DOMAIN } from "@/lib/constants";
 
 // exporting component with OPTIONAL children
@@ -65,19 +65,22 @@ export default function Tags() {
 
 export function generateMetadata(): Metadata {
   const title = "Tags | Nathan Davenport";
+  const description = "Explore posts tagged with various topics by Nathan Davenport.";
+  const images = [`${DOMAIN}/og-image/og-image-tags.jpg`];
 
   return {
-    ...metadata,
     title,
     openGraph: {
-      ...metadata.openGraph,
       title,
-      images: [`${DOMAIN}/og-image/og-image-tags.jpg`],
+      description,
+      images,
+      url: `${DOMAIN}/tags`,
     },
     twitter: {
-      ...metadata.twitter,
       title,
-      images: [`${DOMAIN}/og-image/og-image-tags.jpg`],
+      description,
+      images,
+      creator: "@nathandaven",
     },
   };
 }
