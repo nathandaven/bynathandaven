@@ -1,25 +1,17 @@
 import { Metadata, MetadataRoute } from "next";
 import { getAllPosts, getPostBySlug, getPostDirByType } from "@/lib/api";
-import markdownToHtml from "@/lib/markdownToHtml";
 import { PostBody } from "@/app/_components/MDXContent";
 import { Container } from "@/app/_components/Container";
 import { Article } from "@/app/_components/Article";
 
 // Load client side comments
 import dynamic from "next/dynamic";
-import { DOMAIN } from "@/lib/constants";
 import { VideoComponent } from "@/app/_components/Video";
-import { Substack } from "@/app/_components/Substack";
 import React, { ComponentPropsWithoutRef, Suspense } from "react";
 import { metadata } from "@/app/layout";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
-import ImageBlur from "@/app/_components/ImageBlur";
-import { Photo } from "@/interfaces/photo";
-import { format } from "date-fns";
 import PhotoGrid from "@/app/_components/PhotoGrid";
-import { MDXRemoteSerializeResult } from "next-mdx-remote";
-import Image from "next/image";
 
 const Comments = dynamic(() => import("@/app/_components/Comments"), {
   ssr: false,

@@ -34,7 +34,7 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
       const date = image.dateTime ? format(image.dateTime, "LLLL	d, yyyy") : "";
       const desc = `${date ? date + " - " : ""}${image.make ? image.make + " " : ""}${image.model ? image.model : ""}`;
       return {
-        src: image.relativePath,
+        src: image.src,
         aspect_ratio: (image.width ?? 1) / (image.height ?? 1),
         nextImageProps: {
           unoptimized: true,
@@ -79,7 +79,7 @@ const PhotoGrid: FunctionComponent<PropsWithChildren> = ({ children, className, 
           const date = photo.dateTime ? format(photo.dateTime, "LLLL	d, yyyy") : "";
           const desc = `${date ? date + " - " : ""}${photo.make ? photo.make + " " : ""}${photo.model ? photo.model : ""}`;
           const temp: SlideImage = {
-            src: photo.relativePath,
+            src: photo.src ?? "",
             width: photo.width ?? undefined,
             height: photo.height ?? undefined,
             alt: desc,

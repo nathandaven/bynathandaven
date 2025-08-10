@@ -5,14 +5,16 @@
   "scripts": {
     "dev": "concurrently \"next dev\" \"tsx ./watcher.ts\" --kill-others",
     "devOld": "next",
-    "build": "next build",
+    "build": "npm run cache:albums && next build",
     "start": "next start",
-    "postbuild": "next-sitemap & tsx ./postbuild.ts"
+    "postbuild": "next-sitemap & tsx ./postbuild.ts",
+    "cache:albums": "tsx ./scripts/cacheAlbums.ts"
   },
   "engines": {
     "node": "20.x"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.864.0",
     "@fontsource/inter": "^5.1.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@types/rss": "^0.0.32",
@@ -23,6 +25,7 @@
     "classnames": "^2.5.1",
     "concurrently": "^9.0.1",
     "date-fns": "^4.1.0",
+    "dotenv": "^17.2.1",
     "exifreader": "^4.23.7",
     "gray-matter": "^4.0.3",
     "leva": "^0.9.35",
@@ -56,6 +59,7 @@
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.12",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.2",
+    "wrangler": "^4.28.1"
   }
 }
