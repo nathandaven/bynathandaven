@@ -39,7 +39,7 @@ export default async function LinkMe() {
         <div className="pl-0 text-left">
           <h1 className="mt-2 text-2xl font-bold">Nathan Davenport</h1>
           <p className="mt-2 max-w-sm text-sm">
-            <b>Nathan Davenport</b> is a video-journalist, photographer, and software engineer.
+            <b>Nathan Davenport</b> is a software engineer, video-journalist, and photographer.
           </p>
         </div>
         {/* <p className="max-w-sm">
