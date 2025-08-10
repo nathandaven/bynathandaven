@@ -1,6 +1,6 @@
 import React from "react";
 import { Metadata } from "next/types";
-import { metadata } from "@/app/layout";
+
 import Image from "next/image";
 import Github from "../_svg/github";
 import Instagram from "../_svg/instagram";

@@ -8,7 +8,6 @@ import { Article } from "@/app/_components/Article";
 import dynamic from "next/dynamic";
 import { VideoComponent } from "@/app/_components/Video";
 import React, { ComponentPropsWithoutRef, Suspense } from "react";
-import { metadata } from "@/app/layout";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
 import PhotoGrid from "@/app/_components/PhotoGrid";
@@ -112,16 +111,14 @@ export function generateMetadata({ params }: Params): Metadata {
   const description = post.description ? post.description : undefined;
 
   return {
-    ...metadata,
     title,
-    description: description,
+    description,
     openGraph: {
-      ...metadata.openGraph,
       title,
-      description: description,
+      description,
       type: "article",
       authors: post.author && post.author.name ? [post.author.name ?? ""] : undefined,
-      images: post.preview ? [post.preview] : undefined, // move back to ogImage { url: ""}
+      images: post.preview ? [post.preview] : undefined,
       videos:
         post.youtubeEmbedCode && post.youtubeEmbedCode.length > 0
           ? [
@@ -135,9 +132,8 @@ export function generateMetadata({ params }: Params): Metadata {
           : undefined,
     },
     twitter: {
-      ...metadata.twitter,
-      title: title,
-      description: description,
+      title,
+      description,
       images: post.preview ? [post.preview] : undefined,
       creator: "@nathandaven",
     },

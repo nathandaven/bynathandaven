@@ -4,7 +4,6 @@ import { Container } from "@/app/_components/Container";
 import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Metadata } from "next/types";
-import { metadata } from "@/app/layout";
 import matter from "gray-matter";
 import { readFileSync } from "fs";
 import markdownToHtml from "@/lib/markdownToHtml";
@@ -219,19 +218,21 @@ export default async function About() {
 
 export function generateMetadata(): Metadata {
   const title = "About | Nathan Davenport";
+  const description = "Learn more about Nathan Davenport, his work, and his interests.";
+  const images = [`${DOMAIN}/og-image/og-image-about.jpg`];
 
   return {
-    ...metadata,
     title,
     openGraph: {
-      ...metadata.openGraph,
       title,
-      images: [`${DOMAIN}/og-image/og-image-about.jpg`],
+      description,
+      images,
     },
     twitter: {
-      ...metadata.twitter,
       title,
-      images: [`${DOMAIN}/og-image/og-image-about.jpg`],
+      description,
+      images,
+      creator: "@nathandaven",
     },
   };
 }
