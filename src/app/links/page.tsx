@@ -20,6 +20,7 @@ import Website from "../_svg/website";
 import Facebook from "../_svg/facebook";
 import Patreon from "../_svg/patreon";
 import Flickr from "../_svg/flickr";
+import Code from "../_svg/code";
 
 export default async function LinkMe() {
   return (
@@ -74,6 +75,17 @@ export default async function LinkMe() {
               <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
                 <YouTube className="w-6 p-0.5 align-middle" />
                 <span className="">YouTube</span>
+              </div>
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer me"
+              className="hover:bg-amber-850 flex justify-center rounded-lg bg-stone-700 py-2 text-center text-white drop-shadow-md hover:cursor-pointer"
+              href="https://dev.nathandaven.com/"
+            >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
+                <Code className="w-6 p-0.5 align-middle" />
+                <span className="">Dev Portfolio</span>
               </div>
             </a>
             <a
@@ -209,7 +221,7 @@ export default async function LinkMe() {
             </a>
             <a
               target="_blank"
-              className="bg- bg- col-span-2 flex justify-center rounded-lg bg-cyan-800 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-cyan-900"
+              className="flex justify-center rounded-lg bg-cyan-800 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-cyan-900"
               href="mailto:nathan@nathandaven.com"
             >
               <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
@@ -217,6 +229,16 @@ export default async function LinkMe() {
                 <span className="">Email</span>
               </div>
             </a>
+            {/* <a
+              target="_blank"
+              className="bg- bg- col-span-2 flex justify-center rounded-lg bg-cyan-800 py-2 text-center text-white drop-shadow-md hover:cursor-pointer hover:bg-cyan-900"
+              href="mailto:nathan@nathandaven.com"
+            >
+              <div className="text-md my-0 flex w-fit gap-x-2 fill-light-primary py-0 pr-1 text-lg font-medium text-light-primary no-underline">
+                <MailDotRu className="w-6 p-0.5 align-middle" />
+                <span className="">Email</span>
+              </div>
+            </a> */}
           </ul>
         </div>
       </main>

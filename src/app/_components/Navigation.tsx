@@ -52,6 +52,16 @@ export const Navigation: FunctionComponent<PropsWithChildren> = ({ children, cla
           Work
         </span>
       </Link> */}
+      <a href="https://dev.nathandaven.com/" className="mr-2 text-base">
+        <span
+          className={classNames(
+            "text-dark-primary hover:bg-dark-primary hover:text-light-primary dark:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary",
+            mobile ? "text-4xl font-bold" : "mr-0 text-base md:text-xl",
+          )}
+        >
+          Software
+        </span>
+      </a>
       <Link href="/about" className="text-base">
         <span
           className={classNames(
