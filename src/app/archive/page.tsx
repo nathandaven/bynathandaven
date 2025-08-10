@@ -10,6 +10,7 @@ import { Metadata } from "next";
 
 import { DOMAIN } from "@/lib/constants";
 import { Divider } from "../_components/Divider";
+import { siteName } from "@/app/layout";
 
 function year(dateString: string) {
   return format(dateString, "yyyy");
@@ -91,6 +92,7 @@ export function generateMetadata(): Metadata {
       description,
       images,
       url: `${DOMAIN}/archive`,
+      siteName,
     },
     twitter: {
       title,

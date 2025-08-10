@@ -6,8 +6,8 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Button } from "@/app/_components/Button";
 import { Metadata } from "next";
-
 import { DOMAIN } from "@/lib/constants";
+import { siteName } from "@/app/layout";
 
 // exporting component with OPTIONAL children
 export default function Tags() {
@@ -75,6 +75,7 @@ export function generateMetadata(): Metadata {
       description,
       images,
       url: `${DOMAIN}/tags`,
+      siteName,
     },
     twitter: {
       title,

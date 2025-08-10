@@ -21,6 +21,7 @@ import Facebook from "../_svg/facebook";
 import Patreon from "../_svg/patreon";
 import Flickr from "../_svg/flickr";
 import Code from "../_svg/code";
+import { siteName } from "@/app/layout";
 
 export default async function LinkMe() {
   return (
@@ -260,6 +261,7 @@ export function generateMetadata(): Metadata {
       description,
       images,
       url: `${DOMAIN}/links`,
+      siteName,
     },
     twitter: {
       title,

@@ -5,12 +5,10 @@ import { List } from "@/app/_components/List";
 import { getAllPosts } from "@/lib/api";
 import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
-import { Substack } from "@/app/_components/Substack";
 import { Metadata } from "next";
 import Link from "next/link";
-
-import { Divider } from "@/app/_components/Divider";
 import { DOMAIN } from "@/lib/constants";
+import { siteName } from "@/app/layout";
 
 // exporting component with OPTIONAL children
 export default function Newsletter() {
@@ -73,6 +71,7 @@ export function generateMetadata(): Metadata {
       description,
       images,
       url: `${DOMAIN}/newsletter`,
+      siteName,
     },
     twitter: {
       title,

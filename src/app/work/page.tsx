@@ -2,15 +2,13 @@ import React from "react";
 import { Article } from "@/app/_components/Article";
 import { Container } from "@/app/_components/Container";
 import { Post } from "@/interfaces/post";
-import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Metadata } from "next";
-
-import markdownToHtml from "@/lib/markdownToHtml";
 import { readFileSync } from "fs";
 import matter from "gray-matter";
 import { join } from "path";
 import { PostBody } from "@/app/_components/MDXContent";
 import { DOMAIN } from "@/lib/constants";
+import { siteName } from "@/app/layout";
 
 export default async function Work() {
   const { data, content } = matter(readFileSync(join(process.cwd(), "/_CONTENT_/general/work.mdx"), "utf8"));
@@ -45,6 +43,7 @@ export function generateMetadata(): Metadata {
       description,
       images,
       url: `${DOMAIN}/work`,
+      siteName,
     },
     twitter: {
       title,

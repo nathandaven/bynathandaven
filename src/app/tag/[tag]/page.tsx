@@ -7,8 +7,8 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
-
 import { DOMAIN } from "@/lib/constants";
+import { siteName } from "@/app/layout";
 
 export default async function Tag({ params }: Params) {
   const posts: Post[] = getAllPosts().filter((post) => post.tags?.includes(params.tag));
@@ -72,6 +72,7 @@ export function generateMetadata({ params }: Params): Metadata {
       description,
       images,
       url: `${DOMAIN}/tag/${params.tag}`,
+      siteName,
     },
     twitter: {
       title,

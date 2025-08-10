@@ -12,6 +12,7 @@ import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
 import PhotoGrid from "@/app/_components/PhotoGrid";
 import { DOMAIN } from "@/lib/constants";
+import { siteName } from "@/app/layout";
 
 const Comments = dynamic(() => import("@/app/_components/Comments"), {
   ssr: false,
@@ -132,6 +133,7 @@ export function generateMetadata({ params }: Params): Metadata {
             ]
           : undefined,
       url: post.slug ? `${DOMAIN}/${params.type}/${post.slug}` : DOMAIN,
+      siteName,
     },
     twitter: {
       title,

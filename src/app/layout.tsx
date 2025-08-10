@@ -11,7 +11,7 @@ import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
-const title = `Nathan Davenport | Software, Video-journalism, & Photography`;
+export const siteName = `Nathan Davenport | Software, Video-journalism, & Photography`;
 const description = `Nathan Davenport is passionate about impactful software, cities and urbanism, and photography. This is the home for his creative work.`;
 const image = `${DOMAIN}/og-image/og-image-default.jpg`;
 
@@ -31,17 +31,17 @@ export const viewport: Viewport = {
 export function generateMetadata(): Metadata {
   return {
     metadataBase: new URL(DOMAIN),
-    title: title,
+    title: siteName,
     description: description,
     openGraph: {
-      title: title,
+      title: siteName,
       type: "website",
       description: description,
       images: [image],
-      siteName: title,
+      siteName,
     },
     twitter: {
-      title: title,
+      title: siteName,
       description: description,
       images: [image],
       creator: "@nathandaven",

@@ -12,20 +12,20 @@ import { PostBody } from "@/app/_components/MDXContent";
 import Image from "next/image";
 import { Divider } from "@/app/_components/Divider";
 import GithubSVG from "@/app/_svg/github.svg";
-import Github from "../_svg/github";
-import Instagram from "../_svg/instagram";
-import YouTube from "../_svg/youtube";
-import X from "../_svg/x";
-import LinkedIn from "../_svg/linkedin";
-import TikTok from "../_svg/tiktok";
-import Substack from "../_svg/substack";
-import MailDotRu from "../_svg/maildotru";
+import Github from "@/app/_svg/github";
+import Instagram from "@/app/_svg/instagram";
+import YouTube from "@/app/_svg/youtube";
+import X from "@/app/_svg/x";
+import LinkedIn from "@/app/_svg/linkedin";
+import TikTok from "@/app/_svg/tiktok";
+import Substack from "@/app/_svg/substack";
+import MailDotRu from "@/app/_svg/maildotru";
 import { DOMAIN } from "@/lib/constants";
-import dynamicBlurDataUrl from "@/lib/blurImage";
-import Bluesky from "../_svg/bluesky";
-import Mastodon from "../_svg/mastodon";
-import Threads from "../_svg/threads";
-import Flickr from "../_svg/flickr";
+import Bluesky from "@/app/_svg/bluesky";
+import Mastodon from "@/app/_svg/mastodon";
+import Threads from "@/app/_svg/threads";
+import Flickr from "@/app/_svg/flickr";
+import { siteName } from "@/app/layout";
 
 async function getMarkdown(path: string) {
   const { data, content } = matter(readFileSync(join(process.cwd(), path), "utf8"));
@@ -228,6 +228,7 @@ export function generateMetadata(): Metadata {
       description,
       images,
       url: `${DOMAIN}/about`,
+      siteName,
     },
     twitter: {
       title,
