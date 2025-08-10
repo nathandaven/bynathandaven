@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "concurrently \"next dev\" \"tsx ./watcher.ts\" --kill-others",
     "devOld": "next",
-    "build": "npm run cache:albums && next build",
+    "build": "next build",
     "start": "next start",
     "postbuild": "next-sitemap & tsx ./postbuild.ts",
     "cache:albums": "tsx ./scripts/cacheAlbums.ts"
