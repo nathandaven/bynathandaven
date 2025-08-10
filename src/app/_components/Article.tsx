@@ -79,7 +79,7 @@ export const Article: FunctionComponent<PropsWithChildren> = ({
           <>
             <div className="w-60 pr-5 leading-7">
               <p className="mb-0">
-                Published
+                Last updated
                 <br />
                 <b>
                   <DateFormatter dateString={metadata.date} />

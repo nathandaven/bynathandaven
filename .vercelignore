@@ -1,1 +1,4 @@
-assets/albums-full/*
+public/assets/albums
+public/assets/albums/*
+assets/albums
+assets/albums/*

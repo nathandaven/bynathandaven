@@ -74,66 +74,25 @@ export function getAllPosts(): Post[] {
   return allPosts;
 }
 
+// Using the cached albums.json file
 export function parseAlbumPhotos(post: Post): Photo[] {
+  const jsonPath = path.resolve(process.cwd(), "public/cache", "albums.json");
+  const albumData = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
+
   if (!post.albumPath && !post.slug) {
     return [];
   }
-  const albumDir = join(process.cwd(), "public/assets/albums/" + (post.albumPath ?? post.slug));
 
   const album: Photo[] = [] as Photo[];
 
-  fs.readdirSync(albumDir).forEach((image) => {
-    const filepath = path.resolve(albumDir, image);
-    const acceptedExtensions: string[] = [".jpg", ".jpeg", ".png", ".gif", ".tiff", ".webp"];
-    const ext = path.parse(filepath).ext.toLowerCase();
-
-    // Filter accepted extensions
-    if (acceptedExtensions.includes(ext)) {
-      const fileBuffer = readFileSync(filepath);
-      const tags: Tags = load(fileBuffer);
-
-      const width = tags.ImageWidth ? tags.ImageWidth?.value : undefined;
-      const height = tags.ImageHeight ? tags.ImageHeight?.value : undefined;
-
-      const dateTimeOriginal = tags["DateTime"] ? parseEXIFDate(tags["DateTime"].value.toString()) : undefined;
-      const dateTime = tags["DateTime"]
-        ? parseEXIFDate(tags["DateTime"].value.toString())
-        : undefined; /* new Date(post.date) */
-
-      const filmDefaultMake =
-        dateTimeOriginal && dateTime
-          ? (dateTimeOriginal ?? dateTime) > new Date("04-17-2019")
-            ? "(35mm)"
-            : undefined
-          : undefined;
-
-      const filmDefaultModel =
-        dateTimeOriginal && dateTime
-          ? (dateTimeOriginal ?? dateTime) > new Date("04-17-2019")
-            ? "(35mm)"
-            : undefined
-          : undefined;
-
-      const photo: Photo = {
-        relativePath: "/assets/albums/" + post.albumPath + "/" + image,
-        filename: filepath ?? "",
-        album: albumDir ?? "",
-        caption: tags["Image Description"] ? tags["Image Description"]?.description : "",
-        width: tags.ImageWidth ? tags.ImageWidth.value : undefined,
-        height: tags.ImageHeight ? tags.ImageHeight.value : undefined,
-        make: tags["Make"] ? tags["Make"]?.value.toString() : filmDefaultMake,
-        model: tags["Model"] ? tags["Model"]?.value.toString() : filmDefaultModel,
-        dateTime: dateTimeOriginal ?? dateTime ?? undefined /* new Date(post.date) */,
-      };
-
-      album.push(photo);
-    }
+  albumData[post.albumPath ?? ""].forEach((photo: Photo) => {
+    album.push(photo);
   });
 
   // Sorting albums from newest to oldest
   return album.sort((a: Photo, b: Photo) => {
     if (a.dateTime && b.dateTime) {
-      return b.dateTime.getTime() - a.dateTime.getTime();
+      return parseEXIFDate(b.dateTime).getTime() - parseEXIFDate(a.dateTime).getTime();
     } else {
       return a.filename < b.filename ? 1 : 0;
     }
