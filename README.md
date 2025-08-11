@@ -2,7 +2,7 @@
 
 Remaking my personal portfolio site.
 
-<img width="1124" alt="Screenshot 2025-03-24 at 2 22 49 PM" src="https://github.com/user-attachments/assets/a63464fe-3d37-4e52-be64-2c0bba76723b" />
+<img width="1447" height="1017" alt="image" src="https://github.com/user-attachments/assets/4d0344ae-1085-4660-b7ff-9686ecac26c2" />
 
 
 ## Technologies used
