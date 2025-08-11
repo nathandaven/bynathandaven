@@ -20,12 +20,11 @@ import LinkedIn from "@/app/_svg/linkedin";
 import TikTok from "@/app/_svg/tiktok";
 import Substack from "@/app/_svg/substack";
 import MailDotRu from "@/app/_svg/maildotru";
-import { DOMAIN } from "@/lib/constants";
+import { DOMAIN, siteName } from "@/lib/constants";
 import Bluesky from "@/app/_svg/bluesky";
 import Mastodon from "@/app/_svg/mastodon";
 import Threads from "@/app/_svg/threads";
 import Flickr from "@/app/_svg/flickr";
-import { siteName } from "@/app/layout";
 
 async function getMarkdown(path: string) {
   const { data, content } = matter(readFileSync(join(process.cwd(), path), "utf8"));

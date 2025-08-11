@@ -8,9 +8,8 @@ import { ContentTypeEnum } from "@/interfaces/contentType";
 import { format } from "date-fns";
 import { Metadata } from "next";
 
-import { DOMAIN } from "@/lib/constants";
 import { Divider } from "../_components/Divider";
-import { siteName } from "@/app/layout";
+import { DOMAIN, siteName } from "@/lib/constants";
 
 function year(dateString: string) {
   return format(dateString, "yyyy");

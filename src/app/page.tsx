@@ -33,39 +33,30 @@ export default function Index() {
             <HeaderSVGName className={"block xs:hidden"} />
           </div>
           {/* <div className="my-2 border border-x-0 border-b-0"></div> */}
-          <div className="flex flex-col justify-start gap-x-4 sm:flex-row">
-            <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
+          <div className="flex w-full flex-wrap justify-start gap-x-4 gap-y-2 pt-2 lg:pt-0">
+            <h4 className="my-0 py-0">
               <a
                 target="_blank"
                 href="https://patreon.com/nathandaven"
-                className="my-0 mt-2 py-0 no-underline xs:text-nowrap"
+                className="inline-block py-0 no-underline xs:text-nowrap"
               >
                 Join the Patreon {">"}
               </a>
             </h4>
-            <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
+            <h4 className="my-0 py-0">
               <a
                 href="https://www.youtube.com/@nathandaven?sub_confirmation=1"
                 target="_blank"
-                className="my-0 mt-2 py-0 no-underline xs:text-nowrap"
+                className="inline-block py-0 no-underline xs:text-nowrap"
               >
                 Subscribe on YouTube {">"}
               </a>
             </h4>
-            <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
-              <Link href="/links" className="my-0 mt-2 py-0 no-underline xs:text-nowrap">
+            <h4 className="my-0 py-0">
+              <Link href="/links" className="inline-block py-0 no-underline xs:text-nowrap">
                 All Links {">"}
               </Link>
             </h4>
-            {/* <h4 className="my-0 py-0 pt-2 lg:pb-1 lg:pt-0">
-              <a
-                target="_blank"
-                href="https://nathandaven.substack.com/subscribe"
-                className="my-0 mt-2 py-0 no-underline xs:text-nowrap"
-              >
-                See my Newsletter {">"}
-              </a>
-            </h4> */}
           </div>
           <div className="flex gap-x-3">
             <h3 className="mt-2">Recents</h3>

@@ -11,8 +11,7 @@ import React, { ComponentPropsWithoutRef, Suspense } from "react";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
 import PhotoGrid from "@/app/_components/PhotoGrid";
-import { DOMAIN } from "@/lib/constants";
-import { siteName } from "@/app/layout";
+import { DOMAIN, siteName } from "@/lib/constants";
 
 const Comments = dynamic(() => import("@/app/_components/Comments"), {
   ssr: false,

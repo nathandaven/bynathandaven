@@ -7,8 +7,7 @@ import { readFileSync } from "fs";
 import matter from "gray-matter";
 import { join } from "path";
 import { PostBody } from "@/app/_components/MDXContent";
-import { DOMAIN } from "@/lib/constants";
-import { siteName } from "@/app/layout";
+import { DOMAIN, siteName } from "@/lib/constants";
 
 export default async function Work() {
   const { data, content } = matter(readFileSync(join(process.cwd(), "/_CONTENT_/general/work.mdx"), "utf8"));

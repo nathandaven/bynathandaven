@@ -10,7 +10,7 @@ import LinkedIn from "../_svg/linkedin";
 import TikTok from "../_svg/tiktok";
 import Substack from "../_svg/substack";
 import MailDotRu from "../_svg/maildotru";
-import { DOMAIN } from "@/lib/constants";
+import { DOMAIN, siteName } from "@/lib/constants";
 import dynamicBlurDataUrl from "@/lib/blurImage";
 import Bluesky from "../_svg/bluesky";
 import Mastodon from "../_svg/mastodon";
@@ -21,7 +21,6 @@ import Facebook from "../_svg/facebook";
 import Patreon from "../_svg/patreon";
 import Flickr from "../_svg/flickr";
 import Code from "../_svg/code";
-import { siteName } from "@/app/layout";
 
 export default async function LinkMe() {
   return (

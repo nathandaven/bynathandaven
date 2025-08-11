@@ -7,8 +7,7 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Metadata } from "next";
 import Link from "next/link";
-import { DOMAIN } from "@/lib/constants";
-import { siteName } from "@/app/layout";
+import { DOMAIN, siteName } from "@/lib/constants";
 
 // exporting component with OPTIONAL children
 export default function Newsletter() {

@@ -6,10 +6,9 @@ import { getAllPosts } from "@/lib/api";
 import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Metadata } from "next";
-import { DOMAIN } from "@/lib/constants";
 import Link from "next/link";
 import { Divider } from "../_components/Divider";
-import { siteName } from "@/app/layout";
+import { DOMAIN, siteName } from "@/lib/constants";
 
 export default function Photography() {
   const posts: Post[] = getAllPosts().filter((post) => post.fmContentType == ("album" as ContentTypeEnum));

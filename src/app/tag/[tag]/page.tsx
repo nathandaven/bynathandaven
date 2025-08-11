@@ -7,8 +7,7 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
-import { DOMAIN } from "@/lib/constants";
-import { siteName } from "@/app/layout";
+import { DOMAIN, siteName } from "@/lib/constants";
 
 export default async function Tag({ params }: Params) {
   const posts: Post[] = getAllPosts().filter((post) => post.tags?.includes(params.tag));

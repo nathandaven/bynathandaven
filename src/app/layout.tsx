@@ -1,4 +1,4 @@
-import { DARK_COLOR_SECONDARY, DOMAIN, LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY } from "@/lib/constants";
+import { DARK_COLOR_SECONDARY, DOMAIN, LIGHT_COLOR_PRIMARY, LIGHT_COLOR_SECONDARY, siteName } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/app/globals.css";
@@ -11,7 +11,6 @@ import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
-export const siteName = `Nathan Davenport | Software, Video-journalism, & Photography`;
 const description = `Nathan Davenport is passionate about impactful software, cities and urbanism, and photography. This is the home for his creative work.`;
 const image = `${DOMAIN}/og-image/og-image-default.jpg`;
 

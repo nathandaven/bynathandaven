@@ -6,8 +6,7 @@ import { Post } from "@/interfaces/post";
 import { ContentTypeEnum } from "@/interfaces/contentType";
 import { Button } from "@/app/_components/Button";
 import { Metadata } from "next";
-import { DOMAIN } from "@/lib/constants";
-import { siteName } from "@/app/layout";
+import { DOMAIN, siteName } from "@/lib/constants";
 
 // exporting component with OPTIONAL children
 export default function Tags() {
