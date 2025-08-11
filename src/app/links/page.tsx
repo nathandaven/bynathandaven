@@ -248,7 +248,7 @@ export default async function LinkMe() {
 }
 
 export function generateMetadata(): Metadata {
-  const title = "Links | Nathan Davenport";
+  const title = "Links – Nathan Davenport";
   const description = "All of Nathan Davenport's social links.";
   const images = [`${DOMAIN}/assets/authors/nathan-hamburg-hor.jpg`];
 

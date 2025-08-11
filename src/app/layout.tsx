@@ -58,7 +58,7 @@ export function generateMetadata(): Metadata {
     robots: "index, follow",
     alternates: {
       types: {
-        "application/rss+xml": [{ url: "/rss.xml", title: "Nathan Davenport | RSS Feed" }],
+        "application/rss+xml": [{ url: "/rss.xml", title: "Nathan Davenport – RSS Feed" }],
       },
     },
     facebook: {

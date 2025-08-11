@@ -137,7 +137,7 @@ export default function Photography() {
 }
 
 export function generateMetadata(): Metadata {
-  const title = "Photography | Nathan Davenport";
+  const title = "Photography – Nathan Davenport";
   const description = "A collection of photography albums by Nathan Davenport.";
   const images = [`${DOMAIN}/og-image/og-image-photography.jpg`];
 

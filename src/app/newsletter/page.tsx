@@ -59,7 +59,7 @@ export default function Newsletter() {
 }
 
 export function generateMetadata(): Metadata {
-  const title = "Editorials | Nathan Davenport";
+  const title = "Editorials – Nathan Davenport";
   const description = "Nathan Davenport's editorials featuring articles and videos.";
   const images = [`${DOMAIN}/og-image/og-image-newsletter.jpg`];
 

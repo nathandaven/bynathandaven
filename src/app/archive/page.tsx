@@ -80,7 +80,7 @@ export default function Archive() {
                   } */
 
 export function generateMetadata(): Metadata {
-  const title = "Archive | Nathan Davenport";
+  const title = "Archive – Nathan Davenport";
   const description = "Nathan Davenport's archive of posts, articles, and more.";
   const images = [`${DOMAIN}/og-image/og-image-archive.jpg`];
 

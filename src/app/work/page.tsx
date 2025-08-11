@@ -31,7 +31,7 @@ export default async function Work() {
 }
 
 export function generateMetadata(): Metadata {
-  const title = "Work | Nathan Davenport";
+  const title = "Work – Nathan Davenport";
   const description = "Explore work opportunities and collaborations with Nathan Davenport.";
   const images = [`${DOMAIN}/og-image/og-image-work.jpg`];
 

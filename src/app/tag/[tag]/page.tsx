@@ -60,7 +60,7 @@ export async function generateStaticParams() {
 }
 
 export function generateMetadata({ params }: Params): Metadata {
-  const title = `#${params.tag} | Nathan Davenport`;
+  const title = `#${params.tag} – Nathan Davenport`;
   const description = `Posts tagged with #${params.tag} by Nathan Davenport.`;
   const images = [`${DOMAIN}/og-image/og-image-tags.jpg`];
 

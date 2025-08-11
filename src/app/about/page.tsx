@@ -216,7 +216,7 @@ export default async function About() {
 }
 
 export function generateMetadata(): Metadata {
-  const title = "About | Nathan Davenport";
+  const title = "About – Nathan Davenport";
   const description = "Learn more about Nathan Davenport, his work, and his interests.";
   const images = [`${DOMAIN}/og-image/og-image-about.jpg`];
 

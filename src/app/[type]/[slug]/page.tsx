@@ -108,7 +108,7 @@ export function generateMetadata({ params }: Params): Metadata {
   }
   const type =
     params.type && params.type.length > 0 ? params.type?.charAt(0).toUpperCase() + params?.type.slice(1) : "general";
-  const title = post.title ? `${post.title} | ${type} by Nathan Davenport` : "Nathan Davenport";
+  const title = post.title ? `${post.title} – ${type} by Nathan Davenport` : "Nathan Davenport";
   const description = post.description ? post.description : undefined;
 
   return {

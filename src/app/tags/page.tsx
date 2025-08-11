@@ -63,7 +63,7 @@ export default function Tags() {
 }
 
 export function generateMetadata(): Metadata {
-  const title = "Tags | Nathan Davenport";
+  const title = "Tags – Nathan Davenport";
   const description = "Explore posts tagged with various topics by Nathan Davenport.";
   const images = [`${DOMAIN}/og-image/og-image-tags.jpg`];
 
