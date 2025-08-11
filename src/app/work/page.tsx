@@ -37,6 +37,7 @@ export function generateMetadata(): Metadata {
 
   return {
     title,
+    description,
     openGraph: {
       title,
       description,
