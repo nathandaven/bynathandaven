@@ -61,13 +61,14 @@ export function generateMetadata(): Metadata {
         "application/rss+xml": [{ url: "/rss.xml", title: "Nathan Davenport | RSS Feed" }],
       },
     },
+    facebook: {
+      appId: "966242223397117",
+    },
     other: {
       "msapplication-TileColor": LIGHT_COLOR_SECONDARY,
       "msapplication-config": "/favicon/browserconfig.xml",
-      // Facebook Open Graph
       "profile:first_name": "Nathan",
       "profile:last_name": "Davenport",
-      "fb:app_id": "966242223397117",
       // Mastodon profile
       me: "https://urbanists.social/@nathandaven",
     },
