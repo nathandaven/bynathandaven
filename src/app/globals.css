@@ -3,105 +3,105 @@
 @tailwind utilities;
 
 @layer base {
-  .grit {
-    -webkit-mask-image: url("/assets/stone-texture.png");
-    mask-image: url("/assets/stone-texture.png");
-  }
-
-  .texture {
-    background-repeat: repeat;
-    background-image: url("/assets/texture-new-light.jpg");
-    /* mix-blend-mode: multiply; */
-  }
-  @media (prefers-color-scheme: dark) {
-    .texture {
-      /* texture from here: https://www.tilingtextures.com/tt_blog/24-free-seamless-paper-texture-in-high-resolution/ */
-      /* background-image: url("/assets/texture-new-dark.png"); */
-      background-repeat: repeat;
-      background-image: url("/assets/texture-new-dark.jpg");
-      /* mix-blend-mode: screen; */
+    .grit {
+        -webkit-mask-image: url('/assets/stone-texture.png');
+        mask-image: url('/assets/stone-texture.png');
     }
-  }
+
+    .texture {
+        background-repeat: repeat;
+        background-image: url('/assets/texture-new-light.jpg');
+        /* mix-blend-mode: multiply; */
+    }
+    @media (prefers-color-scheme: dark) {
+        .texture {
+            /* texture from here: https://www.tilingtextures.com/tt_blog/24-free-seamless-paper-texture-in-high-resolution/ */
+            /* background-image: url("/assets/texture-new-dark.png"); */
+            background-repeat: repeat;
+            background-image: url('/assets/texture-new-dark.jpg');
+            /* mix-blend-mode: screen; */
+        }
+    }
 }
 
 html {
-  color-scheme: auto;
+    color-scheme: auto;
 }
 
 /* add the code bellow */
 @layer utilities {
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  .no-scrollbar::-webkit-scrollbar {
-    display: none !important;
-    -webkit-appearance: none;
-    width: 0;
-    height: 0;
-  }
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .no-scrollbar {
-    -ms-overflow-style: none !important; /* IE and Edge */
-    scrollbar-width: none !important; /* Firefox */
-  }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none !important;
+        -webkit-appearance: none;
+        width: 0;
+        height: 0;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none !important; /* IE and Edge */
+        scrollbar-width: none !important; /* Firefox */
+    }
 }
 :root:has(.no-doc-scroll) {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 root {
-  /* CSS HEX */
-  /* https://coolors.co/f2f1ea-dedcd3-6a7062-925e78-0f0e0e */
-  --primary-light: #f2f1ea;
-  --secondary-light: #dedcd3;
-  --primary-dark: #0f0e0e;
-  --secondary-dark: #1b1919;
-  --green: #6a7062ff;
-  --red: #925e78ff;
-  --purple: #3f334dff;
+    /* CSS HEX */
+    /* https://coolors.co/f2f1ea-dedcd3-6a7062-925e78-0f0e0e */
+    --primary-light: #f2f1ea;
+    --secondary-light: #dedcd3;
+    --primary-dark: #0f0e0e;
+    --secondary-dark: #1b1919;
+    --green: #6a7062ff;
+    --red: #925e78ff;
+    --purple: #3f334dff;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  /* background: var(--background); */
-  /*  letter-spacing: -0.03rem */ /* -0.8px */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background: var(--background); */
+    /*  letter-spacing: -0.03rem */ /* -0.8px */
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /* Lightbox Plugin Style Overrides*/
 
 .yarl__container {
-  background-color: #0f0e0e !important;
+    background-color: #0f0e0e !important;
 }
 
 .yarl__button {
-  color: rgba(242, 241, 234, 0.25) !important;
-  transition: all !important;
-  transition-duration: 15ms !important;
-  filter: unset !important;
+    color: rgba(242, 241, 234, 0.25) !important;
+    transition: all !important;
+    transition-duration: 15ms !important;
+    filter: unset !important;
 }
 .yarl__button:hover {
-  color: rgba(242, 241, 234, 0.5) !important;
+    color: rgba(242, 241, 234, 0.5) !important;
 }
 .yarl__slide_captions_container {
-  background-color: rgba(0, 0, 0, 0) !important;
-  width: 100% !important;
-  justify-content: center !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    width: 100% !important;
+    justify-content: center !important;
 }
 .yarl__slide_description {
-  text-align: right !important;
-  opacity: 75%;
+    text-align: right !important;
+    opacity: 75%;
 }
 
 @keyframes marqueeScroll {
-  to {
-    transform: translate3d(0, 0, 0);
-  }
+    to {
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 /* .marquee {
@@ -111,37 +111,37 @@ a {
 } */
 
 #custom-substack-embed {
-  font-family: "Inter" !important;
-  text-align: center !important;
+    font-family: 'Inter' !important;
+    text-align: center !important;
 }
 
 #custom-substack-embed button {
-  font-family: "Inter" !important;
-  cursor: pointer !important;
-  background-color: #ffffff !important;
-  border: #0f0e0e !important;
+    font-family: 'Inter' !important;
+    cursor: pointer !important;
+    background-color: #ffffff !important;
+    border: #0f0e0e !important;
 }
 #custom-substack-embed button:hover {
-  font-family: "Inter" !important;
-  cursor: pointer !important;
-  background-color: #f7f7f7 !important;
+    font-family: 'Inter' !important;
+    cursor: pointer !important;
+    background-color: #f7f7f7 !important;
 }
 #custom-substack-embed p {
-  font-family: "Inter" !important;
-  text-align: center;
-  margin-top: none !important;
-  padding-bottom: 0.75rem;
-  /* color: #ff7e7e; */
-  color: #0f0e0e;
-  font-weight: bold;
-  /* background-color: #0f0e0e !important; */
+    font-family: 'Inter' !important;
+    text-align: center;
+    margin-top: none !important;
+    padding-bottom: 0.75rem;
+    /* color: #ff7e7e; */
+    color: #0f0e0e;
+    font-weight: bold;
+    /* background-color: #0f0e0e !important; */
 }
 
 @media (prefers-color-scheme: dark) {
-  /*   :root {
+    /*   :root {
     --background: #0f0e0e;
   } */
-  #custom-substack-embed form {
-    font-family: "Inter" !important;
-  }
+    #custom-substack-embed form {
+        font-family: 'Inter' !important;
+    }
 }
