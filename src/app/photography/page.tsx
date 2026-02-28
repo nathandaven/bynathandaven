@@ -61,8 +61,7 @@ export default function Photography() {
                   <a target="_blank" href="https://www.flickr.com/nathandaven/">
                     Flickr
                   </a>{" "}
-                  to stay up to date with my photography work. See <Link href="/work">here</Link> to work with me on a
-                  project.
+                  to stay up to date with my photography work. 
                 </p>
                 {general.length > 0 && (
                   <section>

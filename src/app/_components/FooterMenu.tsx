@@ -37,21 +37,21 @@ export const FooterMenu: FunctionComponent<PropsWithChildren> = ({ children, cla
             </Link>
           </li>
           <li className="hidden cursor-default md:block">-</li>
-          <li className="mt-2 w-fit hover:bg-dark-primary hover:text-light-primary md:mt-0 dark:hover:bg-light-primary dark:hover:text-dark-primary">
+          {/*<li className="mt-2 w-fit hover:bg-dark-primary hover:text-light-primary md:mt-0 dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <a target="_blank" href="https://youtube.com/@nathandaven">
               youtube
             </a>
-          </li>
-          <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
+          </li>*/}
+          {/*<li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <a target="_blank" href="https://patreon.com/nathandaven">
               patreon
             </a>
-          </li>
-          <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
+          </li>*/}
+          {/*<li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <a target="_blank" href="https://nathandaven.substack.com/">
               substack
             </a>
-          </li>
+          </li>*/}
           <li className="w-fit hover:bg-dark-primary hover:text-light-primary dark:hover:bg-light-primary dark:hover:text-dark-primary">
             <a target="_blank" href="https://linkedin.com/in/nathandaven">
               linkedin
