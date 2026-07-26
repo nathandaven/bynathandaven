@@ -1,9 +1,6 @@
 # Nathan Davenport Homepage
 
-Remaking my personal portfolio site.
-
-<img width="1447" height="1017" alt="image" src="https://github.com/user-attachments/assets/4d0344ae-1085-4660-b7ff-9686ecac26c2" />
-
+Remaking my personal site.
 
 ## Technologies used
 
@@ -15,10 +12,6 @@ Remaking my personal portfolio site.
 ## Content Directory
 
 This directory holds all of the content for the site. All routes here are mapped to the webpage routes generated.
-
-This is managed using Front Matter CMS in VS Code. I'm really liking this concept of a local CMS controlled by git, and it's really convenient to write in Markdown.
-
-I'm already itching to redesign this again. We shall see lol!
 
 ## Getting Started
 
